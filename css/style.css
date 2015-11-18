@@ -1,36 +1,106 @@
+/* algemene stijl */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
 * {
     margin: 0;
     padding: 0;
 }
-
 body {
     background-color: #ffffff;
-    
+    font-family: 'Open Sans', sans-serif;
 }
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* dit is de eerste header */
 .header {
     background-color: #34495e;
     width: 100%;
     height: 72px;
+    color: #ffffff;
 }
+li {
+    color: #d7d7d7;
+}
+/* logo */
+.sitename {
+    color: #ffffff;
+    text-decoration: none;
+}
+.sitenameblock {
+    display: inline-block;
+    background-color: #384e63;
+    height: 72px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    line-height: 72px;
+}
+/* site onderdelen */
+.forheader {
+    float: left;
+}
+.forheader li {
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 72px;
+}
+.forheader li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.forheader li.active {
+    background-color: #383f48;
+}
+/* mijn account en winkelwagen */
+.rightlist {
+    float: right;
+    line-height: 72px;
+}
+.rightlist li {
+    display: inline-block;
+}
+.rightlist li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.shoppingcart a {
+    border: 1px solid #34495e;
+    background-color: #2b3d4f;
+    padding: 6px 12px;
+}
+
+/* dit is de 2de header */
 .secondheader {
     background-color: #383f48;
     width: 100%;
     height: 106px;
 }
+
+/* dit is de 3de header */
 .thirdheader {
     background-color: #f6f6f6;
     width: 100%;
     height: 150px;
 }
+
+/* dit is de verticale header */
 .fourthheader {
     background-color: #f6f6f6;
     width: 330px;
     height: auto;
 }
-.wrapper{
-    width: 1300px;
-    margin: 0 auto;
-}
-.forheader {
-    display: inline-block;
-}
+
+
+
