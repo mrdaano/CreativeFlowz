@@ -87,12 +87,56 @@ li {
     width: 100%;
     height: 106px;
 }
+.customername {
+    float:left;
+    padding-top: 30px;
+    border-right: 1px solid #c3c3c3;
+    padding-right: 20px;
+}
+#customername {
+    color: #ffffff;
+}
+#customer {
+    color: #c3c3c3;
+}
+.customertabs li {
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 20px;
+    line-height: 106px;
+}
+.customertabs li a {
+    color: #c3c3c3;
+    text-decoration: none;
+}
+
 
 /* dit is de 3de header */
 .thirdheader {
     background-color: #f6f6f6;
     width: 100%;
     height: 150px;
+}
+.catagorietable {
+    width: 100%;
+    background-color: #f6f6f6;
+    border: 1px solid #f6f6f6;
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.catagorie {
+    background-color: #38526d;
+    border: 1px solid #f6f6f6;
+    color: #ffffff;
+}
+.catagories {
+    background-color: #ffffff;
+    border: 1px solid #f6f6f6;
+}
+.textintable{
+    padding: 5px;
 }
 
 /* dit is de verticale header */
