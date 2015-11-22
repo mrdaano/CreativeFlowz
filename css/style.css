@@ -117,26 +117,29 @@ li {
     width: 100%;
     height: 150px;
 }
-.catagorietable {
+.thirdheadertable {
     width: 100%;
     background-color: #f6f6f6;
-    border: 1px solid #f6f6f6;
     margin: 0;
     padding-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
 }
-.catagorie {
+.thirdheaderhead {
     background-color: #38526d;
     border: 1px solid #f6f6f6;
     color: #ffffff;
 }
-.catagories {
+.thirdheaderdata {
     background-color: #ffffff;
     border: 1px solid #f6f6f6;
 }
-.textintable{
+.textintable {
     padding: 5px;
+}
+.textintable a {
+    text-decoration: none;
+    color: #f6f6f6;
 }
 
 /* dit is de verticale header */
