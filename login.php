@@ -71,7 +71,7 @@
                 <td><input type="text" name="number" class="login"></td>
               </tr><tr>
                 <td>btw-nummer</td>
-                <td><input type="text" name="taxnumber" class="login">
+                <td><input type="text" name="taxnumber" class="login" id="btw" value="optioneel">
               </tr><tr>
                 <td></td>
                 <td><input type="submit" name="register" value="registreren" class="loginBtn">

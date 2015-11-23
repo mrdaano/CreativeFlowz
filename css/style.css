@@ -207,3 +207,8 @@ a.login{
   text-decoration: none;
   font-size: 14px;
 }
+
+#btw{
+  color: #bbbbbb;
+  font-style: italic;
+}
