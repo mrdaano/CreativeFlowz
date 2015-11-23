@@ -149,5 +149,30 @@ li {
     height: auto;
 }
 
+li {
+.forheader li.active {
+   background-color: #383f48;
+}
+.active {
+   background-color: #383f48;
+   }
+/* mijn account en winkelwagen */
+.rightlist {
+   float: right;
+li {
+   height: auto;
+}
 
 
+/* dit is voor het login gedeelte*/
+.login  {
+   text-align: center;
+   background-color: #f6f6f6;
+   height: 150px;
+   width: 500px;
+   margin: 0 auto;
+}
+h3.login{
+   color: #333366;
+   font-weight: lighter;
+}
