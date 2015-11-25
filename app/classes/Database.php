@@ -9,6 +9,11 @@ class Database {
 		$this->_pdo = new PDO('mysql:host=localhost;dbname=cursus', 'root', '');
 	}
 	
+	/**
+	 * Daan (24-11-2015)
+	 * Usage:
+	 * DB::start();
+	 */
 	public static function start() {
 		if(!isset(self::$_instance)) {
 			self::$_instance = new Database();
@@ -16,12 +21,20 @@ class Database {
 		return self::$_instance;
 	}
 
-	public function raw($query, $params) {
+	public function raw($query, $params = array()) {
 		if(!$this->query($query, $params)->error()) {
 			return $this;
 		}
 	}
 	
+	/**
+	 * Daan (24-11-2015)
+	 * string	$sql
+	 * array	$params
+	 * Usage:
+	 * $this->query(//sql, array('params')); 
+	 * Note: Only use in this class!
+	 */
 	private function query($sql, $params = array()) {
 		$this->_error = false;
 		if ($this->_query = $this->_pdo->prepare($sql)) {
