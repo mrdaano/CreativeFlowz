@@ -215,6 +215,28 @@ class Database {
 		
 	}
 	
+	public function join($select = "*", $table, $join, $on, $where) {
+		if (is_array($colmns)) {
+			$y = 1;
+			$selectColmns = null;
+			foreach ($colmns as $colmn) {
+				$selectColmns .= "`{$colmn}`";
+				if ($y < count($colmns)) {
+					$selectColmns .= ", ";
+				}
+				$y++;
+			}
+		} else {
+			$selectColmns = $colmns;
+		}
+		
+		$sql = "SELECT {$selectColmns} FROM `{$table}` ";
+	}
+	
+	public function leftJoin() {
+		
+	}
+	
 	/**
 	 * Daan (25-11-2015)
 	 * Note:
