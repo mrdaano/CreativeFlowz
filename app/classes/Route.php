@@ -18,10 +18,10 @@ class Route{
     }
     
     /*
-     *  Bekijk welke pagina ingeladen moet worden
+     *  Bekijkt welke pagina ingeladen moet worden als bestand en welke vanuit het database.
+     *  Wanneer de route true is mag de pagina worden ingeladen, is die false gaat hij door naar de 404 pagina.
      */
     public function request($get){
-        print_r($this->db);
         $this->get = $get;
         if(!empty($this->get)){
             $root = 'app/pages';
@@ -29,12 +29,11 @@ class Route{
             if(file_exists($root.'/'.$this->get.''.$extension)){
                // Check of die in het DB voor MOET komen
                if(isset($_GET['sub'])){
-                    $res = $this->db->get('*','page_management', array(array('id', '=', '1')))->results();
-                    var_dump($res);
-                    if(!empty($res)){
-                        return true;
-                    }else{
+                    $res = $this->db->get('*','page_management', array(array('id', '=', '1')))->first();
+                    if($res->id == ''){
                         return false;
+                    }else{
+                        return true;
                     }
                }
                return true;

@@ -70,7 +70,6 @@ class Database {
 		$operators = array('=', '>', '<', '>=', '<=');
 		$x = 1;
 		$values = array();
-
 		if (is_array($colmns)) {
 			$y = 1;
 			$selectColmns = null;
@@ -84,7 +83,6 @@ class Database {
 		} else {
 			$selectColmns = $colmns;
 		}
-
 		if (!empty($params)) {
 			$where = "WHERE";
 			foreach ($params as $param) {
@@ -101,7 +99,6 @@ class Database {
 				}
 			}
 		}
-
 		$sql = "SELECT {$selectColmns} FROM `{$table}` {$where}";
 		
 		if(!$this->query($sql, $values)->error()) {
@@ -111,6 +108,10 @@ class Database {
 	
 	public function results() {
 		return $this->_results;
+	}
+	
+	public function first() {
+		return $this->_results[0];
 	}
 	
 	public function error() {
