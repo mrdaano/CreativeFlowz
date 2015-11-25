@@ -1,3 +1,12 @@
+<?php
+    if(isset($_POST['login'])){
+        $Login->inputFields($_POST);
+        $Login->verificate();
+        
+        $msg = $Login->getError();
+    }
+    var_dump($msg);
+?>
 <div class="login">
     <h3 class="login">inloggen</h3>
     <form method="post" class="login">

@@ -9,6 +9,8 @@ spl_autoload_register(function ($class) {
 });
 $db = new Database;
 $Route = new Route($db);
+$Register = new Register($db);
+$Login = new Login($db);
 ?>
 <!DOCTYPE html>
 <html>
