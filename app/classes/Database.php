@@ -108,6 +108,13 @@ class Database {
 		}
 	}
 	
+	/**
+	 * Daan (25-11-2015)
+	 * string	$table
+	 * array	$items
+	 * Usage:
+	 * DB::start()->insert('users', array('username' => 'John', 'email' => 'johndoe@example.com'));
+	 */
 	public function insert($table, $params) {
 		if (is_array($params)) {
 			$sql = "INSERT INTO {$table} (";
