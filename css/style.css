@@ -153,8 +153,72 @@ li {
     float: left;
 }
 
+<<<<<<< HEAD
 .textheader {
     margin-left: 331px;
     height: auto;
+=======
+.forheader li.active {
+   background-color: #383f48;
+}
+.active {
+   background-color: #383f48;
+   }
+/* mijn account en winkelwagen */
+.rightlist {
+   float: right;
+ }
+li {
+   height: auto;
 }
 
+/*dit is voor het aanmeld gedeelte*/
+div.login{
+    width: 520px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #f6f6f6;
+    padding: 10px;
+    text-align: center;
+}
+
+input.login{
+  height: 35px;
+  width: 300px;
+  border: solid 1px #d8d8d8;
+  font-size: 18px;
+>>>>>>> login
+}
+
+table{
+  border-spacing: 15px;
+  text-align: right;
+}
+
+h3.login{
+    color: #333366;
+    font-weight: lighter;
+}
+
+.loginBtn{
+  background-color: #34495e;
+  height: 35px;
+  width: 300px;
+  color: #ffffff;
+  border: solid 1px #d8d8d8;
+}
+
+td.line{
+  border: solid 1px #d8d8d8;
+}
+
+a.login{
+  color: #34495e;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#btw{
+  color: #bbbbbb;
+  font-style: italic;
+}
