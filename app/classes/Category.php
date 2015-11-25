@@ -3,7 +3,7 @@
 /**
 * 
 */
-class catogory
+class Catogory
 {
 	
 	function __construct()
