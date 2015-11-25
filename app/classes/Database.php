@@ -63,7 +63,7 @@ class Database {
 	 * array/string $items
 	 * string		$table
 	 * Usage:
-	 * DB::start()->get(array(array('username', '=', 'john')))->results();
+	 * DB::start()->get(array('username','email'), 'users', array(array('username', '=', 'john')))->results();
 	 */
 	public function get($colmns = "*", $table, $params = array()) {
 		$where = null;
