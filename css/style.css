@@ -146,7 +146,7 @@ li {
 .textintable {
     padding: 5px;
     margin: 5px;
-    color: #c3c3c3;
+    color: #666666;
 }
 .textintable a {
     text-decoration: none;
@@ -157,12 +157,13 @@ li {
 .fourthheader {
     background-color: #f6f6f6;
     width: 330px;
-    height: auto;
+    height: 900px;
     float: left;
 }
+
 /* textheader*/
 .textheader {
-    margin-left: 331px;
+    margin-left: 335px;
     height: auto;
 }
 .productleft {
