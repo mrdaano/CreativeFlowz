@@ -16,7 +16,7 @@
                     <li><a href="contact.html">contact</a></li>
                 </ul>
                 <ul class="rightlist">
-                    <li class="active"><a href="loggedin.html">aanmelden</a></li>
+                    <li class="active">aanmelden</li>
                 </ul>
             </div>
         </div>

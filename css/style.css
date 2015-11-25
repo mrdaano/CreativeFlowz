@@ -68,6 +68,10 @@ li {
 }
 .rightlist li {
     display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .rightlist li a{
     color: #ffffff;
