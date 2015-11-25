@@ -141,6 +141,41 @@ class Database {
 		return false;
 	}
 	
+	public function update($table, $data, $params) {
+		$sql = "UPDATE {$table} SET ";
+		$x = 1;
+		$values = array();
+		
+		foreach($data as $key => $item) {
+			$sql .= "{$key}=? ";
+			if ($x < count($data)) {
+				$sql .=", ";
+			}
+			$x++;
+			array_push($values, $item);
+		}
+		
+		$sql .= "WHERE ";
+		$x = 1;
+		
+		foreach($params as $key => $param) {
+			$sql .= "{$key}=? ";
+			if ($x < count($params)) {
+				$sql .=", ";
+			}
+			array_push($values, $param);
+			$x++;
+		}
+		
+		if(!$this->query($sql, $values)->error()) {
+			return $this;
+		}
+	}
+	
+	public function first() {
+		return $this->_results[0];
+	}
+	
 	public function results() {
 		return $this->_results;
 	}
