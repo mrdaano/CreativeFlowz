@@ -124,6 +124,7 @@ li {
     padding-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
+    float: left;
 }
 .thirdheaderhead {
     background-color: #38526d;
@@ -149,10 +150,11 @@ li {
     background-color: #f6f6f6;
     width: 330px;
     height: auto;
+    float: left;
 }
 
 .textheader {
     margin-left: 331px;
-    margin-top: 400px;
+    height: auto;
 }
 
