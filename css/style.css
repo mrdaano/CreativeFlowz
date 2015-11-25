@@ -197,7 +197,9 @@ input.login{
   height: 35px;
   width: 300px;
   border: solid 1px #d8d8d8;
-  font-size: 18px;
+  font-size: 16px;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 table.login{
@@ -216,6 +218,7 @@ h3.login{
   width: 300px;
   color: #ffffff;
   border: solid 1px #d8d8d8;
+  font-size: 16px;
 }
 
 td.line{
