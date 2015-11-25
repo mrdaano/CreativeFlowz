@@ -61,6 +61,10 @@ li {
 .forheader li.active {
     background-color: #383f48;
 }
+.active {
+   background-color: #383f48;
+}
+
 /* mijn account en winkelwagen */
 .rightlist {
     float: right;
@@ -152,18 +156,15 @@ li {
     height: auto;
     float: left;
 }
-
-<<<<<<< HEAD
+/* textheader*/
 .textheader {
     margin-left: 331px;
     height: auto;
-=======
-.forheader li.active {
-   background-color: #383f48;
 }
-.active {
-   background-color: #383f48;
-   }
+.product {
+    
+}
+
 /* mijn account en winkelwagen */
 .rightlist {
    float: right;
@@ -187,7 +188,6 @@ input.login{
   width: 300px;
   border: solid 1px #d8d8d8;
   font-size: 18px;
->>>>>>> login
 }
 
 table{

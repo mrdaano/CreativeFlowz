@@ -1,15 +1,7 @@
-<<<<<<< HEAD
-
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>DeServiceGroup</title>
-=======
 <!DOCTYPE html>
 <html>
     <head>
         <title>Aanmelden</title>
->>>>>>> login
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -29,15 +21,6 @@
             </div>
         </div>
         <br/><br/><br/>
-<<<<<<< HEAD
-     	<div class="login">
-     		<h3 class="login">inloggen</h3>
-     		<form class="login">
-     			e-mail <input type="text" name="mail"><br/>
-     			wachtwoord <input tpye="password" name="password">
-     		</form>
-     	</div>
-=======
         <div class="login">
             <h3 class="login">inloggen</h3>
             <form method="post" class="login">
@@ -96,6 +79,5 @@
             </table>
           </form>
         </div>
->>>>>>> login
     </body>
 </html>
