@@ -105,6 +105,7 @@ class Database {
 			return $this;
 		}
 	}
+
 	
 	/**
 	 * Daan (25-11-2015)
@@ -184,10 +185,6 @@ class Database {
 	
 	public function results() {
 		return $this->_results;
-	}
-	
-	public function first() {
-		return $this->_results[0];
 	}
 	
 	public function error() {
