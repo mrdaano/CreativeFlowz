@@ -1,3 +1,15 @@
+<?php
+session_start();
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
+ini_set("log_errors", 1);
+ini_set("error_log", "/errors.log");
+spl_autoload_register(function ($class) {
+    include 'app/classes/' . $class . '.php';
+});
+$db = new Database;
+$Route = new Route($db);
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -20,18 +32,21 @@
                 </ul>
             </div>
         </div>
-        <div class="secondheader">
-            <div class="wrapper"></div>
-        </div>
-        <div class="thirdheader">
-            <div class="wrapper">
-                <div class="wrapper">
-                    <div class="fourthheader">
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
+        <?php
+            /*
+             *  Hier word de route van de website bepaald.
+             *  Aan de hand van $_GET['page'] word bepaald welke pagina word ingeladen.
+             *  @author: Yannick Berendsen
+             */
+            if(isset($_GET['page'])){
+                if($Route->request($_GET['page']) == true){
+                   include('app/pages/'.$_GET['page'].'.php');
+                }else{
+                    echo '<script type="text/javascript">window.location.replace("index.php?page=404");</script>';
+                }
+            }else{
+                // Content van de homepage
+            }
+        ?>
     </body>
 </html>
