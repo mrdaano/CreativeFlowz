@@ -16,7 +16,7 @@
                     <li><a href="contact.html">contact</a></li>
                 </ul>
                 <ul class="rightlist">
-                    <li class="active"><a href="loggedin.html">aanmelden</a></li>
+                    <li class="active">aanmelden</li>
                 </ul>
             </div>
         </div>
@@ -40,7 +40,7 @@
                 </tr>
               </table>
             </form>
-            <a href="forgotpassword.php" class="login">wachtwoord vergeten</a>
+            <a href="forgotpassword.php" class="login">wachtwoord vergeten?</a>
         </div>
         <br/><br/>
         <div class="login">
@@ -71,7 +71,7 @@
                 <td><input type="text" name="number" class="login"></td>
               </tr><tr>
                 <td>btw-nummer</td>
-                <td><input type="text" name="taxnumber" class="login" id="btw" value="optioneel">
+                <td><input type="text" name="taxnumber" class="login" id="btw" value="optioneel" onfocus="if (this.value == 'optioneel') {this.value = '';}">
               </tr><tr>
                 <td></td>
                 <td><input type="submit" name="register" value="registreren" class="loginBtn">
