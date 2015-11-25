@@ -215,6 +215,15 @@ class Database {
 		
 	}
 	
+	/**
+	 * Daan (25-11-2015)
+	 * Note:
+	 * This can only be used with a insert
+	 */
+	public function lastId() {
+		return $this->_pdo->lastInsertId();
+	}
+	
 	public function first() {
 		return $this->_results[0];
 	}
