@@ -181,6 +181,40 @@ class Database {
 		}
 	}
 	
+	/**
+	 * Daan (25-11-2015)
+	 * string	$table
+	 * array	$params
+	 * Usage:
+	 * DB::start()->delete('users', array('id' => 1));
+	 */
+	public function delete($table, $params = array()) {
+		$sql = "DELETE FROM {$table} WHERE ";
+		$values = array();
+		$x = 1;
+		$operators = array('=', '>', '<', '>=', '<=');
+		
+		foreach($params as $param) {
+			$colmn = $param[0];
+			$operator = $param[1];
+			$value = $param[2];
+			
+			if (in_array($operator, $operators)) {
+				$sql .= "{$colmn}{$operator}?";
+				if ($x < count($params)) {
+					$sql .=", ";
+				}
+				$x++;
+				array_push($values, $value);
+			}
+		}
+		
+		if(!$this->query($sql, $values)->error()) {
+			return $this;
+		}
+		
+	}
+	
 	public function first() {
 		return $this->_results[0];
 	}
