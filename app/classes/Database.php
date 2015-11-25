@@ -6,7 +6,7 @@ class Database {
 	private $_pdo, $_query, $_results, $_count = 0, $_error = false;
 	
 	public function __construct() {
-		$this->_pdo = new PDO('mysql:host=localhost;dbname=mydb', 'root', 'root');
+		$this->_pdo = new PDO('mysql:host=localhost;dbname=mydb', 'root', '');
 	}
 	
 	/**
@@ -87,9 +87,10 @@ class Database {
 
 		if (!empty($params)) {
 			$where = "WHERE";
-			foreach ($params as $key => $param) {
-				$operator = $param[0];
-				$value = $param[1];
+			foreach ($params as $param) {
+				$key = $param[0];
+				$operator = $param[1];
+				$value = $param[2];
 				if (in_array($operator, $operators)) {
 					$where .= " {$key} {$operator} ?";
 					array_push($values, $value);
