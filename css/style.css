@@ -61,6 +61,10 @@ li {
 .forheader li.active {
     background-color: #383f48;
 }
+.active {
+   background-color: #383f48;
+}
+
 /* mijn account en winkelwagen */
 .rightlist {
     float: right;
@@ -128,6 +132,7 @@ li {
     padding-top: 40px;
     padding-left: 10px;
     padding-right: 10px;
+    float: left;
 }
 .thirdheaderhead {
     background-color: #38526d;
@@ -140,10 +145,12 @@ li {
 }
 .textintable {
     padding: 5px;
+    margin: 5px;
+    color: #c3c3c3;
 }
 .textintable a {
     text-decoration: none;
-    color: #f6f6f6;
+    color: #c3c3c3;
 }
 
 /* dit is de verticale header */
@@ -151,14 +158,23 @@ li {
     background-color: #f6f6f6;
     width: 330px;
     height: auto;
+    float: left;
+}
+/* textheader*/
+.textheader {
+    margin-left: 331px;
+    height: auto;
+}
+.productleft {
+    background-color: 
+}
+.productmid {
+
+}
+.productright {
+
 }
 
-.forheader li.active {
-   background-color: #383f48;
-}
-.active {
-   background-color: #383f48;
-   }
 /* mijn account en winkelwagen */
 .rightlist {
    float: right;
