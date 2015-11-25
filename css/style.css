@@ -166,7 +166,7 @@ li {
     height: auto;
 }
 .productleft {
-    background-color: 
+    background-color:
 }
 .productmid {
 
@@ -200,7 +200,7 @@ input.login{
   font-size: 18px;
 }
 
-table{
+table.login{
   border-spacing: 15px;
   text-align: right;
 }
