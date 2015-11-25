@@ -106,6 +106,82 @@ class Database {
 		}
 	}
 	
+	/**
+	 * Daan (25-11-2015)
+	 * string	$table
+	 * array	$items
+	 * Usage:
+	 * DB::start()->insert('users', array('username' => 'John', 'email' => 'johndoe@example.com'));
+	 */
+	public function insert($table, $params) {
+		if (is_array($params)) {
+			$sql = "INSERT INTO {$table} (";
+			$x = 1;
+			$queryEnd = "";
+			$values = array();
+			foreach($params as $key => $param) {
+				$sql .= "`{$key}`";
+				$queryEnd .= "?";
+				if ($x < count($params)) {
+					$sql .=", ";
+					$queryEnd .= ", ";
+				}
+				array_push($values, $param);
+				$x++;
+			}
+			$sql .= ") VALUES ({$queryEnd})";
+			
+			if(!$this->query($sql, $values)->error()) {
+				return $this;
+			}
+			
+		}
+		return false;
+	}
+	
+	/**
+	 * Daan (25-11-2015)
+	 * string	$table
+	 * array	$data
+	 * array	$params
+	 * Usage:
+	 * DB::start()->update('users', array('username' => 'John', 'email' => 'johndoe@example.com'), array('id' => 1));
+	 */
+	public function update($table, $data, $params) {
+		$sql = "UPDATE {$table} SET ";
+		$x = 1;
+		$values = array();
+		
+		foreach($data as $key => $item) {
+			$sql .= "{$key}=? ";
+			if ($x < count($data)) {
+				$sql .=", ";
+			}
+			$x++;
+			array_push($values, $item);
+		}
+		
+		$sql .= "WHERE ";
+		$x = 1;
+		
+		foreach($params as $key => $param) {
+			$sql .= "{$key}=? ";
+			if ($x < count($params)) {
+				$sql .=", ";
+			}
+			array_push($values, $param);
+			$x++;
+		}
+		
+		if(!$this->query($sql, $values)->error()) {
+			return $this;
+		}
+	}
+	
+	public function first() {
+		return $this->_results[0];
+	}
+	
 	public function results() {
 		return $this->_results;
 	}
