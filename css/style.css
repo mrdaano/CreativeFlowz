@@ -118,7 +118,6 @@ li {
     text-decoration: none;
 }
 
-
 /* dit is de 3de header */
 .thirdheader {
     background-color: #f6f6f6;
@@ -157,7 +156,7 @@ li {
 .fourthheader {
     background-color: #f6f6f6;
     width: 330px;
-    height: auto;
+    height: 1000px;
     float: left;
 }
 /* textheader*/
@@ -166,14 +165,11 @@ li {
     height: auto;
 }
 .productleft {
-<<<<<<< HEAD
     float: left;
-=======
     background-color:
->>>>>>> login
 }
 .productmid {
-
+    float: center;
 }
 .productright {
     float: right;
