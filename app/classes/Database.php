@@ -87,9 +87,10 @@ class Database {
 
 		if (!empty($params)) {
 			$where = "WHERE";
-			foreach ($params as $key => $param) {
-				$operator = $param[0];
-				$value = $param[1];
+			foreach ($params as $param) {
+				$key = $param[0];
+				$operator = $param[1];
+				$value = $param[2];
 				if (in_array($operator, $operators)) {
 					$where .= " {$key} {$operator} ?";
 					array_push($values, $value);
@@ -141,6 +142,14 @@ class Database {
 		return false;
 	}
 	
+	/**
+	 * Daan (25-11-2015)
+	 * string	$table
+	 * array	$data
+	 * array	$params
+	 * Usage:
+	 * DB::start()->update('users', array('username' => 'John', 'email' => 'johndoe@example.com'), array('id' => 1));
+	 */
 	public function update($table, $data, $params) {
 		$sql = "UPDATE {$table} SET ";
 		$x = 1;
