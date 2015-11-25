@@ -232,3 +232,9 @@ a.login{
   color: #bbbbbb;
   font-style: italic;
 }
+
+/* dit gedeelte is voor het contact gedeelte */
+textarea.contact{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
