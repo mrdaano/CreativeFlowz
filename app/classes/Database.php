@@ -108,6 +108,32 @@ class Database {
 		}
 	}
 	
+	public function insert($table, $params) {
+		if (is_array($params)) {
+			$sql = "INSERT INTO {$table} (";
+			$x = 1;
+			$queryEnd = "";
+			$values = array();
+			foreach($params as $key => $param) {
+				$sql .= "`{$key}`";
+				$queryEnd .= "?";
+				if ($x < count($params)) {
+					$sql .=", ";
+					$queryEnd .= ", ";
+				}
+				array_push($values, $param);
+				$x++;
+			}
+			$sql .= ") VALUES ({$queryEnd})";
+			
+			if(!$this->query($sql, $values)->error()) {
+				return $this;
+			}
+			
+		}
+		return false;
+	}
+	
 	public function results() {
 		return $this->_results;
 	}
