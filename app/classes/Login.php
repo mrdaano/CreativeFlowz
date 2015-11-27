@@ -23,13 +23,16 @@ class Login{
     }
     
     public function verificate(){
-        if(empty($this->email) OR empty($this->password)){
+        var_dump($this->mail);
+        if(empty($this->mail) OR empty($this->password)){
             self::setError('Beiden velden moeten ingevuld worden!');
-        }elseif (!filter_var($email, FILTER_VALIDATE_EMAIL) === false) {
+        }elseif (filter_var($this->mail, FILTER_VALIDATE_EMAIL) === false) {
             self::setError('Dit is geen E-Mail adres!');
         }else{
             $this->password = hash('sha256', $this->password);
-            $data = $this->db->get('*','users', array(array('email', '=', $this->email), array('password', '=', $this->password)))->first();
+            $data = $this->db->start()->get('*','users', array(array('email', '=', $this->mail), array('password', '=', $this->password)))->first();
+            
+            print_r($data);
         }
     }
     
