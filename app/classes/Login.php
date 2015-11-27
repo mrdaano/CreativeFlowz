@@ -14,6 +14,7 @@ class Login{
     
     public function __construct($db){
         $this->db = $db;
+        $this->db->start();
     }
     
     public function inputFields($array){
@@ -30,7 +31,7 @@ class Login{
             self::setError('Dit is geen E-Mail adres!');
         }else{
             $this->password = hash('sha256', $this->password);
-            $data = $this->db->start()->get('*','users', array(array('email', '=', $this->mail), array('password', '=', $this->password)))->first();
+            $data = $this->db->get('*','user', array(array('email', '=', $this->mail), array('password', '=', $this->password)))->first();
             
             print_r($data);
         }
