@@ -1,6 +1,6 @@
 <?php
-include_once 'app\classes\Catecory.php';
-include_once 'app\classes\Database.php';
+include_once 'app/classes/Category.php';
+include_once 'app/classes/Database.php';
 
 $category = array();
 
