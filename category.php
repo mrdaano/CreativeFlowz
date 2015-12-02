@@ -40,16 +40,16 @@ if (filter_input(INPUT_GET, 'e', FILTER_VALIDATE_INT)) {
 		<input type="text" name="updateCategory" value="<?php echo $category[$id]->get('name') ?>">
 		<select name="updateHead">
 			<?php
-				if ($category[$id]->get('head') == 0) {
-					echo '<option value="0">Geen</option>';
+				if ($category[$id]->get('head') == NULL) {
+					echo '<option value="NULL">Geen</option>';
 				} else {
 					echo '<option value="' . $category[$id]->get('head') . '">';
 					echo $category[$id]->get('nameHead') . "</option>";
-					echo '<option value="0">Geen</option>';
+					echo '<option value="NULL">Geen</option>';
 				}
 
 				$database = new Database();
-				$sql = $database::start()->get('id', 'category', array(array('head', '=', 0)))->results();
+				$sql = $database::start()->get('id', 'category', array(array('head', 'IS', 'NULL')))->results();
 				if (!empty($sql)) {
 					foreach ($sql as $key => $std) {
 						if ($std->id != $id && $std->id != $category[$id]->get('head')) {
@@ -89,7 +89,7 @@ if (filter_input(INPUT_GET, 'e', FILTER_VALIDATE_INT)) {
 //Categorie weergeven
 else { 
 	$database = new Database();
-	$sql = $database::start()->get('id', 'category', array(array('head', '=', 0)))->results();	
+	$sql = $database::start()->get('id', 'category', array(array('head', 'IS', 'NULL')))->results();	
 	foreach ($sql as $key => $std) {
 		$category[$key] = new Category();
 		$category[$key]->set('auto', $std->id); ?>
@@ -119,10 +119,10 @@ else {
 	<form action="category.php" method="post">
 		<input type="text" name="newCategory">
 		<select name="newHead">
-			<option value="0">Geen</option>
+			<option value="NULL">Geen</option>
 			<?php
 				$database = new Database();
-				$sql = $database::start()->get('id', 'category', array(array('head', '=', 0)))->results();
+				$sql = $database::start()->get('id', 'category', array(array('head', 'IS', 'NULL')))->results();
 				if (!empty($sql)) {
 					foreach ($sql as $key => $std) {
 						$category[$key] = new Category();
