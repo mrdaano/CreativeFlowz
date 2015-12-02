@@ -50,13 +50,13 @@
                             <td class="textintable"><a href="loggedinbalcowebshop.php">- balco</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="loggedintirechangerswebshop.php">- faip tirechangers</a></td>
+                            <td class="textintable"><a href="loggedinfaiptirechangerswebshop.php">- faip tirechangers</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="loggedinwheelalignerswebshop.php">- faip wheelaligners</a></td>
+                            <td class="textintable"><a href="loggedinfaipwheelalignerswebshop.php">- faip wheelaligners</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="loggedinwheelbalancerswebshop.php">- faip wheelbalancers</a></td>
+                            <td class="textintable"><a href="loggedinfaipwheelbalancerswebshop.php">- faip wheelbalancers</a></td>
                         </tr>
                     </table>
                 </div>
