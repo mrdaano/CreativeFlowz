@@ -40,13 +40,13 @@
                             <td class="textintable"><a href="balcowebshop.php">- balco</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="tirechangerswebshop.php">- faip tirechangers</a></td>
+                            <td class="textintable"><a href="faiptirechangerswebshop.php">- faip tirechangers</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="wheelalignerswebshop.php">- faip wheelaligners</a></td>
+                            <td class="textintable"><a href="faipwheelalignerswebshop.php">- faip wheelaligners</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="wheelbalancers.php">- faip wheelbalancers</a></td>
+                            <td class="textintable"><a href="faipwheelbalancers.php">- faip wheelbalancers</a></td>
                         </tr>
                     </table>
                 </div>
