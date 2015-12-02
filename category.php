@@ -8,6 +8,9 @@ $category = array();
 if (isset($_POST['newCategory'])) { 
 	$newCategory = new Category();
 	filter_input(INPUT_POST, 'newHead', FILTER_VALIDATE_INT);
+	if ($_POST['newHead'] == 0) {
+		$_POST['newHead'] = null;
+	}
 	header('location: category.php' . $newCategory->createCategory($_POST['newCategory'], $_POST['newHead']));
 }
 
@@ -18,6 +21,9 @@ if (isset($_POST['updateCategory']) && filter_input(INPUT_GET, 'id', FILTER_VALI
 	$oldCategory = new Category();
 	$oldCategory->set('auto', $_GET['id']);
 	$updateCategory->linkProduct($_GET['id'], $_POST['product_category']);
+	if ($_POST['updateHead'] == 0) {
+		$_POST['updateHead'] = null;
+	}
 	header('location: category.php' . $updateCategory->updateCategory($_GET['id'], $_POST['updateCategory'], $_POST['updateHead'], $oldCategory->get('name'), $oldCategory->get('head')));
 }
 
@@ -41,11 +47,11 @@ if (filter_input(INPUT_GET, 'e', FILTER_VALIDATE_INT)) {
 		<select name="updateHead">
 			<?php
 				if ($category[$id]->get('head') == NULL) {
-					echo '<option value="NULL">Geen</option>';
+					echo '<option value="0">Geen</option>';
 				} else {
 					echo '<option value="' . $category[$id]->get('head') . '">';
 					echo $category[$id]->get('nameHead') . "</option>";
-					echo '<option value="NULL">Geen</option>';
+					echo '<option value="0">Geen</option>';
 				}
 
 				$database = new Database();
@@ -86,7 +92,7 @@ if (filter_input(INPUT_GET, 'e', FILTER_VALIDATE_INT)) {
 	<?php echo '<a href="category.php">Terug</a>';
 }
 
-//Categorie weergeven
+//Categorie weergeven en toevoegen
 else { 
 	$database = new Database();
 	$sql = $database::start()->get('id', 'category', array(array('head', 'IS', 'NULL')))->results();	
@@ -119,7 +125,7 @@ else {
 	<form action="category.php" method="post">
 		<input type="text" name="newCategory">
 		<select name="newHead">
-			<option value="NULL">Geen</option>
+			<option value="0">Geen</option>
 			<?php
 				$database = new Database();
 				$sql = $database::start()->get('id', 'category', array(array('head', 'IS', 'NULL')))->results();
