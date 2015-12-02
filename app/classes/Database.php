@@ -227,7 +227,10 @@ class Database {
 		
 	}
 	
-	public function join($select = "*", $table, $join, $on, $where) {
+	public function join($select = "*", $table, $joins, $where) {
+		$joinClause = "";
+		$operators = array('=', '>', '<', '>=', '<=');
+		
 		if (is_array($colmns)) {
 			$y = 1;
 			$selectColmns = null;
@@ -242,14 +245,22 @@ class Database {
 			$selectColmns = $colmns;
 		}
 		
-		$sql = "SELECT {$selectColmns} FROM `{$table}` ";
+		foreach($joins as $table => $join) {
+			$joinClause .= " JOIN {$table} ON {$join[0]}={$join[1]}";
+		}
+		
+		$sql = "SELECT {$selectColmns} FROM `{$table}` {$joinClause}";
 	}
 	
 	public function leftJoin() {
 		
 	}
 	
-	
+	/**
+	 * Daan (2-12-2015)
+	 * Note:
+	 * This can only included in other functions in the class
+	 */
 	private function orderBy($order = array()) {
 		$accepted = array('ASC','DESC');
 		$return = " ORDER BY ";
