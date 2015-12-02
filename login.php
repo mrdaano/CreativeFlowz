@@ -9,11 +9,11 @@
     <body>
         <div class="header">
             <div class="wrapper">
-                <div class="sitenameblock"><a class="sitename" href="index.html"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
+                <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
                 <ul class="forheader">
-                    <li><a href="aboutus.html">over ons</a></li>
-                    <li><a href="webshop.html">webshop</a></li>
-                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="aboutus.php">over ons</a></li>
+                    <li><a href="webshop.php">webshop</a></li>
+                    <li><a href="contact.php">contact</a></li>
                 </ul>
                 <ul class="rightlist">
                     <li class="active">aanmelden</li>

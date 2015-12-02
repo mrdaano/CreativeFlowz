@@ -9,11 +9,11 @@
     <body>
         <div class="header">
             <div class="wrapper">
-                <div class="sitenameblock"><a class="sitename" href="index.html"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
+                <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
                 <ul class="forheader">
-                    <li><a href="aboutus.html">over ons</a></li>
-                    <li class="active"><a href="webshop.html">webshop</a></li>
-                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="aboutus.php">over ons</a></li>
+                    <li class="active"><a href="webshop.php">webshop</a></li>
+                    <li><a href="contact.php">contact</a></li>
                 </ul>
                 <ul class="rightlist">
                     <li><a href="login.php">aanmelden</a></li>
@@ -58,11 +58,11 @@
                     <div class="productimg">
                         <img src=""/>
                         <div class="view">
-                            <a href="product1.html">Bekijk product</a>
+                            <a href="product1.php">Bekijk product</a>
                         </div>
                     </div>
                     <div class="productnr">
-                        
+
                     </div>
                 </div>
                 <div class="productmid">

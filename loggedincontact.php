@@ -9,15 +9,28 @@
     <body>
         <div class="header">
             <div class="wrapper">
-                <div class="sitenameblock"><a class="sitename" href="index.html"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
+                <div class="sitenameblock"><a class="sitename" href="loggedin.php"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
                 <ul class="forheader">
-                    <li><a href="aboutus.html">over ons</a></li>
-                    <li><a href="webshop.html">webshop</a></li>
-                    <li class="active"><a href="contact.html">contact</a></li>
+                    <li><a href="loggedinaboutus.php">over ons</a></li>
+                    <li><a href="loggedinwebshop.php">webshop</a></li>
+                    <li class="active"><a href="loggedincontact.php">contact</a></li>
                 </ul>
                 <ul class="rightlist">
-                    <li><a href="login.php">aanmelden</a></li>
+                    <li><a href="myaccount.php">mijn account</a></li>
+                    <li class="shoppingcart"><a href="shoppingcart.php"><img class="shoppingcartimg" src="img/shopping-cart12.png" width="20"/> winkelwagen</a><li>
+                    <li><a href="index.php">afmelden</a><li>
                 </ul>
+            </div>
+        </div>
+        <div class="secondheader">
+            <div class="wrapper">
+                <div class="customername"><span id="customername">Klantnaam</span><br>
+                    <span id="customer">klant</span>
+                </div>
+                <ul class="customertabs">
+                    <li><a href="myorders.php">mijn orders</a></li>
+                    <li><a href="sendingoptions.php">verzenden en retouneren</a></li>
+                <ul>
             </div>
         </div>
         <div class="thirdheader">
@@ -63,6 +76,14 @@
                 Bericht<br/><textarea name="message" rows="10" cols="40" class="contact"></textarea><br/>
                 <input type="submit" name="send" value="verzenden" class="loginBtn">
               </form>
+            </div>
+        </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper">
+            <div class="textheader">
+
             </div>
         </div>
     </body>
