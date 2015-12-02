@@ -5,11 +5,11 @@
 */
 class Category
 {
-	private $_id, $_name, $_head, $_nameHead;
+	private $_id, $_name, $_parent, $_nameParent;
 	
 	function __construct()
 	{
-		include_once 'Database.php';	
+		//include_once 'Database.php';	
 	}
 
 	public function get($wat)
@@ -21,11 +21,11 @@ class Category
 			case 'name':
 				return $this->_name;
 				break;
-			case 'head':
-				return $this->_head;
+			case 'parent':
+				return $this->_parent;
 				break;
-			case 'nameHead':
-				return $this->_nameHead;
+			case 'nameParent':
+				return $this->_nameParent;
 				break;			
 		}
 	}
@@ -39,53 +39,61 @@ class Category
 			case 'name':
 				$this->_name = $value;
 				break;
-			case 'head':
-				$this->_head = $value;
+			case 'parent':
+				$this->_parent = $value;
 
 				$database = new Database();
-				$sql = $database::start()->get('name', 'category', array(array('id', '=', $this->_head)))->results();
+				$sql = $database::start()->get('name', 'category', array(array('id', '=', $this->_parent)))->results();
 				if (!empty($sql)) {
-					$this->_nameHead =$sql[0]->name;
-				} else $this->_nameHead = null;
+					$this->_nameParent =$sql[0]->name;
+				} else $this->_nameParent = null;
 				break;
 			case 'auto':
 				$database = new Database();
 				$this->_id = $value;
-				$sql = $database::start()->get(array('name', 'head'), 'category', array(array('id', '=', $this->_id)))->results();
+				$sql = $database::start()->get(array('name', 'parent'), 'category', array(array('id', '=', $this->_id)))->results();
 				foreach ($sql as $std) {
 					$this->_name = $std->name;
-					$this->set('head', $std->head);
+					$this->set('parent', $std->parent);
 				}
 				break;
 		}
 	}
 
-	public function createCategory($name, $head)
+	public function createCategory($name, $parent)
 	{
 		if ($name == '') {
-			return "?m=none";
+			return "&m=none";
 		} else {
 			$this->set('name', $name);
 		}
 
-		$this->set('head', $head);
+		$this->set('parent', $parent);
 
 		$database = new Database();
-		$sql = $database::start()->get('name', 'category', array(array('head', '=', $this->_head)))->results();
+		if ($this->_parent == NULL) {
+			$sql = $database::start()->get('name', 'Category', array(array('parent', 'IS', 'NULL')))->results();
+		} else {
+			$sql = $database::start()->get('name', 'category', array(array('parent', '=', $this->_parent)))->results();
+		}
+
 		foreach ($sql as $std) {
 			if (strtolower($std->name) == strtolower($this->_name)) {
-				return "?m=exist";
+				return "&m=exist";
 				break;
 			}
 		}
-	
-		$database::start()->insert('category', array('name' => $this->_name, 'head' => $this->_head));
-		return;
+		if ($this->_parent == NULL) {
+			$database::start()->insert('category', array('name' => $this->_name));
+		} else {	
+			$database::start()->insert('category', array('name' => $this->_name, 'parent' => $this->_parent));
+			return;
+		}
 	}
 
-	public function updateCategory($id, $name ,$head, $oldName, $oldHead)
+	public function updateCategory($id, $name ,$parent, $oldName, $oldParent)
 	{
-		$returnId = "?e=" .  $id . "&m=";
+		$returnId = "&e=" .  $id . "&m=";
 		
 		$this->set('id', $id);
 
@@ -95,10 +103,14 @@ class Category
 			$this->set('name', $name);
 		}
 
-		$this->set('head', $head);
+		$this->set('parent', $parent);
 
 		$database = new Database();
-		$sql = $database::start()->get('name', 'category', array(array('head', '=', $this->_head)))->results();
+		if ($this->_parent == NULL) {
+			$sql = $database::start()->get('name', 'category', array(array('parent', 'IS', 'NULL')))->results();
+		} else {
+			$sql = $database::start()->get('name', 'category', array(array('parent', '=', $this->_parent)))->results();
+		}
 		if (strtolower($oldName) != strtolower($name)) {
 			foreach ($sql as $std) {
 				if (strtolower($std->name) == strtolower($this->_name)) {
@@ -108,23 +120,28 @@ class Category
 			}
 		}
 
-		if ($oldHead == 0 && $this->_head != 0) {
-			$sql = $database::start()->get('id', 'category', array(array('head', '=', $this->_id)))->results();	
+		if ($oldParent == NULl && $this->_parent != NULL) {
+			$sql = $database::start()->get('id', 'category', array(array('parent', '=', $this->_id)))->results();	
 			if (!empty($sql)) {
 				return $returnId . "subcat";
 				break;
 			}
 		}
 
-		$database::start()->update('category', array('name' => $this->_name, 'head' => $this->_head), array('id' => $this->_id));
-		return;		
-	}
+		if ($this->_parent == NULl) {
+			$database::start()->update('category', array('name' => $this->_name), array('id' => $this->_id));
+			return;
+		} else {
+			$database::start()->update('category', array('name' => $this->_name, 'parent' => $this->_parent), array('id' => $this->_id));
+			return;	
+		}	
+	}	
 
 	public function removeCategory($id)
 	{
 		$this->set('id', $id);
 		$database = new Database();
-		$database::start()->update('category', array('head' => 0), array('head' => $this->_id));
+		$database::start()->update('category', array('parent' => NULL), array('parent' => $this->_id));
 		$database::start()->delete('product_category', array(array('category_id', '=', $this->_id)));
 		$database::start()->delete('category', array(array('id', '=', $this->_id)));		
 	}
