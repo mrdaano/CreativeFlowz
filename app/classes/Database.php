@@ -5,11 +5,7 @@ class Database {
 	private $_pdo, $_query, $_results, $_count = 0, $_error = false, $_sql, $_values = array();
 	
 	public function __construct() {
-<<<<<<< HEAD
 		$this->_pdo = new PDO('mysql:host=localhost:3307;dbname=mydb', 'root', 'usbw');
-=======
-		$this->_pdo = new PDO('mysql:host=localhost;dbname=mydb', 'root', 'root');
->>>>>>> refs/remotes/origin/master
 	}
 	
 	/**
@@ -106,7 +102,6 @@ class Database {
 				}
 			}
 		}
-<<<<<<< HEAD
 		
 		$order = "";
 		if (!empty($orderBy)) {
@@ -114,9 +109,6 @@ class Database {
 		}
 
 		$sql = "SELECT {$selectColmns} FROM `{$table}` {$where}{$order}";
-=======
-		$sql = "SELECT {$selectColmns} FROM `{$table}` {$where}";
->>>>>>> routeclass
 		
 		if(!$this->query($sql, $values)->error()) {
 			return $this;
@@ -200,11 +192,7 @@ class Database {
 	 * string	$table
 	 * array	$params
 	 * Usage:
-<<<<<<< HEAD
 	 * DB::start()->delete('users', array(array('id' => 1)));
-=======
-	 * DB::start()->delete('users', array('id' => 1));
->>>>>>> routeclass
 	 */
 	public function delete($table, $params = array()) {
 		$sql = "DELETE FROM {$table} WHERE ";
@@ -233,7 +221,10 @@ class Database {
 		
 	}
 	
-	public function join($select = "*", $table, $join, $on, $where) {
+	public function join($select = "*", $table, $joins, $where) {
+		$joinClause = "";
+		$operators = array('=', '>', '<', '>=', '<=');
+		
 		if (is_array($colmns)) {
 			$y = 1;
 			$selectColmns = null;
@@ -248,15 +239,22 @@ class Database {
 			$selectColmns = $colmns;
 		}
 		
-		$sql = "SELECT {$selectColmns} FROM `{$table}` ";
+		foreach($joins as $table => $join) {
+			$joinClause .= " JOIN {$table} ON {$join[0]}={$join[1]}";
+		}
+		
+		$sql = "SELECT {$selectColmns} FROM `{$table}` {$joinClause}";
 	}
 	
 	public function leftJoin() {
 		
 	}
 	
-<<<<<<< HEAD
-	
+	/**
+	 * Daan (2-12-2015)
+	 * Note:
+	 * This can only included in other functions in the class
+	 */
 	private function orderBy($order = array()) {
 		$accepted = array('ASC','DESC');
 		$return = " ORDER BY ";
@@ -274,9 +272,6 @@ class Database {
 		}
 		return $return;
 	}
-	
-=======
->>>>>>> routeclass
 	/**
 	 * Daan (25-11-2015)
 	 * Note:
