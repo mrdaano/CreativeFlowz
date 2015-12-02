@@ -56,7 +56,7 @@
                             <td class="textintable"><a href="loggedinwheelalignerswebshop.php">- faip wheelaligners</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="loggedinwheelbalancers.php">- faip wheelbalancers</a></td>
+                            <td class="textintable"><a href="loggedinwheelbalancerswebshop.php">- faip wheelbalancers</a></td>
                         </tr>
                     </table>
                 </div>
