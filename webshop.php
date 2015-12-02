@@ -58,19 +58,12 @@
                     <div class="productimg">
                         <img src=""/>
                         <div class="view">
-<<<<<<< HEAD:webshop.html
-
                         </div>
                     </div>
                     <div class="productnr">
-                        1
-=======
-                            <a href="product1.php">Bekijk product</a>
-                        </div>
+                        <a href="product1.php">Bekijk product</a>
                     </div>
                     <div class="productnr">
-
->>>>>>> login:webshop.php
                     </div>
                 </div>
                 <div class="productmid">
@@ -95,6 +88,7 @@
                         3
                     </div>
                 </div>
+                <br>
                 <div class="productleft">
                     <div class="productimg">
                         <img src=""/>

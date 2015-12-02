@@ -156,11 +156,8 @@ li {
 .fourthheader {
     background-color: #f6f6f6;
     width: 330px;
-<<<<<<< HEAD
     height: 1000px;
-=======
     height: 900px;
->>>>>>> login
     float: left;
 }
 
@@ -170,22 +167,34 @@ li {
     height: auto;
 }
 .productleft {
-    float: left;
-    background-color:
+    background-color: ;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 .productmid {
-    float: center;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 .productright {
-    float: right;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 .productimg {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 150px;
     background-color: #f6f6f6;
 }
 .productnr {
-    width: 100px;
+    width: 200px;
     background-color: #c3c3c3;
 }
 
