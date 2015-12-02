@@ -1,12 +1,15 @@
 <?php
-	
 class Database {
 	
 	private static $_instance = null;
 	private $_pdo, $_query, $_results, $_count = 0, $_error = false, $_sql, $_values = array();
 	
 	public function __construct() {
+<<<<<<< HEAD
 		$this->_pdo = new PDO('mysql:host=localhost:3307;dbname=mydb', 'root', 'usbw');
+=======
+		$this->_pdo = new PDO('mysql:host=localhost;dbname=mydb', 'root', 'root');
+>>>>>>> refs/remotes/origin/master
 	}
 	
 	/**
@@ -20,7 +23,6 @@ class Database {
 		}
 		return self::$_instance;
 	}
-
 	public function raw($query, $params = array()) {
 		if(!$this->query($query, $params)->error()) {
 			return $this;
@@ -45,14 +47,12 @@ class Database {
 					$x++;
 				}
 			}
-
 			if ($this->_query->execute()) {
 				$this->_results = $this->_query->fetchAll(PDO::FETCH_OBJ);
 				$this->_count = $this->_query->rowCount();
 			} else {
 				$this->_error = true;
 			}
-
 		return $this;
 		}
 	}
@@ -70,7 +70,6 @@ class Database {
 		$operators = array('=', '>', '<', '>=', '<=', 'IS', 'IS NOT');
 		$x = 1;
 		$values = array();
-
 		if (is_array($colmns)) {
 			$y = 1;
 			$selectColmns = null;
@@ -84,7 +83,6 @@ class Database {
 		} else {
 			$selectColmns = $colmns;
 		}
-
 		if (!empty($params)) {
 			$where = "WHERE";
 			foreach ($params as $param) {
@@ -108,6 +106,7 @@ class Database {
 				}
 			}
 		}
+<<<<<<< HEAD
 		
 		$order = "";
 		if (!empty($orderBy)) {
@@ -115,6 +114,9 @@ class Database {
 		}
 
 		$sql = "SELECT {$selectColmns} FROM `{$table}` {$where}{$order}";
+=======
+		$sql = "SELECT {$selectColmns} FROM `{$table}` {$where}";
+>>>>>>> routeclass
 		
 		if(!$this->query($sql, $values)->error()) {
 			return $this;
@@ -198,7 +200,11 @@ class Database {
 	 * string	$table
 	 * array	$params
 	 * Usage:
+<<<<<<< HEAD
 	 * DB::start()->delete('users', array(array('id' => 1)));
+=======
+	 * DB::start()->delete('users', array('id' => 1));
+>>>>>>> routeclass
 	 */
 	public function delete($table, $params = array()) {
 		$sql = "DELETE FROM {$table} WHERE ";
@@ -249,6 +255,7 @@ class Database {
 		
 	}
 	
+<<<<<<< HEAD
 	
 	private function orderBy($order = array()) {
 		$accepted = array('ASC','DESC');
@@ -268,6 +275,8 @@ class Database {
 		return $return;
 	}
 	
+=======
+>>>>>>> routeclass
 	/**
 	 * Daan (25-11-2015)
 	 * Note:
@@ -288,7 +297,6 @@ class Database {
 	public function error() {
 		return $this->_error;
 	}
-
 	public function count() {
 		return $this->_count;
 	}
