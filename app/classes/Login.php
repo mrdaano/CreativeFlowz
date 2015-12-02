@@ -23,16 +23,20 @@ class Login{
     }
     
     public function verificate(){
-        var_dump($this->mail);
         if(empty($this->mail) OR empty($this->password)){
-            self::setError('Beiden velden moeten ingevuld worden!');
+            $this->setError('Beiden velden moeten ingevuld worden!');
         }elseif (filter_var($this->mail, FILTER_VALIDATE_EMAIL) === false) {
-            self::setError('Dit is geen E-Mail adres!');
+            $this->setError('Dit is geen E-Mail adres!');
         }else{
             $this->password = hash('sha256', $this->password);
-            $data = $this->db->start()->get('*','users', array(array('email', '=', $this->mail), array('password', '=', $this->password)))->first();
+            $data = $this->db->start()->get('*','user', array(array('email', '=', $this->mail), array('password', '=', $this->password)))->first();
             
-            print_r($data);
+            if($data == '' OR empty($data)){
+                $this->setError('De combinatie tussen E-Mail en Password is ongeldig!');
+            }else{
+                $_SESSION['_user'] = array('id' => $data->id, 'firstname' => $data->firstname, 'lastname' => $this->lastname, 'email' => $this->email);
+                header('Location:  ');
+            }
         }
     }
     

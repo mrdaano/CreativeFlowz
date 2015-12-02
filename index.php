@@ -41,13 +41,9 @@ $Login = new Login($db);
              *  @author: Yannick Berendsen
              */
             if(isset($_GET['page'])){
-                if($Route->request($_GET['page']) == true){
-                   include('app/pages/'.$_GET['page'].'.php');
-                }else{
-                    echo '<script type="text/javascript">window.location.replace("index.php?page=404");</script>';
-                }
-            }else{
-                // Content van de homepage
+               include($Route->request($_GET));
+            }elseif(isset($_GET['cmspage'])){
+                include($Route->request($_GET));
             }
         ?>
     </body>
