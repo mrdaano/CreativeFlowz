@@ -3,10 +3,10 @@
 class Database {
 	
 	private static $_instance = null;
-	private $_pdo, $_query, $_results, $_count = 0, $_error = false;
+	private $_pdo, $_query, $_results, $_count = 0, $_error = false, $_sql, $_values = array();
 	
 	public function __construct() {
-		$this->_pdo = new PDO('mysql:host=localhost:3307 ;dbname=mydb', 'root', 'usbw');
+		$this->_pdo = new PDO('mysql:host=localhost;dbname=cursus', 'root', '');
 	}
 	
 	/**
@@ -65,7 +65,7 @@ class Database {
 	 * Usage:
 	 * DB::start()->get(array('username','email'), 'users', array(array('username', '=', 'john')))->results();
 	 */
-	public function get($colmns = "*", $table, $params = array()) {
+	public function get($colmns = "*", $table, $params = array(), $orderBy = array()) {
 		$where = null;
 		$operators = array('=', '>', '<', '>=', '<=', 'IS', 'IS NOT');
 		$x = 1;
@@ -108,8 +108,13 @@ class Database {
 				}
 			}
 		}
+		
+		$order = "";
+		if (!empty($orderBy)) {
+			$order = $this->orderBy($orderBy);
+		}
 
-		$sql = "SELECT {$selectColmns} FROM `{$table}` {$where}";
+		$sql = "SELECT {$selectColmns} FROM `{$table}` {$where}{$order}";
 		
 		if(!$this->query($sql, $values)->error()) {
 			return $this;
@@ -242,6 +247,25 @@ class Database {
 	
 	public function leftJoin() {
 		
+	}
+	
+	
+	private function orderBy($order = array()) {
+		$accepted = array('ASC','DESC');
+		$return = " ORDER BY ";
+		
+		$x = 1;
+		foreach ($order as $key => $value) {
+			$value = strtoupper($value);
+			if (in_array($value, $accepted)) {
+				$return .= "{$key} {$value}";
+				if ($x < count($order)) {
+					$return .=", ";
+				}
+				$x++;
+			}
+		}
+		return $return;
 	}
 	
 	/**
