@@ -55,8 +55,8 @@ li {
 .forheader li a {
     color: #ffffff;
     text-decoration: none;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .forheader li.active {
     background-color: #383f48;
@@ -188,7 +188,7 @@ li {
 div.login{
     width: 520px;
     height: auto;
-    margin: 0 auto;
+    margin: 60px auto;
     background-color: #f6f6f6;
     padding: 10px;
     text-align: center;
@@ -238,7 +238,66 @@ a.login{
 }
 
 /* dit gedeelte is voor het contact gedeelte */
-textarea.contact{
+.contact{
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+}
+
+/*dit is voor het CMS gedeelte*/
+.leftheader{
+  background-color: #383f48;
+  width: 330px;
+  height: 900px;
+  float: left;
+}
+
+table.cms{
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.cmsuser{
+  font-size: 24px;
+  font-weight: lighter;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.cmsitalic{
+  font-style: italic;
+  color: #b6b6b6 !important;
+  font-size: 18px !important;
+}
+
+td.cms{
+  border-bottom: solid 1px #5c646e;
+  width: auto;
+  padding: 10px;
+}
+
+a.cms{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.cmsactive{
+  background-color: #34495e;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: lighter;
+  width: 330px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.neworders{
+  color: #666666;
+  margin: 10px 30px 10px 30px;
+  background-color: #f6f6f6;
+  width: 65%;
+  height: auto;
+  padding: 15px;
+  float: left;
 }
