@@ -31,25 +31,32 @@
                             <td class="textintable">categoriën</td>
                         </tr>
                             <tr class="thirdheaderdata">
-                            <td class="textintable">- alles</td>
+                            <td class="textintable" class="activecategorie"><a href="webshop.php">- alles</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable">- alesco</td>
+                            <td class="textintable"><a href="alescowebshop.php">- alesco</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable">- balco</td>
+                            <td class="textintable"><a href="balcowebshop.php">- balco</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable">- faip tirechangers</td>
+                            <td class="textintable"><a href="tirechangerswebshop.php">- faip tirechangers</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable">- faip wheelaligners</td>
+                            <td class="textintable"><a href="wheelalignerswebshop.php">- faip wheelaligners</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable">- faip wheelbalancers</td>
+                            <td class="textintable"><a href="wheelbalancers.php">- faip wheelbalancers</a></td>
                         </tr>
                     </table>
                 </div>
+                <script language="javascript">
+                    function send()
+                    {document.theform.submit()}
+                </script>
+                <form action="/search" method="get" class="sfm" name="theform">
+                    <input type="text" name="q" placeholder="Zoeken..." value="" id="sf"/>
+                </form>
             </div>
         </div>
         <div class="wrapper">
@@ -58,10 +65,11 @@
                     <div class="productimg">
                         <img src=""/>
                         <div class="view">
+                            <a href="product1.php"><img src=" "/>bekijk product</a>
                         </div>
                     </div>
                     <div class="productnr">
-                        1
+                        productnaam <br>
                     </div>
                     <div class="productnr">
                     </div>
@@ -74,18 +82,18 @@
                         </div>
                     </div>
                     <div class="productnr">
-                        2
+                        productnaam <br>
                     </div>
                 </div>
                 <div class="productright">
                     <div class="productimg">
                         <img src=""/>
                         <div class="view">
-
+                            <a href="product3.php"><img src=" "/>bekijk product</a>
                         </div>
                     </div>
                     <div class="productnr">
-                        3
+                        productnaam <br>
                     </div>
                 </div>
                 <br>
@@ -93,33 +101,67 @@
                     <div class="productimg">
                         <img src=""/>
                         <div class="view">
-
+                            <a href="product4.php"><img src=" "/>bekijk product</a>
                         </div>
                     </div>
                     <div class="productnr">
-                        4
+                        productnaam <br>
                     </div>
                 </div>
                 <div class="productmid">
                     <div class="productimg">
                         <img src=""/>
                         <div class="view">
-
+                            <a href="product5.php"><img src=" "/>bekijk product</a>
                         </div>
                     </div>
                     <div class="productnr">
-                        5
+                        productnaam <br>
                     </div>
                 </div>
                 <div class="productright">
                     <div class="productimg">
                         <img src=""/>
                         <div class="view">
-
+                            <a href="product6.php"><img src=" "/>bekijk product</a>
                         </div>
                     </div>
                     <div class="productnr">
-                        6
+                        productnaam <br>
+                    </div>
+                </div>
+                <br>
+                <div class="productleft">
+                    <div class="productimg">
+                        <img src=""/>
+                        <div class="view">
+                            <a href="product7.php"><img src=" "/>bekijk product</a>
+                        </div>
+                    </div>
+                    <div class="productnr">
+                        productnaam <br>
+                    </div>
+                </div>
+                <div class="productmid">
+                    <div class="productimg">
+                        <img src=""/>
+                        <div class="view">
+                            <a href="product8.php"><img src=" "/>bekijk product</a>
+                        </div>
+                    </div>
+                    <div class="productnr">
+                        productnaam <br>
+                    </div>
+                </div>
+                <div class="productright">
+                    <div class="productimg">
+                        <img src=""/>
+                        <div class="view">
+                            <a href="product9.php"><img src=" "/>bekijk product</a>
+                        </div>
+                    </div>
+                    <div class="productnr">
+                        productnaam <br>
                     </div>
                 </div>
             </div>
