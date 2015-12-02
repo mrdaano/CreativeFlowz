@@ -22,6 +22,19 @@ class Login{
         }
     }
     
+    protected function userLevel($userid){
+        /*
+         *  1 = Admin
+         *  2 = Moderator
+         */
+        $data = $this->db->start()->get('*','employee', array(array('user_id', '=', $userid)))->first();
+        if(empty($data)){
+            return 0;
+        }else{
+            return $data->moderator;
+        }
+    }
+    
     public function verificate(){
         if(empty($this->mail) OR empty($this->password)){
             $this->setError('Beiden velden moeten ingevuld worden!');
@@ -34,8 +47,14 @@ class Login{
             if($data == '' OR empty($data)){
                 $this->setError('De combinatie tussen E-Mail en Password is ongeldig!');
             }else{
-                $_SESSION['_user'] = array('id' => $data->id, 'firstname' => $data->firstname, 'lastname' => $this->lastname, 'email' => $this->email);
-                header('Location:  ');
+                $_SESSION['_user'] = array('id' => $data->id, 'firstname' => $data->firstname, 'lastname' => $data->lastname, 'email' => $data->email);
+                $_SESSION['_user'] = array('userLevel' => $this->userLevel($data->id));
+                switch($this->userLevel($data->id)){
+                    case 0: $page = 'index.php?page=klant'; break;
+                    case 1: $page = 'index.php?cmspage'; break;
+                    default: $page = 'index.php'; break;
+                }
+                echo '<script type="text/javascript">window.location.href = "'.$page.'";</script>';
             }
         }
     }
