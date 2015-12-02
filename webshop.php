@@ -61,7 +61,7 @@
                         </div>
                     </div>
                     <div class="productnr">
-                        <a href="product1.php">Bekijk product</a>
+                        1
                     </div>
                     <div class="productnr">
                     </div>
@@ -70,7 +70,7 @@
                     <div class="productimg">
                         <img src=""/>
                         <div class="view">
-
+                            <a href="product2.php"><img src=" "/>bekijk product</a>
                         </div>
                     </div>
                     <div class="productnr">
