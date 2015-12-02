@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Webshop</title>
+        <title>Faipwheelbalancers-webshop</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -11,27 +11,17 @@
             <div class="wrapper">
                 <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
                 <ul class="forheader">
-                    <li><a href="loggedinaboutus.php">over ons</a></li>
-                    <li class="active"><a href="loggedinwebshop.php">webshop</a></li>
-                    <li><a href="loggedincontact.php">contact</a></li>
+                    <li><a href="aboutus.php">over ons</a></li>
+                    <li class="active"><a href="webshop.php">webshop</a></li>
+                    <li><a href="contact.php">contact</a></li>
                 </ul>
                 <ul class="rightlist">
-                    <li><a href="myaccount.php">mijn account</a></li>
-                    <li class="shoppingcart"><a href="shoppingcart.php"><img class="shoppingcartimg" src="img/shopping-cart12.png" width="20"/> winkelwagen</a><li>
-                    <li><a href="index.php">afmelden</a><li>
+                    <li><a href="login.php">aanmelden</a></li>
                 </ul>
             </div>
         </div>
         <div class="secondheader">
-            <div class="wrapper">
-                <div class="customername"><span id="customername">Klantnaam</span><br>
-                    <span id="customer">klant</span>
-                </div>
-                <ul class="customertabs">
-                    <li><a href="myorders.php">mijn orders</a></li>
-                    <li><a href="sendingoptions.php">verzenden en retouneren</a></li>
-                <ul>
-            </div>
+            <div class="wrapper"></div>
         </div>
         <div class="thirdheader">
             <div class="wrapper">
@@ -41,22 +31,22 @@
                             <td class="textintable">categoriën</td>
                         </tr>
                             <tr class="thirdheaderdata">
-                            <td class="textintable" class="activecategorie"><a href="loggedinwebshop.php">- alles</a></td>
+                            <td class="textintable" class="activecategorie"><a href="webshop.php">- alles</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="loggedinalescowebshop.php">- alesco</a></td>
+                            <td class="textintable"><a href="alescowebshop.php">- alesco</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="loggedinbalcowebshop.php">- balco</a></td>
+                            <td class="textintable"><a href="balcowebshop.php">- balco</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="loggedinfaiptirechangerswebshop.php">- faip tirechangers</a></td>
+                            <td class="textintable"><a href="tirechangerswebshop.php">- faip tirechangers</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="loggedinfaipwheelalignerswebshop.php">- faip wheelaligners</a></td>
+                            <td class="textintable"><a href="wheelalignerswebshop.php">- faip wheelaligners</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="loggedinfaipwheelbalancers.php">- faip wheelbalancers</a></td>
+                            <td class="textintable"><a href="wheelbalancers.php">- faip wheelbalancers</a></td>
                         </tr>
                     </table>
                 </div>
@@ -173,7 +163,7 @@
                     <div class="productnr">
                         productnaam <br>
                     </div>
-                </div>u
+                </div>
             </div>
         </div>
     </body>

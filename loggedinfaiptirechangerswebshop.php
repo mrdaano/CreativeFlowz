@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Webshop</title>
+        <title>Faiptirechangers-webshop</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -50,13 +50,13 @@
                             <td class="textintable"><a href="loggedinbalcowebshop.php">- balco</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="loggedinfaiptirechangerswebshop.php">- faip tirechangers</a></td>
+                            <td class="textintable"><a href="loggedintirechangerswebshop.php">- faip tirechangers</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="loggedinfaipwheelalignerswebshop.php">- faip wheelaligners</a></td>
+                            <td class="textintable"><a href="loggedinwheelalignerswebshop.php">- faip wheelaligners</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="loggedinfaipwheelbalancers.php">- faip wheelbalancers</a></td>
+                            <td class="textintable"><a href="loggedinwheelbalancers.php">- faip wheelbalancers</a></td>
                         </tr>
                     </table>
                 </div>

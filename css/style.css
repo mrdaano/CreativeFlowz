@@ -43,6 +43,7 @@ li {
     float: left;
     line-height: 72px;
 }
+
 /* site onderdelen */
 .forheader {
     float: left;
@@ -62,7 +63,7 @@ li {
     background-color: #383f48;
 }
 .active {
-   background-color: #383f48;
+    background-color: #383f48;
 }
 
 /* mijn account en winkelwagen */
