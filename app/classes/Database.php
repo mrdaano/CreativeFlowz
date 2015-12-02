@@ -1,12 +1,11 @@
 <?php
-	
 class Database {
 	
 	private static $_instance = null;
 	private $_pdo, $_query, $_results, $_count = 0, $_error = false, $_sql, $_values = array();
 	
 	public function __construct() {
-		$this->_pdo = new PDO('mysql:host=localhost;dbname=cursus', 'root', '');
+		$this->_pdo = new PDO('mysql:host=localhost;dbname=mydb', 'root', 'root');
 	}
 	
 	/**
@@ -20,7 +19,6 @@ class Database {
 		}
 		return self::$_instance;
 	}
-
 	public function raw($query, $params = array()) {
 		if(!$this->query($query, $params)->error()) {
 			return $this;
@@ -45,14 +43,12 @@ class Database {
 					$x++;
 				}
 			}
-
 			if ($this->_query->execute()) {
 				$this->_results = $this->_query->fetchAll(PDO::FETCH_OBJ);
 				$this->_count = $this->_query->rowCount();
 			} else {
 				$this->_error = true;
 			}
-
 		return $this;
 		}
 	}
@@ -70,7 +66,6 @@ class Database {
 		$operators = array('=', '>', '<', '>=', '<=', 'IS', 'IS NOT');
 		$x = 1;
 		$values = array();
-
 		if (is_array($colmns)) {
 			$y = 1;
 			$selectColmns = null;
@@ -84,7 +79,6 @@ class Database {
 		} else {
 			$selectColmns = $colmns;
 		}
-
 		if (!empty($params)) {
 			$where = "WHERE";
 			foreach ($params as $param) {
@@ -278,7 +272,6 @@ class Database {
 		}
 		return $return;
 	}
-	
 	/**
 	 * Daan (25-11-2015)
 	 * Note:
@@ -299,7 +292,6 @@ class Database {
 	public function error() {
 		return $this->_error;
 	}
-
 	public function count() {
 		return $this->_count;
 	}
