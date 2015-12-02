@@ -67,7 +67,7 @@ class Database {
 	 */
 	public function get($colmns = "*", $table, $params = array()) {
 		$where = null;
-		$operators = array('=', '>', '<', '>=', '<=');
+		$operators = array('=', '>', '<', '>=', '<=', 'IS', 'IS NOT');
 		$x = 1;
 		$values = array();
 
@@ -92,8 +92,15 @@ class Database {
 				$operator = $param[1];
 				$value = $param[2];
 				if (in_array($operator, $operators)) {
-					$where .= " {$key} {$operator} ?";
-					array_push($values, $value);
+					$end = '?';
+					if ($value == 'NULL') {
+						$end = $value;
+					} else {
+						array_push($values, $value);
+					}
+					
+					$where .= " {$key} {$operator} {$end}";
+					
 					if ($x < count($params)) {
 						$where .= " AND ";
 					}
@@ -186,7 +193,7 @@ class Database {
 	 * string	$table
 	 * array	$params
 	 * Usage:
-	 * DB::start()->delete('users', array('id' => 1));
+	 * DB::start()->delete('users', array(array('id' => 1)));
 	 */
 	public function delete($table, $params = array()) {
 		$sql = "DELETE FROM {$table} WHERE ";
