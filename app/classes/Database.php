@@ -6,7 +6,7 @@ class Database {
 	private $_pdo, $_query, $_results, $_count = 0, $_error = false;
 	
 	public function __construct() {
-		$this->_pdo = new PDO('mysql:host=localhost;dbname=cursus', 'root', '');
+		$this->_pdo = new PDO('mysql:host=localhost:3307 ;dbname=mydb', 'root', 'usbw');
 	}
 	
 	/**
