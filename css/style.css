@@ -145,7 +145,7 @@ li {
 .textintable {
     padding: 5px;
     margin: 5px;
-    color: #c3c3c3;
+    color: #666666;
 }
 .textintable a {
     text-decoration: none;
@@ -156,12 +156,17 @@ li {
 .fourthheader {
     background-color: #f6f6f6;
     width: 330px;
+<<<<<<< HEAD
     height: 1000px;
+=======
+    height: 900px;
+>>>>>>> login
     float: left;
 }
+
 /* textheader*/
 .textheader {
-    margin-left: 331px;
+    margin-left: 335px;
     height: auto;
 }
 .productleft {
@@ -206,7 +211,9 @@ input.login{
   height: 35px;
   width: 300px;
   border: solid 1px #d8d8d8;
-  font-size: 18px;
+  font-size: 16px;
+  padding: 5px;
+  box-sizing: border-box;
 }
 
 table.login{
@@ -225,6 +232,7 @@ h3.login{
   width: 300px;
   color: #ffffff;
   border: solid 1px #d8d8d8;
+  font-size: 16px;
 }
 
 td.line{

@@ -9,36 +9,26 @@
     <body>
         <div class="header">
             <div class="wrapper">
-                <div class="sitenameblock"><a class="sitename" href="loggedin.html"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
+                <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
                 <ul class="forheader">
-                    <li class="active"><a href="loggedinaboutus.html">over ons</a></li>
-                    <li><a href="loggedinwebshop.html">webshop</a></li>
-                    <li><a href="loggedincontact.html">contact</a></li>
+                    <li class="active"><a href="aboutus.php">over ons</a></li>
+                    <li><a href="webshop.php">webshop</a></li>
+                    <li><a href="contact.php">contact</a></li>
                 </ul>
                 <ul class="rightlist">
-                    <li><a href="myaccount.html">mijn account</a></li>
-                    <li class="shoppingcart"><a href="shoppingcart.html"><img class="shoppingcartimg" src="img/shopping-cart12.png" width="20"/> winkelwagen</a><li>
-                    <li><a href="index.html">afmelden</a><li>
+                    <li><a href="login.php">aanmelden</a></li>
                 </ul>
             </div>
         </div>
         <div class="secondheader">
-            <div class="wrapper">
-                <div class="customername"><table><tr><td><span id="customername">Klantnaam</span><br>
-                    <span id="customer">klant</span></td></tr></table>
-                </div>
-                <ul class="customertabs">
-                    <li><a href="myorders.html">mijn orders</a></li>
-                    <li><a href="sendingoptions.html">verzenden en retouneren</a></li>
-                <ul>
-            </div>
+            <div class="wrapper"></div>
         </div>
         <div class="thirdheader">
             <div class="wrapper">
                 <div class="fourthheader">
                     <table class="thirdheadertable">
-                        <tr class="whoweare">
-                            <td class="thirdheaderhead">wie wij ook zijn</td>
+                        <tr class="thirdheaderhead">
+                            <td class="textintable">wie wij ook zijn</td>
                         </tr>
                         <tr class="thirdheaderdata">
                             <td class="textintable"><a href="http://www.christianfacilities.nl">christianfacilities.nl</a></td>
@@ -50,7 +40,7 @@
                             <td class="textintable"><a href="http://www.balcoservice.nl">balcoservice.nl</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="http://www.alescoservice.nl">alescoservice.nl</a><br><br><br><br><br><br><td>
+                            <td class="textintable"><a href="http://www.alescoservice.nl">alescoservice.nl</a><br><br><br><br><br><br></td>
                         </tr>
                     </table>
                 </div>

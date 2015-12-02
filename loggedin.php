@@ -9,16 +9,16 @@
     <body>
         <div class="header">
             <div class="wrapper">
-                <div class="sitenameblock"><a class="sitename" href="loggedin.html"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
+                <div class="sitenameblock"><a class="sitename" href="loggedin.php"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
                 <ul class="forheader">
-                    <li><a href="loggedinaboutus.html">over ons</a></li>
-                    <li><a href="loggedinwebshop.html">webshop</a></li>
-                    <li><a href="loggedincontact.html">contact</a></li>
+                    <li><a href="loggedinaboutus.php">over ons</a></li>
+                    <li><a href="loggedinwebshop.php">webshop</a></li>
+                    <li><a href="loggedincontact.php">contact</a></li>
                 </ul>
                 <ul class="rightlist">
-                    <li><a href="myaccount.html">mijn account</a></li>
-                    <li class="shoppingcart"><a href="shoppingcart.html"><img class="shoppingcartimg" src="img/shopping-cart12.png" width="20"/> winkelwagen</a><li>
-                    <li><a href="index.html">afmelden</a><li>
+                    <li><a href="myaccount.php">mijn account</a></li>
+                    <li class="shoppingcart"><a href="shoppingcart.php"><img class="shoppingcartimg" src="img/shopping-cart12.png" width="20"/> winkelwagen</a><li>
+                    <li><a href="index.php">afmelden</a><li>
                 </ul>
             </div>
         </div>
@@ -28,15 +28,15 @@
                     <span id="customer">klant</span>
                 </div>
                 <ul class="customertabs">
-                    <li><a href="myorders.html">mijn orders</a></li>
-                    <li><a href="sendingoptions.html">verzenden en retouneren</a></li>
+                    <li><a href="myorders.php">mijn orders</a></li>
+                    <li><a href="sendingoptions.php">verzenden en retouneren</a></li>
                 <ul>
             </div>
         </div>
         <div class="thirdheader">
             <div class="wrapper">
                 <div class="fourthheader">
-                    
+
                 </div>
             </div>
         </div>
