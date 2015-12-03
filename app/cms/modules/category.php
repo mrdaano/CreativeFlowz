@@ -1,122 +1,111 @@
+
 <?php
-$category = array();
+$db = new Database();
+
+$allCategory = new Category($db);
+$category = new Category($db);
 
 //Categorie toevoegen
 if (isset($_POST['newCategory'])) { 
-	$newCategory = new Category();
+	$newCategory = new Category($db);
 	filter_input(INPUT_POST, 'newParent', FILTER_VALIDATE_INT);
 	if ($_POST['newParent'] == 0) {
 		$_POST['newParent'] = NULL;
 	}
-	header('location: index.php?cmspage&module=category' . $newCategory->createCategory($_POST['newCategory'], $_POST['newParent']));
+	$newCategory->setName($_POST['newCategory']);
+	$newCategory->setParent($_POST['newParent']);
+	header('location: index.php?cmspage&module=category' . $newCategory->createCategory());
 }
-
 
 //Categorie updaten
 if (isset($_POST['updateCategory']) && filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT)) {
-	$updateCategory = new Category();
-	$oldCategory = new Category();
+	$updateCategory = new Category($db);
+	$oldCategory = new Category($db);
 	if ($_POST['updateParent'] == 0) {
 		$_POST['updateParent'] = NULL;
 	}
-	$oldCategory->set('auto', $_GET['id']);
-	$updateCategory->linkProduct($_GET['id'], $_POST['product_category']);
-	header('location: index.php?cmspage&module=category' . $updateCategory->updateCategory($_GET['id'], $_POST['updateCategory'], $_POST['updateParent'], $oldCategory->get('name'), $oldCategory->get('parent')));
-}
+	$updateCategory->setId($_GET['id']);
+	$updateCategory->setName($_POST['updateCategory']);
+	$updateCategory->setParent($_POST['updateParent']);
 
+	$oldCategory->setAuto($_GET['id']);
+	$updateCategory->linkProduct($_POST['product_category']);
+	header('location: index.php?cmspage&module=category' . $updateCategory->updateCategory($oldCategory->getName(), $oldCategory->getParent()));
+}
 
 //Categorie verwijderen
 if (filter_input(INPUT_GET, 'r', FILTER_VALIDATE_INT)) {
-	$removeCategory = new Category();
-	echo $removeCategory->removeCategory($_GET['r']);
+	$removeCategory = new Category($db);
+	$removeCategory->setId($_GET['r']);
+	echo $removeCategory->removeCategory();
 	header('location: index.php?cmspage&module=category');
 }
 
-
 //Categorie bewerken
-if (filter_input(INPUT_GET, 'e', FILTER_VALIDATE_INT)) {	
+if (filter_input(INPUT_GET, 'e', FILTER_VALIDATE_INT)) {
 	$id = $_GET['e'];
-	$category[$id] = new Category();
-	$category[$id]->set('auto', $_GET['e']); ?>
+	$category->setAuto($_GET['e']); ?>
 
-	<form action="index.php?cmspage&module=category&id=<?php echo $id ?>" method="post">
-		<input type="text" name="updateCategory" value="<?php echo $category[$id]->get('name') ?>">
+	<form action="index.php?cmspage&module=category&id=<?php echo $category->getId() ?>" method="post">
+		<input type="text" name="updateCategory" value="<?php echo $category->getName() ?>">
 		<select name="updateParent">
 			<?php
-				if ($category[$id]->get('parent') == NULL) {
+				if ($category->getParent() == NULL) {
 					echo '<option value="0">Geen</option>';
 				} else {
-					echo '<option value="' . $category[$id]->get('parent') . '">';
-					echo $category[$id]->get('nameParent') . "</option>";
+					echo '<option value="' . $category->getParent() . '">';
+					echo $category->getNameParent() . "</option>";
 					echo '<option value="0">Geen</option>';
 				}
 
-				$database = new Database();
-				$sql = $database::start()->get('id', 'category', array(array('parent', 'IS', 'NULL')))->results();
-				if (!empty($sql)) {
-					foreach ($sql as $key => $std) {
-						if ($std->id != $id && $std->id != $category[$id]->get('parent')) {
-							$category[$key] = new Category();
-							$category[$key]->set('auto', $std->id);
-
-							echo '<option value="' . $category[$key]->get('id') . '">';
-							echo $category[$key]->get('name') . "</option>";
-						}
+				foreach ($allCategory->getAll(array(), array(array('parent', 'IS', 'NULL'))) as $cat) {
+					if ($cat->getId() != $category->getId() && $cat->getId() != $category->getParent()) {
+						echo '<option value="';
+							echo $cat->getId();
+						echo '">';
+							echo $cat->getName();
+						echo "</option>";
 					}
 				}
 			?>
 		</select>
 		<br>
-		<?php
-			
-			$sql = $database::start()->get(array('name', 'id'), 'product')->results();
-			foreach ($sql as $std) {
-				echo '<input type="checkbox" name="product_category[]" value="' . $std->id . '"';
-				$sqlChecked = $database::start()->get('product_id', 'product_category', array(array('category_id', '=', $id)))->results();
-				foreach ($sqlChecked as $stdChecked) {
-					//echo $stdChecked->product_id;
-					if ($stdChecked->product_id == $std->id) {
-						echo "checked";
-					}
+		<?php	
+			foreach ($category->getLinkedProducts() as $product) {
+				echo '<input type="checkbox" name="product_category[]" value="' . $product[0] . '"';
+				if (isset($product[2])) {
+					echo "checked";
 				}
-				echo '>' . $std->name . "<br>";
+				echo '>' . $product[1] . "<br>";
 			}
 		?>
 		<input type="submit">
 	</form>
 
-	<a href="index.php?cmspage&module=category&r=<?php echo $id ?>">Verwijder</a>
+	<a href="index.php?cmspage&module=category&r=<?php echo $category->getId() ?>">Verwijder</a>
 	<?php echo '<a href="index.php?cmspage&module=category">Terug</a>';
 }
 
-//Categorie weergeven
-else { 
-	$database = new Database();
-	$sql = $database::start()->get('id', 'category', array(array('parent', 'IS', 'NULL')))->results();	
-	foreach ($sql as $key => $std) {
-		$category[$key] = new Category();
-		$category[$key]->set('auto', $std->id); ?>
+//Categorie weergeven en toevoegen
+else {
+	foreach ($allCategory->getAll(array(), array(array('parent', 'IS', 'NULL'))) as $cat) { ?>
 		<ul>
 			<li>
-				<a href="<?php echo "index.php?cmspage&module=category&e=" . $category[$key]->get('id'); ?>">
-					 <?php echo $category[$key]->get('name'); ?>
+				<a href="<?php echo "index.php?cmspage&module=category&e=" . $cat->getId(); ?>">
+					<?php echo $cat->getName(); ?>
 				</a>
 			</li>
 			<?php
-				$sqlParent = $database::start()->get('id', 'category', array(array('parent', '=', $category[$key]->get('id'))))->results();
-				foreach ($sqlParent as $keyParent => $stdParent) {
-					$categoryParent[$keyParent] = new Category();
-					$categoryParent[$keyParent]->set('auto', $stdParent->id); ?>
+				foreach ($allCategory->getAll(array(), array(array('parent', '=', $cat->getId()))) as $catParent) { ?>
 					<ul>
 						<li>
-							<a href="<?php echo "index.php?cmspage&module=category&e=" . $categoryParent[$keyParent]->get('id'); ?>">
-								 <?php echo $categoryParent[$keyParent]->get('name'); ?>
+							<a href="<?php echo "index.php?cmspage&module=category&e=" . $catParent->getId(); ?>">
+								 <?php echo $catParent->getName(); ?>
 							</a>
 						</li>
-					</ul>
-				<?php }	?>
+					</ul>	
+			<?php	} ?>
 		</ul>
-		
 	<?php } ?>
 
 	<form action="" method="post">
@@ -124,25 +113,20 @@ else {
 		<select name="newParent">
 			<option value="0">Geen</option>
 			<?php
-				$database = new Database();
-				$sql = $database::start()->get('id', 'category', array(array('parent', 'IS', 'NULL')))->results();
+				$sql = $db::start()->get('id', 'category', array(array('parent', 'IS', 'NULL')))->results();
 				if (!empty($sql)) {
 					foreach ($sql as $key => $std) {
-						$category[$key] = new Category();
-						$category[$key]->set('auto', $std->id);
+						$category->setAuto($std->id);
 
-						echo '<option value="' . $category[$key]->get('id') . '">';
-						echo $category[$key]->get('name') . "</option>";
+						echo '<option value="' . $category->getName() . '">';
+						echo $category->getId() . "</option>";
 					}
 				}
 			?>
 		</select>
 		<input type="submit">
-	</form> 
-
-	<?php
+	</form> <?php 
 }
-
 
 //Errors
 if (isset($_GET['m'])) {

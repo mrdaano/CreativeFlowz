@@ -11,6 +11,7 @@ $db = new Database;
 $Route = new Route($db);
 $Register = new Register($db);
 $Login = new Login($db);
+$Category = new Category($db);
 ?>
 <!DOCTYPE html>
 <html>
