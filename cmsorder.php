@@ -39,5 +39,11 @@
         <div class="neworders">
               <p>Beste Bart, er zijn <b>XX</b> nieuwe orders geplaatst!</p>
         </div>
+        <div class="orderbox">
+          <a href="openorder.php" class="login">Toon openstaande orders</a>
+        </div>
+        <div class="orderbox">
+          <a href="orderhistory.php" class="login">Toon order geschiedenis</a>
+        </div>
     </body>
 </html>

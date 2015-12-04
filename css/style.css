@@ -306,3 +306,26 @@ a.cms{
   padding: 15px;
   float: left;
 }
+
+.orderbox{
+  color: #666666;
+  margin: 10px 30px 10px 30px;
+  background: #f6f6f6;
+  width: 15%;
+  height: auto;
+  padding: 15px;
+  float: left;
+  text-align: center;
+}
+
+.orders{
+  width: auto;
+  height: auto;
+  margin: 10px 30px 10px 30px;
+  background-color: #f6f6f6;
+  text-align: left;
+}
+table.orders{
+  border: solid 1px #666666;
+  padding: 5px;
+}
