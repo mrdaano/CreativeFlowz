@@ -6,11 +6,11 @@ $category = new Category($db); ?>
 	<li>
 		Geen
 	</li>
-	<?php foreach ($category->getAll(array(), array(array('parent', 'IS', 'NULL'))) as $cat) { ?>
+	<?php foreach ($category->getAll(array(array('parent', 'IS', 'NULL'))) as $cat) { ?>
 	<li>
 		<?php echo $cat->getName(); ?>
 		<ul>
-		<?php foreach ($category->getAll(array(), array(array('parent', '=', $cat->getId()))) as $child) { ?>
+		<?php foreach ($category->getAll(array(array('parent', '=', $cat->getId()))) as $child) { ?>
 			<li>
 				<?php echo $child->getName(); ?>
 			</li>

@@ -61,36 +61,6 @@ class Category
 		}	
 	}
 
-	public function seeet($wat, $value) 
-	{
-		switch ($wat) {
-			case 'id':
-				$this->_id = $value;
-				break;
-			case 'name':
-				$this->_name = $value;
-				break;
-			case 'parent':
-				$this->_parent = $value;
-
-			
-				$sql = $this->db->start()->get('name', 'category', array(array('id', '=', $this->_parent)))->results();
-				if (!empty($sql)) {
-					$this->_nameParent =$sql[0]->name;
-				} else $this->_nameParent = null;
-				break;
-			case 'auto':
-	
-				$this->_id = $value;
-				$sql = $this->db->start()->get(array('name', 'parent'), 'category', array(array('id', '=', $this->_id)))->results();
-				foreach ($sql as $std) {
-					$this->_name = $std->name;
-					$this->setParent($std->parent);
-				}
-				break;
-		}
-	}
-
 	/*
 	Create a new category:
 	----------------------
@@ -253,30 +223,18 @@ class Category
 	Baruch (2-11-2015)
 	Usage: $category->getAll(array('id', 'name'), array('parent', 'IS', 'NULL'));
 	*/
-	public function getAll($select = array(), $where = array()) {
+	public function getAll($where = array()) {
 		$allCategory = array();
-		if (empty($select)) {
-			$select = '*';
-		} 
+
 		if (empty($where)) {
-			$sql = $this->db->start()->get($select, 'category')->results();
+			$sql = $this->db->start()->get('*', 'category')->results();
 		} else {
-			$sql = $this->db->start()->get($select, 'category', $where)->results();
+			$sql = $this->db->start()->get('*', 'category', $where)->results();
 		}
 		foreach ($sql as $key => $std) {
 			$allCategory[$key] = new Category($this->db);
-			if (isset($std->id)) {
-				$allCategory[$key]->setId($std->id);
-			}
-			if (isset($std->name)) {
-				$allCategory[$key]->setName($std->name);
-			}
-			if (isset($std->parent)) {
-				$allCategory[$key]->setParent($std->parent);
-			}
+			$allCategory[$key]->setAuto($std->id);
 		}
-		//$test = array(0 => 'test', 1 => 2);
-		//return $test;
 		return $allCategory;
 	}
 

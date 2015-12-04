@@ -58,7 +58,7 @@ if (filter_input(INPUT_GET, 'e', FILTER_VALIDATE_INT)) {
 					echo '<option value="0">Geen</option>';
 				}
 
-				foreach ($allCategory->getAll(array(), array(array('parent', 'IS', 'NULL'))) as $cat) {
+				foreach ($allCategory->getAll(array(array('parent', 'IS', 'NULL'))) as $cat) {
 					if ($cat->getId() != $category->getId() && $cat->getId() != $category->getParent()) {
 						echo '<option value="';
 							echo $cat->getId();
@@ -88,7 +88,7 @@ if (filter_input(INPUT_GET, 'e', FILTER_VALIDATE_INT)) {
 
 //Categorie weergeven en toevoegen
 else {
-	foreach ($allCategory->getAll(array(), array(array('parent', 'IS', 'NULL'))) as $cat) { ?>
+	foreach ($allCategory->getAll(array(array('parent', 'IS', 'NULL'))) as $cat) { ?>
 		<ul>
 			<li>
 				<a href="<?php echo "index.php?cmspage&module=category&e=" . $cat->getId(); ?>">
@@ -96,7 +96,7 @@ else {
 				</a>
 			</li>
 			<?php
-				foreach ($allCategory->getAll(array(), array(array('parent', '=', $cat->getId()))) as $child) { ?>
+				foreach ($allCategory->getAll(array(array('parent', '=', $cat->getId()))) as $child) { ?>
 					<ul>
 						<li>
 							<a href="<?php echo "index.php?cmspage&module=category&e=" . $child->getId(); ?>">
