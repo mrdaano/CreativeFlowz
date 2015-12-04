@@ -49,6 +49,21 @@ class Product
 		$this->_price = $price;
 	}
 
+	public function setAuto($id)
+	{
+		$this->_id = $id;
+
+		$sql = $this->db->start()->get('*', 'product', array(array('id', '=', $this->getId())))->results();
+		foreach ($sql as $pro) {
+			$this->setName($pro->name);
+			$this->setCode($pro->code);
+			$this->setSecondhand($pro->secondhand);
+			$this->setDescription($pro->description);
+			$this->setSupplierId($pro->supplier_id);
+			$this->setPrice($pro->price);
+		}
+	}
+
 	//Getters
 	public function getId()
 	{
@@ -83,6 +98,21 @@ class Product
 	public function getPrice()
 	{
 		return $this->_price;
+	}
+
+	public function getAll($where = array()) {
+		$allProducts = array();
+
+		if (empty($where)) {
+			$sql = $this->db->start()->get('*', 'product')->results();
+		} else {
+			$sql = $this->db->start()->get('*', 'product', $where)->results();
+		}
+
+		foreach ($sql as $key => $std) {
+			$allProducts[$key] = new Product($this->db);
+			$this->setAuto($std->id);
+		}
 	}
 
 	//Other functions
