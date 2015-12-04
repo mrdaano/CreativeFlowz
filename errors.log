@@ -1,168 +1,28 @@
-[04-Dec-2015 11:20:53 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 36
-[04-Dec-2015 11:21:12 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 36
-[04-Dec-2015 11:21:12 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 36
-[04-Dec-2015 11:21:12 Europe/Berlin] PHP Notice:  Undefined variable: msg in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/login.php on line 8
-[04-Dec-2015 11:21:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 36
-[04-Dec-2015 11:21:14 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Login.php on line 70
-[04-Dec-2015 11:21:14 Europe/Berlin] PHP Notice:  Undefined index: userid in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 36
-[04-Dec-2015 11:21:14 Europe/Berlin] PHP Notice:  Undefined variable: msg in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/login.php on line 8
-[04-Dec-2015 11:22:08 Europe/Berlin] PHP Notice:  Undefined index: userid in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 36
-[04-Dec-2015 11:23:14 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 89
-[04-Dec-2015 11:23:14 Europe/Berlin] PHP Warning:  include(): Filename cannot be empty in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:23:14 Europe/Berlin] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:23:17 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 89
-[04-Dec-2015 11:23:17 Europe/Berlin] PHP Warning:  include(): Filename cannot be empty in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:23:17 Europe/Berlin] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:23:41 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 89
-[04-Dec-2015 11:23:41 Europe/Berlin] PHP Warning:  include(): Filename cannot be empty in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:23:41 Europe/Berlin] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:23:58 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 89
-[04-Dec-2015 11:23:58 Europe/Berlin] PHP Warning:  include(): Filename cannot be empty in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:23:58 Europe/Berlin] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:25:42 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 91
-[04-Dec-2015 11:25:42 Europe/Berlin] PHP Warning:  include(): Filename cannot be empty in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:25:42 Europe/Berlin] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:26:21 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 91
-[04-Dec-2015 11:26:21 Europe/Berlin] PHP Warning:  include(): Filename cannot be empty in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:26:21 Europe/Berlin] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:26:24 Europe/Berlin] PHP Notice:  Undefined index: module in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 78
-[04-Dec-2015 11:26:24 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 79
-[04-Dec-2015 11:26:24 Europe/Berlin] PHP Fatal error:  Function name must be a string in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 79
-[04-Dec-2015 11:26:40 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 91
-[04-Dec-2015 11:26:40 Europe/Berlin] PHP Warning:  include(): Filename cannot be empty in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:26:40 Europe/Berlin] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:27:11 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 91
-[04-Dec-2015 11:27:11 Europe/Berlin] PHP Warning:  include(): Filename cannot be empty in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:27:11 Europe/Berlin] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:27:27 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 91
-[04-Dec-2015 11:27:27 Europe/Berlin] PHP Warning:  include(): Filename cannot be empty in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:27:27 Europe/Berlin] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:27:43 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 90
-[04-Dec-2015 11:27:43 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 91
-[04-Dec-2015 11:27:43 Europe/Berlin] PHP Warning:  include(): Filename cannot be empty in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:27:43 Europe/Berlin] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:28:20 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 91
-[04-Dec-2015 11:28:20 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 92
-[04-Dec-2015 11:28:20 Europe/Berlin] PHP Warning:  include(): Filename cannot be empty in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:28:20 Europe/Berlin] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:29:32 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 96
-[04-Dec-2015 11:29:32 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 97
-[04-Dec-2015 11:29:32 Europe/Berlin] PHP Warning:  include(): Filename cannot be empty in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:29:32 Europe/Berlin] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:29:32 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 96
-[04-Dec-2015 11:29:32 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 97
-[04-Dec-2015 11:29:32 Europe/Berlin] PHP Warning:  include(): Filename cannot be empty in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:29:32 Europe/Berlin] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:30:08 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 100
-[04-Dec-2015 11:30:08 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 101
-[04-Dec-2015 11:30:08 Europe/Berlin] PHP Warning:  include(): Filename cannot be empty in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:30:08 Europe/Berlin] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:30:09 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 100
-[04-Dec-2015 11:30:09 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 101
-[04-Dec-2015 11:30:09 Europe/Berlin] PHP Warning:  include(): Filename cannot be empty in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:30:09 Europe/Berlin] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:30:09 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 100
-[04-Dec-2015 11:30:09 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 101
-[04-Dec-2015 11:30:09 Europe/Berlin] PHP Warning:  include(): Filename cannot be empty in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:30:09 Europe/Berlin] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:30:10 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 100
-[04-Dec-2015 11:30:10 Europe/Berlin] PHP Notice:  Undefined variable: include in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 101
-[04-Dec-2015 11:30:10 Europe/Berlin] PHP Warning:  include(): Filename cannot be empty in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:30:10 Europe/Berlin] PHP Warning:  include(): Failed opening '' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 55
-[04-Dec-2015 11:47:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:47:52 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:47:52 Europe/Berlin] PHP Notice:  Undefined variable: msg in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/login.php on line 8
-[04-Dec-2015 11:47:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:47:54 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Login.php on line 70
-[04-Dec-2015 11:47:54 Europe/Berlin] PHP Notice:  Undefined index: module in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 81
-[04-Dec-2015 11:57:53 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:57:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:57:54 Europe/Berlin] PHP Notice:  Undefined variable: msg in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/login.php on line 8
-[04-Dec-2015 11:58:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:58:17 Europe/Berlin] PHP Notice:  Undefined variable: msg in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/login.php on line 8
-[04-Dec-2015 11:58:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:58:26 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:58:26 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Login.php on line 70
-[04-Dec-2015 11:58:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:58:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:58:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:58:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:58:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:58:50 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:58:51 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:58:52 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:58:56 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:58:57 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:58:57 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Login.php on line 70
-[04-Dec-2015 11:59:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 11:59:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:00:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:01:43 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:01:44 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:01:57 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:03:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:04:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:04:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:04:38 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:04:38 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:04:39 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:04:39 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:04:39 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:04:39 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:04:39 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:04:39 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:04:39 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:04:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:04:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:04:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:04:53 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:05:06 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:05:53 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:05:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:08:31 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:08:32 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:08:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:10:11 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:17:26 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:18:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:18:56 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:20:24 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:24:06 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:25:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:25:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:25:50 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:25:51 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:26:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:26:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/webshop.php on line 3
-[04-Dec-2015 12:26:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:26:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 35
-[04-Dec-2015 12:26:47 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Login.php on line 70
-[04-Dec-2015 12:41:15 Europe/Berlin] PHP Fatal error:  Cannot redeclare User::lastname() in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/User.php on line 36
-[04-Dec-2015 13:17:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[04-Dec-2015 13:17:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[04-Dec-2015 13:17:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[04-Dec-2015 13:17:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[04-Dec-2015 13:17:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[04-Dec-2015 13:17:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[04-Dec-2015 13:17:17 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Login.php on line 70
-[04-Dec-2015 13:17:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[04-Dec-2015 13:17:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[04-Dec-2015 13:17:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[04-Dec-2015 13:17:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[04-Dec-2015 13:17:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[04-Dec-2015 13:17:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[04-Dec-2015 13:17:49 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Login.php on line 70
-[04-Dec-2015 13:47:58 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[04-Dec-2015 13:47:58 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[04-Dec-2015 13:47:59 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[04-Dec-2015 13:47:59 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[04-Dec-2015 13:48:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[04-Dec-2015 13:48:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[04-Dec-2015 13:48:00 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Login.php on line 70
-[04-Dec-2015 13:49:06 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[04-Dec-2015 13:49:06 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[04-Dec-2015 13:49:06 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[04-Dec-2015 13:49:06 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[04-Dec-2015 13:49:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[04-Dec-2015 13:49:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[04-Dec-2015 13:49:08 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Login.php on line 70
+[04-Dec-2015 13:08:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'cursus'' in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php:8
+Stack trace:
+#0 D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php(8): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php(10): Database->__construct()
+#2 {main}
+  thrown in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 8
+[04-Dec-2015 13:08:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'cursus'' in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php:8
+Stack trace:
+#0 D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php(8): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php(10): Database->__construct()
+#2 {main}
+  thrown in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 8
+[04-Dec-2015 13:08:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'cursus'' in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php:8
+Stack trace:
+#0 D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php(8): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php(10): Database->__construct()
+#2 {main}
+  thrown in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 8
+[04-Dec-2015 13:09:18 UTC] PHP Notice:  Undefined index: id in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 14
+[04-Dec-2015 13:09:18 UTC] PHP Notice:  Undefined index: id in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 39
+[04-Dec-2015 13:09:23 UTC] PHP Notice:  Undefined index: id in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 14
+[04-Dec-2015 13:09:23 UTC] PHP Notice:  Undefined index: id in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 39
+[04-Dec-2015 13:09:29 UTC] PHP Notice:  Undefined index: id in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 14
+[04-Dec-2015 13:09:29 UTC] PHP Notice:  Undefined index: id in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 39
+[04-Dec-2015 13:09:29 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 311
+[04-Dec-2015 13:09:53 UTC] PHP Notice:  Undefined index: id in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 14
+[04-Dec-2015 13:09:53 UTC] PHP Notice:  Undefined index: id in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 39
+[04-Dec-2015 13:09:53 UTC] PHP Notice:  Undefined property: Login::$error in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Login.php on line 70

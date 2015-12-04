@@ -5,7 +5,7 @@ class Database {
 	private $_pdo, $_query, $_results, $_count = 0, $_error = false, $_sql, $_values = array();
 	
 	public function __construct() {
-		$this->_pdo = new PDO('mysql:host=localhost;dbname=cursus', 'root', '');
+		$this->_pdo = new PDO('mysql:host=localhost;dbname=mydb', 'root', 'root');
 	}
 	
 	/**
@@ -221,15 +221,10 @@ class Database {
 		
 	}
 	
-<<<<<<< HEAD
-	public function join($select = "*", $table, $joins, $where) {
-		$joinClause = "";
-=======
 	public function join($colmns = "*", $table, $joins, $where = array()) {
 		$joinClause = "";
 		$whereClause = "";
 		$values = array();
->>>>>>> refs/remotes/origin/master
 		$operators = array('=', '>', '<', '>=', '<=');
 		
 		if (is_array($colmns)) {
@@ -246,13 +241,6 @@ class Database {
 			$selectColmns = $colmns;
 		}
 		
-<<<<<<< HEAD
-		foreach($joins as $table => $join) {
-			$joinClause .= " JOIN {$table} ON {$join[0]}={$join[1]}";
-		}
-		
-		$sql = "SELECT {$selectColmns} FROM `{$table}` {$joinClause}";
-=======
 		foreach($joins as $joinTable => $join) {
 			$joinClause .= " JOIN {$joinTable} ON {$join[0]}={$join[1]}";
 		}
@@ -281,28 +269,17 @@ class Database {
 		if(!$this->query($sql, $values)->error()) {
 			return $this;
 		}
->>>>>>> refs/remotes/origin/master
 	}
 	
 	public function leftJoin() {
 		
 	}
 	
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-	
-=======
->>>>>>> refs/remotes/origin/master
 	/**
 	 * Daan (2-12-2015)
 	 * Note:
 	 * This can only included in other functions in the class
 	 */
-<<<<<<< HEAD
-=======
->>>>>>> origin/master
->>>>>>> refs/remotes/origin/master
 	private function orderBy($order = array()) {
 		$accepted = array('ASC','DESC');
 		$return = " ORDER BY ";
@@ -320,13 +297,7 @@ class Database {
 		}
 		return $return;
 	}
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
->>>>>>> refs/remotes/origin/master
 	/**
 	 * Daan (25-11-2015)
 	 * Note:
