@@ -45,8 +45,8 @@
             <div class="wrapper">
                 <div class="fourthheader">
                     <table class="thirdheadertable">
-                        <tr class="whoweare">
-                            <td class="thirdheaderhead">wie wij ook zijn</td>
+                        <tr class="thirdheaderhead">
+                            <td class="textintable">wie wij ook zijn</td>
                         </tr>
                         <tr class="thirdheaderdata">
                             <td class="textintable"><a href="http://www.christianfacilities.nl">christianfacilities.nl</a></td>
