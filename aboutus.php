@@ -28,7 +28,7 @@
                 <div class="fourthheader">
                     <table class="thirdheadertable">
                         <tr class="thirdheaderhead">
-                            <td class="textintable">wie wij ook zijn</td>
+                            <th class="textintable">wie wij ook zijn</th>
                         </tr>
                         <tr class="thirdheaderdata">
                             <td class="textintable"><a href="http://www.christianfacilities.nl">christianfacilities.nl</a></td>

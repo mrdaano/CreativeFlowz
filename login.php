@@ -20,7 +20,6 @@
                 </ul>
             </div>
         </div>
-        <br/><br/><br/>
         <div class="login">
             <h3 class="login">inloggen</h3>
             <form method="post" class="login">
@@ -42,7 +41,6 @@
             </form>
             <a href="forgotpassword.php" class="login">wachtwoord vergeten?</a>
         </div>
-        <br/><br/>
         <div class="login">
           <h3 class="login">registreren</h3>
           <form method="post" class="login">
