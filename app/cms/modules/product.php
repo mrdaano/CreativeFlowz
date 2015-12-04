@@ -1,9 +1,8 @@
 <?php
-include_once 'app/classes/Product.php';
-include_once 'app/classes/Database.php';
+$db = new Database();
+$allProduct = new Product($db);
 
-
-//Product toevoegen
+//Product toevoegen input
 if (isset($_GET['n'])) { ?>
 	<form action="" method="post">
 		Naam: <input type="text" name="name"><br>
@@ -21,9 +20,15 @@ if (isset($_GET['n'])) { ?>
 		<input type="submit">
 	</form>
 <?php
+} 
+
+//Producten weergeven
+else {
+	foreach ($allProduct->getAll() as $pro) {
+		echo $pro->getName();
+		echo "<br>";
+	}
+	echo '<a href="index.php?cmspage&module=product&n">Nieuw</a>';
 }
-
-
-
 
 ?>

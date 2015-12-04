@@ -8,9 +8,9 @@ class Product
 	
 	private $_id, $_name, $_code, $_secondhand, $_description, $supplier_id, $_price; 
 
-	function __construct()
+	function __construct($db)
 	{
-		
+		$this->db = $db;
 	}
 	
 	//Setters
@@ -111,8 +111,11 @@ class Product
 
 		foreach ($sql as $key => $std) {
 			$allProducts[$key] = new Product($this->db);
-			$this->setAuto($std->id);
+			$allProducts[$key]->setAuto($std->id);
+			//$this->setName('test');
 		}
+
+		return $allProducts;
 	}
 
 	//Other functions
