@@ -96,11 +96,11 @@ else {
 				</a>
 			</li>
 			<?php
-				foreach ($allCategory->getAll(array(), array(array('parent', '=', $cat->getId()))) as $catParent) { ?>
+				foreach ($allCategory->getAll(array(), array(array('parent', '=', $cat->getId()))) as $child) { ?>
 					<ul>
 						<li>
-							<a href="<?php echo "index.php?cmspage&module=category&e=" . $catParent->getId(); ?>">
-								 <?php echo $catParent->getName(); ?>
+							<a href="<?php echo "index.php?cmspage&module=category&e=" . $child->getId(); ?>">
+								 <?php echo $child->getName(); ?>
 							</a>
 						</li>
 					</ul>	
@@ -118,8 +118,8 @@ else {
 					foreach ($sql as $key => $std) {
 						$category->setAuto($std->id);
 
-						echo '<option value="' . $category->getName() . '">';
-						echo $category->getId() . "</option>";
+						echo '<option value="' . $category->getId() . '">';
+						echo $category->getName() . "</option>";
 					}
 				}
 			?>
