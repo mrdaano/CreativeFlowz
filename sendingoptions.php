@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Loggedin</title>
+        <title>Send</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -36,23 +36,7 @@
         <div class="thirdheader">
             <div class="wrapper">
                 <div class="fourthheader">
-                    <table class="thirdheadertable">
-                        <tr class="thirdheaderhead">
-                            <td class="textintable">mijn orders</td>
-                        </tr>
-                        <tr class="thirdheaderdata">
-                            <td class="textintable"><a href=""></a></td>
-                        </tr>
-                        <tr class="thirdheaderdata">
-                            <td class="textintable"><a href=""></a></td>
-                        </tr>
-                        <tr class="thirdheaderdata">
-                            <td class="textintable"><a href=""></a></td>
-                        </tr>
-                        <tr class="thirdheaderdata">
-                            <td class="textintable"><a href=""></a><br><br><br><br><br><br></td>
-                        </tr>
-                    </table>
+
                 </div>
             </div>
         </div>

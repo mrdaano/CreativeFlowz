@@ -24,8 +24,16 @@
         </div>
         <div class="secondheader">
             <div class="wrapper">
-                <div class="customername"><table><tr><td><span id="customername">Klantnaam</span><br>
-                    <span id="customer">klant</span></td></tr></table>
+                <div class="customername">
+                    <table>
+                        <tr>
+                            <td>
+                                <span id="customername">Klantnaam</span>
+                                    <br>
+                                <span id="customer">klant</span>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
                 <ul class="customertabs">
                     <li><a href="myorders.php">mijn orders</a></li>
