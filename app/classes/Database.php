@@ -63,7 +63,7 @@ class Database {
 	 */
 	public function get($colmns = "*", $table, $params = array(), $orderBy = array()) {
 		$where = null;
-		$operators = array('=', '>', '<', '>=', '<=', 'IS', 'IS NOT');
+		$operators = array('=', '>', '<', '>=', '<=', '!=', 'IS', 'IS NOT');
 		$x = 1;
 		$values = array();
 		if (is_array($colmns)) {
