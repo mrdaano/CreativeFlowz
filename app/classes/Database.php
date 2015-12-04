@@ -221,6 +221,15 @@ class Database {
 		
 	}
 	
+	/**
+	 * Daan (4-12-2015)
+	 * string/array	$colmns
+	 * string		$table
+	 * array		$join
+	 * array		$where
+	 * Usage:
+	 * DB::start()->join('*', 'users', array('orders' => array('user_id', 'users.id')) array(array('id' => 1)));
+	 */
 	public function join($colmns = "*", $table, $joins, $where = array()) {
 		$joinClause = "";
 		$whereClause = "";
@@ -275,15 +284,12 @@ class Database {
 		
 	}
 	
-<<<<<<< HEAD
-	
-=======
+
 	/**
 	 * Daan (2-12-2015)
 	 * Note:
 	 * This can only included in other functions in the class
 	 */
->>>>>>> origin/master
 	private function orderBy($order = array()) {
 		$accepted = array('ASC','DESC');
 		$return = " ORDER BY ";
@@ -301,10 +307,7 @@ class Database {
 		}
 		return $return;
 	}
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
+	
 	/**
 	 * Daan (25-11-2015)
 	 * Note:
