@@ -148,6 +148,11 @@ li {
     margin: 5px;
     color: #666666;
 }
+
+.thirdheaderhead .textintable {
+    color: #ffffff;
+}
+
 .textintable a {
     text-decoration: none;
     color: #c3c3c3;
