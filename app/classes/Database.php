@@ -5,7 +5,7 @@ class Database {
 	private $_pdo, $_query, $_results, $_count = 0, $_error = false, $_sql, $_values = array();
 	
 	public function __construct() {
-		$this->_pdo = new PDO('mysql:host=localhost;dbname=mydb', 'root', 'root');
+		$this->_pdo = new PDO('mysql:host=localhost;dbname=cursus', 'root', '');
 	}
 	
 	/**
@@ -221,8 +221,10 @@ class Database {
 		
 	}
 	
-	public function join($select = "*", $table, $joins, $where) {
+	public function join($colmns = "*", $table, $joins, $where = array()) {
 		$joinClause = "";
+		$whereClause = "";
+		$values = array();
 		$operators = array('=', '>', '<', '>=', '<=');
 		
 		if (is_array($colmns)) {
@@ -239,11 +241,34 @@ class Database {
 			$selectColmns = $colmns;
 		}
 		
-		foreach($joins as $table => $join) {
-			$joinClause .= " JOIN {$table} ON {$join[0]}={$join[1]}";
+		foreach($joins as $joinTable => $join) {
+			$joinClause .= " JOIN {$joinTable} ON {$join[0]}={$join[1]}";
 		}
 		
-		$sql = "SELECT {$selectColmns} FROM `{$table}` {$joinClause}";
+		if (!empty($where)) {
+			$whereClause = " WHERE ";
+			foreach($where as $item) {
+				$colmn = $item[0];
+				$operator = $item[1];
+				$value = $item[2];
+				
+				if (in_array($operator, $operators)) {
+					$whereClause .= "{$colmn}{$operator}?";
+					if ($x < count($where)) {
+						$whereClause .=", ";
+					}
+					$x++;
+					array_push($values, $value);
+				}
+				
+			}
+		}
+		
+		$sql = "SELECT {$selectColmns} FROM `{$table}` {$joinClause}{$whereClause}";
+		
+		if(!$this->query($sql, $values)->error()) {
+			return $this;
+		}
 	}
 	
 	public function leftJoin() {
