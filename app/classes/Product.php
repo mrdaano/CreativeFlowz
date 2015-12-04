@@ -6,7 +6,7 @@
 class Product
 {
 	
-	private $_id, $_name, $_code, $_secondhand, $_description, $supplier_id, $_price; 
+	private $_id, $_name, $_code, $_secondhand, $_description, $supplier_id, $_price, $_supplier_name; 
 
 	function __construct($db)
 	{
@@ -42,6 +42,10 @@ class Product
 	public function setSupplierId($supplier_id)
 	{
 		$this->_supplier_id = $supplier_id;
+		$sql = $this->db->start()->get('name', 'supplier', array(array('id', '=', $this->getSupplierId())))->results();
+		foreach ($sql as $suppName) {
+			$this->_supplier_name = $suppName->name;
+		}
 	}
 
 	public function setPrice($price)
@@ -95,6 +99,10 @@ class Product
 		return $this->_supplier_id;
 	}
 
+	public function getSupplierName() {
+		return $this->_supplier_name;
+	}
+
 	public function getPrice()
 	{
 		return $this->_price;
@@ -112,13 +120,39 @@ class Product
 		foreach ($sql as $key => $std) {
 			$allProducts[$key] = new Product($this->db);
 			$allProducts[$key]->setAuto($std->id);
-			//$this->setName('test');
 		}
 
 		return $allProducts;
 	}
 
 	//Other functions
+	public function newProduct()
+	{
+		$this->db->insert('product', array(	'name' => $this->getName(), 
+											'code' => $this->getCode(), 
+											'secondhand' => $this->getSecondhand(),
+											'description' => $this->getDescription(),
+											'supplier_id' => $this->getSupplierId(),
+											'price' => $this->getPrice()));
+	}
+
+	public function getAllSuppliers($where = array())
+	{
+		$allSupplier = array();
+
+		if (empty($where)) {
+			$sql = $this->db->get('*', 'supplier')->results();
+		} else {
+			$sql = $this->db->get('*', 'supplier', $where)->results();
+		}
+
+		foreach ($sql as $key => $supl) {
+			$supplier = array();
+			$allSupplier[$key] = $supplier($suppl->id, $suppl->name, $suppl->website);
+		}
+
+		return $allSupplier;
+	}
 
 }
 
