@@ -215,6 +215,10 @@ li {
     background-color: #f6f6f6;
     position: relative;
 }
+.img {
+    width: 200px;
+    height: 150px;
+}
 .productnr {
     width: 200px;
     background-color: #c3c3c3;
