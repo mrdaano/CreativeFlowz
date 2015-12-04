@@ -102,7 +102,6 @@ class Database {
 				}
 			}
 		}
-<<<<<<< HEAD
 		
 		$order = "";
 		if (!empty($orderBy)) {
@@ -110,9 +109,6 @@ class Database {
 		}
 
 		$sql = "SELECT {$selectColmns} FROM `{$table}` {$where}{$order}";
-=======
-		$sql = "SELECT {$selectColmns} FROM `{$table}` {$where}";
->>>>>>> routeclass
 		
 		if(!$this->query($sql, $values)->error()) {
 			return $this;
@@ -196,11 +192,7 @@ class Database {
 	 * string	$table
 	 * array	$params
 	 * Usage:
-<<<<<<< HEAD
 	 * DB::start()->delete('users', array(array('id' => 1)));
-=======
-	 * DB::start()->delete('users', array('id' => 1));
->>>>>>> routeclass
 	 */
 	public function delete($table, $params = array()) {
 		$sql = "DELETE FROM {$table} WHERE ";
@@ -251,7 +243,6 @@ class Database {
 		
 	}
 	
-<<<<<<< HEAD
 	
 	private function orderBy($order = array()) {
 		$accepted = array('ASC','DESC');
@@ -270,9 +261,7 @@ class Database {
 		}
 		return $return;
 	}
-	
-=======
->>>>>>> routeclass
+
 	/**
 	 * Daan (25-11-2015)
 	 * Note:
