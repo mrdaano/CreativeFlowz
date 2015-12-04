@@ -166,3 +166,47 @@
 [04-Dec-2015 13:49:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
 [04-Dec-2015 13:49:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
 [04-Dec-2015 13:49:08 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Login.php on line 70
+[04-Dec-2015 13:15:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php:8
+Stack trace:
+#0 D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php(8): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php(10): Database->__construct()
+#2 {main}
+  thrown in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 8
+[04-Dec-2015 13:16:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php:8
+Stack trace:
+#0 D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php(8): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php(10): Database->__construct()
+#2 {main}
+  thrown in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 8
+[04-Dec-2015 13:16:26 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php:8
+Stack trace:
+#0 D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php(8): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php(10): Database->__construct()
+#2 {main}
+  thrown in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 8
+[04-Dec-2015 13:16:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php:8
+Stack trace:
+#0 D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php(8): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php(10): Database->__construct()
+#2 {main}
+  thrown in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 8
+[04-Dec-2015 13:16:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'mybd'' in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php:8
+Stack trace:
+#0 D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php(8): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php(10): Database->__construct()
+#2 {main}
+  thrown in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 8
+[04-Dec-2015 13:16:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'mybd'' in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php:8
+Stack trace:
+#0 D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php(8): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php(10): Database->__construct()
+#2 {main}
+  thrown in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 8
+[04-Dec-2015 13:16:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'mybd'' in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php:8
+Stack trace:
+#0 D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php(8): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php(10): Database->__construct()
+#2 {main}
+  thrown in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 8
+[04-Dec-2015 13:18:28 UTC] PHP Warning:  include(app/cms/modules/category.php): failed to open stream: No such file or directory in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 62
+[04-Dec-2015 13:18:28 UTC] PHP Warning:  include(): Failed opening 'app/cms/modules/category.php' for inclusion (include_path='.;C:\php\pear') in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 62
