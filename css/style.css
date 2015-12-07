@@ -141,25 +141,24 @@ li {
     color: #ffffff;
 }
 .thirdheaderhead .textintable {
+    padding: 5px;
+    margin: 5px;
     color: #ffffff;
 }
 .thirdheaderdata {
     background-color: #ffffff;
     border: 1px solid #f6f6f6;
 }
-.textintable {
+.thirdheaderdata .textintable {
     padding: 5px;
     margin: 5px;
     color: #666666;
 }
-
-.thirdheaderhead .textintable {
-    color: #ffffff;
-}
-
-.textintable a {
+.thirdheaderdata .textintable a {
+    padding: 5px;
+    margin: 5px;
     text-decoration: none;
-    color: #c3c3c3;
+    color: #666666;
 }
 .activecategorie {
     color: #38526d;
