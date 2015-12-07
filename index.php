@@ -1,14 +1,20 @@
 <?php
 session_start();
 error_reporting(E_ALL);
-ini_set('display_errors', 1);
+ini_set('display_errors', 0);
 ini_set("log_errors", 1);
-ini_set("error_log", "/errors.log");
+ini_set("error_log", "errors.log");
 spl_autoload_register(function ($class) {
     include 'app/classes/' . $class . '.php';
 });
 $db = new Database;
 $Route = new Route($db);
+$Register = new Register($db);
+$Login = new Login($db);
+if($_SESSION['_user']['id'] > 0){
+    $User = new User($db);
+}
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -21,31 +27,39 @@ $Route = new Route($db);
     <body>
         <div class="header">
             <div class="wrapper">
-                <div class="sitenameblock"><a class="sitename" href="index.html"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
+                <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
                 <ul class="forheader">
-                    <li><a href="aboutus.html">over ons</a></li>
-                    <li><a href="webshop.html">webshop</a></li>
-                    <li><a href="contact.html">contact</a></li>
+                    <li><a href="index.php?page=aboutus">over ons</a></li>
+                    <li><a href="index.php?page=webshop">webshop</a></li>
+                    <li><a href="index.php?page=contact">contact</a></li>
                 </ul>
                 <ul class="rightlist">
-                    <li><a href="login.php">aanmelden</a></li>
+                    <?php
+                    
+                    if($_SESSION['_user']['id'] > 0){
+                        ?>
+                         <li class="shoppingcart"><a href="index.php?page=shoppingcart"><img class="shoppingcartimg" src="img/shopping-cart12.png" width="20"/> winkelwagen</a><li>
+                         <li><a href="index.php?page=customer">mijn account</a></li> | <li><a href="index.php?page=loguit">loguit</a></li>
+                        <?php
+                    }else{
+                        ?>
+                         <li><a href="index.php?page=login">aanmelden</a></li>
+                        <?php
+                    }?>
+                   
                 </ul>
             </div>
         </div>
         <?php
             /*
              *  Hier word de route van de website bepaald.
-             *  Aan de hand van $_GET['page'] word bepaald welke pagina word ingeladen.
+             *  Zie Class: Route.php
              *  @author: Yannick Berendsen
              */
             if(isset($_GET['page'])){
-                if($Route->request($_GET['page']) == true){
-                   include('app/pages/'.$_GET['page'].'.php');
-                }else{
-                    echo '<script type="text/javascript">window.location.replace("index.php?page=404");</script>';
-                }
-            }else{
-                // Content van de homepage
+               include($Route->request($_GET));
+            }elseif(isset($_GET['cmspage'])){
+                include($Route->request($_GET));
             }
         ?>
     </body>
