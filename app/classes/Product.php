@@ -164,6 +164,16 @@ class Product
 		//return $this->getId();
 
 	}
+
+	public function removeProduct()
+	{
+		$this->db->start()->delete('order_line', array(array('product_id', '=', $this->getId())));
+		$this->db->start()->delete('shoppingcart', array(array('product_id', '=', $this->getId())));
+		$this->db->start()->delete('product_category', array(array('product_id', '=', $this->getId())));
+		$this->db->start()->delete('product_media', array(array('product_id', '=', $this->getId())));
+		$this->db->start()->delete('product', array(array('id', '=', $this->getId())));
+	}
+
 }
 
 ?>

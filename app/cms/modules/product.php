@@ -3,7 +3,14 @@ $db = new Database();
 $allProducts = new Product($db);
 $product = new Product($db);
 $location = 'index.php?page=cms&module=product';
+//Product verwijderen
 
+if ((isset($_GET['r']))) {
+	$removeProduct = new Product($db);
+	$removeProduct->setId($_GET['r']);
+	$removeProduct->removeProduct();
+	header('location: ' . $location);
+}
 
 
 
@@ -13,9 +20,6 @@ if (isset($_POST['newName'])) {
 	filter_input(INPUT_POST, 'newPrice', FILTER_VALIDATE_INT);
 	filter_input(INPUT_POST, 'newSupplier', FILTER_VALIDATE_INT);
 	$newProduct = new Product($db);   
-	if (condition) {
-	  	# code...
-	  }  
 	$newProduct->setName($_POST['newName']);
 	$newProduct->setCode($_POST['newCode']);
 	$newProduct->setSecondhand($_POST['newSecondhand']);
@@ -82,6 +86,7 @@ if (isset($_GET['n'])) { ?>
 		Prijs: <input type="text" name="updatePrice" value="<?php echo $pro->getPrice() ?>"><br>
 		<input type="submit">
 	</form>
+	<a href="<?php echo $location .'&r=' . $pro->getId(); ?> ">Verwijder dit produ</a>
 
 <?php } else { //Producten weergeven
 	foreach ($allProducts->getAll() as $pro) {
@@ -92,3 +97,5 @@ if (isset($_GET['n'])) { ?>
 	echo '<br><a href="' . $location . '&n">Product toevoegen</a>';
 }
 
+
+?>
