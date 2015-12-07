@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>DeServiceGroup</title>
+        <title>TheserviceGroup</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -10,7 +10,7 @@
     <body>
         <div class="header">
             <div class="wrapper">
-                <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
+                <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Theservice</span><span class="italic">Group</span></a></div>
                 <ul class="forheader">
                     <li><a href="aboutus.php">over ons</a></li>
                     <li><a href="webshop.php">webshop</a></li>

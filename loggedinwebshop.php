@@ -9,7 +9,7 @@
     <body>
         <div class="header">
             <div class="wrapper">
-                <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
+                <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Theservice</span><span class="italic">Group</span></a></div>
                 <ul class="forheader">
                     <li><a href="loggedinaboutus.php">over ons</a></li>
                     <li class="active"><a href="loggedinwebshop.php">webshop</a></li>
