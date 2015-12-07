@@ -10,9 +10,10 @@
     margin: 0;
     padding: 0;
 }
-body {
+body, html {
     background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
+    height: 100%;
 }
 .wrapper{
     width: 1000px;
@@ -252,7 +253,7 @@ a.login{
 .leftheader{
   background-color: #383f48;
   width: 330px;
-  height: 900px;
+  height: 100%;
   float: left;
 }
 
@@ -305,4 +306,8 @@ a.cms{
   height: auto;
   padding: 15px;
   float: left;
+}
+
+.media_table {
+	width: 100%;
 }

@@ -7,7 +7,7 @@
     </tr><tr>
       <td class="cms"><a href="index.php?page=cms&module=page" class="cms"><p>Pagina Beheer</p><p class="cmsitalic">Al het beheer van de pagina's</p></a></td>
     </tr><tr>
-      <td class="cms"><a href="index.php?page=cms&module=media" class="cms"><p>Media Beheer</p><p class="cmsitalic">Al het beheer van foto's en video's</p></a></td>
+      <td class="cms"><a href="index.php?page=cms&module=mediamanagment" class="cms"><p>Media Beheer</p><p class="cmsitalic">Al het beheer van foto's en video's</p></a></td>
     </tr><tr>
       <td class="cms"><a href="index.php?page=cms&module=users" class="cms"><p>Gebruiker Beheer</p><p class="cmsitalic">Al het beheer van gebruikers</p></a></td>
     </tr>
