@@ -1,28 +1,18 @@
-[04-Dec-2015 13:08:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'cursus'' in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php:8
-Stack trace:
-#0 D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php(8): PDO->__construct('mysql:host=loca...', 'root', 'root')
-#1 D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php(10): Database->__construct()
-#2 {main}
-  thrown in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 8
-[04-Dec-2015 13:08:20 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'cursus'' in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php:8
-Stack trace:
-#0 D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php(8): PDO->__construct('mysql:host=loca...', 'root', 'root')
-#1 D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php(10): Database->__construct()
-#2 {main}
-  thrown in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 8
-[04-Dec-2015 13:08:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'cursus'' in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php:8
-Stack trace:
-#0 D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php(8): PDO->__construct('mysql:host=loca...', 'root', 'root')
-#1 D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php(10): Database->__construct()
-#2 {main}
-  thrown in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 8
-[04-Dec-2015 13:09:18 UTC] PHP Notice:  Undefined index: id in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 14
-[04-Dec-2015 13:09:18 UTC] PHP Notice:  Undefined index: id in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 39
-[04-Dec-2015 13:09:23 UTC] PHP Notice:  Undefined index: id in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 14
-[04-Dec-2015 13:09:23 UTC] PHP Notice:  Undefined index: id in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 39
-[04-Dec-2015 13:09:29 UTC] PHP Notice:  Undefined index: id in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 14
-[04-Dec-2015 13:09:29 UTC] PHP Notice:  Undefined index: id in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 39
-[04-Dec-2015 13:09:29 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 311
-[04-Dec-2015 13:09:53 UTC] PHP Notice:  Undefined index: id in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 14
-[04-Dec-2015 13:09:53 UTC] PHP Notice:  Undefined index: id in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 39
-[04-Dec-2015 13:09:53 UTC] PHP Notice:  Undefined property: Login::$error in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Login.php on line 70
+[04-Dec-2015 15:47:27 UTC] PHP Notice:  Array to string conversion in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 42
+[04-Dec-2015 15:47:51 UTC] PHP Notice:  Array to string conversion in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 42
+[04-Dec-2015 15:49:04 UTC] PHP Notice:  Array to string conversion in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 42
+[04-Dec-2015 15:49:41 UTC] PHP Notice:  Array to string conversion in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 42
+[04-Dec-2015 15:49:42 UTC] PHP Notice:  Array to string conversion in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 42
+[04-Dec-2015 15:49:43 UTC] PHP Notice:  Array to string conversion in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 42
+[04-Dec-2015 15:49:43 UTC] PHP Notice:  Array to string conversion in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 42
+[04-Dec-2015 15:49:44 UTC] PHP Notice:  Array to string conversion in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 42
+[04-Dec-2015 15:49:51 UTC] PHP Notice:  Array to string conversion in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 42
+[04-Dec-2015 15:49:54 UTC] PHP Notice:  Array to string conversion in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 42
+[04-Dec-2015 15:49:57 UTC] PHP Notice:  Array to string conversion in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 42
+[04-Dec-2015 15:57:46 UTC] PHP Notice:  Undefined index: _user in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 14
+[04-Dec-2015 15:57:46 UTC] PHP Notice:  Undefined index: _user in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 39
+[04-Dec-2015 15:57:47 UTC] PHP Notice:  Undefined index: _user in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 14
+[04-Dec-2015 15:57:47 UTC] PHP Notice:  Undefined index: _user in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 39
+[04-Dec-2015 15:57:52 UTC] PHP Notice:  Undefined index: _user in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 14
+[04-Dec-2015 15:57:52 UTC] PHP Notice:  Undefined index: _user in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 39
+[04-Dec-2015 15:57:52 UTC] PHP Notice:  Undefined property: Login::$error in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Login.php on line 70

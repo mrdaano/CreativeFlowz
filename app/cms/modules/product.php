@@ -2,25 +2,45 @@
 $db = new Database();
 $allProducts = new Product($db);
 $product = new Product($db);
+$location = 'index.php?page=cms&module=product';
+
+
+
 
 //Voegt product toe 
 if (isset($_POST['newName'])) {
 	filter_input(INPUT_POST, 'newSecondhand', FILTER_VALIDATE_INT);
 	filter_input(INPUT_POST, 'newPrice', FILTER_VALIDATE_INT);
-	filter_input(INPUT_POST, 'newSupplier', FILTER_VALIDATE_INT); 
-	$newProduct = new Product($db);     
+	filter_input(INPUT_POST, 'newSupplier', FILTER_VALIDATE_INT);
+	$newProduct = new Product($db);   
+	if (condition) {
+	  	# code...
+	  }  
 	$newProduct->setName($_POST['newName']);
 	$newProduct->setCode($_POST['newCode']);
 	$newProduct->setSecondhand($_POST['newSecondhand']);
 	$newProduct->setDescription($_POST['newDescription']);
 	$newProduct->setSupplierId($_POST['newSupplier']);
 	$newProduct->setPrice($_POST['newPrice']);     
-	header('location: index.php?cmspage&module=product' . $newProduct->newProduct()); 
+	$newProduct->newProduct();
+	header('location:' . $location);
+}
+
+if (isset($_POST['updateName'])) {
+	$updateProduct = new Product($db);
+	$updateProduct->setId($_GET['id']);     
+	$updateProduct->setName($_POST['updateName']);
+	$updateProduct->setCode($_POST['updateCode']);
+	$updateProduct->setSecondhand($_POST['updateSecondhand']);
+	$updateProduct->setDescription($_POST['updateDescription']);
+	$updateProduct->setSupplierId($_POST['updateSupplier']);
+	$updateProduct->setPrice($_POST['updatePrice']);     
+	header('location:' . $location . $updateProduct->updateProduct());
 }
 
 //Product toevoegen input
 if (isset($_GET['n'])) { ?>
-	<form action="index.php?cmspage&module=product" method="post">
+	<form action="<?php echo $location; ?>" method="post">
 		Naam: <input type="text" name="newName"><br>
 		Code: <input type="text" name="newCode"><br>
 		Tweede hands: <select name="newSecondhand">
@@ -36,11 +56,11 @@ if (isset($_GET['n'])) { ?>
 	</form>
 
 
-<?php
+<?php //Product bewerken
 } elseif (isset($_GET['e'])) {
 	$pro = $allProducts->getAll(array(array('id', '=', $_GET['e'])));
 	$pro = $pro[0]; ?>
-		<form action="index.php?cmspage&module=product" method="post">
+		<form action="<?php echo $location . '&id=' . $pro->getId(); ?>" method="post">
 		Naam: <input type="text" name="updateName" value="<?php echo $pro->getName() ?>"><br>
 		Code: <input type="text" name="updateCode" value="<?php echo $pro->getCode() ?>"><br>
 		Tweede hands: <select name="updateSecondhand">
@@ -63,12 +83,12 @@ if (isset($_GET['n'])) { ?>
 		<input type="submit">
 	</form>
 
-<?php } else {
+<?php } else { //Producten weergeven
 	foreach ($allProducts->getAll() as $pro) {
-		echo '<a href="index.php?cmspage&module=product&e=' . $pro->getId() . '">';
+		echo '<a href="' . $location . '&e=' . $pro->getId() . '">';
 			echo $pro->getName();
 		echo "</a><br>";
 	}
-	echo '<br><a href="index.php?cmspage&module=product&n">Product toevoegen</a>';
+	echo '<br><a href="' . $location . '&n">Product toevoegen</a>';
 }
 

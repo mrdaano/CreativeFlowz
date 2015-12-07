@@ -136,7 +136,7 @@ class Product
 											'price' => $this->getPrice()));
 	}
 
-	public function getAllSuppliers($where = array())
+	public function getAllSupplier($where = array())
 	{
 		$allSupplier = array();
 
@@ -146,14 +146,24 @@ class Product
 			$sql = $this->db->get('*', 'supplier', $where)->results();
 		}
 
-		foreach ($sql as $key => $supl) {
-			$supplier = array();
-			$allSupplier[$key] = $supplier($suppl->id, $suppl->name, $suppl->website);
+		foreach ($sql as $key => $suppl) {
+			$allSupplier[$key] = array($suppl->id, $suppl->name, $suppl->website);
 		}
 
 		return $allSupplier;
 	}
 
+	public function updateProduct() 
+	{
+		$this->db->start()->update('product', array('name' => $this->getName(), 
+													'code' => $this->getCode(), 
+													'secondhand' => $this->getSecondhand(),
+													'description' => $this->getDescription(),
+													'supplier_id' => $this->getSupplierId(),
+													'price' => $this->getPrice()), array('id' => $this->getId()));
+		//return $this->getId();
+
+	}
 }
 
 ?>
