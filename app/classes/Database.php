@@ -5,7 +5,11 @@ class Database {
 	private $_pdo, $_query, $_results, $_count = 0, $_error = false, $_sql, $_values = array();
 
 	public function __construct() {
+<<<<<<< HEAD
 		$this->_pdo = new PDO('mysql:host=localhost;dbname=mydb', 'root', '');
+=======
+		$this->_pdo = new PDO('mysql:host=localhost;dbname=cursus', 'root', '');
+>>>>>>> master
 	}
 
 	/**
@@ -63,7 +67,7 @@ class Database {
 	 */
 	public function get($colmns = "*", $table, $params = array(), $orderBy = array()) {
 		$where = null;
-		$operators = array('=', '>', '<', '>=', '<=', 'IS', 'IS NOT');
+		$operators = array('=', '>', '<', '>=', '<=', '!=', 'IS', 'IS NOT');
 		$x = 1;
 		$values = array();
 		if (is_array($colmns)) {
@@ -220,9 +224,16 @@ class Database {
 		}
 
 	}
+<<<<<<< HEAD
 
 	public function join($select = "*", $table, $joins, $where) {
+=======
+	
+	public function join($colmns = "*", $table, $joins, $where = array()) {
+>>>>>>> master
 		$joinClause = "";
+		$whereClause = "";
+		$values = array();
 		$operators = array('=', '>', '<', '>=', '<=');
 
 		if (is_array($colmns)) {
@@ -238,23 +249,63 @@ class Database {
 		} else {
 			$selectColmns = $colmns;
 		}
+<<<<<<< HEAD
 
 		foreach($joins as $table => $join) {
 			$joinClause .= " JOIN {$table} ON {$join[0]}={$join[1]}";
 		}
 
 		$sql = "SELECT {$selectColmns} FROM `{$table}` {$joinClause}";
+=======
+		
+		foreach($joins as $joinTable => $join) {
+			$joinClause .= " JOIN {$joinTable} ON {$join[0]}={$join[1]}";
+		}
+		
+		if (!empty($where)) {
+			$whereClause = " WHERE ";
+			foreach($where as $item) {
+				$colmn = $item[0];
+				$operator = $item[1];
+				$value = $item[2];
+				
+				if (in_array($operator, $operators)) {
+					$whereClause .= "{$colmn}{$operator}?";
+					if ($x < count($where)) {
+						$whereClause .=", ";
+					}
+					$x++;
+					array_push($values, $value);
+				}
+				
+			}
+		}
+		
+		$sql = "SELECT {$selectColmns} FROM `{$table}` {$joinClause}{$whereClause}";
+		
+		if(!$this->query($sql, $values)->error()) {
+			return $this;
+		}
+>>>>>>> master
 	}
 
 	public function leftJoin() {
 
 	}
+<<<<<<< HEAD
 
+=======
+	
+<<<<<<< HEAD
+	
+=======
+>>>>>>> master
 	/**
 	 * Daan (2-12-2015)
 	 * Note:
 	 * This can only included in other functions in the class
 	 */
+>>>>>>> origin/master
 	private function orderBy($order = array()) {
 		$accepted = array('ASC','DESC');
 		$return = " ORDER BY ";
@@ -272,6 +323,10 @@ class Database {
 		}
 		return $return;
 	}
+<<<<<<< HEAD
+
+=======
+>>>>>>> origin/master
 	/**
 	 * Daan (25-11-2015)
 	 * Note:

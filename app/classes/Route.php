@@ -55,6 +55,7 @@ class Route{
                 /*
                  * Check of die in het DB voor MOET komen
                  */
+                
                 if(isset($_GET['sub'])){
                     $res = $this->db->get('*','page_management', array(array('id', '=', $_GET['sub'])))->first();
                     if($res->id == ''){
@@ -64,28 +65,34 @@ class Route{
                         $include = $root.'/site.php';
                     }
                 }else{
-                    $include = $root.'/'.$_GET['page'].''.$extension;
+                    $include = $root.'/'.$_GET['page'].''.$extension; 
                 }
+            }else{
+                $include = 'app/pages/404.php';
             }
         }elseif(isset($this->get['cmspage'])){
             /*
              *  cmspage is het cms gedeelte, hierin staan de modules, je kunt hier alleen bij komen wanneer je ingelogd bent
              */
-            if($_SESSION['_user']['id'] == 0){
+            if($_SESSION['_user']['id'] > 0){
                 /*
                  *  Wanneer de gebruiker is ingelogd en hij rechten tot de pagina heeft mag hij hier komen.
                  */
-                
-                if(isset($_GET['module'])){
-                    $include = $cms.'/modules/'.$_GET['module'].$extension.'';
+                /*
+                 *if(!file_exists($cms.'/modules/'.$_GET['module'].$extension)){
+                   $include = 'app/pages/404.php';
                 }else{
-                    $include = $cms.'/cms'.$extension;
-                }
+                */
+                    if(isset($_GET['module'])){
+                        $include = $cms.'/modules/'.$_GET['module'].$extension.'';
+                    }else{
+                        $include = $cms.'/cms'.$extension;
+                    }
+                //}
             }else{
                 $include = $root.'/login'.$extension;
             }
         }
-        
         return $include;
     }
     
