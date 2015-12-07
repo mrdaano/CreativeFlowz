@@ -5,10 +5,10 @@
         
         $msg = $Login->getError();
     }
-    var_dump($msg);
 ?>
 <div class="login">
     <h3 class="login">inloggen</h3>
+    <?php if(isset($msg)){ echo $msg; }?>
     <form method="post" class="login">
       <table class="login">
         <tr>
@@ -26,9 +26,9 @@
         </tr>
       </table>
     </form>
-    <a href="forgotpassword.php" class="login">wachtwoord vergeten</a>
+    <a href="index.php?page=forgotpassword" class="login">wachtwoord vergeten</a>
 </div>
-<br/><br/>
+
 <div class="login">
   <h3 class="login">registreren</h3>
   <form method="post" class="login">
