@@ -11,7 +11,7 @@
             <div class="wrapper">
                 <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Theservice</span><span class="italic">Group</span></a></div>
                 <ul class="forheader">
-                    <li class="active"><a href="aboutus.php">over ons</a></li>
+                    <a href="aboutus.php"><li class="active">over ons</li></a>
                     <li><a href="webshop.php">webshop</a></li>
                     <li><a href="contact.php">contact</a></li>
                 </ul>

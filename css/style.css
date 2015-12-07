@@ -26,7 +26,7 @@ body {
     height: 72px;
     color: #ffffff;
 }
-li {
+a li {
     color: #d7d7d7;
 }
 /* logo */
@@ -48,12 +48,12 @@ li {
 .forheader {
     float: left;
 }
-.forheader li {
+.forheader a li {
     display: inline-block;
     margin-left: 10px;
     line-height: 72px;
 }
-.forheader li a {
+.forheader a li {
     color: #ffffff;
     text-decoration: none;
     padding-left: 15px;
