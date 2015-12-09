@@ -49,16 +49,16 @@
                             <td class="textintable">wie wij ook zijn</td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="http://www.christianfacilities.nl">christianfacilities.nl</a></td>
+                            <td class="textintable"><a href="http://www.christianfacilities.nl">- christianfacilities.nl</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="http://www.faipservice.nl">faipservice.nl</a></td>
+                            <td class="textintable"><a href="http://www.faipservice.nl">- faipservice.nl</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="http://www.balcoservice.nl">balcoservice.nl</a></td>
+                            <td class="textintable"><a href="http://www.balcoservice.nl">- balcoservice.nl</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="http://www.alescoservice.nl">alescoservice.nl</a><br><br><br><br><br><br><td>
+                            <td class="textintable"><a href="http://www.alescoservice.nl">- alescoservice.nl</a><br><br><br><br><br><br><td>
                         </tr>
                     </table>
                 </div>

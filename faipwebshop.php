@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Balco-webshop</title>
+        <title>Faip-webshop</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -56,7 +56,7 @@
         <div class="wrapper">
             <div class="textheader">
                 <?php 
-                    $product = DB::start()->get(array('id','name','description','price'), 'product', array(array('supplier_id', '=', '2')))->results();
+                    $product = DB::start()->get(array('id','name','description','price'), 'product', array(array('supplier_id', '=', '3')))->results();
                     foreach($orders as $key => $order) {
                 ?>
                     <div class="product">

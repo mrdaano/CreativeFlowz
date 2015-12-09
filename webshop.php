@@ -40,13 +40,7 @@
                             <td class="textintable"><a href="balcowebshop.php">- balco</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="faiptirechangerswebshop.php">- faip tirechangers</a></td>
-                        </tr>
-                        <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="faipwheelalignerswebshop.php">- faip wheelaligners</a></td>
-                        </tr>
-                        <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="faipwheelbalancerswebshop.php">- faip wheelbalancers</a></td>
+                            <td class="textintable"><a href="faipwebshop.php">- faip</a></td>
                         </tr>
                     </table>
                 </div>
@@ -62,7 +56,7 @@
         <div class="wrapper">
             <div class="textheader">
                 <?php 
-                    $product = DB::start()->get(array('id','name','description','price'), 'product', array(array('code', '=', '111')))->results();
+                    $product = DB::start()->get(array('id','name','description','price'), 'product', array(array('supplier_id', '=>', '1')))->results();
                     foreach($orders as $key => $order) {
                 ?>
                     <div class="product">

@@ -63,11 +63,7 @@ li {
     background-color: #383f48;
 }
 .active {
-<<<<<<< HEAD
     background-color: #383f48;
-=======
-   background-color: #383f48;
->>>>>>> master
 }
 
 /* mijn account en winkelwagen */
@@ -160,7 +156,6 @@ li {
 .thirdheaderdata .textintable a {
     padding: 5px;
     margin: 5px;
-<<<<<<< HEAD
     text-decoration: none;
     color: #666666;
 }
@@ -179,7 +174,6 @@ li {
     top: 50%;
     margin-left: 10px;
     border: 1px solid #c3c3c3;
-=======
     color: #666666;
 }
 
@@ -190,18 +184,12 @@ li {
 .textintable a {
     text-decoration: none;
     color: #c3c3c3;
->>>>>>> master
 }
 
 /* dit is de verticale header */
 .fourthheader {
     background-color: #f6f6f6;
     width: 330px;
-<<<<<<< HEAD
-    height: 1000px;
-    height: 900px;
-    float: left;
-=======
     height: 900px;
     float: left;
 }
@@ -210,14 +198,7 @@ li {
 .textheader {
     margin-left: 335px;
     height: auto;
->>>>>>> master
 }
-.productleft {
-    background-color:
-}
-.productmid {
-
-<<<<<<< HEAD
 /* textheader*/
 .textheader {
     margin-left: 335px;
@@ -264,11 +245,6 @@ li {
 .view a {
     text-decoration: none;
     color: #ffffff;
-=======
-}
-.productright {
-
->>>>>>> master
 }
 
 /* mijn account en winkelwagen */
@@ -395,8 +371,4 @@ a.cms{
   height: auto;
   padding: 15px;
   float: left;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> master
