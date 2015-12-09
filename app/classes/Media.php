@@ -2,8 +2,8 @@
 	
 class Media {
 	
-	private static $dir = "/media";
-	private $errors = array();
+	private static $dir = "media";
+	private $errors = array(), $acceptedTypes = array("png","jpg","jpeg","gif","svg","pdf","mp4","mov");
 	
 	public function __construct() {
 		
@@ -18,14 +18,33 @@ class Media {
 	}
 	
 	public function addFile($inputName = 'file') {
+		$this->errors = array();
+		$dir = $this->dir . "/" . date("Y-m");
+		$error = false;
 		$file = $_FILES[$inputName];
+		$ext = pathinfo($file['name'],PATHINFO_EXTENSION);
+		$dest = $dir . "/" . $file['name'] . $ext;
 		
 		if ($file['size'] == 0 && $file['error'] == 4) {
 			$this->addError("Er is geen bestand geselecteerd, probeer het opnieuw.");
 			return false;
 		}
 		
-		echo "werkt";
+		if (!in_array($ext, $this->$acceptedTypes)) {
+			$this->addError("Dit bestandstype is niet geaccepteerd.");
+			$error = true;
+		}
+		
+		if (!file_exists($dir)) {
+			mkdir($dir);
+		}
+		
+		if (move_uploaded_file($file["tmp_name"], $dest)) {
+			return true;
+		}
+		
+		$this->addError("Sorry, we kunnen uw bestand niet uploaden. Probeer het a.u.b. opnieuw.");
+		return false;
 		
 	}
 	
