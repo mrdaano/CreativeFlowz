@@ -209,6 +209,8 @@ class Category
 			foreach ($sqlChecked as $stdChecked) {
 				if ($stdChecked->product_id == $std->id) {
 					$linkedProduct[2] = true;
+				} else {
+					$linkedProduct[2] = false;
 				}
 			}
 			$linkedProducts[$key] = $linkedProduct;
@@ -230,7 +232,7 @@ class Category
 			$sql = $this->db->start()->get('*', 'category')->results();
 		} else {
 			$sql = $this->db->start()->get('*', 'category', $where)->results();
-		}
+		
 		foreach ($sql as $key => $std) {
 			$allCategory[$key] = new Category($this->db);
 			$allCategory[$key]->setAuto($std->id);
