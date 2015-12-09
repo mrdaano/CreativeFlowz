@@ -4,12 +4,15 @@ error_reporting(E_ALL);
 ini_set('display_errors', 0);
 ini_set("log_errors", 1);
 ini_set("error_log", "errors.log");
+ini_set("sendmail_from","noreplay@theservicegroup.nl");
 spl_autoload_register(function ($class) {
     include 'app/classes/' . $class . '.php';
 });
+include('phpmailer/PHPMailerAutoload.php');
+$mail = new PHPMailer;
 $db = new Database;
 $Route = new Route($db);
-$Register = new Register($db);
+$Register = new Register($db, $mail);
 $Login = new Login($db);
 if($_SESSION['_user']['id'] > 0){
     $User = new User($db);

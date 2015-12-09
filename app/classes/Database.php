@@ -5,7 +5,7 @@ class Database {
 	private $_pdo, $_query, $_results, $_count = 0, $_error = false, $_sql, $_values = array();
 	
 	public function __construct() {
-		$this->_pdo = new PDO('mysql:host=localhost;dbname=cursus', 'root', '');
+		$this->_pdo = new PDO('mysql:host=localhost;dbname=mydb', 'root', 'root');
 	}
 	
 	/**
@@ -275,15 +275,12 @@ class Database {
 		
 	}
 	
-<<<<<<< HEAD
-	
-=======
 	/**
 	 * Daan (2-12-2015)
 	 * Note:
 	 * This can only included in other functions in the class
 	 */
->>>>>>> origin/master
+
 	private function orderBy($order = array()) {
 		$accepted = array('ASC','DESC');
 		$return = " ORDER BY ";
@@ -301,10 +298,7 @@ class Database {
 		}
 		return $return;
 	}
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
 	/**
 	 * Daan (25-11-2015)
 	 * Note:
