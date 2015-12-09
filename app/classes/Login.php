@@ -59,11 +59,10 @@ class Login{
             if($data == '' OR empty($data)){
                 $this->setError('De combinatie tussen E-Mail en Password is ongeldig!');
             }else{
-                $_SESSION['_user'] = array('id' => $data->id, 'firstname' => $data->firstname, 'lastname' => $data->lastname, 'email' => $data->email);
-                $_SESSION['_user'] = array('userLevel' => $this->userLevel($data->id));
+                $_SESSION['_user'] = array('id' => $data->id, 'firstname' => $data->firstname, 'lastname' => $data->lastname, 'email' => $data->email, 'userLevel' => $this->userLevel($data->id));
                 switch($this->userLevel($data->id)){
                     case 0: $page = 'index.php?page=klant'; break;
-                    case 1: $page = 'index.php?cmspage'; break;
+                    case 1: $page = 'index.php?page=cms'; break;
                     default: $page = 'index.php'; break;
                 }
                 echo '<script type="text/javascript">window.location.href = "'.$page.'";</script>';

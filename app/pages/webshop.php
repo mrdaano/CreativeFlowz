@@ -1,29 +1,15 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Webshop</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-    </head>
-    <body>
-        <div class="header">
-            <div class="wrapper">
-                <div class="sitenameblock"><a class="sitename" href="index.html"><span class="bold">Theservice</span><span class="italic">Group</span></a></div>
-                <ul class="forheader">
-                    <li><a href="aboutus.html">over ons</a></li>
-                    <li class="active"><a href="webshop.html">webshop</a></li>
-                    <li><a href="contact.html">contact</a></li>
-                </ul>
-                <ul class="rightlist">
-                    <li><a href="login.php">aanmelden</a></li>
-                </ul>
-            </div>
+<div class="secondheader">
+    <div class="wrapper">
+        <div class="customername"><span id="customername"><?Php echo $User->lastname()?></span><br>
+            <span id="customer">klant</span>
         </div>
-        <div class="secondheader">
-            <div class="wrapper"></div>
-        </div>
-        <div class="thirdheader">
+        <ul class="customertabs">
+            <li><a href="index.php?page=customer&module=orders">mijn orders</a></li>
+            <li><a href="index.php?page=customer&module=sending">verzenden en retouneren</a></li>
+        <ul>
+    </div>
+</div>
+<div class="thirdheader">
             <div class="wrapper">
                 <div class="fourthheader">
                     <table class="thirdheadertable">
@@ -58,11 +44,11 @@
                     <div class="productimg">
                         <img src=""/>
                         <div class="view">
-
+                            <a href="product1.php">Bekijk product</a>
                         </div>
                     </div>
                     <div class="productnr">
-                        1
+
                     </div>
                 </div>
                 <div class="productmid">
@@ -73,7 +59,7 @@
                         </div>
                     </div>
                     <div class="productnr">
-                        2
+
                     </div>
                 </div>
                 <div class="productright">
@@ -84,7 +70,7 @@
                         </div>
                     </div>
                     <div class="productnr">
-                        3
+
                     </div>
                 </div>
                 <div class="productleft">
@@ -95,7 +81,7 @@
                         </div>
                     </div>
                     <div class="productnr">
-                        4
+
                     </div>
                 </div>
                 <div class="productmid">
@@ -106,7 +92,7 @@
                         </div>
                     </div>
                     <div class="productnr">
-                        5
+
                     </div>
                 </div>
                 <div class="productright">
@@ -117,10 +103,8 @@
                         </div>
                     </div>
                     <div class="productnr">
-                        6
+
                     </div>
                 </div>
             </div>
-        </div>
-    </body>
-</html>
+        </div>  
