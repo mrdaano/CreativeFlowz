@@ -5,7 +5,7 @@ include 'app/classes/Database.php';
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My orders</title>
+        <title>My christian facilities</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -48,6 +48,9 @@ include 'app/classes/Database.php';
                             <td class="textintable"><a href="myorders.php">alle orders</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
+                            <td class="textintable"><a href="mychristianorders.php">alesco orders</a></td>
+                        </tr>
+                        <tr class="thirdheaderdata">
                             <td class="textintable"><a href="myalescoorders.php">alesco orders</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
@@ -62,10 +65,7 @@ include 'app/classes/Database.php';
         </div>
         <div class="wrapper">
             <div class="textheader">
-                <div class="order">
-                    <?php 
-                        DB::start()->get(array('name','description','price'), 'product', array(array('code', '=', '111')))->results();
-                    ?>
+
             </div>
         </div>
     </body>

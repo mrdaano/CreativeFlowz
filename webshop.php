@@ -61,7 +61,7 @@
         </div>
         <div class="wrapper">
             <div class="textheader">
-                <div class="productleft">
+                <div class="product">
                     <div class="productimg">
                         <img class="img" src="img/inductiewarmer.jpg"/>
                         <div class="view">
@@ -74,7 +74,7 @@
                     <div class="productnr">
                     </div>
                 </div>
-                <div class="productmid">
+                <div class="product">
                     <div class="productimg">
                         <img class="img" src="img/inductiewarmer.jpg"/>
                         <div class="view">
@@ -85,7 +85,7 @@
                         productnaam <br>
                     </div>
                 </div>
-                <div class="productright">
+                <div class="product">
                     <div class="productimg">
                         <img class="img" src="img/inductiewarmer.jpg"/>
                         <div class="view">
@@ -97,7 +97,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="productleft">
+                <div class="product">
                     <div class="productimg">
                         <img class="img" src="img/inductiewarmer.jpg"/>
                         <div class="view">
@@ -108,7 +108,7 @@
                         productnaam <br>
                     </div>
                 </div>
-                <div class="productmid">
+                <div class="product">
                     <div class="productimg">
                         <img class="img" src="img/inductiewarmer.jpg"/>
                         <div class="view">
@@ -119,7 +119,7 @@
                         productnaam <br>
                     </div>
                 </div>
-                <div class="productright">
+                <div class="product">
                     <div class="productimg">
                         <img class="img" src="img/inductiewarmer.jpg"/>
                         <div class="view">
@@ -131,7 +131,7 @@
                     </div>
                 </div>
                 <br>
-                <div class="productleft">
+                <div class="product">
                     <div class="productimg">
                         <img class="img" src="img/inductiewarmer.jpg"/>
                         <div class="view">
@@ -142,7 +142,7 @@
                         productnaam <br>
                     </div>
                 </div>
-                <div class="productmid">
+                <div class="product">
                     <div class="productimg">
                         <img class="img" src="img/inductiewarmer.jpg"/>
                         <div class="view">
@@ -153,7 +153,7 @@
                         productnaam <br>
                     </div>
                 </div>
-                <div class="productright">
+                <div class="product">
                     <div class="productimg">
                         <img class="img" src="img/inductiewarmer.jpg"/>
                         <div class="view">
