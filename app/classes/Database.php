@@ -339,12 +339,19 @@ class Database {
 		}
 	}
 	
+<<<<<<< HEAD
 
+=======
+>>>>>>> register
 	/**
 	 * Daan (2-12-2015)
 	 * Note:
 	 * This can only included in other functions in the class
 	 */
+<<<<<<< HEAD
+=======
+
+>>>>>>> register
 	private function orderBy($order = array()) {
 		$accepted = array('ASC','DESC');
 		$return = " ORDER BY ";
@@ -362,7 +369,11 @@ class Database {
 		}
 		return $return;
 	}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> register
 	/**
 	 * Daan (25-11-2015)
 	 * Note:

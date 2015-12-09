@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [04-Dec-2015 11:20:53 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 36
 [04-Dec-2015 11:21:12 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 36
 [04-Dec-2015 11:21:12 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 36
@@ -210,3 +211,55 @@ Stack trace:
   thrown in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 8
 [04-Dec-2015 13:18:28 UTC] PHP Warning:  include(app/cms/modules/category.php): failed to open stream: No such file or directory in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 62
 [04-Dec-2015 13:18:28 UTC] PHP Warning:  include(): Failed opening 'app/cms/modules/category.php' for inclusion (include_path='.;C:\php\pear') in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 62
+=======
+[09-Dec-2015 13:47:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
+[09-Dec-2015 13:47:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
+[09-Dec-2015 13:47:19 Europe/Berlin] PHP Notice:  Undefined property: Register::$id in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 85
+[09-Dec-2015 13:47:19 Europe/Berlin] PHP Notice:  Undefined property: Register::$email in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 59
+[09-Dec-2015 13:47:19 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 96
+[09-Dec-2015 13:48:58 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
+[09-Dec-2015 13:48:58 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
+[09-Dec-2015 13:48:58 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 97
+[09-Dec-2015 13:49:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
+[09-Dec-2015 13:49:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
+[09-Dec-2015 13:49:28 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 97
+[09-Dec-2015 13:59:45 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
+[09-Dec-2015 13:59:45 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
+[09-Dec-2015 13:59:45 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 99
+[09-Dec-2015 14:13:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
+[09-Dec-2015 14:13:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
+[09-Dec-2015 14:13:28 Europe/Berlin] PHP Notice:  Undefined variable: User in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/webshop.php on line 3
+[09-Dec-2015 14:13:28 Europe/Berlin] PHP Fatal error:  Call to a member function lastname() on null in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/webshop.php on line 3
+[09-Dec-2015 14:13:31 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
+[09-Dec-2015 14:13:31 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
+[09-Dec-2015 14:13:34 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
+[09-Dec-2015 14:13:34 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
+[09-Dec-2015 14:13:55 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
+[09-Dec-2015 14:13:55 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
+[09-Dec-2015 14:16:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
+[09-Dec-2015 14:16:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
+[09-Dec-2015 14:16:00 Europe/Berlin] PHP Notice:  Undefined property: Register::$msg in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 118
+[09-Dec-2015 14:16:20 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
+[09-Dec-2015 14:16:20 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
+[09-Dec-2015 14:16:20 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 312
+[09-Dec-2015 14:16:20 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 110
+[09-Dec-2015 14:42:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
+[09-Dec-2015 14:42:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
+[09-Dec-2015 14:42:25 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 312
+[09-Dec-2015 14:42:25 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 120
+[09-Dec-2015 14:57:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
+[09-Dec-2015 14:57:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
+[09-Dec-2015 14:57:54 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 312
+[09-Dec-2015 14:57:54 Europe/Berlin] PHP Notice:  Undefined variable: header in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 98
+[09-Dec-2015 14:57:54 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 148
+[09-Dec-2015 15:01:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
+[09-Dec-2015 15:01:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
+[09-Dec-2015 15:01:05 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 312
+[09-Dec-2015 15:01:05 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 150
+[09-Dec-2015 15:05:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 15
+[09-Dec-2015 15:05:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 40
+[09-Dec-2015 15:05:13 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 312
+[09-Dec-2015 15:05:13 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 150
+[09-Dec-2015 15:14:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 17
+[09-Dec-2015 15:14:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 42
+>>>>>>> register
