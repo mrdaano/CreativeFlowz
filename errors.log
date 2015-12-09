@@ -48,3 +48,18 @@
 [09-Dec-2015 15:05:13 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 150
 [09-Dec-2015 15:14:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 17
 [09-Dec-2015 15:14:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 42
+[09-Dec-2015 15:24:16 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 17
+[09-Dec-2015 15:24:16 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 42
+[09-Dec-2015 15:24:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 312
+[09-Dec-2015 15:24:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 17
+[09-Dec-2015 15:24:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 42
+[09-Dec-2015 15:24:47 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Login.php on line 70
+[09-Dec-2015 15:30:53 Europe/Berlin] PHP Notice:  Undefined variable: mail in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 12
+[09-Dec-2015 15:30:53 Europe/Berlin] PHP Fatal error:  Call to a member function isSMTP() on null in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 12
+[09-Dec-2015 15:30:55 Europe/Berlin] PHP Notice:  Undefined variable: mail in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 12
+[09-Dec-2015 15:30:55 Europe/Berlin] PHP Fatal error:  Call to a member function isSMTP() on null in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 12
+[09-Dec-2015 15:31:08 Europe/Berlin] PHP Notice:  Undefined variable: mail in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 12
+[09-Dec-2015 15:31:08 Europe/Berlin] PHP Fatal error:  Call to a member function isSMTP() on null in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 12
+[09-Dec-2015 15:31:11 Europe/Berlin] PHP Notice:  Undefined variable: mail in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 12
+[09-Dec-2015 15:31:11 Europe/Berlin] PHP Fatal error:  Call to a member function isSMTP() on null in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 12
+[09-Dec-2015 15:31:48 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Login.php on line 70
