@@ -306,3 +306,7 @@ a.cms{
   padding: 15px;
   float: left;
 }
+
+.err{
+  border: solid 1px #CE2A0D !important;
+}

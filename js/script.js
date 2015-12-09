@@ -1,7 +1,10 @@
 $(document).ready(function() {
+});
+
+function checkContactForm() {
   var err = false;
-  $("#submit").on('click', function() {
-    $('.login').each(function() {
+    $(".form").removeClass('err');
+    $('.form').each(function() {
       if ($(this).val() == "") {
         $(this).addClass('err');
         err = true;
@@ -12,5 +15,4 @@ $(document).ready(function() {
       return false;
     }
     return true;
-  });
-});
+}
