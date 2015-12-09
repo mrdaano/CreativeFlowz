@@ -316,6 +316,11 @@ a.cms{
 	text-decoration: none;
 	margin: 6px 0;
 	display: inline-flex;
+	border: none;
+}
+
+.media_beheer form {
+	margin-top: 15px;
 }
 
 .media_table {
