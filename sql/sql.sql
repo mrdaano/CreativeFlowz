@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: localhost:8889
--- Gegenereerd op: 04 dec 2015 om 13:55
+-- Gegenereerd op: 09 dec 2015 om 15:26
 -- Serverversie: 5.5.42
 -- PHP-versie: 5.6.10
 
@@ -36,7 +36,14 @@ CREATE TABLE `city` (
   `id` int(11) NOT NULL,
   `country` varchar(200) NOT NULL,
   `cityname` varchar(300) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `city`
+--
+
+INSERT INTO `city` (`id`, `country`, `cityname`) VALUES
+(1, 'Nederland', 'Zeewolde');
 
 -- --------------------------------------------------------
 
@@ -56,6 +63,18 @@ CREATE TABLE `customer` (
   `company_name` varchar(300) DEFAULT NULL,
   `active` tinyint(1) NOT NULL DEFAULT '0'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Gegevens worden geëxporteerd voor tabel `customer`
+--
+
+INSERT INTO `customer` (`user_id`, `city_id`, `street`, `zip`, `housenumber`, `addition`, `phone_number`, `company_taxnumber`, `company_name`, `active`) VALUES
+(3, 1, 'Schokker', '1', 10, NULL, '+31365224305', NULL, NULL, 0),
+(4, 1, 'Schokker', '1', 10, NULL, '+31365224305', NULL, NULL, 0),
+(5, 1, 'Schokker', '1', 10, NULL, '+31365224305', NULL, NULL, 0),
+(6, 1, 'Schokker', '1', 10, NULL, '+31365224305', NULL, NULL, 0),
+(7, 1, 'Schokker', '1', 10, NULL, '+31365224305', NULL, NULL, 0),
+(8, 1, 'Schokker', '1', 10, NULL, '+31365224305', NULL, NULL, 0);
 
 -- --------------------------------------------------------
 
@@ -247,7 +266,7 @@ CREATE TABLE `supplier` (
 CREATE TABLE `type` (
   `id` int(11) NOT NULL,
   `name` varchar(300) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=3 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 -- --------------------------------------------------------
 
@@ -261,14 +280,20 @@ CREATE TABLE `user` (
   `lastname` varchar(300) NOT NULL,
   `password` varchar(200) NOT NULL,
   `email` varchar(300) NOT NULL
-) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=9 DEFAULT CHARSET=latin1;
 
 --
 -- Gegevens worden geëxporteerd voor tabel `user`
 --
 
 INSERT INTO `user` (`id`, `firstname`, `lastname`, `password`, `email`) VALUES
-(1, 'Yannick', 'Berendsen', '9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08', 'mryannickz@live.nl');
+(1, 'Yannick', 'Berendsen', '9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08', 'admin@admin.nl'),
+(3, 'Yan', 'Nick', '8c1b05827e3eca99dff736df922a5bca03b6caa88475eccea89cb11175b8d465', 'mryaannickz@live.nl'),
+(4, 'Yannick', 'Berendsen', '8de234954f164d1ef712942d30fd2490a2e02ada67b06321491cb8a2b24f6109', 'mryananickz@live.nl'),
+(5, 'Yannick', 'Berendsen', 'abe4c7037250ad1cc7a9f575c186454c93273e3499a1bfb304b72ef33bd085b9', 'aaa@live.nl'),
+(6, 'Yannick', 'Berendsen', '4efdf18407892c754073899b68fc70fdbadf1a741bc97874ca4ac433ab8334cb', '-mryannickz@live.nl'),
+(7, 'Yannick', 'Berendsen', 'db4fdbf6909c7ad22cea94eefdb8ec75b9e01bc8827007a7216f31ed7deb4702', 'ao;sdkjlas'),
+(8, 'Yannick', 'Berendsen', 'ca7aaa1108fbf1aedc6f62697e71f88389a40df2a80cec8ac2a21fb3bd88edc1', 'mryannickz@live.nlkbjgh');
 
 --
 -- Indexen voor geëxporteerde tabellen
@@ -425,7 +450,7 @@ ALTER TABLE `category`
 -- AUTO_INCREMENT voor een tabel `city`
 --
 ALTER TABLE `city`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 --
 -- AUTO_INCREMENT voor een tabel `domain`
 --
@@ -465,12 +490,12 @@ ALTER TABLE `supplier`
 -- AUTO_INCREMENT voor een tabel `type`
 --
 ALTER TABLE `type`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=3;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT voor een tabel `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=9;
 --
 -- Beperkingen voor geëxporteerde tabellen
 --
@@ -485,15 +510,15 @@ ALTER TABLE `category`
 -- Beperkingen voor tabel `customer`
 --
 ALTER TABLE `customer`
-  ADD CONSTRAINT `fk_customer_user1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `fk_customer_city1` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+  ADD CONSTRAINT `fk_customer_city1` FOREIGN KEY (`city_id`) REFERENCES `city` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  ADD CONSTRAINT `fk_customer_user1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
 -- Beperkingen voor tabel `dia`
 --
 ALTER TABLE `dia`
-  ADD CONSTRAINT `fk_slideshow_line_slideshow1` FOREIGN KEY (`slideshow_id`) REFERENCES `slideshow` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `fk_slideshow_line_media1` FOREIGN KEY (`media_id`) REFERENCES `media` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+  ADD CONSTRAINT `fk_slideshow_line_media1` FOREIGN KEY (`media_id`) REFERENCES `media` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  ADD CONSTRAINT `fk_slideshow_line_slideshow1` FOREIGN KEY (`slideshow_id`) REFERENCES `slideshow` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
 -- Beperkingen voor tabel `employee`
@@ -537,19 +562,19 @@ ALTER TABLE `product`
 -- Beperkingen voor tabel `product_category`
 --
 ALTER TABLE `product_category`
-  ADD CONSTRAINT `fk_product_category_products1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `fk_product_category_category1` FOREIGN KEY (`category_id`) REFERENCES `category` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+  ADD CONSTRAINT `fk_product_category_category1` FOREIGN KEY (`category_id`) REFERENCES `category` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  ADD CONSTRAINT `fk_product_category_products1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
 -- Beperkingen voor tabel `product_media`
 --
 ALTER TABLE `product_media`
-  ADD CONSTRAINT `fk_product_media_product1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `fk_product_media_media1` FOREIGN KEY (`media_id`) REFERENCES `media` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+  ADD CONSTRAINT `fk_product_media_media1` FOREIGN KEY (`media_id`) REFERENCES `media` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  ADD CONSTRAINT `fk_product_media_product1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
 -- Beperkingen voor tabel `shoppingcart`
 --
 ALTER TABLE `shoppingcart`
-  ADD CONSTRAINT `fk_shoppingcart_users1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
-  ADD CONSTRAINT `fk_shoppingcart_products1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
+  ADD CONSTRAINT `fk_shoppingcart_products1` FOREIGN KEY (`product_id`) REFERENCES `product` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION,
+  ADD CONSTRAINT `fk_shoppingcart_users1` FOREIGN KEY (`user_id`) REFERENCES `user` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
