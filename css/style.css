@@ -199,21 +199,6 @@ li {
     margin-bottom: 25px;
     float: left;
 }
-.productmid {
-    display: inline-block;
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 25px;
-}
-.productright {
-    display: inline-block;
-    margin-right: 5px;
-    margin-left: 5px;
-    margin-top: 10px;
-    margin-bottom: 25px;
-    float: left;
-}
 .productimg {
     width: 200px;
     height: 150px;

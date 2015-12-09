@@ -64,7 +64,13 @@ include 'app/classes/Database.php';
             <div class="textheader">
                 <div class="order">
                     <?php 
-                        DB::start()->get(array('name','description','price'), 'product', array(array('code', '=', '111')))->results();
+                       $orders = DB::start()->get(array('name','description','price'), 'product', array(array('code', '=', '111')))->results();
+
+                        foreach($orders as $key => $order) {
+                            echo $order->naam;
+                            echo $order->description;
+                            echo $order->price;
+                        }
                     ?>
             </div>
         </div>

@@ -61,109 +61,26 @@
         </div>
         <div class="wrapper">
             <div class="textheader">
-                <div class="product">
-                    <div class="productimg">
-                        <img class="img" src="img/inductiewarmer.jpg"/>
-                        <div class="view">
-                            <a href="product1.php"><img src=" "/>bekijk product</a>
+                <?php 
+                    $product = DB::start()->get(array('id','name','description','price'), 'product', array(array('code', '=', '111')))->results();
+                    foreach($orders as $key => $order) {
+                ?>
+                    <div class="product">
+                        <div class="productimg">
+                            <img class="img" src="img/inductiewarmer.jpg"/>
+                            <div class="view">
+                                <a href="product1.php"><img src=" "/>bekijk product</a>
+                            </div>
+                        </div>
+                        <div class="productnr">
+                            <?php
+                                echo $product->id; 
+                            ?>
                         </div>
                     </div>
-                    <div class="productnr">
-                        productnaam <br>
-                    </div>
-                    <div class="productnr">
-                    </div>
-                </div>
-                <div class="product">
-                    <div class="productimg">
-                        <img class="img" src="img/inductiewarmer.jpg"/>
-                        <div class="view">
-                            <a href="product2.php"><img src=" "/>bekijk product</a>
-                        </div>
-                    </div>
-                    <div class="productnr">
-                        productnaam <br>
-                    </div>
-                </div>
-                <div class="product">
-                    <div class="productimg">
-                        <img class="img" src="img/inductiewarmer.jpg"/>
-                        <div class="view">
-                            <a href="product3.php"><img src=" "/>bekijk product</a>
-                        </div>
-                    </div>
-                    <div class="productnr">
-                        productnaam <br>
-                    </div>
-                </div>
-                <br>
-                <div class="product">
-                    <div class="productimg">
-                        <img class="img" src="img/inductiewarmer.jpg"/>
-                        <div class="view">
-                            <a href="product4.php"><img src=" "/>bekijk product</a>
-                        </div>
-                    </div>
-                    <div class="productnr">
-                        productnaam <br>
-                    </div>
-                </div>
-                <div class="product">
-                    <div class="productimg">
-                        <img class="img" src="img/inductiewarmer.jpg"/>
-                        <div class="view">
-                            <a href="product5.php"><img src=" "/>bekijk product</a>
-                        </div>
-                    </div>
-                    <div class="productnr">
-                        productnaam <br>
-                    </div>
-                </div>
-                <div class="product">
-                    <div class="productimg">
-                        <img class="img" src="img/inductiewarmer.jpg"/>
-                        <div class="view">
-                            <a href="product6.php"><img src=" "/>bekijk product</a>
-                        </div>
-                    </div>
-                    <div class="productnr">
-                        productnaam <br>
-                    </div>
-                </div>
-                <br>
-                <div class="product">
-                    <div class="productimg">
-                        <img class="img" src="img/inductiewarmer.jpg"/>
-                        <div class="view">
-                            <a href="product7.php"><img src=" "/>bekijk product</a>
-                        </div>
-                    </div>
-                    <div class="productnr">
-                        productnaam <br>
-                    </div>
-                </div>
-                <div class="product">
-                    <div class="productimg">
-                        <img class="img" src="img/inductiewarmer.jpg"/>
-                        <div class="view">
-                            <a href="product8.php"><img src=" "/>bekijk product</a>
-                        </div>
-                    </div>
-                    <div class="productnr">
-                        productnaam <br>
-                    </div>
-                </div>
-                <div class="product">
-                    <div class="productimg">
-                        <img class="img" src="img/inductiewarmer.jpg"/>
-                        <div class="view">
-                            <a href="product9.php"><img src=" "/>bekijk product</a>
-                        </div>
-                    </div>
-                    <div class="productnr">
-                        productnaam <br>
-                    </div>
-                </div>
+                <?php
+                    }
+                ?>
             </div>
         </div>
     </body>
