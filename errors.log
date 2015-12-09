@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 [04-Dec-2015 11:20:53 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 36
 [04-Dec-2015 11:21:12 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 36
 [04-Dec-2015 11:21:12 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 36
@@ -211,73 +210,64 @@ Stack trace:
   thrown in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 8
 [04-Dec-2015 13:18:28 UTC] PHP Warning:  include(app/cms/modules/category.php): failed to open stream: No such file or directory in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 62
 [04-Dec-2015 13:18:28 UTC] PHP Warning:  include(): Failed opening 'app/cms/modules/category.php' for inclusion (include_path='.;C:\php\pear') in D:\Programmeren\Website\Bart\Git\CreativeFlowz\index.php on line 62
-=======
-[09-Dec-2015 13:47:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[09-Dec-2015 13:47:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[09-Dec-2015 13:47:19 Europe/Berlin] PHP Notice:  Undefined property: Register::$id in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 85
-[09-Dec-2015 13:47:19 Europe/Berlin] PHP Notice:  Undefined property: Register::$email in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 59
-[09-Dec-2015 13:47:19 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 96
-[09-Dec-2015 13:48:58 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[09-Dec-2015 13:48:58 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[09-Dec-2015 13:48:58 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 97
-[09-Dec-2015 13:49:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[09-Dec-2015 13:49:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[09-Dec-2015 13:49:28 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 97
-[09-Dec-2015 13:59:45 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[09-Dec-2015 13:59:45 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[09-Dec-2015 13:59:45 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 99
-[09-Dec-2015 14:13:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[09-Dec-2015 14:13:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[09-Dec-2015 14:13:28 Europe/Berlin] PHP Notice:  Undefined variable: User in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/webshop.php on line 3
-[09-Dec-2015 14:13:28 Europe/Berlin] PHP Fatal error:  Call to a member function lastname() on null in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/webshop.php on line 3
-[09-Dec-2015 14:13:31 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[09-Dec-2015 14:13:31 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[09-Dec-2015 14:13:34 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[09-Dec-2015 14:13:34 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[09-Dec-2015 14:13:55 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[09-Dec-2015 14:13:55 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[09-Dec-2015 14:16:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[09-Dec-2015 14:16:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[09-Dec-2015 14:16:00 Europe/Berlin] PHP Notice:  Undefined property: Register::$msg in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 118
-[09-Dec-2015 14:16:20 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[09-Dec-2015 14:16:20 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[09-Dec-2015 14:16:20 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 312
-[09-Dec-2015 14:16:20 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 110
-[09-Dec-2015 14:42:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[09-Dec-2015 14:42:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[09-Dec-2015 14:42:25 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 312
-[09-Dec-2015 14:42:25 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 120
-[09-Dec-2015 14:57:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[09-Dec-2015 14:57:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[09-Dec-2015 14:57:54 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 312
-[09-Dec-2015 14:57:54 Europe/Berlin] PHP Notice:  Undefined variable: header in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 98
-[09-Dec-2015 14:57:54 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 148
-[09-Dec-2015 15:01:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
-[09-Dec-2015 15:01:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 39
-[09-Dec-2015 15:01:05 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 312
-[09-Dec-2015 15:01:05 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 150
-[09-Dec-2015 15:05:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 15
-[09-Dec-2015 15:05:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 40
-[09-Dec-2015 15:05:13 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 312
-[09-Dec-2015 15:05:13 Europe/Berlin] PHP Notice:  Undefined property: Register::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Register.php on line 150
-[09-Dec-2015 15:14:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 17
-[09-Dec-2015 15:14:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 42
-<<<<<<< HEAD
->>>>>>> register
-=======
-[09-Dec-2015 15:24:16 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 17
-[09-Dec-2015 15:24:16 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 42
-[09-Dec-2015 15:24:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 312
-[09-Dec-2015 15:24:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 17
-[09-Dec-2015 15:24:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 42
-[09-Dec-2015 15:24:47 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Login.php on line 70
-[09-Dec-2015 15:30:53 Europe/Berlin] PHP Notice:  Undefined variable: mail in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 12
-[09-Dec-2015 15:30:53 Europe/Berlin] PHP Fatal error:  Call to a member function isSMTP() on null in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 12
-[09-Dec-2015 15:30:55 Europe/Berlin] PHP Notice:  Undefined variable: mail in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 12
-[09-Dec-2015 15:30:55 Europe/Berlin] PHP Fatal error:  Call to a member function isSMTP() on null in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 12
-[09-Dec-2015 15:31:08 Europe/Berlin] PHP Notice:  Undefined variable: mail in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 12
-[09-Dec-2015 15:31:08 Europe/Berlin] PHP Fatal error:  Call to a member function isSMTP() on null in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 12
-[09-Dec-2015 15:31:11 Europe/Berlin] PHP Notice:  Undefined variable: mail in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 12
-[09-Dec-2015 15:31:11 Europe/Berlin] PHP Fatal error:  Call to a member function isSMTP() on null in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 12
-[09-Dec-2015 15:31:48 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Login.php on line 70
->>>>>>> register
+[09-Dec-2015 16:13:33 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:13:33 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:14:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:14:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:14:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:14:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:14:26 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:14:26 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:14:26 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:14:26 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:14:26 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 50
+[09-Dec-2015 16:14:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:14:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:14:29 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:14:29 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:14:29 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:14:29 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:14:29 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 50
+[09-Dec-2015 16:14:39 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:14:39 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:14:39 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:14:39 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:14:39 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 50
+[09-Dec-2015 16:14:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:14:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:14:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:14:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:14:42 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[09-Dec-2015 16:14:43 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:14:43 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:14:43 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[09-Dec-2015 16:14:56 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:14:56 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:14:56 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:14:56 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:14:56 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 50
+[09-Dec-2015 16:15:03 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:15:03 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:15:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:15:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:15:05 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:15:05 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:15:05 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 50
+[09-Dec-2015 16:15:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:15:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:15:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:15:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:15:11 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:15:11 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:15:11 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:15:11 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:15:11 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 50
+[09-Dec-2015 16:15:11 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:15:11 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:15:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:15:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:15:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:15:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:15:49 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:15:49 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:15:49 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 50
