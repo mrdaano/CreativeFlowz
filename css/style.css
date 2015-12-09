@@ -10,9 +10,10 @@
     margin: 0;
     padding: 0;
 }
-body {
+body, html {
     background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
+    height: 100%;
 }
 .wrapper{
     width: 1000px;
@@ -318,7 +319,7 @@ a.login{
 .leftheader{
   background-color: #383f48;
   width: 330px;
-  height: 900px;
+  height: 100%;
   float: left;
 }
 
@@ -371,4 +372,42 @@ a.cms{
   height: auto;
   padding: 15px;
   float: left;
+}
+
+.media_beheer .btn {
+	background-color: #34495e;
+	padding: 7px 12px;
+	color: #FFF;
+	border-radius: 4px;
+	text-decoration: none;
+	margin: 6px 0;
+	display: inline-flex;
+	border: none;
+}
+
+.media_beheer form {
+	margin-top: 15px;
+}
+
+.media_table {
+	margin-top: 20px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+.media_table a {
+	color: #666666;
+}
+
+.media_table thead th {
+	text-align: left;
+}
+
+.media_table td, .media_table th {
+	height: 35px;
+	border-bottom: 1px solid #383f48;
+}
+
+.media_table tr:last-child td {
+	border-bottom: none;
 }
