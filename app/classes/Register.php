@@ -60,6 +60,7 @@ class Register{
         }else{
             $this->createAccount();
             $this->sendMail();
+            echo $this->plain_password;
             $this->setNotification('U bent succesvol geregistreerd, we hebben een mail verstuurd met daarin uw wachtwoord naar het E-Mail adres '.$this->mail.'!');
         }
     }
