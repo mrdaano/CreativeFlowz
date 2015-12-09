@@ -11,14 +11,10 @@ $db = new Database;
 $Route = new Route($db);
 $Register = new Register($db);
 $Login = new Login($db);
-<<<<<<< HEAD
 $Category = new Category($db);
-=======
 if($_SESSION['_user']['id'] > 0){
     $User = new User($db);
 }
-
->>>>>>> master
 ?>
 <!DOCTYPE html>
 <html>
@@ -28,25 +24,20 @@ if($_SESSION['_user']['id'] > 0){
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <script type="text/javascript" src="js/jquery.js"/></script>
+        <script type="text/javascript" src="js/script.js/"/></script
     </head>
     <body>
         <div class="header">
             <div class="wrapper">
                 <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
                 <ul class="forheader">
-<<<<<<< HEAD
-                    <li><a href="aboutus.php">over ons</a></li>
-                    <li><a href="webshop.php">webshop</a></li>
-                    <li><a href="contact.php">contact</a></li>
-=======
                     <li><a href="index.php?page=aboutus">over ons</a></li>
                     <li><a href="index.php?page=webshop">webshop</a></li>
                     <li><a href="index.php?page=contact">contact</a></li>
->>>>>>> master
                 </ul>
                 <ul class="rightlist">
                     <?php
-                    
+
                     if($_SESSION['_user']['id'] > 0){
                         ?>
                          <li class="shoppingcart"><a href="index.php?page=shoppingcart"><img class="shoppingcartimg" src="img/shopping-cart12.png" width="20"/> winkelwagen</a><li>
@@ -57,7 +48,7 @@ if($_SESSION['_user']['id'] > 0){
                          <li><a href="index.php?page=login">aanmelden</a></li>
                         <?php
                     }?>
-                   
+
                 </ul>
             </div>
         </div>
