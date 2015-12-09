@@ -308,6 +308,35 @@ a.cms{
   float: left;
 }
 
+.media_beheer .btn {
+	background-color: #34495e;
+	padding: 7px 12px;
+	color: #FFF;
+	border-radius: 4px;
+	text-decoration: none;
+	margin: 6px 0;
+	display: inline-flex;
+}
+
 .media_table {
+	margin-top: 20px;
 	width: 100%;
+	border-collapse: collapse;
+}
+
+.media_table a {
+	color: #666666;
+}
+
+.media_table thead th {
+	text-align: left;
+}
+
+.media_table td, .media_table th {
+	height: 35px;
+	border-bottom: 1px solid #383f48;
+}
+
+.media_table tr:last-child td {
+	border-bottom: none;
 }
