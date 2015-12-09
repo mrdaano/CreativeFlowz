@@ -1,5 +1,4 @@
 <?php
-
 /**
 * 
 */
@@ -11,8 +10,6 @@ class Category
 	{
 		$this->db = $db;
 	}
-
-
 	/*
 	Setters:
 	--------
@@ -23,12 +20,10 @@ class Category
 	{
 		$this->_id = $id;
 	}
-
 	public function setName($name)
 	{
 		$this->_name = $name;
 	}
-
 	public function setParent($parent)
 	{
 		$this->_parent = $parent;
@@ -37,12 +32,10 @@ class Category
 				$this->setNameParent($sql[0]->name);
 			} else $this->setNameParent(null);
 	}
-
 	public function setNameParent($nameParent)
 	{
 		$this->_nameParent = $nameParent;
 	}
-
 	/*
 	Auto set:
 	---------
@@ -60,7 +53,6 @@ class Category
 			$this->setParent($std->parent);
 		}	
 	}
-
 	/*
 	Create a new category:
 	----------------------
@@ -72,13 +64,11 @@ class Category
 		if ($this->_name == '') {
 			return "&m=none";
 		}
-
 		if ($this->_parent == NULL) {
 			$sql = $this->db->start()->get('name', 'Category', array(array('parent', 'IS', 'NULL')))->results();
 		} else {
 			$sql = $this->db->start()->get('name', 'category', array(array('parent', '=', $this->_parent)))->results();
 		}
-
 		foreach ($sql as $std) {
 			if (strtolower($std->name) == strtolower($this->_name)) {
 				return "&m=exist";
@@ -92,13 +82,11 @@ class Category
 			return;
 		}
 	}
-
 	/*
 	Update a category:
 	------------------
 	Baruch (2-11-2015)
 	Usage: $category->updateCategory('oldCategoryName', 3);
-
 	$oldParent = Int
 	$oldName = String
 	*/
@@ -109,7 +97,6 @@ class Category
 		if ($this->_name == '') {
 			return $returnId . "none";
 		}
-
 		if ($this->_parent == NULL) {
 			$sql = $this->db->start()->get('name', 'category', array(array('parent', 'IS', 'NULL')))->results();
 		} else {
@@ -123,7 +110,6 @@ class Category
 				}
 			}
 		}
-
 		if ($oldParent == NULl && $this->_parent != NULL) {
 			$sql = $this->db->start()->get('id', 'category', array(array('parent', '=', $this->_id)))->results();	
 			if (!empty($sql)) {
@@ -131,7 +117,6 @@ class Category
 				break;
 			}
 		}
-
 		if ($this->_parent == NULl) {
 			$this->db->start()->update('category', array('name' => $this->_name), array('id' => $this->_id));
 			return;
@@ -140,7 +125,6 @@ class Category
 			return;	
 		}	
 	}	
-
 	/*
 	Remove a category:
 	------------------
@@ -153,13 +137,11 @@ class Category
 		$this->linkProduct();
 		$this->db->start()->delete('category', array(array('id', '=', $this->_id)));		
 	}
-
 	/*
 	Link a category and product:
 	-----------------------------
 	Baruch (2-11-2015)
 	Usage: $category->linkProduct(array(1, 2, 3, 4, 5));
-
 	$product_id = array(Int);
 	*/
 	public function linkProduct($product_id = array())
@@ -171,7 +153,6 @@ class Category
 			}
 		}
 	}
-
 	/*
 	Getters
 	-------
@@ -182,22 +163,18 @@ class Category
 	{
 		return $this->_id;
 	}
-
 	public function getName()
 	{
 		return $this->_name;
 	}
-
 	public function getParent()
 	{
 		return $this->_parent;
 	}
-
 	public function getNameParent()
 	{
 		return $this->_nameParent;
 	}
-
 	public function getLinkedProducts() {
 		$linkedProducts = array();
 		$sql = $this->db->start()->get(array('name', 'id'), 'product')->results();
@@ -205,20 +182,17 @@ class Category
 			$linkedProduct = array();
 			$linkedProduct[0] = $std->id;
 			$linkedProduct[1] = $std->name;
+			$linkedProduct[2] = false;
 			$sqlChecked = $this->db->start()->get('product_id', 'product_category', array(array('category_id', '=', $this->_id)))->results();
 			foreach ($sqlChecked as $stdChecked) {
 				if ($stdChecked->product_id == $std->id) {
 					$linkedProduct[2] = true;
-				} else {
-					$linkedProduct[2] = false;
 				}
 			}
 			$linkedProducts[$key] = $linkedProduct;
 		}
-
 		return $linkedProducts;
 	}
-
 	/*
 	Get all category's
 	------------------
@@ -227,19 +201,17 @@ class Category
 	*/
 	public function getAll($where = array()) {
 		$allCategory = array();
-
 		if (empty($where)) {
 			$sql = $this->db->start()->get('*', 'category')->results();
 		} else {
 			$sql = $this->db->start()->get('*', 'category', $where)->results();
-		
+		}
 		foreach ($sql as $key => $std) {
 			$allCategory[$key] = new Category($this->db);
 			$allCategory[$key]->setAuto($std->id);
 		}
 		return $allCategory;
 	}
-
 	
 }
 ?>
