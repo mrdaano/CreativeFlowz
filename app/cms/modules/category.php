@@ -73,7 +73,7 @@ if (filter_input(INPUT_GET, 'e', FILTER_VALIDATE_INT)) {
 		<?php	
 			foreach ($category->getLinkedProducts() as $product) {
 				echo '<input type="checkbox" name="product_category[]" value="' . $product[0] . '"';
-				if (isset($product[2])) {
+				if ($product[2]) {
 					echo "checked";
 				}
 				echo '>' . $product[1] . "<br>";
