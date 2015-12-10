@@ -1,7 +1,9 @@
 <?php
 	$media = new Media;
 	if(isset($_POST['submit'])) {
-		$media->addFile();
+		if($media->addFile()) {
+			die("Gelukt...");
+		}
 	}
 ?>
         <div class="neworders media_beheer">

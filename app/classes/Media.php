@@ -2,7 +2,7 @@
 	
 class Media {
 	
-	private static $dir = "media";
+	private $dir = "media";
 	private $errors = array(), $acceptedTypes = array("png","jpg","jpeg","gif","svg","pdf","mp4","mov");
 	
 	public function __construct() {
@@ -23,24 +23,32 @@ class Media {
 		$error = false;
 		$file = $_FILES[$inputName];
 		$ext = pathinfo($file['name'],PATHINFO_EXTENSION);
-		$dest = $dir . "/" . $file['name'] . $ext;
+		$dest = $dir . "/" . $file['name'];
 		
 		if ($file['size'] == 0 && $file['error'] == 4) {
 			$this->addError("Er is geen bestand geselecteerd, probeer het opnieuw.");
 			return false;
 		}
 		
-		if (!in_array($ext, $this->$acceptedTypes)) {
+		if (!in_array($ext, $this->acceptedTypes)) {
 			$this->addError("Dit bestandstype is niet geaccepteerd.");
 			$error = true;
 		}
 		
 		if (!file_exists($dir)) {
-			mkdir($dir);
+			mkdir($dir, 0777);
 		}
 		
 		if (move_uploaded_file($file["tmp_name"], $dest)) {
-			return true;
+			$db = DB::start()->insert('media', array(
+					'name' => $file['name'],
+					'path' => $dir
+				))->error();
+			
+			if ($db) {
+				return true;
+			}
+			
 		}
 		
 		$this->addError("Sorry, we kunnen uw bestand niet uploaden. Probeer het a.u.b. opnieuw.");
