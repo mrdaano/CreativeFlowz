@@ -34,7 +34,7 @@
         <div class="wrapper">
             <div class="textheader">
                 <?php 
-                    $product = DB::start()->get(array('id','name','description','price'), 'product', array(array('supplier_id', '=', '1')))->results();
+                    $product = $db->start()->get(array('id','name','description','price'), 'product', array(array('supplier_id', '==', '1')))->results();
                     foreach($orders as $key => $order) {
                 ?>
                     <div class="product">

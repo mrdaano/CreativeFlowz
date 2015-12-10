@@ -641,3 +641,607 @@ Stack trace:
 [10-Dec-2015 12:16:29 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
 [10-Dec-2015 12:16:29 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
 [10-Dec-2015 12:16:29 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:17:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:17:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:17:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:17:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:17:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:17:15 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:17:15 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:17:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:17:16 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:17:16 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:17:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:17:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:17:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:17:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:17:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:17:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:17:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:17:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:18:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:18:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:18:24 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:18:24 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:18:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:18:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:18:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:18:27 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:18:27 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:18:27 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:18:27 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:18:27 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:18:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:18:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:18:45 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:18:45 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:18:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:18:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:18:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:18:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:18:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:18:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:18:50 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:18:50 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:18:51 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:18:51 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:18:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:20:12 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:20:12 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:20:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:20:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:20:20 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:20:20 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:20:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:20:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:20:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:20:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:20:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:20:26 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:20:26 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:20:27 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:20:27 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:20:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:20:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:20:30 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:20:31 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:20:31 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:20:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:20:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:20:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:20:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:20:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:20:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:20:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:31:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:31:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:31:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:31:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:31:50 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:31:50 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:31:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:31:51 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:31:51 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:31:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:31:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:31:56 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:31:56 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:31:56 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[10-Dec-2015 12:32:09 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:32:09 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:32:09 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[10-Dec-2015 12:32:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:32:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:32:10 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[10-Dec-2015 12:41:15 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:41:15 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:41:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:41:16 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:41:16 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:41:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:41:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:41:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:41:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:41:17 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:41:18 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:41:18 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:41:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:41:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:41:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:41:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:41:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:41:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:41:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:41:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:41:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:41:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:41:39 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:41:39 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:41:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:41:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:41:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:41:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:41:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:41:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:42:02 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:42:02 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:42:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:42:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:42:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:42:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:42:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:42:30 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:43:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:43:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:43:22 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:43:22 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:43:22 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
+[10-Dec-2015 12:44:24 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:44:24 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:44:24 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:44:24 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:44:24 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
+[10-Dec-2015 12:45:07 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:45:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:45:08 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:45:08 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:45:08 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
+[10-Dec-2015 12:46:02 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:46:02 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:46:02 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:46:02 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:46:02 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
+[10-Dec-2015 12:46:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:46:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:46:19 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:46:19 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:46:19 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:46:59 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:46:59 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:46:59 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:46:59 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:46:59 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:47:33 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:47:33 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:47:33 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:47:33 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:47:33 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:47:34 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:47:34 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:47:34 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:47:34 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:47:34 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:47:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:47:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:47:35 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:47:35 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:47:35 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:48:18 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:48:18 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:48:18 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:48:18 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:48:18 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 39
+[10-Dec-2015 12:48:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:48:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:48:19 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:48:19 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:48:19 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 39
+[10-Dec-2015 12:48:20 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:48:20 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:48:20 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:48:20 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 12:48:20 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 39
+[10-Dec-2015 12:50:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:50:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:50:54 Europe/Berlin] PHP Fatal error:  Cannot redeclare class Database in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 2
+[10-Dec-2015 12:50:57 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:50:57 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:50:57 Europe/Berlin] PHP Fatal error:  Cannot redeclare class Database in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 2
+[10-Dec-2015 12:51:16 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:51:16 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:51:16 Europe/Berlin] PHP Fatal error:  Cannot redeclare class Database in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 2
+[10-Dec-2015 12:52:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:52:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:52:04 Europe/Berlin] PHP Fatal error:  Cannot redeclare class Database in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 2
+[10-Dec-2015 12:53:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:53:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:53:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:53:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:53:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:53:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:55:44 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:55:44 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:55:44 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:55:58 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:55:58 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:55:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:56:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:56:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:56:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:56:21 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:56:21 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:56:21 Europe/Berlin] PHP Parse error:  syntax error, unexpected '?>' in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 45
+[10-Dec-2015 12:56:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:56:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:56:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected '?>' in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 45
+[10-Dec-2015 12:56:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:56:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:56:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected '?>' in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 45
+[10-Dec-2015 12:57:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:57:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:57:36 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:57:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:57:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:57:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:57:50 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:57:50 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:57:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected '?>' in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 45
+[10-Dec-2015 12:57:51 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:57:51 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:57:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected '?>' in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 45
+[10-Dec-2015 12:58:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:58:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:58:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:58:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:58:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:58:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:58:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:58:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:58:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected '?>' in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 45
+[10-Dec-2015 12:59:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:59:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:59:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:59:38 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:59:38 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:59:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 12:59:52 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:59:52 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:59:52 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:59:52 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 12:59:52 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 12:59:52 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:00:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:00:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:00:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:00:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:00:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:00:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:01:32 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:01:32 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:01:32 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:01:32 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:01:32 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:01:32 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:02:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:02:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:02:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:02:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:02:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:02:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:02:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:02:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:02:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:02:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:02:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:02:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:03:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:03:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:03:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:03:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:03:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:03:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:03:51 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:03:51 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:03:51 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:03:51 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:03:52 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:03:52 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:03:52 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:03:52 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:03:55 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:03:55 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:03:55 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:03:55 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:03:55 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:03:55 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:04:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:04:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:04:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:04:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:04:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:04:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:04:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:04:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:04:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:04:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:04:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:04:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:04:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:04:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:04:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:04:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:04:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:04:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:04:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:04:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:05:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:05:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:05:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 13:06:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:06:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:06:30 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 38
+[10-Dec-2015 13:07:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:07:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:07:25 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:07:25 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:07:25 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:07:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:07:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:07:25 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:07:25 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:07:25 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:07:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:07:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:07:25 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:07:25 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:07:25 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:08:00 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:08:01 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:09:01 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:09:01 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:09:01 Europe/Berlin] PHP Parse error:  syntax error, unexpected '?>' in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 47
+[10-Dec-2015 13:09:02 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:09:02 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:09:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected '?>' in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 47
+[10-Dec-2015 13:11:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:11:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:11:05 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:11:05 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:11:05 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:11:05 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:11:05 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:11:05 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:11:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:11:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:11:13 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:11:13 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:11:13 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:11:13 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:11:13 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:11:13 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:11:15 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:11:15 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:11:15 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 13:11:15 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 13:11:15 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/alescowebshop.php on line 37
+[10-Dec-2015 13:11:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:11:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:11:19 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 13:11:19 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 13:11:19 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/alescowebshop.php on line 37
+[10-Dec-2015 13:11:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:11:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:11:22 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 13:11:22 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 13:11:22 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/alescowebshop.php on line 37
+[10-Dec-2015 13:11:26 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:11:26 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:11:26 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 13:11:26 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 13:11:26 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/alescowebshop.php on line 37
+[10-Dec-2015 13:11:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:11:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:11:28 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:11:28 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:11:28 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:11:28 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:11:28 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:11:28 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:11:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:11:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:11:35 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 13:11:35 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 13:11:35 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/alescowebshop.php on line 37
+[10-Dec-2015 13:12:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:12:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:12:28 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:12:28 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:12:28 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:12:28 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:12:28 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:12:28 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:12:34 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:12:34 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:12:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:12:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:12:35 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:12:35 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:12:35 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:12:35 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:12:35 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:12:35 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:12:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:12:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:12:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:12:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:12:37 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:12:37 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:12:37 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:12:37 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:12:37 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:12:37 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:14:38 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:14:39 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:14:39 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:14:39 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:14:39 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:14:39 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:14:39 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:14:39 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:14:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:14:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:14:40 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:14:40 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:14:40 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:14:40 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:14:40 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:14:40 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:14:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:14:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:14:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:14:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:14:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:14:41 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:14:41 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:14:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:14:41 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:14:41 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:14:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:14:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:14:43 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:14:43 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:14:43 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:14:43 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:14:43 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:14:43 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:14:43 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:14:43 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:15:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:15:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:15:36 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:15:36 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:15:36 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:15:36 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:15:36 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:15:36 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:15:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:15:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:15:37 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:15:37 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:15:37 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:15:37 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:15:37 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:15:37 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:16:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:16:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:16:48 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 13:16:48 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 13:16:48 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/alescowebshop.php on line 37
+[10-Dec-2015 13:16:52 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:16:52 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:16:52 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 13:16:52 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 13:16:52 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/alescowebshop.php on line 37
+[10-Dec-2015 13:17:21 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:17:21 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:17:21 Europe/Berlin] PHP Notice:  Undefined variable: orders in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/alescowebshop.php on line 38
+[10-Dec-2015 13:17:21 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/alescowebshop.php on line 38
+[10-Dec-2015 13:17:24 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:17:24 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:17:24 Europe/Berlin] PHP Notice:  Undefined variable: orders in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/alescowebshop.php on line 38
+[10-Dec-2015 13:17:24 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/alescowebshop.php on line 38
+[10-Dec-2015 13:18:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:18:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:18:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:18:23 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:18:23 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:18:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:18:23 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:18:23 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:18:26 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:18:26 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:18:26 Europe/Berlin] PHP Fatal error:  Call to a member function results() on null in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/alescowebshop.php on line 37
+[10-Dec-2015 13:18:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:18:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:18:30 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:18:30 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:18:30 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:18:30 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:18:30 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:18:30 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:18:55 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:18:55 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:18:56 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:18:56 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:18:56 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:18:56 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:18:56 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:18:56 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:18:56 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:18:56 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:19:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:19:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:19:00 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:19:00 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:19:00 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:19:00 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:19:00 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:19:00 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:19:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:19:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:19:04 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:19:04 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:19:04 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:19:04 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:19:04 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:19:04 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:19:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:19:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:19:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:19:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:19:13 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:19:13 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:19:13 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:19:13 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[10-Dec-2015 13:19:13 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[10-Dec-2015 13:19:13 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[10-Dec-2015 13:19:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:19:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 13:19:15 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 13:19:15 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39

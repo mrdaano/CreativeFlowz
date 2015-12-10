@@ -9,16 +9,16 @@
                             <td class="textintable">categoriën</td>
                         </tr>
                             <tr class="thirdheaderdata">
-                            <td class="textintable" class="activecategorie"><a href="webshop.php">- alles</a></td>
+                            <td class="textintable" class="activecategorie"><a href="index.php?page=webshop">- alles</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="alescowebshop.php">- alesco</a></td>
+                            <td class="textintable"><a href="index.php?page=alescowebshop">- alesco</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="balcowebshop.php">- balco</a></td>
+                            <td class="textintable"><a href="index.php?page=balcowebshop">- balco</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="faipwebshop.php">- faip</a></td>
+                            <td class="textintable"><a href="index.php?page=faipwebshop">- faip</a></td>
                         </tr>
                     </table>
                 </div>
@@ -34,21 +34,22 @@
         <div class="wrapper">
             <div class="textheader">
                 <?php 
-                    $product = DB::start()->get(array('id','name','description','price'), 'product', array(array('supplier_id', '=>', '1')))->results();
-                    $join = DB::start()->join('*', 'product', array('product_media' => array('product.id', 'product_id')) array(array('product.id' => 1)));
-                    $joinMedia = DB::start()->join('*', 'product_media', array('media' => array('media_id', 'media.id')) array(array('media_id' => 1)));
+                    $product = $db->start()->get('*', 'product')->results();
+                    $join = $db->start()->join('*', 'product', array('product_media' => array('product.id', 'product_id')), array(array('product.id' => 1)));
+                    $joinMedia = $db->start()->join('*', 'product_media', array('media' => array('media_id', 'media.id')), array(array('media_id' => 1)));
+                    
                     foreach($product as $key => $product) {
                 ?>
                     <div class="product">
                         <div class="productimg">
-                            <img class="img" src="img/inductiewarmer.jpg"/>d
+                            <img class="img" src=""/>
                             <div class="view">
-                                <a href="product1.php"><img src=" "/>bekijk product</a>
+                                <a href="product1.php"><img src=""/>bekijk product</a>
                             </div>
                         </div>
                         <div class="productnr">
                             <?php
-                                echo $product->id; 
+                                echo $product->name; 
                             ?>
                         </div>
                     </div>
