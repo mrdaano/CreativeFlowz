@@ -179,3 +179,14 @@
 [09-Dec-2015 16:08:44 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 52
 [09-Dec-2015 16:11:47 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
 [09-Dec-2015 16:11:47 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 52
+[10-Dec-2015 11:43:03 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[10-Dec-2015 11:43:03 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 52
+[10-Dec-2015 11:43:13 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[10-Dec-2015 11:43:13 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 52
+[10-Dec-2015 11:43:15 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[10-Dec-2015 11:43:15 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 52
+[10-Dec-2015 11:44:38 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[10-Dec-2015 11:44:38 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 52
+[10-Dec-2015 11:44:43 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[10-Dec-2015 11:44:43 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 52
+[10-Dec-2015 11:44:44 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Login.php on line 70
