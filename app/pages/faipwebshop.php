@@ -1,17 +1,4 @@
-<div class="header">
-            <div class="wrapper">
-                <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Theservice</span><span class="italic">Group</span></a></div>
-                <ul class="forheader">
-                    <li><a href="aboutus.php">over ons</a></li>
-                    <li class="active"><a href="webshop.php">webshop</a></li>
-                    <li><a href="contact.php">contact</a></li>
-                </ul>
-                <ul class="rightlist">
-                    <li><a href="login.php">aanmelden</a></li>
-                </ul>
-            </div>
-        </div>
-        <div class="secondheader">
+<div class="secondheader">
             <div class="wrapper"></div>
         </div>
         <div class="thirdheader">
