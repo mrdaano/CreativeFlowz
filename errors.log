@@ -271,3 +271,194 @@ Stack trace:
 [09-Dec-2015 16:15:49 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
 [09-Dec-2015 16:15:49 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
 [09-Dec-2015 16:15:49 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 50
+[09-Dec-2015 16:17:02 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:02 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:02 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:17:02 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:17:02 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 50
+[09-Dec-2015 16:17:03 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:03 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:04 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:17:04 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:17:04 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 50
+[09-Dec-2015 16:17:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:06 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:06 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:06 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:17:06 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:17:06 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 50
+[09-Dec-2015 16:17:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:08 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:17:08 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:17:08 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 50
+[09-Dec-2015 16:17:09 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:09 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:11 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:11 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:13 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[09-Dec-2015 16:17:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:14 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[09-Dec-2015 16:17:15 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:15 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:15 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[09-Dec-2015 16:17:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:19 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[09-Dec-2015 16:17:26 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:26 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:33 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:33 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:34 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:34 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:17:35 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:17:35 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:17:35 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 50
+[09-Dec-2015 16:17:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:17:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:18:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:18:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:18:25 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:18:25 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:18:25 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 50
+[09-Dec-2015 16:18:59 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:18:59 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:18:59 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:18:59 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:18:59 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
+[09-Dec-2015 16:19:02 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:19:02 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:19:03 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:19:03 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:19:03 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:19:03 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:19:03 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
+[09-Dec-2015 16:19:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:19:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:19:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:19:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:19:05 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:19:05 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:19:05 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
+[09-Dec-2015 16:19:06 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:19:06 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:20:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:20:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:20:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:20:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:20:25 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[09-Dec-2015 16:20:29 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:20:29 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:20:29 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[09-Dec-2015 16:20:29 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:20:29 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:20:29 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[09-Dec-2015 16:20:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:20:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:20:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[09-Dec-2015 16:20:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:20:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:20:42 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[09-Dec-2015 16:20:57 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:20:57 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:22:18 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:22:18 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:22:18 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:22:18 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:22:18 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
+[09-Dec-2015 16:22:20 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:22:20 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:22:21 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:22:21 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:22:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[09-Dec-2015 16:22:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[09-Dec-2015 16:22:22 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:22:22 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[09-Dec-2015 16:22:22 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
+[10-Dec-2015 11:44:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:44:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:44:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:44:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:44:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:44:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:44:25 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:44:25 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:44:25 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
+[10-Dec-2015 11:44:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:44:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:44:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:44:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:44:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:44:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:44:39 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:44:39 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:44:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:44:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:44:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:44:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:44:41 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:44:41 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:44:41 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
+[10-Dec-2015 11:44:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:44:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:44:44 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:44:44 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:44:44 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:44:44 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:44:44 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
+[10-Dec-2015 11:44:45 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:44:45 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:48:44 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:48:44 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:48:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:48:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:48:46 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:48:46 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:48:46 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
+[10-Dec-2015 11:48:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:48:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:48:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:48:49 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:48:49 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:48:49 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:48:49 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
+[10-Dec-2015 11:48:50 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:48:50 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:48:50 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:48:50 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:48:50 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
+[10-Dec-2015 11:48:57 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:48:57 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:48:57 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:48:57 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:48:57 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
+[10-Dec-2015 11:48:59 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:48:59 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:49:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:49:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:49:00 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:49:00 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:49:00 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
+[10-Dec-2015 11:49:01 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:49:01 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:49:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:49:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:49:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:49:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:49:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[10-Dec-2015 11:49:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[10-Dec-2015 11:49:10 Europe/Berlin] PHP Warning:  include(app/classes/DB.php): failed to open stream: No such file or directory in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:49:10 Europe/Berlin] PHP Warning:  include(): Failed opening 'app/classes/DB.php' for inclusion (include_path='.:/Applications/MAMP/bin/php/php5.6.10/lib/php') in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 8
+[10-Dec-2015 11:49:10 Europe/Berlin] PHP Fatal error:  Class 'DB' not found in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/webshop.php on line 37
