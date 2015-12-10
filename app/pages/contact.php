@@ -1,4 +1,7 @@
-<div class="thirdheader">
+<div class="secondheader">
+            <div class="wrapper"></div>
+        </div>
+        <div class="thirdheader">
     <div class="wrapper">
         <div class="fourthheader">
           <table class="thirdheadertable">
