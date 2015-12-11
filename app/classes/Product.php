@@ -6,8 +6,6 @@
 class Product
 {
 	
-	private $_id, $_name, $_code, $_secondhand, $_description, $supplier_id, $_price, $_supplier_name; 
-
 	function __construct($db)
 	{
 		$this->db = $db;
@@ -74,6 +72,16 @@ class Product
 		return $this->_id;
 	}
 
+	protected function setError($error)
+	{
+        $this->_error = $error;
+    }
+    
+    public function getError()
+    {
+        return $this->_error;
+    }
+
 	public function getName()
 	{
 		return $this->_name;
@@ -125,17 +133,6 @@ class Product
 		return $allProducts;
 	}
 
-	//Other functions
-	public function newProduct()
-	{
-		$this->db->insert('product', array(	'name' => $this->getName(), 
-											'code' => $this->getCode(), 
-											'secondhand' => $this->getSecondhand(),
-											'description' => $this->getDescription(),
-											'supplier_id' => $this->getSupplierId(),
-											'price' => $this->getPrice()));
-	}
-
 	public function getAllSupplier($where = array())
 	{
 		$allSupplier = array();
@@ -153,16 +150,27 @@ class Product
 		return $allSupplier;
 	}
 
+	//Other functions
+	public function newProduct()
+	{
+		$arrayProduct = array(	'name' => $this->getName(), 
+								'code' => $this->getCode(), 
+								'secondhand' => $this->getSecondhand(),
+								'description' => $this->getDescription(),
+								'supplier_id' => $this->getSupplierId(),
+								'price' => $this->getPrice());
+		$this->db->insert('product', $arrayProduct);	
+	}
+
 	public function updateProduct() 
 	{
-		$this->db->start()->update('product', array('name' => $this->getName(), 
-													'code' => $this->getCode(), 
-													'secondhand' => $this->getSecondhand(),
-													'description' => $this->getDescription(),
-													'supplier_id' => $this->getSupplierId(),
-													'price' => $this->getPrice()), array('id' => $this->getId()));
-		//return $this->getId();
-
+		$arrayProduct = array(	'name' => $this->getName(), 
+								'code' => $this->getCode(), 
+								'secondhand' => $this->getSecondhand(),
+								'description' => $this->getDescription(),
+								'supplier_id' => $this->getSupplierId(),
+								'price' => $this->getPrice());
+		$this->db->start()->update('product', $arrayProduct, array('id' => $this->getId()));
 	}
 
 	public function removeProduct()
@@ -172,6 +180,58 @@ class Product
 		$this->db->start()->delete('product_category', array(array('product_id', '=', $this->getId())));
 		$this->db->start()->delete('product_media', array(array('product_id', '=', $this->getId())));
 		$this->db->start()->delete('product', array(array('id', '=', $this->getId())));
+	}
+
+	public function controle()
+	{
+		$error = array();
+		if ($this->getName() == '') {
+			$this->setError('Er is geen naam ingevuld.');
+			return;
+		}
+		if ($this->getCode() == '') {
+			$this->setError('Er is geen code ingevuld.');
+			return;
+		}
+		if ($this->getDescription() == '') {
+			$this->setError('Er is geen beschrijving ingevuld.');
+			return;
+		}
+		if ($this->getPrice() == '') {
+			$this->setError('Er is geen prijs ingevuld.');
+			return;
+		}
+
+	}
+
+	public function getLinkedCategory()
+	{
+		$linkdeCategorys = array();
+		$sql = $this->db->start()->get(array('name', 'id'), 'category')->results();
+		foreach ($sql as $key => $std) {
+			$linkedCategory = array();
+			$linkedCategory[0] = $std->id;
+			$linkedCategory[1] = $std->name;
+			$linkedCategory[2] = false;
+			$sqlChecked = $this->db->start()->get('product_id', 'product_category', array(array('product_id', '=', $this->_id)))->results();
+			foreach ($sqlChecked as $stdChecked) {
+				if ($stdChecked->product_id == $std->id) {
+					$linkedCategory[2] = true;
+				}
+			}
+			$linkedCategorys[$key] = $linkedCategory;
+		}
+		return $linkedCategorys;
+	}
+
+	public function linkCategory($category_id = array())
+	{
+		$this->db->start()->delete('product_category', array(array('product_id', '=', $this->_id)));
+		if (!empty($category_id)) {
+			foreach ($category_id as $id) {
+				$this->db->start()->insert('product_category', array('product_id' => $this->_id, 'category_id' => $id));
+			}
+		}
 	}
 
 }
