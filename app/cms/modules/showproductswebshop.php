@@ -5,42 +5,37 @@ $products = new Product($db);
 $url = '?page=cms&module=showproductswebshop';
 $gevonden = false;
 
-
-
-
 if (isset($_GET['viewproduct'])) {
     $product = new Product($db);
     $product->setAuto($_GET['viewproduct']); 
-    $gevonden = true;
     foreach ($products->getAll() as $product){
-    if ($product == $gevonden && $_GET[getId()]) {
-
-?>
-    <ul>
-        <li>
-            <?php echo $product->getName();?>
-        </li>
-        <li>
-            <?php if ($product->getSecondhand() == 0) {  
-                echo 'nee';
-            } else {
-                echo 'ja';         
-            } ?>
-        </li>
-        <li>
-            <?php echo $product->getDescription();?>
-        </li>
-        <li>
-            <?php echo $product->getSupplierName();?>
-        </li>
-        <li>
-            <?php echo $product->getPrice();?>
-        </li>
-    </ul>
-        <a href="<?php echo 'index.php?page=order&id=' . $product->getId(); ?> ">
-             Bestellen
-        </a>
-<?php } 
+        if ($_GET['viewproduct'] == $product->getId()) { 
+            $gevonden = true; ?>
+            <ul>
+                <li>
+                    <?php echo $product->getName();?>
+                </li>
+                <li>
+                    <?php if ($product->getSecondhand() == 0) {  
+                        echo 'nee';
+                    } else {
+                        echo 'ja';         
+                    } ?>
+                </li>
+                <li>
+                    <?php echo $product->getDescription();?>
+                </li>
+                <li>
+                    <?php echo $product->getSupplierName();?>
+                </li>
+                <li>
+                    <?php echo $product->getPrice();?>
+                </li>
+            </ul>
+            <a href="<?php echo 'index.php?page=order&id=' . $product->getId(); ?> ">
+                Bestellen
+            </a>
+        <?php } 
     }
 } 
  
@@ -90,7 +85,7 @@ else {
     <?php }
 }
 
-if (!$gevonden && isset($_GET['viewproduct'])) {
+if (!$gevonden && (isset($_GET['viewproduct']) || isset($_GET['category']))) {
     echo 'Geen producten gevonden!';
 } 
 
