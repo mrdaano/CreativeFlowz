@@ -2,12 +2,20 @@
 
 $db = new Database();
 $products = new Product($db);
-$url = '?page=cms&module=sproducts';
+$url = '?page=cms&module=showproductswebshop';
 $gevonden = false;
+
+
+
 
 if (isset($_GET['viewproduct'])) {
     $product = new Product($db);
-    $product->setAuto($_GET['viewproduct']); ?>
+    $product->setAuto($_GET['viewproduct']); 
+    $gevonden = true;
+    foreach ($products->getAll() as $product){
+    if ($product == $gevonden && $_GET[getId()]) {
+
+?>
     <ul>
         <li>
             <?php echo $product->getName();?>
@@ -33,6 +41,9 @@ if (isset($_GET['viewproduct'])) {
              Bestellen
         </a>
 <?php } 
+    }
+} 
+ 
 
 elseif (isset($_GET['category'])) {
     $category = new Category($db);
@@ -79,8 +90,8 @@ else {
     <?php }
 }
 
-if (!$gevonden) {
-    echo 'Geen producten gevonden';
+if (!$gevonden && isset($_GET['viewproduct'])) {
+    echo 'Geen producten gevonden!';
 } 
 
 ?>
