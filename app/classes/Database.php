@@ -5,7 +5,7 @@ class Database {
 	private $_pdo, $_query, $_results, $_count = 0, $_error = false, $_sql, $_values = array();
 	
 	public function __construct() {
-		$this->_pdo = new PDO('mysql:host=localhost;dbname=mydb', 'root', 'root');
+		$this->_pdo = new PDO('mysql:host=localhost;dbname=mydb', 'root', '');
 	}
 	
 	/**
@@ -154,9 +154,10 @@ class Database {
 	 * array	$data
 	 * array	$params
 	 * Usage:
-	 * DB::start()->update('users', array('username' => 'John', 'email' => 'johndoe@example.com'), array('id' => 1));
+	 * DB::start()->update('users', array('username' => 'John', 'email' => 'johndoe@example.com'), array(array('id', '=', 1)));
 	 */
 	public function update($table, $data, $params) {
+		$operators = array('=', '>', '<', '>=', '<=', '!=', 'IS', 'IS NOT');
 		$sql = "UPDATE {$table} SET ";
 		$x = 1;
 		$values = array();
@@ -173,14 +174,26 @@ class Database {
 		$sql .= "WHERE ";
 		$x = 1;
 		
-		foreach($params as $key => $param) {
-			$sql .= "{$key}=? ";
-			if ($x < count($params)) {
-				$sql .=", ";
+		foreach ($params as $param) {
+				$key = $param[0];
+				$operator = $param[1];
+				$value = $param[2];
+				if (in_array($operator, $operators)) {
+					$end = '?';
+					if ($value == 'NULL') {
+						$end = $value;
+					} else {
+						array_push($values, $value);
+					}
+					
+					$sql .= " {$key} {$operator} {$end}";
+					
+					if ($x < count($params)) {
+						$sql .= " AND ";
+					}
+					$x++;
+				}
 			}
-			array_push($values, $param);
-			$x++;
-		}
 		
 		if(!$this->query($sql, $values)->error()) {
 			return $this;
