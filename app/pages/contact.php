@@ -1,4 +1,7 @@
-<div class="thirdheader">
+<div class="secondheader">
+            <div class="wrapper"></div>
+        </div>
+        <div class="thirdheader">
     <div class="wrapper">
         <div class="fourthheader">
           <table class="thirdheadertable">
@@ -40,7 +43,7 @@
         E-mail<br/><input type="text" name="mail" class="login"><br/>
         Telefoon<br/><input type="text" name="phone" class="login"><br/>
         Onderwerp<br/><input type="text" name="subject" class="login"><br/>
-        Bericht<br/><textarea name="message" rows="10" cols="40" class="contact"></textarea><br/>
+        Bericht<br/><textarea name="message" rows="10" cols="35" class="contact"></textarea><br/>
         <input type="submit" name="send" value="verzenden" class="loginBtn">
       </form>
     </div>

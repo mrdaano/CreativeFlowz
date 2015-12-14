@@ -1,5 +1,13 @@
-        <div class="secondheader">
-            <div class="wrapper"></div>
+<div class="secondheader">
+            <div class="wrapper">
+                <div class="customername"><span id="customername">Klantnaam</span><br>
+                    <span id="customer">klant</span>
+                </div>
+                <ul class="customertabs">
+                    <li><a href="myorders.php">mijn orders</a></li>
+                    <li><a href="sendingoptions.php">verzenden en retouneren</a></li>
+                <ul>
+            </div>
         </div>
         <div class="thirdheader">
             <div class="wrapper">
@@ -9,16 +17,16 @@
                             <td class="textintable">categoriën</td>
                         </tr>
                             <tr class="thirdheaderdata">
-                            <td class="textintable" class="activecategorie"><a href="webshop.php">- alles</a></td>
+                            <td class="textintable" class="activecategorie"><a href="loggedinwebshop.php">- alles</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="alescowebshop.php">- alesco</a></td>
+                            <td class="textintable"><a href="loggedinalescowebshop.php">- alesco</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="balcowebshop.php">- balco</a></td>
+                            <td class="textintable"><a href="loggedinbalcowebshop.php">- balco</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="faipwebshop.php">- faip</a></td>
+                            <td class="textintable"><a href="loggedinfaipwebshop.php">- faip</a></td>
                         </tr>
                     </table>
                 </div>
@@ -34,14 +42,12 @@
         <div class="wrapper">
             <div class="textheader">
                 <?php 
-                    $product = DB::start()->get(array('id','name','description','price'), 'product', array(array('supplier_id', '=>', '1')))->results();
-                    $join = DB::start()->join('*', 'product', array('product_media' => array('product.id', 'product_id')) array(array('product.id' => 1)));
-                    $joinMedia = DB::start()->join('*', 'product_media', array('media' => array('media_id', 'media.id')) array(array('media_id' => 1)));
-                    foreach($product as $key => $product) {
+                    $product = DB::start()->get(array('id','name','description','price'), 'product', array(array('supplier_id', '=', '1')))->results();
+                    foreach($orders as $key => $order) {
                 ?>
                     <div class="product">
                         <div class="productimg">
-                            <img class="img" src="img/inductiewarmer.jpg"/>d
+                            <img class="img" src="img/inductiewarmer.jpg"/>
                             <div class="view">
                                 <a href="product1.php"><img src=" "/>bekijk product</a>
                             </div>
