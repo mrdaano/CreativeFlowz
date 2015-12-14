@@ -2,7 +2,7 @@
 	$media = new Media;
 	if(isset($_POST['submit'])) {
 		if($media->addFile()) {
-			die("Gelukt...");
+			header("index.php?page=cms&module=mediamanagment&success");
 		}
 	}
 ?>

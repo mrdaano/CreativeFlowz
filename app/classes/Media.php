@@ -10,7 +10,7 @@ class Media {
 	}
 	
 	public function getMedia() {
-		return DB::start()->get('*', 'media')->results();
+		return Database::start()->get('*', 'media')->results();
 	}
 	
 	public function deleteFile($id) {
@@ -40,12 +40,12 @@ class Media {
 		}
 		
 		if (move_uploaded_file($file["tmp_name"], $dest)) {
-			$db = DB::start()->insert('media', array(
+			$db = Database::start()->insert('media', array(
 					'name' => $file['name'],
 					'path' => $dir
 				))->error();
 			
-			if ($db) {
+			if (!$db) {
 				return true;
 			}
 			
