@@ -2,7 +2,7 @@
 	$media = new Media;
 	if(isset($_POST['submit'])) {
 		if($media->addFile()) {
-			header("index.php?page=cms&module=mediamanagment&success");
+			echo "<script> window.location = 'index.php?page=cms&module=mediamanagment&success';</script>";
 		}
 	}
 ?>
@@ -23,8 +23,12 @@
 			            </form>
 		        <?php    }
 	            } else {
+		           if (isset($_GET['success'])) {
+			           echo "<p>Bestand is geupload.</p>";
+		           }
 	          ?>
               <a href="index.php?page=cms&module=mediamanagment&actie=toevoegen" class="btn">Voeg bestand toe</a>
+			  <?php echo hexdec(uniqid()); ?>
               <table class="media_table">
 	              <thead>
 		              <tr>
@@ -34,16 +38,13 @@
 		              </tr>
 	              </thead>
 	              <tbody>
+		              <?php foreach($media->getMedia() as $item) { ?>
 		              <tr>
-			              <td><a href="#">Test.png</a></td>
+			              <td><a href="/<?php echo $item->path . '/' . $item->name; ?>" target="_blank"><?php echo $item->name; ?></a></td>
 			              <td>Image</td>
 			              <td><a href="#" class="btn">Verwijderen</a></td>
 		              </tr>
-		              <tr>
-			              <td>Test.png</td>
-			              <td>Image</td>
-			              <td>Edit</td>
-		              </tr>
+		              <?php } ?>
 	              </tbody>
               </table>
               <?php } ?>
