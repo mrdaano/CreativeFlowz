@@ -37,6 +37,14 @@ class Product
 		$this->_description = $description;
 	}
 
+	public function setError($error)
+	{
+        $this->_error = $error;
+    }
+
+	/*
+	Deze functie zet ook de supplier_name;
+	*/
 	public function setSupplierId($supplier_id)
 	{
 		$this->_supplier_id = $supplier_id;
@@ -51,6 +59,9 @@ class Product
 		$this->_price = $price;
 	}
 
+	/*
+	Deze functie zet alles automatisch door middel van een id
+	*/
 	public function setAuto($id)
 	{
 		$this->_id = $id;
@@ -66,16 +77,22 @@ class Product
 		}
 	}
 
+	//Deze funcite zoekt de id op uit de database en slaat hem op.
+	public function setIdFromDatabase() {
+		$id = $this->db->start()->get('id', 'product', array(	array('name', '=', $this->getName()),
+														array('code', '=', $this->getCode()),
+														array('secondhand', '=', $this->getSecondhand()),
+														array('description', '=', $this->getDescription()),
+														array('supplier_id', '=', $this->getSupplierId()),
+														array('price', '=', $this->getPrice())))->results();
+		$this->setId($id[0]->id);
+	}
+
 	//Getters
 	public function getId()
 	{
 		return $this->_id;
 	}
-
-	protected function setError($error)
-	{
-        $this->_error = $error;
-    }
     
     public function getError()
     {
@@ -116,6 +133,17 @@ class Product
 		return $this->_price;
 	}
 
+	/*
+	Deze functie geeft alle producten, er kan gebruik gemaakt worden van een where statement. 
+		Deze werkt net als in de database class (array(array('id', '=', 1)))
+	Je krijgt een array met verschillende producten terug.
+		Deze kun je uitlezen met een foreach:
+		foreach ($producten->getAll(array(array('id', '>', '4'))) as $product) {
+			echo 'Naam: ' . $product->name;
+			echo 'Code: ' . $product->code;
+			ect...
+		}
+	*/
 	public function getAll($where = array()) {
 		$allProducts = array();
 
@@ -133,6 +161,17 @@ class Product
 		return $allProducts;
 	}
 
+	/*
+	Met deze functie kun je alle leveranciers opvragen, er kan gebruik gemaakt worden van een were statement
+		Deze werkt net als in de database class.
+	Je krijgt een array met verschillende leveranciers terug. 
+		Deze kun je uitlezen met een foreach:
+		foreach($product->getAllSupplier(array(array('id', '=', '1'))) as $leverancier) {
+			echo 'id: ' . $leverancier[0];
+			echo 'naam: ' . $leverancier[1];
+			echo 'website: ' . $leverancier[2];
+		}
+	*/
 	public function getAllSupplier($where = array())
 	{
 		$allSupplier = array();
@@ -150,7 +189,37 @@ class Product
 		return $allSupplier;
 	}
 
+	/*
+	Met deze functie krijg je alle categorieen en of ze gelinkt zijn of niet
+	Je krijgt een array terug met daarin een andere array, 
+	0 is de id
+	1 is de naam
+	2 is een boolean, als een product gelinkt is aan deze categorie is het true, anders is het false.
+	*/
+	public function getLinkedCategory()
+	{
+		$linkdeCategorys = array();
+		$sql = $this->db->start()->get(array('name', 'id'), 'category')->results();
+		foreach ($sql as $key => $std) {
+			$linkedCategory = array();
+			$linkedCategory[0] = $std->id;
+			$linkedCategory[1] = $std->name;
+			$linkedCategory[2] = false;
+			$sqlChecked = $this->db->start()->get('*', 'product_category', array(array('product_id', '=', $this->getId())))->results();
+			foreach ($sqlChecked as $stdChecked) {
+				if ($stdChecked->category_id == $std->id) {
+					$linkedCategory[2] = true;
+				}
+			}
+			$linkedCategorys[$key] = $linkedCategory;
+		}
+		return $linkedCategorys;
+	}
+
 	//Other functions
+
+	
+	//Deze functie maakt een nieuw product aan.
 	public function newProduct()
 	{
 		$arrayProduct = array(	'name' => $this->getName(), 
@@ -162,6 +231,8 @@ class Product
 		$this->db->insert('product', $arrayProduct);	
 	}
 
+	
+	//Deze functie update een product
 	public function updateProduct() 
 	{
 		$arrayProduct = array(	'name' => $this->getName(), 
@@ -173,6 +244,7 @@ class Product
 		$this->db->start()->update('product', $arrayProduct, array('id' => $this->getId()));
 	}
 
+	//Deze functie verwijderd een product
 	public function removeProduct()
 	{
 		$this->db->start()->delete('order_line', array(array('product_id', '=', $this->getId())));
@@ -182,6 +254,7 @@ class Product
 		$this->db->start()->delete('product', array(array('id', '=', $this->getId())));
 	}
 
+	//Deze functie controleerd of er fouten zijn, Als deze er zijn wordt error de te weergeven error, anders wordt error false.
 	public function controle()
 	{
 		$error = array();
@@ -205,26 +278,8 @@ class Product
 
 	}
 
-	public function getLinkedCategory()
-	{
-		$linkdeCategorys = array();
-		$sql = $this->db->start()->get(array('name', 'id'), 'category')->results();
-		foreach ($sql as $key => $std) {
-			$linkedCategory = array();
-			$linkedCategory[0] = $std->id;
-			$linkedCategory[1] = $std->name;
-			$linkedCategory[2] = false;
-			$sqlChecked = $this->db->start()->get('*', 'product_category', array(array('product_id', '=', $this->getId())))->results();
-			foreach ($sqlChecked as $stdChecked) {
-				if ($stdChecked->category_id == $std->id) {
-					$linkedCategory[2] = true;
-				}
-			}
-			$linkedCategorys[$key] = $linkedCategory;
-		}
-		return $linkedCategorys;
-	}
-
+	//Deze functie linkt een category aan een product
+	//Je geeft een array met category id's mee.
 	public function linkCategory($category_id = array())
 	{
 		$this->db->start()->delete('product_category', array(array('product_id', '=', $this->getId())));
@@ -233,16 +288,6 @@ class Product
 				$this->db->start()->insert('product_category', array('category_id' => $id, 'product_id' => $this->getId()));
 			}
 		}
-	}
-
-	public function setIdFromDatabase() {
-		$id = $this->db->start()->get('id', 'product', array(	array('name', '=', $this->getName()),
-														array('code', '=', $this->getCode()),
-														array('secondhand', '=', $this->getSecondhand()),
-														array('description', '=', $this->getDescription()),
-														array('supplier_id', '=', $this->getSupplierId()),
-														array('price', '=', $this->getPrice())))->results();
-		$this->setId($id[0]->id);
 	}
 
 }
