@@ -25,40 +25,88 @@ elseif (isset($_POST['newName'])) {
 	$newProduct->setSupplierId($_POST['newSupplier']);
 	$newProduct->setPrice($_POST['newPrice']);
 	$newProduct->controle();  
-	if ($newProduct->getError()) {
-		echo $newProduct->getError(); ?>
+	if ($newProduct->getError()) { ?>
+		<h2>
+			<?php echo $newProduct->getError(); ?>
+		</h2>
 		<form action="<?php echo $location; ?>" method="post">
-			Naam: <input type="text" name="newName" value="<?php echo $newProduct->getName(); ?>"><br>
-			Code: <input type="text" name="newCode" value="<?php echo $newProduct->getCode(); ?>"><br>
-			Tweede hands: <select name="newSecondhand">
-				<?php if($newProduct->getSecondhand() == 0) { ?>
-					<option value="0">Nee</option>
-					<option value="1">Ja</option>
-				<?php } else { ?>
-					<option value="1">Ja</option>
-					<option value="0">Nee</option>
-				<?php } ?>
-			</select><br>
-			Beschrijving: <textarea name="newDescription"><?php echo $newProduct->getDescription(); ?></textarea><br>
-			Leverancier: <select name="newSupplier">
-			<option value="<?php echo $newProduct->getSupplierId(); ?>"><?php echo $newProduct->getSupplierName(); ?></option>
-			<?php foreach ($newProduct->getAllSupplier(array(array('id', '!=', $newProduct->getSupplierId()))) as $suppl) { ?>
-				<option value="<?php echo $suppl[0]; ?>"><?php echo $suppl[1]; ?></option>
-			<?php } ?>
-		</select><br>
-			Prijs: <input type="text" name="newPrice" value="<?php echo $newProduct->getPrice(); ?>"><br>
-			<?php	
-			$Category = new Category($db);
-			foreach ($Category->getAll() as $category) {
-				echo '<input type="checkbox" name="product_category[]" value="' . $category->getId() . '"';
-				if (array_search($category->getId(), $_POST['product_category']) > -1) {
-					echo "checked";
-				}
-				echo '>' . $category->getName() . "<br>";
-			}
-			?>
-			<button>Toevoegen</button>
-			<a href="<?php echo $location; ?>"><button>Terug</button></a>
+			<table class='cms page product'>
+				<tr>
+					<td>Naam:</td>
+					<td><input type="text" name="newName" value="<?php echo $newProduct->getName(); ?>"></td>
+				</tr>
+				<tr>
+					<td>Code:</td>
+					<td><input type="text" name="newCode" value="<?php echo $newProduct->getCode(); ?>"></td>
+				</tr>
+				<tr>
+					<td>Tweede hands:</td>
+					<td>
+						<select name="newSecondhand">
+							<?php if($newProduct->getSecondhand() == 0) { ?>
+								<option value="0">Nee</option>
+								<option value="1">Ja</option>
+							<?php } else { ?>
+								<option value="1">Ja</option>
+								<option value="0">Nee</option>
+							<?php } ?>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Beschrijving:</td>
+					<td>
+						<textarea name="newDescription">
+							<?php echo $newProduct->getDescription(); ?>
+						</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>Leverancier:</td>
+					<td>
+						<select name="newSupplier">
+							<option value="<?php echo $newProduct->getSupplierId(); ?>">
+								<?php echo $newProduct->getSupplierName(); ?>
+							</option>
+							<?php foreach ($newProduct->getAllSupplier(array(array('id', '!=', $newProduct->getSupplierId()))) as $suppl) { ?>
+								<option value="<?php echo $suppl[0]; ?>">
+									<?php echo $suppl[1]; ?>
+								</option>
+							<?php } ?>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Prijs:</td>
+					<td><input type="text" name="newPrice" value="<?php echo $newProduct->getPrice(); ?>"></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<h2>Categoriën:</h2>
+					</td>
+				</tr>
+				<?php $Category = new Category($db);
+				foreach ($Category->getAll() as $category) {
+					echo "<tr><td>";
+					echo '<input type="checkbox" name="product_category[]" value="' . $category->getId() . '"';
+					if (isset($_POST['product_category'])) {
+						if (array_search($category->getId(), $_POST['product_category']) > -1) {
+							echo "checked";
+						}
+					}
+					echo '></td><td>' . $category->getName() . "</td></tr>";
+				} ?>
+				<tr>
+					<td><button>Toevoegen</button></td>
+					<td>
+						<a href="<?php echo $location; ?>">
+							<button>
+								Terug
+							</button>
+						</a>
+					</td>
+				</tr>
+			</table>
 		</form>
 	<?php } else {
 		$newProduct->newProduct();	

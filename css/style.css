@@ -387,3 +387,9 @@ div.page input[type="text"]{
     height: 20px;
     min-width: 300px;
 }
+
+table.product {
+  width: auto;
+  //float: left;
+  margin-right: 25px;
+}
