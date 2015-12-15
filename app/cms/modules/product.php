@@ -51,7 +51,7 @@ if (isset($_POST['newName'])) {
 			$Category = new Category($db);
 			foreach ($Category->getAll() as $category) {
 				echo '<input type="checkbox" name="product_category[]" value="' . $category->getId() . '"';
-				if (array_search($category->getId(), $_POST['product_category'])) {
+				if (array_search($category->getId(), $_POST['product_category']) > -1) {
 					echo "checked";
 				}
 				echo '>' . $category->getName() . "<br>";
@@ -62,7 +62,8 @@ if (isset($_POST['newName'])) {
 		</form>
 	<?php } else {
 		$newProduct->newProduct();	
-		$updateProduct->linkCategory($_POST['product_category']);
+		$newProduct->setIdFromDatabase();
+		$newProduct->linkCategory($_POST['product_category']);
 		header('location: '. $location);
 	}
 }
@@ -103,9 +104,12 @@ if (isset($_POST['updateName'])) {
 			<?php	
 			foreach ($updateProduct->getLinkedCategory() as $category) {
 				echo '<input type="checkbox" name="product_category[]" value="' . $category[0] . '"';
-				if ($category[2]) {
-					echo "checked";
+				foreach ($_POST['product_category'] as $checked) {
+					if ($category[0] == $checked) {
+						echo "checked";
+					}
 				}
+				
 				echo '>' . $category[1] . "<br>";
 			}
 			?>
@@ -135,13 +139,10 @@ if (isset($_GET['n'])) { ?>
 			<?php } ?>
 		</select><br>
 		Prijs: <input type="text" name="newPrice"><br>
-		<?php	
-		foreach ($product->getLinkedCategory() as $category) {
-			echo '<input type="checkbox" name="product_category[]" value="' . $category[0] . '"';
-			if ($category[2]) {
-				echo "checked";
-			}
-			echo '>' . $category[1] . "<br>";
+		<?php
+		$Category = new Category($db);	
+		foreach ($Category->getAll() as $category) {
+			echo '<input type="checkbox" name="product_category[]" value="' . $category->getId() . '">' . $category->getName() . '<br>';
 		}
 		?>
 		<input type="submit">
@@ -173,7 +174,7 @@ if (isset($_GET['n'])) { ?>
 		</select><br>
 		Prijs: <input type="text" name="updatePrice" value="<?php echo $pro->getPrice() ?>"><br>
 		<?php	
-			foreach ($product->getLinkedCategory() as $category) {
+			foreach ($pro->getLinkedCategory() as $category) {
 				echo '<input type="checkbox" name="product_category[]" value="' . $category[0] . '"';
 				if ($category[2]) {
 					echo "checked";

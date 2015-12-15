@@ -201,6 +201,7 @@ class Product
 			$this->setError('Er is geen prijs ingevuld.');
 			return;
 		}
+		$this->setError(false);
 
 	}
 
@@ -213,9 +214,9 @@ class Product
 			$linkedCategory[0] = $std->id;
 			$linkedCategory[1] = $std->name;
 			$linkedCategory[2] = false;
-			$sqlChecked = $this->db->start()->get('product_id', 'product_category', array(array('product_id', '=', $this->_id)))->results();
+			$sqlChecked = $this->db->start()->get('*', 'product_category', array(array('product_id', '=', $this->getId())))->results();
 			foreach ($sqlChecked as $stdChecked) {
-				if ($stdChecked->product_id == $std->id) {
+				if ($stdChecked->category_id == $std->id) {
 					$linkedCategory[2] = true;
 				}
 			}
@@ -226,12 +227,22 @@ class Product
 
 	public function linkCategory($category_id = array())
 	{
-		$this->db->start()->delete('product_category', array(array('product_id', '=', $this->_id)));
+		$this->db->start()->delete('product_category', array(array('product_id', '=', $this->getId())));
 		if (!empty($category_id)) {
 			foreach ($category_id as $id) {
-				$this->db->start()->insert('product_category', array('product_id' => $this->_id, 'category_id' => $id));
+				$this->db->start()->insert('product_category', array('category_id' => $id, 'product_id' => $this->getId()));
 			}
 		}
+	}
+
+	public function setIdFromDatabase() {
+		$id = $this->db->start()->get('id', 'product', array(	array('name', '=', $this->getName()),
+														array('code', '=', $this->getCode()),
+														array('secondhand', '=', $this->getSecondhand()),
+														array('description', '=', $this->getDescription()),
+														array('supplier_id', '=', $this->getSupplierId()),
+														array('price', '=', $this->getPrice())))->results();
+		$this->setId($id[0]->id);
 	}
 
 }
