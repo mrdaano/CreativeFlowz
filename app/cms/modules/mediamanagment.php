@@ -40,8 +40,8 @@
 	              <tbody>
 		              <?php foreach($media->getMedia() as $item) { ?>
 		              <tr>
-			              <td><a href="/<?php echo $item->path . '/' . $item->name; ?>" target="_blank"><?php echo $item->name; ?></a></td>
-			              <td>Image</td>
+			              <td><a href="<?php echo $item->path . '/' . $item->name; ?>" target="_blank"><?php echo $item->name; ?></a></td>
+			              <td><?php echo $media->getType($item->name); ?></td>
 			              <td><a href="#" class="btn">Verwijderen</a></td>
 		              </tr>
 		              <?php } ?>

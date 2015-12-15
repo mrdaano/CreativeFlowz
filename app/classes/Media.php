@@ -39,6 +39,10 @@ class Media {
 			mkdir($dir, 0777);
 		}
 		
+		if (file_exists($dest)) {
+			$num = substr(hexdec(uniqid()), 0, 8);
+		}
+		
 		if (move_uploaded_file($file["tmp_name"], $dest)) {
 			$db = Database::start()->insert('media', array(
 					'name' => $file['name'],
@@ -54,6 +58,14 @@ class Media {
 		$this->addError("Sorry, we kunnen uw bestand niet uploaden. Probeer het a.u.b. opnieuw.");
 		return false;
 		
+	}
+	
+	public function getType($string) {
+		$imageExt = array("png","jpg","jpeg","gif","svg");
+		if (in_array(pathinfo($string, PATHINFO_EXTENSION), $imageExt)) {
+			return "Image";
+		}
+		return "File";
 	}
 	
 	public function getErrors() {
