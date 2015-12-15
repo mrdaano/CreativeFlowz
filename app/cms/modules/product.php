@@ -1,9 +1,9 @@
+<div class="page">
 <?php
 $db = new Database();
 $allProducts = new Product($db);
 $product = new Product($db);
 $location = 'index.php?page=cms&module=product';
-
 //Product verwijderen
 if ((isset($_GET['r']))) {
 	$removeProduct = new Product($db);
@@ -57,8 +57,8 @@ elseif (isset($_POST['newName'])) {
 				echo '>' . $category->getName() . "<br>";
 			}
 			?>
-			<input type="submit">
-			<a href="<?php echo $location; ?>">Terug</a>
+			<button>Toevoegen</button>
+			<a href="<?php echo $location; ?>"><button>Terug</button></a>
 		</form>
 	<?php } else {
 		$newProduct->newProduct();	
@@ -113,8 +113,8 @@ elseif (isset($_POST['updateName'])) {
 				echo '>' . $category[1] . "<br>";
 			}
 			?>
-			<input type="submit">
-			<a href="<?php echo $location; ?>">Terug</a>
+			<button>Opslaan</button>
+			<a href="<?php echo $location; ?>"><button>Terug</button></a>
 		</form>
 	<?php } else {
 		$updateProduct->updateProduct();
@@ -145,7 +145,7 @@ elseif (isset($_GET['n'])) { ?>
 			echo '<input type="checkbox" name="product_category[]" value="' . $category->getId() . '">' . $category->getName() . '<br>';
 		}
 		?>
-		<input type="submit">
+		<button>Toevoegen</button>
 	</form>
 
 <?php //Product bewerken
@@ -182,9 +182,9 @@ elseif (isset($_GET['n'])) { ?>
 				echo '>' . $category[1] . "<br>";
 			}
 		?>
-		<input type="submit">
+		<button>Opslaan</button>
 	</form>
-	<a href="<?php echo $location .'&r=' . $pro->getId(); ?> ">Verwijder dit product</a>
+	<a href="<?php echo $location .'&r=' . $pro->getId(); ?> "><button>Verwijder dit product</button></a>
 
 <?php //Producten weergeven
 } else { 
@@ -193,7 +193,8 @@ elseif (isset($_GET['n'])) { ?>
 			echo $pro->getName();
 		echo "</a><br>";
 	}
-	echo '<br><a href="' . $location . '&n">Product toevoegen</a>';
+	echo '<br><a href="' . $location . '&n"><button>Product toevoegen</button></a>';
 }
 
 ?>
+</div>
