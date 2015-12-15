@@ -1,6 +1,6 @@
 <?php
 $db = new Database();
-$allProducts = new Product($db);
+//$allProducts = new Product($db);
 $product = new Product($db);
 $location = 'index.php?page=cms&module=product';
 
@@ -195,5 +195,37 @@ if (isset($_GET['n'])) { ?>
 	}
 	echo '<br><a href="' . $location . '&n">Product toevoegen</a>';
 }
+
+function Form($settings = array()) {
+	GLOBAL $settings;
+	function echoValue($value) {
+		if (isset($settins[$value])) {
+			echo $settings[$value];
+		}
+	} ?>
+
+
+	<form method="<?php echo $settings['method']; ?>" action="<?php $settings['action']; ?>">
+		Naam: <input type="text" name="name" value="<?php echoValue($settings['name']); ?>"><br>
+		Code: <input type="text" name="code" value="<?php echoValue($settings['code']); ?>"><br>
+		Beschrijving: <textarea name="description"><?php echoValue($settings['description']); ?></textarea><br>
+		Leverancier: <select name="supplier">
+			<?php if (isset($settings['supplier'])) {
+				foreach ($product->getAllSupplier(array(array('id', '!=', $pro->getSupplierId()))) as $suppl) { ?>
+					<option value="<?php echo $suppl[0]; ?>"><?php echo $suppl[1]; ?></option>
+				<?php  }
+			} else { ?>
+
+			}
+			<option value="<?php echo $pro->getSupplierId(); ?>"><?php echo $pro->getSupplierName(); ?></option>
+			<?php foreach ($allProducts->getAllSupplier(array(array('id', '!=', $pro->getSupplierId()))) as $suppl) { ?>
+				<option value="<?php echo $suppl[0]; ?>"><?php echo $suppl[1]; ?></option>
+			<?php } ?>
+				<option value="new">Voeg een leverancier toe</option>
+		</select><br>
+	</form>
+
+<?php } ?>
+
 
 ?>
