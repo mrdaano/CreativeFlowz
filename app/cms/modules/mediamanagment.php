@@ -22,7 +22,11 @@
 				            <input type="submit" value="Uploaden" class="btn" name="submit">
 			            </form>
 		        <?php    } else if($_GET['actie'] == "delete") {
-			        // Show delete message
+			        if($media->deleteFile($_GET['id'])) {
+				        ?> <p> Het bestand is verwijderd. </p> <?php
+			        } else {
+				        ?> <p> Het bestand bestaat niet. </p> <?php
+			        }
 		        }
 	            } else {
 		           if (isset($_GET['success'])) {
@@ -30,7 +34,6 @@
 		           }
 	          ?>
               <a href="index.php?page=cms&module=mediamanagment&actie=toevoegen" class="btn">Voeg bestand toe</a>
-			  <?php echo substr(hexdec(uniqid()), 11); ?>
               <table class="media_table">
 	              <thead>
 		              <tr>

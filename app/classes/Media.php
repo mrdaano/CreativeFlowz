@@ -14,7 +14,15 @@ class Media {
 	}
 	
 	public function deleteFile($id) {
-		$item = Database::start('*', 'media', array(array('id','=',$id)))->fisrt();
+		$item = Database::start()->get('*', 'media', array(array('id','=',$id)));
+		
+		if ($item->count() > 0) {
+			$item = $item->first();
+			unlink($item->path."/".$item->name);
+			Database::start()->delete('media', array(array('id', '=', $id)));
+			return true;
+		}
+		return false;
 		
 	}
 	
@@ -66,10 +74,13 @@ class Media {
 	
 	public function getType($string) {
 		$imageExt = array("png","jpg","jpeg","gif","svg");
+		$movExt = array("mp4", "mov");
 		if (in_array(pathinfo($string, PATHINFO_EXTENSION), $imageExt)) {
-			return "Image";
+			return "Afbeelding";
+		} else if (in_array(pathinfo($string, PATHINFO_EXTENSION), $movExt)) {
+			return "Film";
 		}
-		return "File";
+		return "Bestand";
 	}
 	
 	public function getErrors() {
