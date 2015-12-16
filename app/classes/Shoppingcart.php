@@ -6,46 +6,75 @@
 /**
  *
  */
-class ShoppingCart implements Iterator, Countable {
+class ShoppingCart {
 
-    private $items = array();
+    private $errors = array();
 
-    public function isEmpty(){
-      return (empty($this->items));
-    }
-
-    public function addItem(Item $item){
-      $id = $item->getId();
-      //voor als er geen uniek ID is geef een exeption
-      if (!id)throw new Exception("De producten hebben een unieke waarde nodig");
-      //items toevoegen aan de wagen en als het product al in de
-      if (isset($this->items[$id])){
-        $this->updateItem($item, $this->items[$item]['qty'] +1);
+    public function addItem($id){
+      if (!$id) {
+        $this->addError("De producten hebben een unieke waarde nodig");
+        return false;
+      }
+      $product = Database::start()->get('*', 'shoppingcart', array(
+        array('product_id', '=', $id),
+        array('user_id', '=', $_SESSION['_user']['id'])
+      ));
+      if ($product->count() > 0){
+        Database::start()->update('shoppingcart', array(
+          'amount' => ($product->first()->amount + 1)
+        ), array(array('product_id','=', $id), array('user_id', '=', $_SESSION['_user']['id'])));
       }else{
-        $item->items[$id]=array('item' => $item, 'qty' => 1);
+        Database::start()->insert('shoppingcart', array(
+          'product_id' => $id,
+          'user_id' => $_SESSION['_user']['id'],
+          'amount' => 1
+        ));
+        //$item->items[$id]=array('item' => $item, 'qty' => 1);
       }
+      return true;
     }
 
-    public function updateItem(Item $item, $qty){
-      $id = $item->getId();
+    public function updateQuantity($id, $qty){
       //items verwijderen
+      $productToUpdate = Database::start()->get('*', 'shoppingcart', array(
+        array('product_id', '=', $id),
+        array('user_id', '=', $_SESSION['_user']['id'])
+      ));
       if ($qty === 0){
-        $this->deleteItem($item);
-      } else if ( ($qty > 0) && ($qty != $this->items[$id]['qty'])){
-        $this->items[$id]['qty'] = $qty;
+        $this->deleteItem($id);
+      } else {
+        Database::start()->update('shoppingcart', array(
+          'amount' => $qty
+        ), array(array('product_id','=', $id), array('user_id', '=', $_SESSION['_user']['id'])));
       }
     }
 
-    public function deleteItem(Item $item){
-      $id = $item->getId();
-      if (isset($this->items[$id])){
-        unset($this->items[$id]);
+    public function deleteItem($id){
+      $product = Database::start()->get('*', 'shoppingcart', array(
+        array('product_id', '=', $id),
+        array('user_id', '=', $_SESSION['_user']['id'])
+      ));
+      if ($product->count() > 0){
+        Database::start()->delete('shoppingcart', array(
+          array('product_id', '=', $id),
+          array('user_id', '=', $_SESSION['_user']['id'])
+        ));
       }
     }
 
     public function count(){
       return count($this->items);
     }
+
+    public function getErrors() {
+		return $this->errors;
+	}
+
+	private function addError($error) {
+		if (is_string($error)) {
+			array_push($this->errors, $error);
+		}
+	}
 }
 
 ?>
