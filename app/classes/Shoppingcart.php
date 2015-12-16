@@ -1,20 +1,14 @@
 <?php
-/*  author: Arnold Buntsma
-    10/12/2015
-    winkelwagen
-*/
-/**
- *
- */
 class ShoppingCart {
 
     private $errors = array();
 
+    /**
+    *Arnold Buntsma (16-12-2015)
+    *Usage:
+    *$shoppingcart->addItem($itemID)
+    */
     public function addItem($id){
-      if (!$id) {
-        $this->addError("De producten hebben een unieke waarde nodig");
-        return false;
-      }
       $product = Database::start()->get('*', 'shoppingcart', array(
         array('product_id', '=', $id),
         array('user_id', '=', $_SESSION['_user']['id'])
@@ -29,26 +23,39 @@ class ShoppingCart {
           'user_id' => $_SESSION['_user']['id'],
           'amount' => 1
         ));
-        //$item->items[$id]=array('item' => $item, 'qty' => 1);
       }
       return true;
     }
 
+    /**
+    *Arnold Buntsma (16-12-2015)
+    *Usage:
+    *$shoppingcart->updateItem($itemID, $quantity)
+    */
     public function updateQuantity($id, $qty){
-      //items verwijderen
       $productToUpdate = Database::start()->get('*', 'shoppingcart', array(
         array('product_id', '=', $id),
+        array('amount', '=', $qty),
         array('user_id', '=', $_SESSION['_user']['id'])
       ));
-      if ($qty === 0){
+      if ($qty == 0){
         $this->deleteItem($id);
       } else {
+         //var_dump($qty);
+        //print_r($_SESSION['_user']['id']);
         Database::start()->update('shoppingcart', array(
           'amount' => $qty
         ), array(array('product_id','=', $id), array('user_id', '=', $_SESSION['_user']['id'])));
+        // echo 'doorgevoerd';
       }
     }
 
+    /**
+    *Arnold Buntsma (16-12-2015)
+    *Usage:
+    *$shoppingcart->deleteItem($itemID)
+    *Note: hiermee verwijder je het product uit je winkelwagen, ongeacht de hoeveelheid
+    */
     public function deleteItem($id){
       $product = Database::start()->get('*', 'shoppingcart', array(
         array('product_id', '=', $id),
@@ -62,8 +69,26 @@ class ShoppingCart {
       }
     }
 
-    public function count(){
-      return count($this->items);
+    /**
+    *Arnold Buntsma (16-12-2015)
+    *Usage:
+    *$shoppingcart->getShoppingcart()
+    */
+    public function getShoppingcart(){
+      	return Database::start()->get('*', 'shoppingcart', array(
+        array('user_id', '=', $_SESSION['_user']['id'])
+      ))->results();
+    }
+
+    /**
+    *Arnold Buntsma (16-12-2015)
+    *Usage:
+    *$shoppingcart->getproduct($itemID)
+    */
+    public function getProduct($id) {
+      return Database::start()->get('*', 'product', array(
+        array('id', '=', $id)
+      ))->first();
     }
 
     public function getErrors() {
