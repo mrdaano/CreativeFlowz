@@ -1,9 +1,9 @@
+<div class="page">
 <?php
 $db = new Database();
 $allProducts = new Product($db);
 $product = new Product($db);
 $location = 'index.php?page=cms&module=product';
-
 //Product verwijderen
 if ((isset($_GET['r']))) {
 	$removeProduct = new Product($db);
@@ -13,7 +13,7 @@ if ((isset($_GET['r']))) {
 }
 
 //Voeg product toe 
-if (isset($_POST['newName'])) {
+elseif (isset($_POST['newName'])) {
 	filter_input(INPUT_POST, 'newSecondhand', FILTER_VALIDATE_INT);
 	filter_input(INPUT_POST, 'newPrice', FILTER_VALIDATE_INT);
 	filter_input(INPUT_POST, 'newSupplier', FILTER_VALIDATE_INT);
@@ -25,50 +25,99 @@ if (isset($_POST['newName'])) {
 	$newProduct->setSupplierId($_POST['newSupplier']);
 	$newProduct->setPrice($_POST['newPrice']);
 	$newProduct->controle();  
-	if ($newProduct->getError()) {
-		echo $newProduct->getError(); ?>
+	if ($newProduct->getError()) { ?>
+		<h2>
+			<?php echo $newProduct->getError(); ?>
+		</h2>
 		<form action="<?php echo $location; ?>" method="post">
-			Naam: <input type="text" name="newName" value="<?php echo $newProduct->getName(); ?>"><br>
-			Code: <input type="text" name="newCode" value="<?php echo $newProduct->getCode(); ?>"><br>
-			Tweede hands: <select name="newSecondhand">
-				<?php if($newProduct->getSecondhand() == 0) { ?>
-					<option value="0">Nee</option>
-					<option value="1">Ja</option>
-				<?php } else { ?>
-					<option value="1">Ja</option>
-					<option value="0">Nee</option>
-				<?php } ?>
-			</select><br>
-			Beschrijving: <textarea name="newDescription"><?php echo $newProduct->getDescription(); ?></textarea><br>
-			Leverancier: <select name="newSupplier">
-			<option value="<?php echo $newProduct->getSupplierId(); ?>"><?php echo $newProduct->getSupplierName(); ?></option>
-			<?php foreach ($newProduct->getAllSupplier(array(array('id', '!=', $newProduct->getSupplierId()))) as $suppl) { ?>
-				<option value="<?php echo $suppl[0]; ?>"><?php echo $suppl[1]; ?></option>
-			<?php } ?>
-		</select><br>
-			Prijs: <input type="text" name="newPrice" value="<?php echo $newProduct->getPrice(); ?>"><br>
-			<?php	
-			$Category = new Category($db);
-			foreach ($Category->getAll() as $category) {
-				echo '<input type="checkbox" name="product_category[]" value="' . $category->getId() . '"';
-				if (array_search($category->getId(), $_POST['product_category'])) {
-					echo "checked";
-				}
-				echo '>' . $category->getName() . "<br>";
-			}
-			?>
-			<input type="submit">
-			<a href="<?php echo $location; ?>">Terug</a>
+			<table class='cms page product'>
+				<tr>
+					<td>Naam:</td>
+					<td><input type="text" name="newName" value="<?php echo $newProduct->getName(); ?>"></td>
+				</tr>
+				<tr>
+					<td>Code:</td>
+					<td><input type="text" name="newCode" value="<?php echo $newProduct->getCode(); ?>"></td>
+				</tr>
+				<tr>
+					<td>Tweede hands:</td>
+					<td>
+						<select name="newSecondhand">
+							<?php if($newProduct->getSecondhand() == 0) { ?>
+								<option value="0">Nee</option>
+								<option value="1">Ja</option>
+							<?php } else { ?>
+								<option value="1">Ja</option>
+								<option value="0">Nee</option>
+							<?php } ?>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Beschrijving:</td>
+					<td>
+						<textarea name="newDescription">
+							<?php echo $newProduct->getDescription(); ?>
+						</textarea>
+					</td>
+				</tr>
+				<tr>
+					<td>Leverancier:</td>
+					<td>
+						<select name="newSupplier">
+							<option value="<?php echo $newProduct->getSupplierId(); ?>">
+								<?php echo $newProduct->getSupplierName(); ?>
+							</option>
+							<?php foreach ($newProduct->getAllSupplier(array(array('id', '!=', $newProduct->getSupplierId()))) as $suppl) { ?>
+								<option value="<?php echo $suppl[0]; ?>">
+									<?php echo $suppl[1]; ?>
+								</option>
+							<?php } ?>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td>Prijs:</td>
+					<td><input type="text" name="newPrice" value="<?php echo $newProduct->getPrice(); ?>"></td>
+				</tr>
+				<tr>
+					<td colspan="2">
+						<h2>Categoriën:</h2>
+					</td>
+				</tr>
+				<?php $Category = new Category($db);
+				foreach ($Category->getAll() as $category) {
+					echo "<tr><td>";
+					echo '<input type="checkbox" name="product_category[]" value="' . $category->getId() . '"';
+					if (isset($_POST['product_category'])) {
+						if (array_search($category->getId(), $_POST['product_category']) > -1) {
+							echo "checked";
+						}
+					}
+					echo '></td><td>' . $category->getName() . "</td></tr>";
+				} ?>
+				<tr>
+					<td><button>Toevoegen</button></td>
+					<td>
+						<a href="<?php echo $location; ?>">
+							<button>
+								Terug
+							</button>
+						</a>
+					</td>
+				</tr>
+			</table>
 		</form>
 	<?php } else {
 		$newProduct->newProduct();	
-		$updateProduct->linkCategory($_POST['product_category']);
+		$newProduct->setIdFromDatabase();
+		$newProduct->linkCategory($_POST['product_category']);
 		header('location: '. $location);
 	}
 }
 
 //Update product 
-if (isset($_POST['updateName'])) {
+elseif (isset($_POST['updateName'])) {
 	$updateProduct = new Product($db);
 	$updateProduct->setId($_GET['id']);     
 	$updateProduct->setName($_POST['updateName']);
@@ -103,14 +152,17 @@ if (isset($_POST['updateName'])) {
 			<?php	
 			foreach ($updateProduct->getLinkedCategory() as $category) {
 				echo '<input type="checkbox" name="product_category[]" value="' . $category[0] . '"';
-				if ($category[2]) {
-					echo "checked";
+				foreach ($_POST['product_category'] as $checked) {
+					if ($category[0] == $checked) {
+						echo "checked";
+					}
 				}
+				
 				echo '>' . $category[1] . "<br>";
 			}
 			?>
-			<input type="submit">
-			<a href="<?php echo $location; ?>">Terug</a>
+			<button>Opslaan</button>
+			<a href="<?php echo $location; ?>"><button>Terug</button></a>
 		</form>
 	<?php } else {
 		$updateProduct->updateProduct();
@@ -120,7 +172,7 @@ if (isset($_POST['updateName'])) {
 }
 
 //Product toevoegen input
-if (isset($_GET['n'])) { ?>
+elseif (isset($_GET['n'])) { ?>
 	<form action="<?php echo $location; ?>" method="post">
 		Naam: <input type="text" name="newName"><br>
 		Code: <input type="text" name="newCode"><br>
@@ -135,16 +187,13 @@ if (isset($_GET['n'])) { ?>
 			<?php } ?>
 		</select><br>
 		Prijs: <input type="text" name="newPrice"><br>
-		<?php	
-		foreach ($product->getLinkedCategory() as $category) {
-			echo '<input type="checkbox" name="product_category[]" value="' . $category[0] . '"';
-			if ($category[2]) {
-				echo "checked";
-			}
-			echo '>' . $category[1] . "<br>";
+		<?php
+		$Category = new Category($db);	
+		foreach ($Category->getAll() as $category) {
+			echo '<input type="checkbox" name="product_category[]" value="' . $category->getId() . '">' . $category->getName() . '<br>';
 		}
 		?>
-		<input type="submit">
+		<button>Toevoegen</button>
 	</form>
 
 <?php //Product bewerken
@@ -173,7 +222,7 @@ if (isset($_GET['n'])) { ?>
 		</select><br>
 		Prijs: <input type="text" name="updatePrice" value="<?php echo $pro->getPrice() ?>"><br>
 		<?php	
-			foreach ($product->getLinkedCategory() as $category) {
+			foreach ($pro->getLinkedCategory() as $category) {
 				echo '<input type="checkbox" name="product_category[]" value="' . $category[0] . '"';
 				if ($category[2]) {
 					echo "checked";
@@ -181,18 +230,19 @@ if (isset($_GET['n'])) { ?>
 				echo '>' . $category[1] . "<br>";
 			}
 		?>
-		<input type="submit">
+		<button>Opslaan</button>
 	</form>
-	<a href="<?php echo $location .'&r=' . $pro->getId(); ?> ">Verwijder dit product</a>
+	<a href="<?php echo $location .'&r=' . $pro->getId(); ?> "><button>Verwijder dit product</button></a>
 
 <?php //Producten weergeven
-} elseif (!isset($_POST['newName']) && !isset($_POST['updateName'])) { 
+} else { 
 	foreach ($allProducts->getAll() as $pro) {
 		echo '<a href="' . $location . '&e=' . $pro->getId() . '">';
 			echo $pro->getName();
 		echo "</a><br>";
 	}
-	echo '<br><a href="' . $location . '&n">Product toevoegen</a>';
+	echo '<br><a href="' . $location . '&n"><button>Product toevoegen</button></a>';
 }
 
 ?>
+</div>
