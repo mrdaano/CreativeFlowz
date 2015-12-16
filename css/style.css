@@ -323,25 +323,25 @@ a.cms{
 	margin-top: 15px;
 }
 
-table {
+.media_beheer table {
 	margin-top: 20px;
 	width: 100%;
 	border-collapse: collapse;
 }
 
-table a {
+.media_beheer table a {
 	color: #666666;
 }
 
-table thead th {
+.media_beheer table thead th {
 	text-align: left;
 }
 
-table td, table th {
+.media_beheer table td, .media_beheer table th {
 	height: 35px;
 	border-bottom: 1px solid #383f48;
 }
 
-table tr:last-child td {
+.media_beheer table tr:last-child td {
 	border-bottom: none;
 }
