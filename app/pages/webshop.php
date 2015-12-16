@@ -17,7 +17,6 @@
                             <td class="textintable">categoriën</td>
                         </tr>
                             <tr class="thirdheaderdata">
-<<<<<<< HEAD
                             <td class="textintable" class="activecategorie"><a href="index.php?page=webshop">- alles</a></td>
                         </tr>
                         <tr class="thirdheaderdata">
@@ -28,23 +27,6 @@
                         </tr>
                         <tr class="thirdheaderdata">
                             <td class="textintable"><a href="index.php?page=faipwebshop">- faip</a></td>
-=======
-                            <td class="textintable">- alles</td>
-                        </tr>
-                        <tr class="thirdheaderdata">
-                            <td class="textintable">- alesco</td>
-                        </tr>
-                        <tr class="thirdheaderdata">
-                            <td class="textintable">- balco</td>
-                        </tr>
-                        <tr class="thirdheaderdata">
-                            <td class="textintable">- faip tirechangers</td>
-                        </tr>
-                        <tr class="thirdheaderdata">
-                            <td class="textintable">- faip wheelaligners</td>
-                        </tr>
-                        <tr class="thirdheaderdata">
-                            <td class="textintable">- faip wheelbalancers</td>
                         </tr>
                     </table>
                 </div>
