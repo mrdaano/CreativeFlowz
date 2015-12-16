@@ -5,7 +5,11 @@ class Database {
 	private $_pdo, $_query, $_results, $_count = 0, $_error = false, $_sql, $_values = array();
 	
 	public function __construct() {
+<<<<<<< HEAD
 		$this->_pdo = new PDO('mysql:host=localhost:3306;dbname=mydb', 'root', 'root');
+=======
+		$this->_pdo = new PDO('mysql:host=localhost;dbname=mydb', 'root', 'usbw');
+>>>>>>> origin/Product
 	}
 	
 	/**
@@ -221,6 +225,7 @@ class Database {
 		
 	}
 	
+<<<<<<< HEAD
 	/**
 	 * Daan (4-12-2015)
 	 * string/array	$colmns
@@ -230,6 +235,8 @@ class Database {
 	 * Usage:
 	 * DB::start()->join('*', 'users', array('orders' => array('user_id', 'users.id')) array(array('id' => 1)));
 	 */
+=======
+>>>>>>> origin/Product
 	public function join($colmns = "*", $table, $joins, $where = array()) {
 		$joinClause = "";
 		$whereClause = "";
@@ -280,6 +287,7 @@ class Database {
 		}
 	}
 	
+<<<<<<< HEAD
 	/**
 	 * Daan (4-12-2015)
 	 * string/array	$colmns
@@ -340,6 +348,12 @@ class Database {
 	}
 	
 
+=======
+	public function leftJoin() {
+		
+	}
+	
+>>>>>>> origin/Product
 	/**
 	 * Daan (2-12-2015)
 	 * Note:
@@ -362,7 +376,11 @@ class Database {
 		}
 		return $return;
 	}
+<<<<<<< HEAD
 	
+=======
+
+>>>>>>> origin/Product
 	/**
 	 * Daan (25-11-2015)
 	 * Note:

@@ -1,28 +1,4 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-
-webshop.html
-=======
 KBS.sublime-workspace
 KBS.sublime-project
-Eigen/*
-app/classes/Database.php
-app/classes/Database.php
-app/classes/Database.php
->>>>>>> master
-=======
-KBS.sublime-workspace
-KBS.sublime-project
->>>>>>> master
-
-index.php
-
-app/classes/Database.php
-
-app/classes/Database.php
-
-webshop.html
-
-webshop.html
-
-webshop.html
+errors.log
+/test/nbproject/private/

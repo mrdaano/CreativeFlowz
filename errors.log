@@ -2344,3 +2344,19 @@ Stack trace:
 [16-Dec-2015 12:07:08 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
 [16-Dec-2015 12:07:08 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
 [16-Dec-2015 12:07:08 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 13:00:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 8
+[16-Dec-2015 13:00:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 8
+[16-Dec-2015 13:00:06 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 8
+[16-Dec-2015 13:00:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 8
+[16-Dec-2015 13:00:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 8
+[16-Dec-2015 13:00:19 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 8
+[16-Dec-2015 13:00:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 8
+[16-Dec-2015 13:00:47 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 8
+[16-Dec-2015 13:00:50 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 8
+[16-Dec-2015 13:00:55 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 8
+[16-Dec-2015 13:03:03 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 8
+[16-Dec-2015 13:03:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 8
+[16-Dec-2015 13:12:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 8
+[16-Dec-2015 13:13:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 8
+[16-Dec-2015 13:13:31 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 8
+[16-Dec-2015 13:21:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 8
