@@ -1,9 +1,12 @@
 <div class="page">
 <?php
 $db = new Database();
-$allProducts = new Product($db);
 $product = new Product($db);
+
+$allProducts = new Product($db);
 $location = 'index.php?page=cms&module=product';
+$showForm = false;
+
 //Product verwijderen
 if ((isset($_GET['r']))) {
 	$removeProduct = new Product($db);
@@ -12,236 +15,192 @@ if ((isset($_GET['r']))) {
 	header('location: ' . $location);
 }
 
-//Voeg product toe 
-elseif (isset($_POST['newName'])) {
-	filter_input(INPUT_POST, 'newSecondhand', FILTER_VALIDATE_INT);
-	filter_input(INPUT_POST, 'newPrice', FILTER_VALIDATE_INT);
-	filter_input(INPUT_POST, 'newSupplier', FILTER_VALIDATE_INT);
-	$newProduct = new Product($db);   
-	$newProduct->setName($_POST['newName']);
-	$newProduct->setCode($_POST['newCode']);
-	$newProduct->setSecondhand($_POST['newSecondhand']);
-	$newProduct->setDescription($_POST['newDescription']);
-	$newProduct->setSupplierId($_POST['newSupplier']);
-	$newProduct->setPrice($_POST['newPrice']);
-	$newProduct->controle();  
-	if ($newProduct->getError()) { ?>
-		<h2>
-			<?php echo $newProduct->getError(); ?>
-		</h2>
-		<form action="<?php echo $location; ?>" method="post">
-			<table class='cms page product'>
-				<tr>
-					<td>Naam:</td>
-					<td><input type="text" name="newName" value="<?php echo $newProduct->getName(); ?>"></td>
-				</tr>
-				<tr>
-					<td>Code:</td>
-					<td><input type="text" name="newCode" value="<?php echo $newProduct->getCode(); ?>"></td>
-				</tr>
-				<tr>
-					<td>Tweede hands:</td>
-					<td>
-						<select name="newSecondhand">
-							<?php if($newProduct->getSecondhand() == 0) { ?>
-								<option value="0">Nee</option>
-								<option value="1">Ja</option>
-							<?php } else { ?>
-								<option value="1">Ja</option>
-								<option value="0">Nee</option>
-							<?php } ?>
-						</select>
-					</td>
-				</tr>
-				<tr>
-					<td>Beschrijving:</td>
-					<td>
-						<textarea name="newDescription">
-							<?php echo $newProduct->getDescription(); ?>
-						</textarea>
-					</td>
-				</tr>
-				<tr>
-					<td>Leverancier:</td>
-					<td>
-						<select name="newSupplier">
-							<option value="<?php echo $newProduct->getSupplierId(); ?>">
-								<?php echo $newProduct->getSupplierName(); ?>
-							</option>
-							<?php foreach ($newProduct->getAllSupplier(array(array('id', '!=', $newProduct->getSupplierId()))) as $suppl) { ?>
+//Update of Voegt toe 
+if (isset($_POST['name'])) {
+	if (isset($_GET['id'])) {
+		$product->setId($_GET['id']);
+	}
+
+	$product->setName($_POST['name']);
+	$product->setCode($_POST['code']);
+	$product->setSecondhand($_POST['secondhand']);
+	$product->setDescription($_POST['description']);
+	$product->setSupplierId($_POST['supplier']);
+	$product->setPrice($_POST['price']);
+
+	$product->controle();
+	if ($product->getError()) {
+		echo '<h2>';
+			echo $product->getError();
+		echo '</h2>';
+		$showForm = true;
+
+	} else {
+		if (isset($_GET['id'])) {
+			$product->updateProduct();
+		} else {
+			//echo 'geen update';
+			$product->newProduct();	
+			$product->setIdFromDatabase();
+		}
+
+		if (isset($_POST['product_category'])) {
+			$product->linkCategory($_POST['product_category']);
+		}		
+		header('location: '. $location);
+	}
+} elseif(isset($_GET['e'])) {
+	$product = $product->getAll(array(array('id', '=', $_GET['e'])));
+	$product = $product[0];
+	$showForm = true;
+} elseif(isset($_GET['n'])) {
+
+	$product->setName(null);
+	$product->setCode(null);
+	$product->setSecondhand(null);
+	$product->setDescription(null);
+	$product->setSupplierId(null);
+	$product->setPrice(null);
+	$showForm = true;
+}
+
+if ($showForm) { ?>
+	<form action="<?php if(isset($_GET['e']) || isset($_GET['id'])) { 
+			echo $location . '&id=' . $product->getId(); 
+		} else { 
+			echo $location; }?>" method="post">
+		<table class='cms page product'>
+			<tr>
+				<td>Naam:</td>
+				<td><input type="text" name="name" value="<?php echo $product->getName(); ?>"></td>
+			</tr>
+			<tr>
+				<td>Code:</td>
+				<td><input type="text" name="code" value="<?php echo $product->getCode(); ?>"></td>
+			</tr>
+			<tr>
+				<td>Tweede hands:</td>
+				<td>
+					<select name="secondhand">
+						<?php if($product->getSecondhand() == 0 || isset($_GET['n'])) { ?>
+							<option value="0">Nee</option>
+							<option value="1">Ja</option>
+						<?php } else { ?>
+							<option value="1">Ja</option>
+							<option value="0">Nee</option>
+						<?php } ?>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Beschrijving:</td>
+				<td>
+					<textarea name="description">
+						<?php echo $product->getDescription(); ?>
+					</textarea>
+				</td>
+			</tr>
+			<tr>
+				<td>Leverancier:</td>
+				<td>
+					<select name="supplier">
+						<?php if (isset($_GET['n'])) {
+							foreach ($product->getAllSupplier() as $suppl) { ?>
 								<option value="<?php echo $suppl[0]; ?>">
 									<?php echo $suppl[1]; ?>
 								</option>
-							<?php } ?>
-						</select>
-					</td>
-				</tr>
-				<tr>
-					<td>Prijs:</td>
-					<td><input type="text" name="newPrice" value="<?php echo $newProduct->getPrice(); ?>"></td>
-				</tr>
-				<tr>
-					<td colspan="2">
-						<h2>Categoriën:</h2>
-					</td>
-				</tr>
-				<?php $Category = new Category($db);
+							<?php }
+
+						} else { ?>
+							<option value="<?php echo $product->getSupplierId(); ?>">
+								<?php echo $product->getSupplierName(); ?>
+							</option>
+							<?php foreach ($product->getAllSupplier(array(array('id', '!=', $product->getSupplierId()))) as $suppl) { ?>
+								<option value="<?php echo $suppl[0]; ?>">
+									<?php echo $suppl[1]; ?>
+								</option>
+							<?php } 
+						} ?>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>Prijs:</td>
+				<td><input type="text" name="price" value="<?php echo $product->getPrice(); ?>"></td>
+			</tr>
+			<tr>
+				<td colspan="2">
+					<h2>Categoriën:</h2>
+				</td>
+			</tr>
+			<?php 
+			$Category = new Category($db);
+			if (isset($_POST['product_category'])) {
 				foreach ($Category->getAll() as $category) {
 					echo "<tr><td>";
 					echo '<input type="checkbox" name="product_category[]" value="' . $category->getId() . '"';
-					if (isset($_POST['product_category'])) {
-						if (array_search($category->getId(), $_POST['product_category']) > -1) {
-							echo "checked";
-						}
-					}
-					echo '></td><td>' . $category->getName() . "</td></tr>";
-				} ?>
-				<tr>
-					<td><button>Toevoegen</button></td>
-					<td>
-						<a href="<?php echo $location; ?>">
-							<button>
-								Terug
-							</button>
-						</a>
-					</td>
-				</tr>
-			</table>
-		</form>
-	<?php } else {
-		$newProduct->newProduct();	
-		$newProduct->setIdFromDatabase();
-		$newProduct->linkCategory($_POST['product_category']);
-		header('location: '. $location);
-	}
-}
-
-//Update product 
-elseif (isset($_POST['updateName'])) {
-	$updateProduct = new Product($db);
-	$updateProduct->setId($_GET['id']);     
-	$updateProduct->setName($_POST['updateName']);
-	$updateProduct->setCode($_POST['updateCode']);
-	$updateProduct->setSecondhand($_POST['updateSecondhand']);
-	$updateProduct->setDescription($_POST['updateDescription']);
-	$updateProduct->setSupplierId($_POST['updateSupplier']);
-	$updateProduct->setPrice($_POST['updatePrice']);  
-	$updateProduct->controle();   
-	if ($updateProduct->getError()) {
-		echo $updateProduct->getError(); ?>
-		<form action="<?php $location . '&id=' . $updateProduct->getId(); ?>" method="post">
-			Naam: <input type="text" name="updateName" value="<?php echo $updateProduct->getName(); ?>"><br>
-			Code: <input type="text" name="updateCode" value="<?php echo $updateProduct->getCode(); ?>"><br>
-			Tweede hands: <select name="updateSecondhand">
-				<?php if($updateProduct->getSecondhand() == 0) { ?>
-					<option value="0">Nee</option>
-					<option value="1">Ja</option>
-				<?php } else { ?>
-					<option value="1">Ja</option>
-					<option value="0">Nee</option>
-				<?php } ?>
-			</select><br>
-			Beschrijving: <textarea name="updateDescription"><?php echo $updateProduct->getDescription(); ?></textarea><br>
-			Leverancier: <select name="updateSupplier">
-			<option value="<?php echo $updateProduct->getSupplierId(); ?>"><?php echo $updateProduct->getSupplierName(); ?></option>
-			<?php foreach ($updateProduct->getAllSupplier(array(array('id', '!=', $updateProduct->getSupplierId()))) as $suppl) { ?>
-				<option value="<?php echo $suppl[0]; ?>"><?php echo $suppl[1]; ?></option>
-			<?php } ?>
-		</select><br>
-			Prijs: <input type="text" name="updatePrice" value="<?php echo $updateProduct->getPrice(); ?>"><br>
-			<?php	
-			foreach ($updateProduct->getLinkedCategory() as $category) {
-				echo '<input type="checkbox" name="product_category[]" value="' . $category[0] . '"';
-				foreach ($_POST['product_category'] as $checked) {
-					if ($category[0] == $checked) {
+					if (array_search($category->getId(), $_POST['product_category']) > -1) {
 						echo "checked";
 					}
+					echo '></td><td>' . $category->getName() . '</td></tr>';
 				}
-				
-				echo '>' . $category[1] . "<br>";
-			}
-			?>
-			<button>Opslaan</button>
-			<a href="<?php echo $location; ?>"><button>Terug</button></a>
+			} elseif (isset($_GET['e'])) {
+				foreach ($product->getLinkedCategory() as $category) {
+					echo "<tr><td>";
+					echo '<input type="checkbox" name="product_category[]" value="' . $category[0] . '"';
+					if ($category[2]) {
+						echo 'checked';
+					}
+					echo '></td><td>' . $category[1] . '</td></tr>';
+
+				}
+			} else {
+				foreach ($Category->getAll() as $category) {
+					echo "<tr><td>";
+					echo '<input type="checkbox" name="product_category[]" value="' . $category->getId() . '">';
+					echo '</td><td>' . $category->getName() . '</td></tr>';
+
+				}
+			} ?>
+			<tr>
+				<td><input type="submit" value="Opslaan"></td>
+				<td>
+					<a href="<?php echo $location; ?>">
+						Terug
+					</a>
+				</td>
+			</tr>
+		</table>
 		</form>
-	<?php } else {
-		$updateProduct->updateProduct();
-		$updateProduct->linkCategory($_POST['product_category']);
-		header('location: '. $location);
-	}
-}
+<?php }
 
-//Product toevoegen input
-elseif (isset($_GET['n'])) { ?>
-	<form action="<?php echo $location; ?>" method="post">
-		Naam: <input type="text" name="newName"><br>
-		Code: <input type="text" name="newCode"><br>
-		Tweede hands: <select name="newSecondhand">
-			<option value="0">Nee</option>
-			<option value="1">Ja</option>
-		</select><br>
-		Beschrijving: <textarea name="newDescription"></textarea><br>
-		Leverancier: <select name="newSupplier">
-			<?php foreach ($allProducts->getAllSupplier() as $suppl) { ?>
-				<option value="<?php echo $suppl[0]; ?>"><?php echo $suppl[1]; ?></option>
-			<?php } ?>
-		</select><br>
-		Prijs: <input type="text" name="newPrice"><br>
-		<?php
-		$Category = new Category($db);	
-		foreach ($Category->getAll() as $category) {
-			echo '<input type="checkbox" name="product_category[]" value="' . $category->getId() . '">' . $category->getName() . '<br>';
-		}
-		?>
-		<button>Toevoegen</button>
-	</form>
-
-<?php //Product bewerken
-} elseif (isset($_GET['e'])) {
-	$pro = $allProducts->getAll(array(array('id', '=', $_GET['e'])));
-	$pro = $pro[0]; ?>
-		<form action="<?php echo $location . '&id=' . $pro->getId(); ?>" method="post">
-		Naam: <input type="text" name="updateName" value="<?php echo $pro->getName() ?>"><br>
-		Code: <input type="text" name="updateCode" value="<?php echo $pro->getCode() ?>"><br>
-		Tweede hands: <select name="updateSecondhand">
-			<?php if ($pro->getSecondhand() == 0) { ?>
-				<option value="0">Nee</option>
-				<option value="1">Ja</option>
-			<?php } else { ?>
-				<option value="1">Ja</option>
-				<option value="0">Nee</option>
-			<?php } ?>
-		</select><br>
-		Beschrijving: <textarea name="updateDescription"><?php echo $pro->getDescription() ?></textarea><br>
-		Leverancier: <select name="updateSupplier">
-			<option value="<?php echo $pro->getSupplierId(); ?>"><?php echo $pro->getSupplierName(); ?></option>
-			<?php foreach ($allProducts->getAllSupplier(array(array('id', '!=', $pro->getSupplierId()))) as $suppl) { ?>
-				<option value="<?php echo $suppl[0]; ?>"><?php echo $suppl[1]; ?></option>
-			<?php } ?>
-				<option value="new">Voeg een leverancier toe</option>
-		</select><br>
-		Prijs: <input type="text" name="updatePrice" value="<?php echo $pro->getPrice() ?>"><br>
-		<?php	
-			foreach ($pro->getLinkedCategory() as $category) {
-				echo '<input type="checkbox" name="product_category[]" value="' . $category[0] . '"';
-				if ($category[2]) {
-					echo "checked";
-				}
-				echo '>' . $category[1] . "<br>";
-			}
-		?>
-		<button>Opslaan</button>
-	</form>
-	<a href="<?php echo $location .'&r=' . $pro->getId(); ?> "><button>Verwijder dit product</button></a>
-
-<?php //Producten weergeven
-} else { 
-	foreach ($allProducts->getAll() as $pro) {
-		echo '<a href="' . $location . '&e=' . $pro->getId() . '">';
-			echo $pro->getName();
-		echo "</a><br>";
-	}
-	echo '<br><a href="' . $location . '&n"><button>Product toevoegen</button></a>';
+//Producten weergeven
+else { ?>
+	<table class='cms page product'>
+		<tr>
+			<td><b>Productnaam</b></td>
+			<td><b>Beschrijving</b></td>
+			<td><b>Leverancier</b></td>
+			<td><b>Prijs</b></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<?php foreach ($product->getAll() as $pro) { ?>
+		<tr>
+			<td><?= $pro->getName() ?></td>
+			<td><?= $pro->getDescription() ?></td>
+			<td><?= $pro->getSupplierName() ?></td>
+			<td><?= $pro->getPrice() ?> euro</td>
+			<td>
+				<a href="<?= $location ?>&e=<?= $pro->getId() ?>">Bewerk</a>
+			</td>
+			<td>
+				<a href="<?= $location ?>&r=<?= $pro->getId() ?>">Verwijder</a>
+			</td>
+		</tr>
+		<?php } ?>
+	</table>
+	<?php echo '<br><a href="' . $location . '&n"><button>Product toevoegen</button></a>';
 }
 
 ?>
