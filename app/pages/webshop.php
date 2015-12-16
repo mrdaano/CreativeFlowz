@@ -1,14 +1,4 @@
-<div class="secondheader">
-    <div class="wrapper">
-        <div class="customername"><span id="customername"><?Php echo $User->lastname()?></span><br>
-            <span id="customer">klant</span>
-        </div>
-        <ul class="customertabs">
-            <li><a href="index.php?page=customer&module=orders">mijn orders</a></li>
-            <li><a href="index.php?page=customer&module=sending">verzenden en retouneren</a></li>
-        <ul>
-    </div>
-</div>
+
 <div class="thirdheader">
             <div class="wrapper">
                 <div class="fourthheader">

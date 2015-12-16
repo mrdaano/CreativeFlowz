@@ -2368,3 +2368,8 @@ Stack trace:
 [16-Dec-2015 13:25:38 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 8
 [16-Dec-2015 13:28:42 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::leftJoin() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 346
 [16-Dec-2015 13:28:45 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::leftJoin() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 346
+[16-Dec-2015 13:54:12 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::leftJoin() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 346
+[16-Dec-2015 13:54:18 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::leftJoin() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 346
+[16-Dec-2015 13:54:37 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::leftJoin() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 346
+[16-Dec-2015 13:54:47 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::leftJoin() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 346
+[16-Dec-2015 13:55:06 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::leftJoin() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 346
