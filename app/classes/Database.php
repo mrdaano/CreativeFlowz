@@ -205,7 +205,7 @@ class Database {
 	 * string	$table
 	 * array	$params
 	 * Usage:
-	 * DB::start()->delete('users', array(array('id' => 1)));
+	 * DB::start()->delete('users', array(array('id', '=', 1)));
 	 */
 	public function delete($table, $params = array()) {
 		$sql = "DELETE FROM {$table} WHERE ";
@@ -221,7 +221,7 @@ class Database {
 			if (in_array($operator, $operators)) {
 				$sql .= "{$colmn}{$operator}?";
 				if ($x < count($params)) {
-					$sql .=", ";
+					$sql .=" AND ";
 				}
 				$x++;
 				array_push($values, $value);
