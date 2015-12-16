@@ -14,6 +14,7 @@ class Media {
 	}
 	
 	public function deleteFile($id) {
+		$item = Database::start('*', 'media', array(array('id','=',$id)))->fisrt();
 		
 	}
 	
@@ -23,7 +24,8 @@ class Media {
 		$error = false;
 		$file = $_FILES[$inputName];
 		$ext = pathinfo($file['name'],PATHINFO_EXTENSION);
-		$dest = $dir . "/" . $file['name'];
+		$name = $file['name'];
+		$dest = $dir . "/" . $name;
 		
 		if ($file['size'] == 0 && $file['error'] == 4) {
 			$this->addError("Er is geen bestand geselecteerd, probeer het opnieuw.");
@@ -40,12 +42,14 @@ class Media {
 		}
 		
 		if (file_exists($dest)) {
-			$num = substr(hexdec(uniqid()), 0, 8);
+			$num = substr(hexdec(uniqid()), 11);
+			$dest = $dir . "/" . $num . "." . $ext;
+			$name = $num . "." . $ext;
 		}
 		
 		if (move_uploaded_file($file["tmp_name"], $dest)) {
 			$db = Database::start()->insert('media', array(
-					'name' => $file['name'],
+					'name' => $name,
 					'path' => $dir
 				))->error();
 			

@@ -30,7 +30,7 @@
 		           }
 	          ?>
               <a href="index.php?page=cms&module=mediamanagment&actie=toevoegen" class="btn">Voeg bestand toe</a>
-			  <?php echo hexdec(uniqid()); ?>
+			  <?php echo substr(hexdec(uniqid()), 11); ?>
               <table class="media_table">
 	              <thead>
 		              <tr>
