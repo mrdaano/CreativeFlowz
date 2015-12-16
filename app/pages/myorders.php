@@ -39,13 +39,15 @@ include 'app/classes/Database.php';
         <div class="wrapper">
             <div class="textheader">
                 <div class="order">
-                    <?php 
-                       $orders = DB::start()->get(array('name','description','price'), 'product', array(array('code', '=', '111')))->results();
-
-                        foreach($orders as $key => $order) {
-                            echo $order->naam;
-                            echo $order->description;
-                            echo $order->price;
+                    <?php
+                        $orders = $db->start()->get('*', 'order')->results();
+                        $order_lines = $db->start()->join('*', 'order', array('order_line' => array('order.id', 'order')), array(array('order.id' => 1)));
+                        foreach ($orders as $key => $order) {
+                            echo $order->id;
+                            echo $order->user_id;
+                            echo $order->created_at;
+                            echo $order_lines->product_id;
+                            echo $order_lines->amount;
                         }
                     ?>
             </div>

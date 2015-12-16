@@ -1245,3 +1245,1102 @@ Stack trace:
 [10-Dec-2015 13:19:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
 [10-Dec-2015 13:19:15 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
 [10-Dec-2015 13:19:15 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:46:16 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:46:16 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:46:18 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:46:18 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:46:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:46:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:46:20 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 12:46:20 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 12:46:20 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 12:46:20 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 12:46:20 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 12:46:20 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 12:46:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:46:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:46:24 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:46:24 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:46:26 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:46:26 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:46:26 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[14-Dec-2015 12:46:27 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:46:27 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:46:27 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[14-Dec-2015 12:46:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:46:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:46:28 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[14-Dec-2015 12:55:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:55:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:55:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/myorders.php on line 43
+[14-Dec-2015 12:55:12 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:55:12 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:55:15 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:55:15 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:55:15 Europe/Berlin] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/myorders.php on line 43
+[14-Dec-2015 12:56:02 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:56:02 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:56:02 Europe/Berlin] PHP Fatal error:  Cannot redeclare class Database in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 2
+[14-Dec-2015 12:56:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:56:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:56:13 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 12:56:13 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 12:56:13 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 12:56:13 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 12:56:13 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 12:56:13 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 12:56:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:56:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:56:14 Europe/Berlin] PHP Fatal error:  Cannot redeclare class Database in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 2
+[14-Dec-2015 12:56:16 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:56:16 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:56:16 Europe/Berlin] PHP Fatal error:  Cannot redeclare class Database in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 2
+[14-Dec-2015 12:56:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:56:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:56:17 Europe/Berlin] PHP Fatal error:  Cannot redeclare class Database in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 2
+[14-Dec-2015 12:56:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:56:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:56:19 Europe/Berlin] PHP Fatal error:  Cannot redeclare class Database in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 2
+[14-Dec-2015 12:56:21 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:56:21 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:56:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:56:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:56:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[14-Dec-2015 12:58:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:58:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:58:22 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 12:58:22 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 12:58:22 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 12:58:22 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 12:58:22 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 12:58:22 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 12:58:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:58:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:58:28 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 12:58:28 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 12:58:28 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 12:58:28 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 12:58:28 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 12:58:28 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 12:58:33 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:58:33 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:58:34 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:58:34 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:58:34 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 12:58:34 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 12:58:34 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 12:58:34 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 12:58:34 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 12:58:34 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 12:58:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:58:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:58:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:58:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:58:56 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:58:56 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:58:59 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:58:59 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:58:59 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[14-Dec-2015 12:59:00 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 12:59:01 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 12:59:01 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 376
+[14-Dec-2015 13:22:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:22:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:22:40 Europe/Berlin] PHP Fatal error:  Cannot redeclare class Database in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 2
+[14-Dec-2015 13:22:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:22:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:22:42 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:22:42 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:22:42 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:22:42 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:22:42 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:22:42 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:23:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:23:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:23:05 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:23:05 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:23:05 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:23:05 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 36
+[14-Dec-2015 13:23:05 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 37
+[14-Dec-2015 13:23:05 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 36
+[14-Dec-2015 13:23:05 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 37
+[14-Dec-2015 13:27:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:27:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:27:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:27:41 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:27:41 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:27:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 39
+[14-Dec-2015 13:27:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 40
+[14-Dec-2015 13:28:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:28:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:28:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:28:17 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:28:17 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:28:17 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 38
+[14-Dec-2015 13:28:17 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 39
+[14-Dec-2015 13:28:17 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 38
+[14-Dec-2015 13:28:17 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 39
+[14-Dec-2015 13:28:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:28:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:28:30 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:28:30 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:28:30 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:28:30 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 38
+[14-Dec-2015 13:28:30 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 39
+[14-Dec-2015 13:28:30 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 38
+[14-Dec-2015 13:28:30 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 39
+[14-Dec-2015 13:29:07 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:29:07 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:29:07 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:29:07 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:29:07 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:29:07 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 38
+[14-Dec-2015 13:29:07 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 39
+[14-Dec-2015 13:29:07 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 38
+[14-Dec-2015 13:29:07 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 39
+[14-Dec-2015 13:29:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:29:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:29:08 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:29:08 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:29:08 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:29:08 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 38
+[14-Dec-2015 13:29:08 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 39
+[14-Dec-2015 13:29:08 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 38
+[14-Dec-2015 13:29:08 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 39
+[14-Dec-2015 13:33:09 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:33:09 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:33:09 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 85
+[14-Dec-2015 13:33:09 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 86
+[14-Dec-2015 13:33:09 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 87
+[14-Dec-2015 13:33:09 Europe/Berlin] PHP Fatal error:  Call to a member function results() on null in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 30
+[14-Dec-2015 13:33:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:33:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:33:10 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 85
+[14-Dec-2015 13:33:10 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 86
+[14-Dec-2015 13:33:10 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 87
+[14-Dec-2015 13:33:10 Europe/Berlin] PHP Fatal error:  Call to a member function results() on null in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 30
+[14-Dec-2015 13:34:29 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:34:29 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:34:29 Europe/Berlin] PHP Fatal error:  Call to a member function results() on null in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 30
+[14-Dec-2015 13:34:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:34:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:34:30 Europe/Berlin] PHP Fatal error:  Call to a member function results() on null in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 30
+[14-Dec-2015 13:34:32 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:34:32 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:34:32 Europe/Berlin] PHP Fatal error:  Call to a member function results() on null in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 30
+[14-Dec-2015 13:35:24 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:35:24 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:35:24 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:35:24 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:35:24 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:35:24 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$id in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 38
+[14-Dec-2015 13:35:24 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$user_id in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 39
+[14-Dec-2015 13:35:24 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$created_at in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 40
+[14-Dec-2015 13:35:24 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 13:35:24 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 13:35:24 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$id in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 38
+[14-Dec-2015 13:35:24 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$user_id in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 39
+[14-Dec-2015 13:35:24 Europe/Berlin] PHP Notice:  Undefined property: stdClass::$created_at in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 40
+[14-Dec-2015 13:35:24 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 13:35:24 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 13:36:11 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:36:11 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:36:11 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:36:11 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:36:11 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:36:11 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 13:36:11 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 13:36:11 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 13:36:11 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 13:41:16 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:41:16 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:41:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:41:16 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:41:16 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:41:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:41:16 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:41:16 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:41:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:41:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:41:19 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:41:19 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:41:19 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:41:19 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 13:41:19 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 13:41:19 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 13:41:19 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 13:42:29 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:42:29 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:42:29 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:42:29 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:42:29 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:42:29 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 13:42:29 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 13:42:29 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 13:42:29 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 13:43:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:43:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:43:14 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:43:14 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:43:14 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:43:14 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:43:14 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:43:14 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:43:44 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:43:44 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:43:44 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:43:44 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:43:44 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:43:44 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:43:44 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:43:44 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:44:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:44:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:44:42 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:44:42 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:44:42 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:44:42 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 13:44:42 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 13:44:42 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 13:44:42 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 13:48:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:48:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:48:37 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:48:37 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:48:37 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:48:37 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 13:48:37 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 13:48:37 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 13:48:37 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 13:48:38 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:48:38 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:48:38 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:48:38 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:48:38 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:48:38 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 13:48:38 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 13:48:38 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 13:48:38 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 13:50:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:50:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:50:05 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:50:05 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:50:05 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:50:05 Europe/Berlin] PHP Notice:  Undefined variable: orders in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 35
+[14-Dec-2015 13:50:05 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 35
+[14-Dec-2015 13:50:34 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:50:34 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:50:34 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:50:34 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:50:34 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:50:34 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 35
+[14-Dec-2015 13:50:43 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:50:43 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:50:43 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:50:43 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:50:43 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:50:43 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 35
+[14-Dec-2015 13:50:43 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:50:43 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:50:43 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:50:43 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:50:43 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:50:43 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 35
+[14-Dec-2015 13:50:45 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:50:45 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:50:45 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:50:45 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:50:45 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:50:45 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 35
+[14-Dec-2015 13:50:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:50:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:50:46 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:50:46 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:50:46 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:50:46 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 35
+[14-Dec-2015 13:51:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:51:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:51:36 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:51:36 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:51:36 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:51:36 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 35
+[14-Dec-2015 13:51:36 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 44
+[14-Dec-2015 13:51:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:51:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:51:37 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:51:37 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:51:37 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:51:37 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 35
+[14-Dec-2015 13:51:37 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 44
+[14-Dec-2015 13:51:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:51:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:51:47 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:51:47 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:51:47 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:51:47 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 35
+[14-Dec-2015 13:51:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:51:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:51:48 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:51:48 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:51:48 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:51:48 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 35
+[14-Dec-2015 13:53:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:53:28 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:53:28 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:53:28 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:53:28 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:53:28 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 36
+[14-Dec-2015 13:53:28 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 36
+[14-Dec-2015 13:53:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:53:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:53:30 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:53:30 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:53:30 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:53:30 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 36
+[14-Dec-2015 13:53:30 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 36
+[14-Dec-2015 13:53:31 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:53:31 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:53:31 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:53:31 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:53:31 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:53:31 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:53:31 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:53:31 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:53:33 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:53:33 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:53:33 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:53:33 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:53:33 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:53:33 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 36
+[14-Dec-2015 13:53:33 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 36
+[14-Dec-2015 13:53:34 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:53:34 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:53:34 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:53:34 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:53:35 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:53:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 36
+[14-Dec-2015 13:53:35 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 36
+[14-Dec-2015 13:53:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:53:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:53:47 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:53:47 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:53:47 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:53:47 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 40
+[14-Dec-2015 13:53:47 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 13:53:47 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 40
+[14-Dec-2015 13:53:47 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 13:58:20 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:58:20 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:58:20 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:58:20 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:58:20 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:58:20 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:58:20 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:58:20 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:58:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:58:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:58:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:58:23 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:58:23 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:58:23 Europe/Berlin] PHP Warning:  Invalid argument supplied for foreach() in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 35
+[14-Dec-2015 13:59:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 13:59:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 13:59:46 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:59:46 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:59:46 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 13:59:46 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 13:59:46 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 13:59:46 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:00:59 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:00:59 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:00:59 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:00:59 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:00:59 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:00:59 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 40
+[14-Dec-2015 14:00:59 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 14:00:59 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 40
+[14-Dec-2015 14:00:59 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 14:03:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:03:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:03:10 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:03:10 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:03:10 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:03:10 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:03:10 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:03:10 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:05:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:05:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:05:40 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:05:40 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:05:40 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:05:40 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:05:40 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:05:40 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:05:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:05:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:05:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:05:41 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:05:41 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:05:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 40
+[14-Dec-2015 14:05:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 14:05:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 40
+[14-Dec-2015 14:05:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 14:05:44 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:05:44 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:05:45 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:05:45 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:05:45 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:05:45 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:05:45 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:05:45 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:05:45 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:05:45 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:05:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:05:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:05:48 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:05:48 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:05:48 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:05:48 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 40
+[14-Dec-2015 14:05:48 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 14:05:48 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 40
+[14-Dec-2015 14:05:48 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 41
+[14-Dec-2015 14:07:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:07:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:07:40 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:07:40 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:07:40 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:07:40 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 44
+[14-Dec-2015 14:07:40 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 45
+[14-Dec-2015 14:07:40 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 44
+[14-Dec-2015 14:07:40 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 45
+[14-Dec-2015 14:08:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:08:14 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:08:14 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:08:14 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:08:14 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:08:14 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:08:14 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:08:14 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:08:14 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:08:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:08:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:08:37 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:08:37 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:08:37 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:08:37 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:08:37 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:08:37 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:08:37 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:09:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:09:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:09:30 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:09:30 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:09:30 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:09:30 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:09:30 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:09:30 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:09:31 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:09:31 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:09:31 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:09:31 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:09:31 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:09:31 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:09:31 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:09:31 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:09:31 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:11:09 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:11:09 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:11:09 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:11:09 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:11:09 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:11:09 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:11:09 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:11:09 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:11:09 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:11:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:11:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:11:10 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:11:10 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:11:10 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:11:10 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:11:10 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:11:10 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:11:10 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:11:11 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:11:11 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:11:11 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:11:11 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:11:11 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:11:11 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:11:11 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:11:11 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:11:11 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:11:31 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:11:31 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:11:31 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:11:31 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:11:31 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:11:31 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:11:31 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:11:31 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:11:31 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:12:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:12:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:12:10 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:12:10 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:12:10 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:12:10 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:12:10 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:12:10 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:12:10 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:12:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:12:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:12:35 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:12:35 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:12:35 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:12:35 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:12:35 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:12:35 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:12:35 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:12:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:12:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:12:54 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:12:54 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:12:54 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:12:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:12:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:12:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 42
+[14-Dec-2015 14:12:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 43
+[14-Dec-2015 14:16:59 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:16:59 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:16:59 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:16:59 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:16:59 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:16:59 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 46
+[14-Dec-2015 14:16:59 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:16:59 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 46
+[14-Dec-2015 14:16:59 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:19:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:19:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:19:25 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:19:25 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:19:25 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:19:25 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:19:25 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:19:25 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:19:25 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 49
+[14-Dec-2015 14:19:25 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:19:25 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:19:25 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:19:25 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 49
+[14-Dec-2015 14:19:43 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:19:43 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:19:43 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:19:43 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:19:43 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:19:43 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:19:43 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:19:43 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:19:43 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 49
+[14-Dec-2015 14:19:43 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:19:43 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:19:43 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:19:43 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 49
+[14-Dec-2015 14:19:59 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:19:59 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:19:59 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:19:59 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:19:59 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:19:59 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:19:59 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:19:59 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:19:59 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 49
+[14-Dec-2015 14:19:59 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:19:59 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:19:59 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:19:59 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 49
+[14-Dec-2015 14:20:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:20:36 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:20:36 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:20:36 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:20:36 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:20:36 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 46
+[14-Dec-2015 14:20:36 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:20:36 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:20:36 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:20:36 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 46
+[14-Dec-2015 14:20:36 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:20:36 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:20:36 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:20:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:20:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:20:54 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:20:54 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:20:54 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:20:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 46
+[14-Dec-2015 14:20:54 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:20:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:20:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:20:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 46
+[14-Dec-2015 14:20:54 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:20:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:20:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:21:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:21:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:21:13 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:21:13 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:21:13 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:21:13 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:21:13 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:21:13 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:21:13 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 49
+[14-Dec-2015 14:21:13 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:21:13 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:21:13 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:21:13 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 49
+[14-Dec-2015 14:21:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:21:25 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:21:25 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:21:25 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:21:25 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:21:25 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:21:25 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:21:25 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:21:25 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 49
+[14-Dec-2015 14:21:25 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:21:25 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:21:25 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:21:25 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 49
+[14-Dec-2015 14:21:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:21:35 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:21:35 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:21:35 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:21:35 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:21:35 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:21:35 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:21:35 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:21:35 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 49
+[14-Dec-2015 14:21:35 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:21:35 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:21:35 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:21:35 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 49
+[14-Dec-2015 14:23:38 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:23:38 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:23:38 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:23:38 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:23:38 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:23:38 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:23:38 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:23:38 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:23:38 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 49
+[14-Dec-2015 14:23:38 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:23:38 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:23:38 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:23:38 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 48
+[14-Dec-2015 14:23:38 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 49
+[14-Dec-2015 14:23:38 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:24:01 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:24:01 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:24:01 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:24:01 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:24:01 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:24:01 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:24:01 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:24:01 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:24:01 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:24:01 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:24:01 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:24:01 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:24:01 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:24:01 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:24:01 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:24:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:24:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:24:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:24:41 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:24:41 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:24:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:24:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:24:41 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:24:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:24:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:24:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:24:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:24:41 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:24:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:24:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:24:57 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:24:57 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:24:57 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:24:57 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:24:57 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:24:57 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:24:57 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:24:57 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:24:57 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:24:57 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:24:57 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:24:57 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:24:57 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:24:57 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:24:57 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:25:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:25:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:25:05 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:25:05 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:25:05 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:25:05 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:25:05 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:25:05 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:25:05 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:25:05 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:25:05 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:25:05 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:25:05 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:25:05 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:25:05 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:25:29 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:25:29 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:25:29 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:25:29 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:25:29 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:25:29 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:25:29 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:25:29 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:25:29 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:25:29 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:25:29 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:25:29 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:25:29 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:25:29 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:25:29 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:25:53 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:25:53 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:25:53 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:25:53 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:25:53 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:25:53 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:25:53 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:25:53 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:25:53 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:25:53 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:25:53 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:25:53 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:25:53 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:25:53 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:25:53 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:27:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:27:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:27:04 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:27:04 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:27:04 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:27:04 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:27:04 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:27:04 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:27:04 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:27:04 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:27:04 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:27:04 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:27:04 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:27:04 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:27:04 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:27:06 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:27:06 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:27:06 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:27:06 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:27:06 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:27:06 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:27:06 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:27:06 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:27:06 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:27:06 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:27:06 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:27:06 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:27:06 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:27:06 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:27:06 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:27:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:27:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:27:19 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:27:19 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:27:19 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:27:19 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:27:19 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:27:19 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:27:19 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:27:19 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:27:19 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:27:19 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:27:19 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:27:19 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:27:19 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:29:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:29:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:29:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:29:23 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:29:23 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:29:23 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:29:23 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:29:23 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:29:23 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:29:23 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:29:23 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:29:23 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:29:23 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:29:23 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:29:23 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:29:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:29:37 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:29:37 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:29:37 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:29:37 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:29:37 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:29:37 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:29:37 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:29:37 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:29:37 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:29:37 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:29:37 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:29:37 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:29:37 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:29:37 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:29:53 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[14-Dec-2015 14:29:53 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[14-Dec-2015 14:29:53 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[14-Dec-2015 14:29:53 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[14-Dec-2015 14:29:53 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[14-Dec-2015 14:29:53 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:29:53 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:29:53 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:29:53 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:29:53 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[14-Dec-2015 14:29:53 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[14-Dec-2015 14:29:53 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[14-Dec-2015 14:29:53 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:29:53 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[14-Dec-2015 14:29:53 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[16-Dec-2015 11:52:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:52:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:52:22 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:52:22 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:52:22 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:52:22 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[16-Dec-2015 11:52:22 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[16-Dec-2015 11:52:22 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 11:52:22 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 11:52:22 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[16-Dec-2015 11:52:22 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[16-Dec-2015 11:52:22 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[16-Dec-2015 11:52:22 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 11:52:22 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 11:52:22 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[16-Dec-2015 11:53:38 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:53:39 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:53:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:53:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:53:40 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:53:40 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:53:40 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:53:40 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:53:40 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:53:40 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:53:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:53:42 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:53:43 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:53:43 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:53:43 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:53:43 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:53:43 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:53:43 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:53:43 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:53:43 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:53:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:53:47 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:54:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:54:17 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:54:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:54:17 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:54:17 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:54:17 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:54:17 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:54:17 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:54:18 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:54:18 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:54:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:54:19 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:54:19 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:54:19 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:54:19 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:54:19 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:54:19 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:54:19 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:54:20 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:54:20 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:54:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:54:22 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:54:22 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:54:22 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:54:22 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:54:22 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[16-Dec-2015 11:54:22 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[16-Dec-2015 11:54:22 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 11:54:22 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 11:54:22 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[16-Dec-2015 11:54:22 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[16-Dec-2015 11:54:22 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[16-Dec-2015 11:54:22 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 11:54:22 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 11:54:22 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[16-Dec-2015 11:57:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:57:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:57:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:57:30 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:57:30 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 11:57:31 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[16-Dec-2015 11:57:32 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:57:32 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:57:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:57:40 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:57:40 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:57:40 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:57:40 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:57:40 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:57:40 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:57:40 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:57:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:57:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:57:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:57:41 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:57:41 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:57:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[16-Dec-2015 11:57:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[16-Dec-2015 11:57:41 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 11:57:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 11:57:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[16-Dec-2015 11:57:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[16-Dec-2015 11:57:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[16-Dec-2015 11:57:41 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 11:57:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 11:57:41 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[16-Dec-2015 11:57:44 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:57:44 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:57:44 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:57:44 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:57:44 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:57:44 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:57:44 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:57:44 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:57:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:57:46 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:57:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:57:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:59:03 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:59:03 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:59:03 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:59:03 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:59:03 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:59:03 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:59:03 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:59:03 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:59:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:59:41 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:59:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:59:41 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:59:41 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:59:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:59:41 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:59:41 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:59:53 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 11:59:53 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 11:59:53 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:59:53 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:59:53 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 11:59:53 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 11:59:53 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 11:59:53 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 12:00:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 12:00:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 12:00:05 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 12:00:05 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 12:00:05 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 12:00:05 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 12:00:05 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 12:00:05 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 12:00:21 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 12:00:21 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 12:00:21 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 12:00:21 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 12:00:21 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 12:00:21 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 12:00:21 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 12:00:21 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 12:04:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 12:04:13 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 12:04:21 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 12:04:21 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 12:04:21 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 12:04:21 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 12:04:21 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 12:04:21 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 12:04:21 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 12:04:21 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 12:04:24 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 12:04:24 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 12:04:24 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 12:04:24 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 12:04:24 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 12:04:24 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 12:04:24 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 12:04:24 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 12:04:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 12:04:54 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 12:04:54 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 12:04:54 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 12:04:54 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 12:04:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[16-Dec-2015 12:04:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[16-Dec-2015 12:04:54 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 12:04:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 12:04:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[16-Dec-2015 12:04:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 47
+[16-Dec-2015 12:04:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 50
+[16-Dec-2015 12:04:54 Europe/Berlin] PHP Notice:  Undefined variable: order_line in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 12:04:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 51
+[16-Dec-2015 12:04:54 Europe/Berlin] PHP Notice:  Trying to get property of non-object in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/pages/aboutus.php on line 52
+[16-Dec-2015 12:05:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 12:05:04 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 12:05:04 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 12:05:04 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 12:05:04 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 12:05:04 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 12:05:04 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 12:05:04 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 12:05:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 12:05:05 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 12:07:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 14
+[16-Dec-2015 12:07:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/NetBeansProjects/github/KBS.rtf/index.php on line 39
+[16-Dec-2015 12:07:08 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 12:07:08 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 12:07:08 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
+[16-Dec-2015 12:07:08 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 260
+[16-Dec-2015 12:07:08 Europe/Berlin] PHP Notice:  Undefined offset: 1 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 261
+[16-Dec-2015 12:07:08 Europe/Berlin] PHP Notice:  Undefined offset: 2 in /Users/stanermers/NetBeansProjects/github/KBS.rtf/app/classes/Database.php on line 262
