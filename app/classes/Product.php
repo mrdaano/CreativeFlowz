@@ -96,7 +96,11 @@ class Product
     
     public function getError()
     {
-        return $this->_error;
+    	if (isset($this->_error)) {
+    		return $this->_error;
+    	} else {
+    		return false;
+    	}
     }
 
 	public function getName()

@@ -1,4 +1,4 @@
-<div class="neworders">
+<div class="neworders page category">
 	<?php
 	$db = new Database();
 
@@ -7,21 +7,19 @@
 
 	//Errors
 	if (isset($_GET['m'])) {
-		echo "<br><h2>";
 		switch ($_GET['m']) {
 				case 'none':
-					echo "U heeft geen categorie ingevoerd.";
+					$error =  "U heeft geen categorie ingevoerd.";
 					break;
 				case 'pos':
-					echo "U heeft geen juiste positie ingevuld";
+					$error =  "U heeft geen juiste positie ingevuld";
 					break;
 				case 'exist':
-					echo "Deze catogorie bestaat al.";
+					$error =  "Deze categorie bestaat al.";
 					break;
 				case 'subcat':
-					echo "Deze categorie bevat sub catogorieen, u kunt deze zelf niet onderverdelen. ";
+					$error =  "Deze categorie bevat sub categorieën, daarom kunt deze categorie zelf niet onderverdelen. ";
 		}
-		echo "</h2>";	
 	}
 
 	//Categorie toevoegen
@@ -64,54 +62,81 @@
 	if (filter_input(INPUT_GET, 'e', FILTER_VALIDATE_INT)) {
 		$id = $_GET['e'];
 		$category->setAuto($_GET['e']); ?>
-
+		
 		<form action="index.php?page=cms&module=category&id=<?php echo $category->getId() ?>" method="post">
-			<input type="text" name="updateCategory" value="<?php echo $category->getName() ?>">
-			<select name="updateParent">
-				<?php
-					if ($category->getParent() == NULL) {
-						echo '<option value="0">Geen</option>';
-					} else {
-						echo '<option value="' . $category->getParent() . '">';
-						echo $category->getNameParent() . "</option>";
-						echo '<option value="0">Geen</option>';
-					}
-
-					foreach ($allCategory->getAll(array(array('parent', 'IS', 'NULL'))) as $cat) {
-						if ($cat->getId() != $category->getId() && $cat->getId() != $category->getParent()) {
-							echo '<option value="';
-								echo $cat->getId();
-							echo '">';
-								echo $cat->getName();
-							echo "</option>";
+			<h1>		
+				Categorie bewerken:
+			</h1>
+			<?php if (isset($error)) {
+				echo "<h2>". $error ."</h2>";
+			} else {
+				echo "<h2><br></h2>";
+			} ?>
+			<div class="edit">
+				Categorie naam:<br>
+				<input type="text" name="updateCategory" value="<?php echo $category->getName() ?>"><br>
+				Valt onder:<br>
+				<select name="updateParent">
+					<?php
+						if ($category->getParent() == NULL) {
+							echo '<option value="0">Geen</option>';
+						} else {
+							echo '<option value="' . $category->getParent() . '">';
+							echo $category->getNameParent() . "</option>";
+							echo '<option value="0">Geen</option>';
 						}
-					}
-				?>
-			</select>
-			<br>
-			<?php	
-				foreach ($category->getLinkedProducts() as $product) {
-					echo '<input type="checkbox" name="product_category[]" value="' . $product[0] . '"';
-					if (isset($product[2])) {
-						echo "checked";
-					}
-					echo '>' . $product[1] . "<br>";
-				}
-			?>
-			<input type="submit">
-		</form>
 
-		<a href="index.php?page=cms&module=category&r=<?php echo $category->getId() ?>">Verwijder</a>
-		<?php echo '<a href="index.php?page=cms&module=category">Terug</a>';
-	}
+						foreach ($allCategory->getAll(array(array('parent', 'IS', 'NULL'))) as $cat) {
+							if ($cat->getId() != $category->getId() && $cat->getId() != $category->getParent()) {
+								echo '<option value="';
+									echo $cat->getId();
+								echo '">';
+									echo $cat->getName();
+								echo "</option>";
+							}
+						}
+					?>
+				</select><br>
+				<input type="submit" value="Categorie opslaan" class="btn"><br>
+				<a href="index.php?page=cms&module=category"><button>Ga terug</button></a>
+				<a href="index.php?page=cms&module=category&r=<?php echo $category->getId() ?>"><button>Verwijder categorie</button></a>
+			</div>
+			<div class="linkedProducts">
+				<h2>
+					Gelinkte producten:
+				</h2>
+				<?php	
+					foreach ($category->getLinkedProducts() as $product) {
+						echo '<input type="checkbox" name="product_category[]" value="' . $product[0] . '"';
+						if ($product[2]) {
+							echo "checked";
+						}
+						echo '>' . $product[1] . "<br>";
+					}
+				?><br>
+			</div>
+		</form>
+	<?php }
 
 	//Categorie weergeven en toevoegen
 	else { ?>
 		<h1>
 			Categorie Beheer
 		</h1>
-		<form action="" method="post">
-			<input type="text" name="newCategory">
+		<br>
+		<form action="" method="post" class="add">
+			<h2>
+				Categorie toevoegen:
+			</h2>
+			<?php if (isset($error)) {
+				echo "<h3>" . $error . "</h3>";
+			} else {
+				echo "<h3><br></h3>";
+			} ?>
+			<br>
+			Categorie naam:<br>
+			<input type="text" name="newCategory"><br>
+			Valt onder:<br>
 			<select name="newParent">
 				<option value="0">Geen</option>
 				<?php
@@ -125,10 +150,13 @@
 						}
 					}
 				?>
-			</select>
-			<input type="submit">
+			</select><br>
+			<input type="submit" class="btn" value="Categorie opslaan">
 		</form>
-		<table class="cms page product">
+		<table class="cms page product show">
+			<h2>
+				Alle categorieën:
+			</h2>
 			<tr>
 				<td>
 					<b>Parent:</b>
@@ -136,6 +164,8 @@
 				<td>
 					<b>Child:</b>
 				</td>
+				<td></td>
+				<td></td>
 			</tr>
 			<?php foreach ($allCategory->getAll(array(array('parent', 'IS', 'NULL'))) as $cat) {
 				$gevonden = true; ?>
@@ -177,7 +207,7 @@
 				</tr>
 			<?php } 
 			if (!isset($gevonden)) { ?>
-				<td colspan="2">Er zijn geen categoriën gevonden.</td>
+				<td colspan="4">Er zijn geen categorieën gevonden.</td>
 			<?php } ?>
 		</table>
 	<?php }
