@@ -262,6 +262,10 @@ class Product
 	public function controle()
 	{
 		$error = array();
+		foreach( )
+
+
+
 		if ($this->getName() == '') {
 			$this->setError('Er is geen naam ingevuld.');
 			return;
@@ -277,10 +281,37 @@ class Product
 		if ($this->getPrice() == '') {
 			$this->setError('Er is geen prijs ingevuld.');
 			return;
+		} 
+
+		if (!$this->controlPrice()){
+			$this->setError('Er is geen correcte prijs ingevuld.');
+			return;
 		}
+
 		$this->setError(false);
 
 	}
+
+
+	public function controlPrice()
+	{
+		$price = $this->getPrice();
+
+		if (strpos($price, ',')) {
+			$price = str_replace(',','.',$price);
+		}
+
+		if (!is_numeric($price)) {
+			return false;
+		} else {
+			$price = round($price, 2);
+			if (strpos($price, '.')) {
+				$this->setPrice(str_replace('.',',',$price));
+			}
+			return true;
+		}
+	}
+
 
 	//Deze functie linkt een category aan een product
 	//Je geeft een array met category id's mee.
