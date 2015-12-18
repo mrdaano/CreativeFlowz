@@ -13,8 +13,9 @@ $Register = new Register($db);
 $Login = new Login($db);
 if($_SESSION['_user']['id'] > 0){
     $User = new User($db);
+    
 }
-
+$Page = new Page($db);
 ?>
 <!DOCTYPE html>
 <html>
@@ -23,6 +24,26 @@ if($_SESSION['_user']['id'] > 0){
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script src='js/plugin/texteditor/jquery-te-1.4.0.min.js' type='text/javascript'></script>
+        <link href='js/plugin/texteditor/jquery-te-1.4.0.css' rel='stylesheet' type='text/css'>
+        <script src="js/plugin/ckeditor/ckeditor.js"></script>
+        <script src="js/plugin/ckeditor/sample.js"></script>
+        <script type='text/javascript'>
+        $( document ).ready(function() {
+            //$('textarea').jqte();
+            
+            // settings of status
+            var jqteStatus = true;
+            $(".status").click(function()
+            {
+                jqteStatus = jqteStatus ? false : true;
+                $('.jqte-test').jqte({"status" : jqteStatus})
+            });
+            
+            
+        });
+</script>
     </head>
     <body>
         <div class="header">
@@ -50,6 +71,7 @@ if($_SESSION['_user']['id'] > 0){
                 </ul>
             </div>
         </div>
+        
         <?php
             /*
              *  Hier word de route van de website bepaald.
@@ -60,7 +82,12 @@ if($_SESSION['_user']['id'] > 0){
                include($Route->request($_GET));
             }elseif(isset($_GET['cmspage'])){
                 include($Route->request($_GET));
-            }
+            }else{
+                echo '<div class="wrapper">';
+                echo $Page->getHomepage();
+                echo '</div>';
+            }   
         ?>
+        
     </body>
 </html>

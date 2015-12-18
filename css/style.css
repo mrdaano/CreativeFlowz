@@ -308,7 +308,7 @@ a.cms{
   float: left;
 }
 
-.media_beheer .btn {
+button, .btn{
 	background-color: #34495e;
 	padding: 7px 12px;
 	color: #FFF;
@@ -317,31 +317,61 @@ a.cms{
 	margin: 6px 0;
 	display: inline-flex;
 	border: none;
+    cursor: pointer;
 }
 
 .media_beheer form {
 	margin-top: 15px;
 }
 
-.media_beheer table {
+table.cms {
 	margin-top: 20px;
 	width: 100%;
 	border-collapse: collapse;
 }
 
-.media_beheer table a {
+table a {
 	color: #666666;
 }
 
-.media_beheer table thead th {
+table thead th {
 	text-align: left;
 }
 
-.media_beheer table td, .media_beheer table th {
+table.page td, table.cms th {
 	height: 35px;
-	border-bottom: 1px solid #383f48;
+	border-bottom: 1px solid #C1C1C1;
+    padding: 5px;
 }
 
-.media_beheer table tr:last-child td {
+table tr:last-child td {
 	border-bottom: none;
+}
+table.page tr:nth-child(even){
+    background-color: #E6E6E6;
+}
+table.page tr{
+    -webkit-transition: background 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: background 0.3s;
+}
+table.page tr:hover{
+    background: #486179;
+    color: white;
+}
+div.page ul{
+    list-style-type: none;
+}
+div.page ul li{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+div.page ul li:first-child{
+    margin-top:10px;
+}
+
+div.page input[type="text"]{
+    padding: 5px;
+    height: 20px;
+    min-width: 300px;
 }
