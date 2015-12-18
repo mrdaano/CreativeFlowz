@@ -1,13 +1,13 @@
 <?php
 class Database {
-	
+
 	private static $_instance = null;
 	private $_pdo, $_query, $_results, $_count = 0, $_error = false, $_sql, $_values = array();
-	
+
 	public function __construct() {
-		$this->_pdo = new PDO('mysql:host=localhost;dbname=mydb', 'root', 'root');
+		$this->_pdo = new PDO('mysql:host=localhost;dbname=mydb', 'root', '');
 	}
-	
+
 	/**
 	 * Daan (24-11-2015)
 	 * Usage:
@@ -24,13 +24,13 @@ class Database {
 			return $this;
 		}
 	}
-	
+
 	/**
 	 * Daan (24-11-2015)
 	 * string	$sql
 	 * array	$params
 	 * Usage:
-	 * $this->query(//sql, array('params')); 
+	 * $this->query(//sql, array('params'));
 	 * Note: Only use in this class!
 	 */
 	private function query($sql, $params = array()) {
@@ -52,8 +52,8 @@ class Database {
 		return $this;
 		}
 	}
-	
-	
+
+
 	/**
 	 * Daan (24-11-2015)
 	 * array/string $items
@@ -92,9 +92,9 @@ class Database {
 					} else {
 						array_push($values, $value);
 					}
-					
+
 					$where .= " {$key} {$operator} {$end}";
-					
+
 					if ($x < count($params)) {
 						$where .= " AND ";
 					}
@@ -102,19 +102,19 @@ class Database {
 				}
 			}
 		}
-		
+
 		$order = "";
 		if (!empty($orderBy)) {
 			$order = $this->orderBy($orderBy);
 		}
 
 		$sql = "SELECT {$selectColmns} FROM `{$table}` {$where}{$order}";
-		
+
 		if(!$this->query($sql, $values)->error()) {
 			return $this;
 		}
 	}
-	
+
 	/**
 	 * Daan (25-11-2015)
 	 * string	$table
@@ -139,28 +139,29 @@ class Database {
 				$x++;
 			}
 			$sql .= ") VALUES ({$queryEnd})";
-			
+
 			if(!$this->query($sql, $values)->error()) {
 				return $this;
 			}
-			
+
 		}
 		return false;
 	}
-	
+
 	/**
 	 * Daan (25-11-2015)
 	 * string	$table
 	 * array	$data
 	 * array	$params
 	 * Usage:
-	 * DB::start()->update('users', array('username' => 'John', 'email' => 'johndoe@example.com'), array('id' => 1));
+	 * DB::start()->update('users', array('username' => 'John', 'email' => 'johndoe@example.com'), array(array('id', '=', 1)));
 	 */
 	public function update($table, $data, $params) {
+		$operators = array('=', '>', '<', '>=', '<=', '!=', 'IS', 'IS NOT');
 		$sql = "UPDATE {$table} SET ";
 		$x = 1;
 		$values = array();
-		
+
 		foreach($data as $key => $item) {
 			$sql .= "{$key}=? ";
 			if ($x < count($data)) {
@@ -169,58 +170,70 @@ class Database {
 			$x++;
 			array_push($values, $item);
 		}
-		
+
 		$sql .= "WHERE ";
 		$x = 1;
-		
-		foreach($params as $key => $param) {
-			$sql .= "{$key}=? ";
-			if ($x < count($params)) {
-				$sql .=", ";
+
+		foreach ($params as $param) {
+				$key = $param[0];
+				$operator = $param[1];
+				$value = $param[2];
+				if (in_array($operator, $operators)) {
+					$end = '?';
+					if ($value == 'NULL') {
+						$end = $value;
+					} else {
+						array_push($values, $value);
+					}
+
+					$sql .= " {$key} {$operator} {$end}";
+
+					if ($x < count($params)) {
+						$sql .= " AND ";
+					}
+					$x++;
+				}
 			}
-			array_push($values, $param);
-			$x++;
-		}
-		
+
 		if(!$this->query($sql, $values)->error()) {
 			return $this;
 		}
 	}
-	
+
 	/**
 	 * Daan (25-11-2015)
 	 * string	$table
 	 * array	$params
 	 * Usage:
-	 * DB::start()->delete('users', array(array('id' => 1)));
+	 * DB::start()->delete('users', array(array('id', '=', 1)));
 	 */
 	public function delete($table, $params = array()) {
 		$sql = "DELETE FROM {$table} WHERE ";
 		$values = array();
 		$x = 1;
 		$operators = array('=', '>', '<', '>=', '<=');
-		
+
 		foreach($params as $param) {
 			$colmn = $param[0];
 			$operator = $param[1];
 			$value = $param[2];
-			
+
 			if (in_array($operator, $operators)) {
 				$sql .= "{$colmn}{$operator}?";
 				if ($x < count($params)) {
-					$sql .=", ";
+					$sql .=" AND ";
 				}
 				$x++;
 				array_push($values, $value);
 			}
 		}
-		
+
 		if(!$this->query($sql, $values)->error()) {
 			return $this;
 		}
-		
+
 	}
-	
+
 	/**
 	 * Daan (4-12-2015)
 	 * string/array	$colmns
@@ -235,7 +248,7 @@ class Database {
 		$whereClause = "";
 		$values = array();
 		$operators = array('=', '>', '<', '>=', '<=');
-		
+
 		if (is_array($colmns)) {
 			$y = 1;
 			$selectColmns = null;
@@ -249,18 +262,18 @@ class Database {
 		} else {
 			$selectColmns = $colmns;
 		}
-		
+
 		foreach($joins as $joinTable => $join) {
 			$joinClause .= " JOIN {$joinTable} ON {$join[0]}={$join[1]}";
 		}
-		
+
 		if (!empty($where)) {
 			$whereClause = " WHERE ";
 			foreach($where as $item) {
 				$colmn = $item[0];
 				$operator = $item[1];
 				$value = $item[2];
-				
+
 				if (in_array($operator, $operators)) {
 					$whereClause .= "{$colmn}{$operator}?";
 					if ($x < count($where)) {
@@ -269,17 +282,17 @@ class Database {
 					$x++;
 					array_push($values, $value);
 				}
-				
+
 			}
 		}
-		
+
 		$sql = "SELECT {$selectColmns} FROM `{$table}` {$joinClause}{$whereClause}";
-		
+
 		if(!$this->query($sql, $values)->error()) {
 			return $this;
 		}
 	}
-	
+
 	/**
 	 * Daan (4-12-2015)
 	 * string/array	$colmns
@@ -294,7 +307,7 @@ class Database {
 		$whereClause = "";
 		$values = array();
 		$operators = array('=', '>', '<', '>=', '<=');
-		
+
 		if (is_array($colmns)) {
 			$y = 1;
 			$selectColmns = null;
@@ -308,18 +321,18 @@ class Database {
 		} else {
 			$selectColmns = $colmns;
 		}
-		
+
 		foreach($joins as $joinTable => $join) {
 			$joinClause .= " LEFT JOIN {$joinTable} ON {$join[0]}={$join[1]}";
 		}
-		
+
 		if (!empty($where)) {
 			$whereClause = " WHERE ";
 			foreach($where as $item) {
 				$colmn = $item[0];
 				$operator = $item[1];
 				$value = $item[2];
-				
+
 				if (in_array($operator, $operators)) {
 					$whereClause .= "{$colmn}{$operator}?";
 					if ($x < count($where)) {
@@ -328,17 +341,16 @@ class Database {
 					$x++;
 					array_push($values, $value);
 				}
-				
+
 			}
 		}
-		
+
 		$sql = "SELECT {$selectColmns} FROM `{$table}` {$joinClause}{$whereClause}";
-		
+
 		if(!$this->query($sql, $values)->error()) {
 			return $this;
 		}
 	}
-	
 
 	/**
 	 * Daan (2-12-2015)
@@ -348,7 +360,7 @@ class Database {
 	private function orderBy($order = array()) {
 		$accepted = array('ASC','DESC');
 		$return = " ORDER BY ";
-		
+
 		$x = 1;
 		foreach ($order as $key => $value) {
 			$value = strtoupper($value);
@@ -371,15 +383,15 @@ class Database {
 	public function lastId() {
 		return $this->_pdo->lastInsertId();
 	}
-	
+
 	public function first() {
 		return $this->_results[0];
 	}
-	
+
 	public function results() {
 		return $this->_results;
 	}
-	
+
 	public function error() {
 		return $this->_error;
 	}
