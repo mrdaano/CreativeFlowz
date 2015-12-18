@@ -262,9 +262,12 @@ class Product
 	public function controle()
 	{
 		$error = array();
-		foreach( )
+		$All = new product($db);
+		foreach($All->getAll() as $product) {
+			if(  )
+		
 
-
+		}
 
 		if ($this->getName() == '') {
 			$this->setError('Er is geen naam ingevuld.');
@@ -291,8 +294,8 @@ class Product
 		$this->setError(false);
 
 	}
-
-
+	//Deze fuctie controleert of de prijs geen letters bevat en 
+	//veranderd '.' in ',' en rond af op 2 decimaal.
 	public function controlPrice()
 	{
 		$price = $this->getPrice();
