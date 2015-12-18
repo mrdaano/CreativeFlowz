@@ -1,6 +1,4 @@
-<div class="secondheader">
-    <div class="wrapper"></div>
-</div>
+
 <div class="thirdheader">
     <div class="wrapper">
         <div class="fourthheader">
@@ -26,33 +24,6 @@
 </div>
 <div class="wrapper">
     <div class="textheader">
-        <?php
-        //$orders = $db->start()->get(array('*'), 'order_line', array(array('user_id' => 1)))->results();
-        //$order_lines = $db->start()->join('*', 'order_line', array('order' => array('order_id', 'order.id')), array(array('order_id' => 1)));
-
-        $orders = $db->start()->get('*', 'order')->results();
-        $order_lines = $db->start()->join('*', 'order', array('order_line' => array('order.id', 'order_id')), array(array('order.id' => 1)));
-            foreach ($orders as $key => $order) {
-        ?>
-        <div class="orders">
-        <div class="leftorder">
-            user id: <?php echo $order->user_id; ?><br>
-            order id: <?php echo $order->id; ?>
-        </div>
-        <div class="rightorder">
-            created at: <?php echo $order->created_at; ?>
-        </div>
-        <br><br><br>
-        <div class="rightorderinfo">
-            <br><br>totalprice: <?php echo $order_lines->totalprice; ?>
-        </div>
-        <div class="orderinfo">
-            product id: <?php echo $order_lines->product_id; ?> <br>
-            price: <?php echo $order_line->price; ?><br>
-            amount: <?php echo $order_lines->amount; ?><br>
-        </div>
-
-    </div>
-        <?php } ?>
+        
     </div>
 </div>

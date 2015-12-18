@@ -33,7 +33,7 @@
                 ?>
                     <div class="product">
                         <div class="productimg">
-                            <img class="img" src=""/>
+                            <img class="img" src="img/inductiewarmer.jpg"/>
                             <div class="view">
                                 <a href="product1.php"><img src=""/>bekijk product</a>
                             </div>
