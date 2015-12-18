@@ -27,6 +27,7 @@ if($_SESSION['_user']['id'] > 0){
 
 }
 $Page = new Page($db);
+$Product = new Product($db);
 ?>
 <!DOCTYPE html>
 <html>

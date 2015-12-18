@@ -245,7 +245,7 @@ class Product
 								'description' => $this->getDescription(),
 								'supplier_id' => $this->getSupplierId(),
 								'price' => $this->getPrice());
-		$this->db->start()->update('product', $arrayProduct, array('id' => $this->getId()));
+		$this->db->start()->update('product', $arrayProduct, array(array('id', '=', $this->getId())));
 	}
 
 	//Deze functie verwijderd een product
@@ -263,11 +263,6 @@ class Product
 	{
 		$error = array();
 		$All = new product($db);
-		foreach($All->getAll() as $product) {
-			if(  )
-		
-
-		}
 
 		if ($this->getName() == '') {
 			$this->setError('Er is geen naam ingevuld.');

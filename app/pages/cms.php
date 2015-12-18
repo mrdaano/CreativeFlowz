@@ -11,6 +11,12 @@
     </tr><tr>
       <td class="cms"><a href="index.php?page=cms&module=users" class="cms"><p>Gebruiker Beheer</p><p class="cmsitalic">Al het beheer van gebruikers</p></a></td>
     </tr>
+    </tr><tr>
+      <td class="cms"><a href="index.php?page=cms&module=product" class="cms"><p>Product Beheer</p><p class="cmsitalic">Al het beheer van producten</p></a></td>
+    </tr>
+    </tr><tr>
+      <td class="cms"><a href="index.php?page=cms&module=category" class="cms"><p>Categorie Beheer</p><p class="cmsitalic">Al het beheer van alle categorieën</p></a></td>
+    </tr>
   </table>
 </div>
 
