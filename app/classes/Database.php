@@ -349,7 +349,6 @@ class Database {
 			return $this;
 		}
 	}
-
 	/**
 	 * Daan (2-12-2015)
 	 * Note:

@@ -68,7 +68,6 @@ $Page = new Page($db);
                 </ul>
                 <ul class="rightlist">
                     <?php
-
                     if($_SESSION['_user']['id'] > 0){
                         ?>
                          <li class="shoppingcart"><a href="index.php?page=shoppingcart"><img class="shoppingcartimg" src="img/shopping-cart12.png" width="20"/> winkelwagen</a><li>
@@ -83,7 +82,6 @@ $Page = new Page($db);
                 </ul>
             </div>
         </div>
-
         <?php
             /*
              *  Hier word de route van de website bepaald.
@@ -100,6 +98,5 @@ $Page = new Page($db);
                 echo '</div>';
             }
         ?>
-
     </body>
 </html>

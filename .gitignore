@@ -2,3 +2,4 @@ KBS.sublime-workspace
 KBS.sublime-project
 /errors.log
 .DS_Store
+/test/nbproject/private/
