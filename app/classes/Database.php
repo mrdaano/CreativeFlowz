@@ -173,7 +173,6 @@ class Database {
 
 		$sql .= "WHERE ";
 		$x = 1;
-
 		foreach ($params as $param) {
 				$key = $param[0];
 				$operator = $param[1];
@@ -187,7 +186,6 @@ class Database {
 					}
 
 					$sql .= " {$key} {$operator} {$end}";
-
 					if ($x < count($params)) {
 						$sql .= " AND ";
 					}
@@ -374,7 +372,7 @@ class Database {
 		}
 		return $return;
 	}
-	
+
 	/**
 	 * Daan (25-11-2015)
 	 * Note:
