@@ -264,6 +264,25 @@ class Product
 		$error = array();
 		$All = new product($db);
 
+		foreach ($this->getAll() as $product) {
+			$name = $product->getName();
+			$code = $product->getCode();
+			$secondhand = $product->getSecondhand();
+			
+			if (isset($this->_id)) {
+				$thisId = $this->getId();
+			} else {
+				$thisId = null;
+			}
+			
+			$id = $product->getId();
+			if (strtolower($this->getName()) == strtolower($name) && strtolower($this->getCode()) == strtolower($code) && $this->getSecondhand() == $secondhand && $thisId != $id) {
+				$this->setError('Dit product bestaat al.');
+				return;
+			}
+		}
+		
+		
 		if ($this->getName() == '') {
 			$this->setError('Er is geen naam ingevuld.');
 			return;
