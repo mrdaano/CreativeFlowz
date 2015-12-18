@@ -152,9 +152,9 @@ class Product
 		$allProducts = array();
 
 		if (empty($where)) {
-			$sql = $this->db->start()->get('*', 'product')->results();
+			$sql = $this->db->start()->get('*', 'product', array(), array('name' => 'ASC'))->results();
 		} else {
-			$sql = $this->db->start()->get('*', 'product', $where)->results();
+			$sql = $this->db->start()->get('*', 'product', $where, array('name' => 'ASC'))->results();
 		}
 
 		foreach ($sql as $key => $std) {
@@ -181,9 +181,9 @@ class Product
 		$allSupplier = array();
 
 		if (empty($where)) {
-			$sql = $this->db->get('*', 'supplier')->results();
+			$sql = $this->db->get('*', 'supplier', array(), array('name' => 'ASC'))->results();
 		} else {
-			$sql = $this->db->get('*', 'supplier', $where)->results();
+			$sql = $this->db->get('*', 'supplier', $where, array('name' => 'ASC'))->results();
 		}
 
 		foreach ($sql as $key => $suppl) {

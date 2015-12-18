@@ -115,6 +115,7 @@
 							</option>
 						<?php } 
 					} ?>
+					<option value="">Leverancier toevoegen</option>
 				</select><br>
 				Prijs:<br>
 				<input type="text" name="price" value="<?php echo $product->getPrice(); ?>"><br>
@@ -143,7 +144,8 @@
 						}
 					} elseif (isset($_POST['product_category'])) {
 						$checked = $_POST['product_category'];
-					} ?> 
+					}
+					?> 
 					
 					<ul>
 						<?php foreach ($Category->getAll(array(array('parent', 'IS', 'NULL'))) as $categoryParent) { ?>
@@ -179,8 +181,8 @@
 		</h1>
 		<div class="link">
 			<br><a href="<?=$location?>&n"><button>Product toevoegen</button></a>
-			<a href="index.php?page=cms&module=category"><button>Categorie toevoegen</button></a>
-			<a href="<?=$location?>&supplier"><button>Leverancier toevoegen</button></a>
+			<a href="index.php?page=cms&module=category"><button>Categorieën beheren</button></a>
+			<a href="index.php?page=cms&module=supplier"><button>Leveranciers beheren</button></a>
 		</div>
 		<table class='cms page product'>
 			<tr>
@@ -209,4 +211,5 @@
 	<?php }
 
 	?>
+
 </div>
