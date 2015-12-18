@@ -34,7 +34,7 @@
 		           }
 	          ?>
               <a href="index.php?page=cms&module=mediamanagment&actie=toevoegen" class="btn">Voeg bestand toe</a>
-              <table class="media_table">
+              <table class="media_table cms page" width="100%">
 	              <thead>
 		              <tr>
 			              <th>Naam</th>
