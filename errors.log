@@ -2376,3 +2376,5 @@ Stack trace:
 [18-Dec-2015 12:07:50 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::leftJoin() in /Users/stanermers/NetBeansProjects/githuby/KBS.rtf/app/classes/Database.php on line 346
 [18-Dec-2015 12:07:57 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::leftJoin() in /Users/stanermers/NetBeansProjects/githuby/KBS.rtf/app/classes/Database.php on line 346
 [18-Dec-2015 12:07:59 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::leftJoin() in /Users/stanermers/NetBeansProjects/githuby/KBS.rtf/app/classes/Database.php on line 346
+[18-Dec-2015 21:08:27 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::leftJoin() in /Users/stanermers/NetBeansProjects/githuby/KBS.rtf/app/classes/Database.php on line 346
+[18-Dec-2015 21:08:36 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::leftJoin() in /Users/stanermers/NetBeansProjects/githuby/KBS.rtf/app/classes/Database.php on line 346
