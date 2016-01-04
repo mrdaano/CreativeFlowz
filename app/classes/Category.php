@@ -1,105 +1,108 @@
 <?php
-
 /**
 * 
 */
 class Category
 {
-	private $_id, $_name, $_head, $_nameHead;
+	private $_id, $_name, $_parent, $_nameParent;
 	
-	function __construct()
+	function __construct($db)
 	{
-		include_once 'Database.php';	
+		$this->db = $db;
 	}
-
-	public function get($wat)
+	/*
+	Setters:
+	--------
+	Baruch (2-11-2015)
+	Usage: $category->setName('nameOfCategory');
+	*/
+	public function setId($id)
 	{
-		switch ($wat) {
-			case 'id':
-				return $this->_id;
-				break;			
-			case 'name':
-				return $this->_name;
-				break;
-			case 'head':
-				return $this->_head;
-				break;
-			case 'nameHead':
-				return $this->_nameHead;
-				break;			
+		$this->_id = $id;
+	}
+	public function setName($name)
+	{
+		$this->_name = $name;
+	}
+	public function setParent($parent)
+	{
+		$this->_parent = $parent;
+		$sql = $this->db->start()->get('name', 'category', array(array('id', '=', $this->_parent)))->results();
+			if (!empty($sql)) {
+				$this->setNameParent($sql[0]->name);
+			} else $this->setNameParent(null);
+	}
+	public function setNameParent($nameParent)
+	{
+		$this->_nameParent = $nameParent;
+	}
+	/*
+	Auto set:
+	---------
+	Baruch (2-11-2015)
+	Usage: $category->setAuto(1);
+	
+	$id = Int
+	*/
+	public function setAuto($id) 
+	{
+		$this->setId($id);
+		$sql = $this->db->start()->get(array('name', 'parent'), 'category', array(array('id', '=', $this->_id)))->results();
+		foreach ($sql as $std) {
+			$this->setName($std->name);
+			$this->setParent($std->parent);
+		}	
+	}
+	/*
+	Create a new category:
+	----------------------
+	Baruch (2-11-2015)
+	Usage: $category->createCategory();
+	*/
+	public function createCategory()
+	{
+		if ($this->_name == '') {
+			return "&m=none";
 		}
-	}
-
-	public function set($wat, $value) 
-	{
-		switch ($wat) {
-			case 'id':
-				$this->_id = $value;
-				break;
-			case 'name':
-				$this->_name = $value;
-				break;
-			case 'head':
-				$this->_head = $value;
-
-				$database = new Database();
-				$sql = $database::start()->get('name', 'category', array(array('id', '=', $this->_head)))->results();
-				if (!empty($sql)) {
-					$this->_nameHead =$sql[0]->name;
-				} else $this->_nameHead = null;
-				break;
-			case 'auto':
-				$database = new Database();
-				$this->_id = $value;
-				$sql = $database::start()->get(array('name', 'head'), 'category', array(array('id', '=', $this->_id)))->results();
-				foreach ($sql as $std) {
-					$this->_name = $std->name;
-					$this->set('head', $std->head);
-				}
-				break;
-		}
-	}
-
-	public function createCategory($name, $head)
-	{
-		if ($name == '') {
-			return "?m=none";
+		if ($this->_parent == NULL) {
+			$sql = $this->db->start()->get('name', 'Category', array(array('parent', 'IS', 'NULL')))->results();
 		} else {
-			$this->set('name', $name);
+			$sql = $this->db->start()->get('name', 'category', array(array('parent', '=', $this->_parent)))->results();
 		}
-
-		$this->set('head', $head);
-
-		$database = new Database();
-		$sql = $database::start()->get('name', 'category', array(array('head', '=', $this->_head)))->results();
 		foreach ($sql as $std) {
 			if (strtolower($std->name) == strtolower($this->_name)) {
-				return "?m=exist";
+				return "&m=exist";
 				break;
 			}
 		}
-	
-		$database::start()->insert('category', array('name' => $this->_name, 'head' => $this->_head));
-		return;
-	}
-
-	public function updateCategory($id, $name ,$head, $oldName, $oldHead)
-	{
-		$returnId = "?e=" .  $id . "&m=";
-		
-		$this->set('id', $id);
-
-		if ($name == '') {
-			return $returnId . "none";
-		} else {
-			$this->set('name', $name);
+		if ($this->_parent == NULL) {
+			$this->db->start()->insert('category', array('name' => $this->_name));
+		} else {	
+			$this->db->start()->insert('category', array('name' => $this->_name, 'parent' => $this->_parent));
+			return;
 		}
-
-		$this->set('head', $head);
-
-		$database = new Database();
-		$sql = $database::start()->get('name', 'category', array(array('head', '=', $this->_head)))->results();
-		if (strtolower($oldName) != strtolower($name)) {
+	}
+	/*
+	Update a category:
+	------------------
+	Baruch (2-11-2015)
+	Usage: $category->updateCategory('oldCategoryName', 3);
+	$oldParent = Int
+	$oldName = String
+	*/
+	public function updateCategory($oldName, $oldParent)
+	{
+		$returnId = "&e=" .  $this->_id . "&m=";
+		
+		if ($this->_name == '') {
+			return $returnId . "none";
+		}
+		if ($this->_parent == NULL) {
+			$sql = $this->db->start()->get('name', 'category', array(array('parent', 'IS', 'NULL')))->results();
+		} else {
+			$sql = $this->db->start()->get('name', 'category', array(array('parent', '=', $this->_parent)))->results();
+		}
+		if (strtolower($oldName) != strtolower($this->_name)) {
 			foreach ($sql as $std) {
 				if (strtolower($std->name) == strtolower($this->_name)) {
 					return $returnId . "exist";
@@ -107,38 +110,108 @@ class Category
 				}
 			}
 		}
-
-		if ($oldHead == 0 && $this->_head != 0) {
-			$sql = $database::start()->get('id', 'category', array(array('head', '=', $this->_id)))->results();	
+		if ($oldParent == NULl && $this->_parent != NULL) {
+			$sql = $this->db->start()->get('id', 'category', array(array('parent', '=', $this->_id)))->results();	
 			if (!empty($sql)) {
 				return $returnId . "subcat";
 				break;
 			}
 		}
-
-		$database::start()->update('category', array('name' => $this->_name, 'head' => $this->_head), array('id' => $this->_id));
-		return;		
-	}
-
-	public function removeCategory($id)
+		if ($this->_parent == NULl) {
+			$this->db->start()->update('category', array('name' => $this->_name), array('id' => $this->_id));
+			return;
+		} else {
+			$this->db->start()->update('category', array('name' => $this->_name, 'parent' => $this->_parent), array('id' => $this->_id));
+			return;	
+		}	
+	}	
+	/*
+	Remove a category:
+	------------------
+	Baruch (2-11-2015)
+	Usage: $category->removeCategory();
+	*/
+	public function removeCategory()
 	{
-		$this->set('id', $id);
-		$database = new Database();
-		$database::start()->update('category', array('head' => 0), array('head' => $this->_id));
-		$database::start()->delete('product_category', array(array('category_id', '=', $this->_id)));
-		$database::start()->delete('category', array(array('id', '=', $this->_id)));		
+		$this->db->start()->update('category', array('parent' => NULL), array('parent' => $this->_id));
+		$this->linkProduct();
+		$this->db->start()->delete('category', array(array('id', '=', $this->_id)));		
 	}
-
-	public function linkProduct($category_id, $product_id = array())
+	/*
+	Link a category and product:
+	-----------------------------
+	Baruch (2-11-2015)
+	Usage: $category->linkProduct(array(1, 2, 3, 4, 5));
+	$product_id = array(Int);
+	*/
+	public function linkProduct($product_id = array())
 	{
-		$this->set('id', $category_id);
-		$database = new Database();
-		$database::start()->delete('product_category', array(array('category_id', '=', $this->_id)));
+		$this->db->start()->delete('product_category', array(array('category_id', '=', $this->_id)));
 		if (!empty($product_id)) {
 			foreach ($product_id as $id) {
-				$database::start()->insert('product_category', array('category_id' => $this->_id, 'product_id' => $id));
+				$this->db->start()->insert('product_category', array('category_id' => $this->_id, 'product_id' => $id));
 			}
 		}
 	}
+	/*
+	Getters
+	-------
+	Baruch (2-11-2015)
+	Usage: $category->getName();
+	*/
+	public function getId()
+	{
+		return $this->_id;
+	}
+	public function getName()
+	{
+		return $this->_name;
+	}
+	public function getParent()
+	{
+		return $this->_parent;
+	}
+	public function getNameParent()
+	{
+		return $this->_nameParent;
+	}
+	public function getLinkedProducts() {
+		$linkedProducts = array();
+		$sql = $this->db->start()->get(array('name', 'id'), 'product', array() , array('name' => 'ASC'))->results();
+		foreach ($sql as $key => $std) {
+			$linkedProduct = array();
+			$linkedProduct[0] = $std->id;
+			$linkedProduct[1] = $std->name;
+			$linkedProduct[2] = false;
+			$sqlChecked = $this->db->start()->get('product_id', 'product_category', array(array('category_id', '=', $this->_id)))->results();
+			foreach ($sqlChecked as $stdChecked) {
+				if ($stdChecked->product_id == $std->id) {
+					$linkedProduct[2] = true;
+				}
+			}
+			$linkedProducts[$key] = $linkedProduct;
+		}
+		return $linkedProducts;
+	}
+	/*
+	Get all category's
+	------------------
+	Baruch (2-11-2015)
+	Usage: $category->getAll(array('id', 'name'), array('parent', 'IS', 'NULL'));
+	*/
+	public function getAll($where = array()) {
+		$allCategory = array();
+		if (empty($where)) {
+			$sql = $this->db->start()->get('*', 'category', array(), array('name' => 'ASC'))->results();
+		} else {
+			$sql = $this->db->start()->get('*', 'category', $where, array('name' => 'ASC'))->results();
+		}
+		foreach ($sql as $key => $std) {
+			$allCategory[$key] = new Category($this->db);
+			$allCategory[$key]->setAuto($std->id);
+		}
+		return $allCategory;
+	}
+	
 }
 ?>

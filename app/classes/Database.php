@@ -173,7 +173,6 @@ class Database {
 
 		$sql .= "WHERE ";
 		$x = 1;
-
 		foreach ($params as $param) {
 				$key = $param[0];
 				$operator = $param[1];
@@ -187,7 +186,6 @@ class Database {
 					}
 
 					$sql .= " {$key} {$operator} {$end}";
-
 					if ($x < count($params)) {
 						$sql .= " AND ";
 					}
@@ -234,6 +232,15 @@ class Database {
 
 	}
 
+	/**
+	 * Daan (4-12-2015)
+	 * string/array	$colmns
+	 * string		$table
+	 * array		$join
+	 * array		$where
+	 * Usage:
+	 * DB::start()->join('*', 'users', array('orders' => array('user_id', 'users.id')) array(array('id' => 1)));
+	 */
 	public function join($colmns = "*", $table, $joins, $where = array()) {
 		$joinClause = "";
 		$whereClause = "";
@@ -284,16 +291,69 @@ class Database {
 		}
 	}
 
+	/**
+	 * Daan (4-12-2015)
+	 * string/array	$colmns
+	 * string		$table
+	 * array		$join
+	 * array		$where
+	 * Usage:
+	 * DB::start()->leftJoin('*', 'users', array('orders' => array('user_id', 'users.id')) array(array('id' => 1)));
+	 */
 	public function leftJoin() {
+		$joinClause = "";
+		$whereClause = "";
+		$values = array();
+		$operators = array('=', '>', '<', '>=', '<=');
 
+		if (is_array($colmns)) {
+			$y = 1;
+			$selectColmns = null;
+			foreach ($colmns as $colmn) {
+				$selectColmns .= "`{$colmn}`";
+				if ($y < count($colmns)) {
+					$selectColmns .= ", ";
+				}
+				$y++;
+			}
+		} else {
+			$selectColmns = $colmns;
+		}
+
+		foreach($joins as $joinTable => $join) {
+			$joinClause .= " LEFT JOIN {$joinTable} ON {$join[0]}={$join[1]}";
+		}
+
+		if (!empty($where)) {
+			$whereClause = " WHERE ";
+			foreach($where as $item) {
+				$colmn = $item[0];
+				$operator = $item[1];
+				$value = $item[2];
+
+				if (in_array($operator, $operators)) {
+					$whereClause .= "{$colmn}{$operator}?";
+					if ($x < count($where)) {
+						$whereClause .=", ";
+					}
+					$x++;
+					array_push($values, $value);
+				}
+
+			}
+		}
+
+		$sql = "SELECT {$selectColmns} FROM `{$table}` {$joinClause}{$whereClause}";
+
+		if(!$this->query($sql, $values)->error()) {
+			return $this;
+		}
 	}
-
 	/**
 	 * Daan (2-12-2015)
 	 * Note:
 	 * This can only included in other functions in the class
 	 */
-
 	private function orderBy($order = array()) {
 		$accepted = array('ASC','DESC');
 		$return = " ORDER BY ";
