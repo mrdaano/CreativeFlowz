@@ -35,13 +35,13 @@
       <br/><br/><br/><br/><br/>
       <p class="login"> Wilt u contact met ons opnemen, kan dat ook met onderstaand formulier</p>
       <br/>
-      <form method="post">
-        Naam<br/><input type="text" name="name" class="login"><br/>
-        E-mail<br/><input type="text" name="mail" class="login"><br/>
+      <form action="app/pages/mail.php" method="post" onsubmit="return checkContactForm()">
+        Naam *<br/><input type="text" name="name" class="login form"><br/>
+        E-mail *<br/><input type="text" name="mail" class="login form"><br/>
         Telefoon<br/><input type="text" name="phone" class="login"><br/>
-        Onderwerp<br/><input type="text" name="subject" class="login"><br/>
-        Bericht<br/><textarea name="message" rows="10" cols="40" class="contact"></textarea><br/>
-        <input type="submit" name="send" value="verzenden" class="loginBtn">
+        Onderwerp *<br/><input type="text" name="subject" class="login form"><br/>
+        Bericht *<br/><textarea name="message" rows="10" cols="40" class="contact form"></textarea><br/>
+        <input type="submit" name="send" value="verzenden" class="loginBtn" id="submit">
       </form>
     </div>
 </div>

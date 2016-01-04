@@ -66,7 +66,7 @@ elseif (isset($_GET['category'])) {
 
 else {
     if ($products->getAll()) {
-            $gevonden = true;
+        $gevonden = true;
     } 
 
     foreach ($products->getAll() as $product) { ?>

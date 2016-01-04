@@ -1,4 +1,13 @@
 KBS.sublime-workspace
 KBS.sublime-project
-errors.log
+/errors.log
+.DS_Store
 /test/nbproject/private/
+
+app/classes/Database.php
+
+app/pages/shoppingcart.php
+
+app/classes/Database.php
+
+app/classes/Database.php

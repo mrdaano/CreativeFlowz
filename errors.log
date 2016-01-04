@@ -2380,3 +2380,4 @@ Stack trace:
 [18-Dec-2015 21:08:36 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::leftJoin() in /Users/stanermers/NetBeansProjects/githuby/KBS.rtf/app/classes/Database.php on line 346
 [18-Dec-2015 21:22:18 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::leftJoin() in /Users/stanermers/NetBeansProjects/githuby/KBS.rtf/app/classes/Database.php on line 346
 [18-Dec-2015 21:38:29 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::leftJoin() in /Users/stanermers/NetBeansProjects/githuby/KBS.rtf/app/classes/Database.php on line 346
+[18-Dec-2015 22:01:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/githuby/KBS.rtf/app/classes/Database.php on line 8

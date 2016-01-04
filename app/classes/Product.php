@@ -96,7 +96,11 @@ class Product
     
     public function getError()
     {
-        return $this->_error;
+    	if (isset($this->_error)) {
+    		return $this->_error;
+    	} else {
+    		return false;
+    	}
     }
 
 	public function getName()
@@ -148,9 +152,9 @@ class Product
 		$allProducts = array();
 
 		if (empty($where)) {
-			$sql = $this->db->start()->get('*', 'product')->results();
+			$sql = $this->db->start()->get('*', 'product', array(), array('name' => 'ASC'))->results();
 		} else {
-			$sql = $this->db->start()->get('*', 'product', $where)->results();
+			$sql = $this->db->start()->get('*', 'product', $where, array('name' => 'ASC'))->results();
 		}
 
 		foreach ($sql as $key => $std) {
@@ -177,9 +181,9 @@ class Product
 		$allSupplier = array();
 
 		if (empty($where)) {
-			$sql = $this->db->get('*', 'supplier')->results();
+			$sql = $this->db->get('*', 'supplier', array(), array('name' => 'ASC'))->results();
 		} else {
-			$sql = $this->db->get('*', 'supplier', $where)->results();
+			$sql = $this->db->get('*', 'supplier', $where, array('name' => 'ASC'))->results();
 		}
 
 		foreach ($sql as $key => $suppl) {
@@ -241,7 +245,7 @@ class Product
 								'description' => $this->getDescription(),
 								'supplier_id' => $this->getSupplierId(),
 								'price' => $this->getPrice());
-		$this->db->start()->update('product', $arrayProduct, array('id' => $this->getId()));
+		$this->db->start()->update('product', $arrayProduct, array(array('id', '=', $this->getId())));
 	}
 
 	//Deze functie verwijderd een product
@@ -258,6 +262,27 @@ class Product
 	public function controle()
 	{
 		$error = array();
+		$All = new product($db);
+
+		foreach ($this->getAll() as $product) {
+			$name = $product->getName();
+			$code = $product->getCode();
+			$secondhand = $product->getSecondhand();
+			
+			if (isset($this->_id)) {
+				$thisId = $this->getId();
+			} else {
+				$thisId = null;
+			}
+			
+			$id = $product->getId();
+			if (strtolower($this->getName()) == strtolower($name) && strtolower($this->getCode()) == strtolower($code) && $this->getSecondhand() == $secondhand && $thisId != $id) {
+				$this->setError('Dit product bestaat al.');
+				return;
+			}
+		}
+		
+		
 		if ($this->getName() == '') {
 			$this->setError('Er is geen naam ingevuld.');
 			return;
@@ -273,10 +298,37 @@ class Product
 		if ($this->getPrice() == '') {
 			$this->setError('Er is geen prijs ingevuld.');
 			return;
+		} 
+
+		if (!$this->controlPrice()){
+			$this->setError('Er is geen correcte prijs ingevuld.');
+			return;
 		}
+
 		$this->setError(false);
 
 	}
+	//Deze fuctie controleert of de prijs geen letters bevat en 
+	//veranderd '.' in ',' en rond af op 2 decimaal.
+	public function controlPrice()
+	{
+		$price = $this->getPrice();
+
+		if (strpos($price, ',')) {
+			$price = str_replace(',','.',$price);
+		}
+
+		if (!is_numeric($price)) {
+			return false;
+		} else {
+			$price = round($price, 2);
+			if (strpos($price, '.')) {
+				$this->setPrice(str_replace('.',',',$price));
+			}
+			return true;
+		}
+	}
+
 
 	//Deze functie linkt een category aan een product
 	//Je geeft een array met category id's mee.

@@ -118,10 +118,10 @@ class Category
 			}
 		}
 		if ($this->_parent == NULl) {
-			$this->db->start()->update('category', array('name' => $this->_name), array('id' => $this->_id));
+			$this->db->start()->update('category', array('name' => $this->_name), array(array('id', '=', $this->_id)));
 			return;
 		} else {
-			$this->db->start()->update('category', array('name' => $this->_name, 'parent' => $this->_parent), array('id' => $this->_id));
+			$this->db->start()->update('category', array('name' => $this->_name, 'parent' => $this->_parent), array(array('id', '=', $this->_id)));
 			return;	
 		}	
 	}	
@@ -133,7 +133,7 @@ class Category
 	*/
 	public function removeCategory()
 	{
-		$this->db->start()->update('category', array('parent' => NULL), array('parent' => $this->_id));
+		$this->db->start()->update('category', array('parent' => NULL), array(array('parent', '=', $this->_id)));
 		$this->linkProduct();
 		$this->db->start()->delete('category', array(array('id', '=', $this->_id)));		
 	}
@@ -177,7 +177,7 @@ class Category
 	}
 	public function getLinkedProducts() {
 		$linkedProducts = array();
-		$sql = $this->db->start()->get(array('name', 'id'), 'product')->results();
+		$sql = $this->db->start()->get(array('name', 'id'), 'product', array() , array('name' => 'ASC'))->results();
 		foreach ($sql as $key => $std) {
 			$linkedProduct = array();
 			$linkedProduct[0] = $std->id;
@@ -202,9 +202,9 @@ class Category
 	public function getAll($where = array()) {
 		$allCategory = array();
 		if (empty($where)) {
-			$sql = $this->db->start()->get('*', 'category')->results();
+			$sql = $this->db->start()->get('*', 'category', array(), array('name' => 'ASC'))->results();
 		} else {
-			$sql = $this->db->start()->get('*', 'category', $where)->results();
+			$sql = $this->db->start()->get('*', 'category', $where, array('name' => 'ASC'))->results();
 		}
 		foreach ($sql as $key => $std) {
 			$allCategory[$key] = new Category($this->db);
