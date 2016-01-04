@@ -40,13 +40,12 @@ class ShoppingCart {
       ));
       if ($qty == 0){
         $this->deleteItem($id);
+      }elseif ($qty < 0) {
+        echo ('<p class="err">De hoeveelheid mag niet minder dan 0 zijn</p>');
       } else {
-         //var_dump($qty);
-        //print_r($_SESSION['_user']['id']);
         Database::start()->update('shoppingcart', array(
           'amount' => $qty
         ), array(array('product_id','=', $id), array('user_id', '=', $_SESSION['_user']['id'])));
-        // echo 'doorgevoerd';
       }
     }
 

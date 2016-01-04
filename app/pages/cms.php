@@ -24,8 +24,8 @@ if(isset($_GET['module'])){
 }else{
 ?>
 <div class="neworders">
-      <p>Beste <?php echo $User->firstname()?>, er zijn <b>XX</b> nieuwe orders geplaatst!</p>
+  <p>Beste <?php echo $User->firstname()?> u bent nu in het CMS</p>
 </div>
 <?php
-    
+
 }?>

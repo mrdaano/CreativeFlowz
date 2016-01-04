@@ -8,12 +8,12 @@ if(isset($_POST['amount'])){
   $shoppingcart->updateQuantity($_POST['product'], $_POST['amount']);
 }
  ?>
- <form method="post">
-  ID om toe te voegen <input type="number" name="itemId">
-  <input type="submit" value="Voeg item toe aan winkelwagen"><br/>(dit is tijdelijk en alleen voor nu om te laten zien dat het werkt, dit gaat natuurlijk later rechtstreeks vanaf de webshop;)<br/>
-  <?php if(isset($_POST[itemId])){
-    $shoppingcart->addItem($_POST[itemId]);
-  } ?>
+  <form method="post">
+   ID om toe te voegen <input type="number" name="itemId">
+   <input type="submit" value="Voeg item toe aan winkelwagen"><br/>(dit is tijdelijk en alleen voor nu om te laten zien dat het werkt, dit gaat natuurlijk later rechtstreeks vanaf de webshop;)<br/>
+   <?php if(isset($_POST[itemId])){
+     $shoppingcart->addItem($_POST[itemId]);
+   } ?>
 
 <br/>
 <div class="top row">
@@ -33,7 +33,7 @@ foreach($shoppingcart->getShoppingcart() as $item) {
     <div class="productAmount">
       <form method="post" action="#">
         <input type="hidden" name="product" value="<?php echo $product->id; ?>">
-        <input type="number" value="<?php echo $item->amount; ?>" class="productAmount" name="amount" onchange="this.form.submit()">
+        <input type="number" min="0" value="<?php echo $item->amount; ?>" class="productAmount" name="amount" onchange="this.form.submit()">
       </form>
     </div>
     <div class="subtotaal"><?php echo "&euro;{$price}"; ?></div>
@@ -46,3 +46,6 @@ foreach($shoppingcart->getShoppingcart() as $item) {
   <?php
   }
 ?>
+<div class="btn_right">
+  <a href="" class="btn">Order plaatsen</a>
+</div>

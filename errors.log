@@ -1,0 +1,212 @@
+[21-Dec-2015 18:53:32 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[21-Dec-2015 18:53:32 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[21-Dec-2015 18:53:32 Europe/Berlin] PHP Fatal error:  Call to a member function first() on null in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Page.php on line 55
+[21-Dec-2015 18:53:40 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[21-Dec-2015 18:53:40 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[21-Dec-2015 18:53:46 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[21-Dec-2015 18:53:46 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[21-Dec-2015 18:53:46 Europe/Berlin] PHP Notice:  Undefined variable: User in D:\XAMPP\htdocs\CreativeFlowz\app\pages\webshop.php on line 3
+[21-Dec-2015 18:53:46 Europe/Berlin] PHP Fatal error:  Call to a member function lastname() on null in D:\XAMPP\htdocs\CreativeFlowz\app\pages\webshop.php on line 3
+[21-Dec-2015 18:53:49 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[21-Dec-2015 18:53:49 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[21-Dec-2015 18:53:53 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[21-Dec-2015 18:53:53 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[21-Dec-2015 18:54:20 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[21-Dec-2015 18:54:20 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[21-Dec-2015 18:54:20 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Login.php on line 70
+[21-Dec-2015 18:55:02 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[21-Dec-2015 18:55:10 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[21-Dec-2015 18:55:10 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[21-Dec-2015 18:55:11 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[21-Dec-2015 18:55:11 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[21-Dec-2015 18:55:14 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[21-Dec-2015 18:55:14 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[21-Dec-2015 18:55:32 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[21-Dec-2015 18:55:32 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[21-Dec-2015 18:55:32 Europe/Berlin] PHP Fatal error:  Call to a member function first() on null in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Page.php on line 55
+[04-Jan-2016 13:34:19 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 13:34:19 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 13:34:19 Europe/Berlin] PHP Fatal error:  Call to a member function first() on null in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Page.php on line 55
+[04-Jan-2016 13:34:22 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 13:34:22 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 13:34:23 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 13:34:23 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 13:34:23 Europe/Berlin] PHP Notice:  Undefined variable: User in D:\XAMPP\htdocs\CreativeFlowz\app\pages\webshop.php on line 3
+[04-Jan-2016 13:34:23 Europe/Berlin] PHP Fatal error:  Call to a member function lastname() on null in D:\XAMPP\htdocs\CreativeFlowz\app\pages\webshop.php on line 3
+[04-Jan-2016 13:34:24 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 13:34:24 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 13:35:14 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 13:35:14 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 13:35:15 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 13:35:15 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 13:35:23 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 13:35:23 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 13:35:23 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Login.php on line 70
+[04-Jan-2016 13:38:07 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 13:41:30 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 13:41:35 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 13:41:35 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 13:41:36 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 13:41:36 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 13:41:38 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 13:41:38 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 13:41:43 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 13:41:43 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 13:41:57 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 13:41:57 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 13:43:00 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 13:43:00 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 13:45:13 Europe/Berlin] PHP Fatal error:  Call to a member function first() on null in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Page.php on line 55
+[04-Jan-2016 13:47:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Product.php on line 267
+[04-Jan-2016 13:47:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected ')' in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Product.php on line 267
+[04-Jan-2016 13:51:34 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 13:51:34 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 13:52:52 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 13:52:52 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 13:53:02 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 13:53:02 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 13:53:07 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 13:53:07 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 14:02:49 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 14:02:49 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 14:03:07 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 14:03:07 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 15:25:17 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:28:56 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:28:57 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:28:58 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:29:12 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:30:05 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 15:30:05 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 15:30:05 Europe/Berlin] PHP Fatal error:  Call to a member function first() on null in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Page.php on line 55
+[04-Jan-2016 15:32:27 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 15:32:27 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 15:32:27 Europe/Berlin] PHP Notice:  Undefined variable: User in D:\XAMPP\htdocs\CreativeFlowz\app\pages\webshop.php on line 3
+[04-Jan-2016 15:32:27 Europe/Berlin] PHP Fatal error:  Call to a member function lastname() on null in D:\XAMPP\htdocs\CreativeFlowz\app\pages\webshop.php on line 3
+[04-Jan-2016 15:33:15 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 15:33:15 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 15:33:15 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:33:15 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Shoppingcart.php on line 79
+[04-Jan-2016 15:33:24 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 15:33:24 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 15:33:24 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:33:24 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Shoppingcart.php on line 79
+[04-Jan-2016 15:33:34 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 15:33:34 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 15:33:34 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:33:34 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Shoppingcart.php on line 79
+[04-Jan-2016 15:33:51 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 15:33:51 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 15:33:51 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:33:51 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Shoppingcart.php on line 79
+[04-Jan-2016 15:34:11 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 15:34:11 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 15:34:11 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:34:11 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Shoppingcart.php on line 79
+[04-Jan-2016 15:35:31 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 15:35:31 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 15:35:31 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:35:31 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Shoppingcart.php on line 79
+[04-Jan-2016 15:35:33 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 15:35:33 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 15:35:33 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:35:33 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Shoppingcart.php on line 79
+[04-Jan-2016 15:35:36 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 15:35:36 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 15:35:36 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:35:36 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 15:35:36 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Shoppingcart.php on line 14
+[04-Jan-2016 15:35:36 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Shoppingcart.php on line 23
+[04-Jan-2016 15:35:36 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Shoppingcart.php on line 79
+[04-Jan-2016 15:35:47 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 15:35:47 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 15:35:47 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:35:47 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 15:35:47 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Shoppingcart.php on line 14
+[04-Jan-2016 15:35:47 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Shoppingcart.php on line 23
+[04-Jan-2016 15:35:47 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Shoppingcart.php on line 79
+[04-Jan-2016 15:35:59 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 15:35:59 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 15:36:05 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 15:36:05 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 15:36:05 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Login.php on line 70
+[04-Jan-2016 15:36:08 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:36:18 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:39:10 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:39:27 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:39:40 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:40:54 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:41:04 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:41:12 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:41:20 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 15:53:02 Europe/Berlin] PHP Notice:  Undefined index: sub in D:\XAMPP\htdocs\CreativeFlowz\app\pages\site.php on line 2
+[04-Jan-2016 15:53:43 Europe/Berlin] PHP Notice:  Undefined index: name in D:\XAMPP\htdocs\CreativeFlowz\app\pages\mail.php on line 6
+[04-Jan-2016 15:53:43 Europe/Berlin] PHP Notice:  Undefined index: mail in D:\XAMPP\htdocs\CreativeFlowz\app\pages\mail.php on line 7
+[04-Jan-2016 15:53:43 Europe/Berlin] PHP Notice:  Undefined index: phone in D:\XAMPP\htdocs\CreativeFlowz\app\pages\mail.php on line 8
+[04-Jan-2016 15:53:43 Europe/Berlin] PHP Notice:  Undefined index: subject in D:\XAMPP\htdocs\CreativeFlowz\app\pages\mail.php on line 9
+[04-Jan-2016 15:53:43 Europe/Berlin] PHP Notice:  Undefined index: message in D:\XAMPP\htdocs\CreativeFlowz\app\pages\mail.php on line 10
+[04-Jan-2016 15:53:43 Europe/Berlin] PHP Notice:  Undefined index: send in D:\XAMPP\htdocs\CreativeFlowz\app\pages\mail.php on line 15
+[04-Jan-2016 15:57:57 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 15:57:57 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 15:57:57 Europe/Berlin] PHP Fatal error:  Call to a member function first() on null in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Page.php on line 55
+[04-Jan-2016 15:58:01 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 15:58:01 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 15:58:10 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 15:58:10 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 15:58:10 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Login.php on line 70
+[04-Jan-2016 15:59:48 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 16:05:58 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 16:06:35 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 16:06:35 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 72
+[04-Jan-2016 16:06:35 Europe/Berlin] PHP Fatal error:  Call to a member function first() on null in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Page.php on line 55
+[04-Jan-2016 16:06:36 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 16:06:36 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 72
+[04-Jan-2016 16:06:56 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 16:06:56 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 16:06:57 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 16:06:57 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 16:06:57 Europe/Berlin] PHP Fatal error:  Call to a member function first() on null in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Page.php on line 55
+[04-Jan-2016 16:07:09 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 16:07:09 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 72
+[04-Jan-2016 16:07:09 Europe/Berlin] PHP Fatal error:  Call to a member function first() on null in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Page.php on line 55
+[04-Jan-2016 16:07:10 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 16:07:10 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 72
+[04-Jan-2016 16:07:16 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 16:07:16 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 16:13:56 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 16:13:56 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 16:13:56 Europe/Berlin] PHP Notice:  Undefined variable: User in D:\XAMPP\htdocs\CreativeFlowz\app\pages\webshop.php on line 3
+[04-Jan-2016 16:13:56 Europe/Berlin] PHP Fatal error:  Call to a member function lastname() on null in D:\XAMPP\htdocs\CreativeFlowz\app\pages\webshop.php on line 3
+[04-Jan-2016 16:14:00 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 16:14:00 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 16:15:12 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 16:15:12 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 16:15:17 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 25
+[04-Jan-2016 16:15:17 Europe/Berlin] PHP Notice:  Undefined index: _user in D:\XAMPP\htdocs\CreativeFlowz\index.php on line 71
+[04-Jan-2016 16:15:17 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Login.php on line 70
+[04-Jan-2016 16:38:50 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 16:39:27 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 16:44:25 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 16:44:25 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 16:45:55 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 16:45:55 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 16:45:59 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 16:45:59 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 16:46:04 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 16:46:04 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 16:50:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'err' (T_STRING), expecting ',' or ';' in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Shoppingcart.php on line 44
+[04-Jan-2016 16:52:07 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 16:52:07 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 16:52:52 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 16:53:10 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<' in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Shoppingcart.php on line 44
+[04-Jan-2016 16:53:40 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 16:54:56 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 16:55:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 52
+[04-Jan-2016 16:56:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 52
+[04-Jan-2016 16:56:31 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 16:56:48 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 16:58:12 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 16:58:17 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 16:58:17 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
+[04-Jan-2016 16:58:22 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 14
+[04-Jan-2016 16:58:22 Europe/Berlin] PHP Notice:  Use of undefined constant itemId - assumed 'itemId' in D:\XAMPP\htdocs\CreativeFlowz\app\pages\shoppingcart.php on line 15
