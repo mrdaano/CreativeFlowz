@@ -432,38 +432,38 @@ a.cms{
   width: 20px;
 }
 button, .btn{
-	background-color: #34495e;
-	padding: 7px 12px;
-	color: #FFF;
-	border-radius: 4px;
-	text-decoration: none;
-	margin: 6px 0;
-	display: inline-flex;
-	border: none;
+  background-color: #34495e;
+  padding: 7px 12px;
+  color: #FFF;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 6px 0;
+  display: inline-flex;
+  border: none;
     cursor: pointer;
 }
 
 .media_beheer form {
-	margin-top: 15px;
+  margin-top: 15px;
 }
 
 table.cms {
-	margin-top: 20px;
-	width: 100%;
-	border-collapse: collapse;
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
 }
 
 table a {
-	color: #666666;
+  color: #666666;
 }
 
 table thead th {
-	text-align: left;
+  text-align: left;
 }
 
 table.page td, table.cms th {
-	height: 35px;
-	border-bottom: 1px solid #C1C1C1;
+  height: 35px;
+  border-bottom: 1px solid #C1C1C1;
 }
 
 button, .btn{
@@ -504,7 +504,7 @@ table.page td, table.cms th {
 }
 
 table tr:last-child td {
-	border-bottom: none;
+  border-bottom: none;
 }
 table.page tr:nth-child(even){
     background-color: #E6E6E6;

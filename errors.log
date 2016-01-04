@@ -2381,3 +2381,13 @@ Stack trace:
 [18-Dec-2015 21:22:18 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::leftJoin() in /Users/stanermers/NetBeansProjects/githuby/KBS.rtf/app/classes/Database.php on line 346
 [18-Dec-2015 21:38:29 Europe/Berlin] PHP Fatal error:  Cannot redeclare Database::leftJoin() in /Users/stanermers/NetBeansProjects/githuby/KBS.rtf/app/classes/Database.php on line 346
 [18-Dec-2015 22:01:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/NetBeansProjects/githuby/KBS.rtf/app/classes/Database.php on line 8
+[04-Jan-2016 13:06:02 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/Documents/NetBeansProjects/githuby/KBS.rtf/app/classes/Database.php on line 8
+[04-Jan-2016 13:06:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/Documents/NetBeansProjects/githuby/KBS.rtf/app/classes/Database.php on line 8
+[04-Jan-2016 13:06:11 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/Documents/NetBeansProjects/githuby/KBS.rtf/app/classes/Database.php on line 8
+[04-Jan-2016 13:06:52 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/Documents/NetBeansProjects/githuby/KBS.rtf/app/classes/Database.php on line 8
+[04-Jan-2016 13:07:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/Documents/NetBeansProjects/githuby/KBS.rtf/app/classes/Database.php on line 8
+[04-Jan-2016 13:10:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/Documents/NetBeansProjects/github1/KBS.rtf/app/classes/Database.php on line 8
+[04-Jan-2016 13:11:34 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/Documents/NetBeansProjects/18:12:15/github1/KBS.rtf/app/classes/Database.php on line 8
+[04-Jan-2016 13:11:42 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/Documents/NetBeansProjects/18:12:15/github1/KBS.rtf/app/classes/Database.php on line 8
+[04-Jan-2016 13:11:46 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/Documents/NetBeansProjects/18:12:15/github1/KBS.rtf/app/classes/Database.php on line 8
+[04-Jan-2016 13:12:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected '<<' (T_SL) in /Users/stanermers/Documents/NetBeansProjects/github1/KBS.rtf/app/classes/Database.php on line 8
