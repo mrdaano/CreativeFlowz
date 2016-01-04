@@ -46,7 +46,9 @@
 		$updateCategory->setParent($_POST['updateParent']);
 
 		$oldCategory->setAuto($_GET['id']);
-		$updateCategory->linkProduct($_POST['product_category']);
+		if (isset($_POST['product_category'])) {
+			$updateCategory->linkProduct($_POST['product_category']);
+		}
 		header('location: index.php?page=cms&module=category' . $updateCategory->updateCategory($oldCategory->getName(), $oldCategory->getParent()));
 	}
 

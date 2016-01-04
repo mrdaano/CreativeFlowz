@@ -48,9 +48,10 @@ class Product
 	public function setSupplierId($supplier_id)
 	{
 		$this->_supplier_id = $supplier_id;
-		$sql = $this->db->start()->get('name', 'supplier', array(array('id', '=', $this->getSupplierId())))->results();
+		$sql = $this->db->start()->get('*', 'supplier', array(array('id', '=', $this->getSupplierId())))->results();
 		foreach ($sql as $suppName) {
 			$this->_supplier_name = $suppName->name;
+			$this->_supplier_website = $suppName->website;
 		}
 	}
 
@@ -101,6 +102,11 @@ class Product
     	} else {
     		return false;
     	}
+    }
+
+    public function getSupplierWebsite()
+    {
+    	return $this->_supplier_website;
     }
 
 	public function getName()
@@ -261,9 +267,6 @@ class Product
 	//Deze functie controleerd of er fouten zijn, Als deze er zijn wordt error de te weergeven error, anders wordt error false.
 	public function controle()
 	{
-		$error = array();
-		$All = new product($db);
-
 		foreach ($this->getAll() as $product) {
 			$name = $product->getName();
 			$code = $product->getCode();
@@ -321,10 +324,8 @@ class Product
 		if (!is_numeric($price)) {
 			return false;
 		} else {
-			$price = round($price, 2);
-			if (strpos($price, '.')) {
-				$this->setPrice(str_replace('.',',',$price));
-			}
+			$price = number_format($price, 2, ',', '');
+				$this->setPrice($price);
 			return true;
 		}
 	}
@@ -342,6 +343,44 @@ class Product
 		}
 	}
 
+	public function removeSupplier()
+	{
+		if ($this->db->start()->get('*', 'product', array(array('supplier_id', '=', $this->getSupplierId())))->results()) {
+			return 'Er bestaan nog producten die<br> gelinkt zijn aan deze leverancier';
+		}
+
+		$this->db->start()->delete('supplier', array(array('id', '=', $this->getSupplierId())));
+		return 0;
+	}
+
+	public function updateSupplier($nname, $nsite)
+	{
+		$error = 0;
+		foreach ($this->getAllSupplier() as $supplier) {
+			if ($nname == $supplier[1] && $nname != $this->getSupplierName()) {
+				$error = 'Deze leverancier bestaat al';
+				return $error;
+			}
+		}
+		$this->db->start()->update('supplier', array('name' => $nname, 'website' => $nsite), array((array('id', '=', $this->getSupplierId()))));
+		return $error;
+	}
+
+	public function newSupplier($name, $site)
+	{
+		$error = 0;
+
+		foreach ($this->getAllSupplier() as $supplier) {
+			if ($name == $supplier[1] && $name) {
+				$error = 'Deze leverancier bestaat al';
+				return $error;
+				break;
+			}
+		}
+
+		$this->db->start()->insert('supplier', array('name' => $name, 'website' => $site));
+		return $error;
+	}
 }
 
 ?>

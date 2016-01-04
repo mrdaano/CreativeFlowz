@@ -25,8 +25,12 @@
 		$product->setCode($_POST['code']);
 		$product->setSecondhand($_POST['secondhand']);
 		$product->setDescription($_POST['description']);
-		$product->setSupplierId($_POST['supplier']);
 		$product->setPrice($_POST['price']);
+		if (isset($_POST['addsupplier'])) {
+			$product->newSupplier($_POST['addsuppliername'], $_POST['addsuppliersite']);
+		} else {
+			$product->setSupplierId($_POST['supplier']);
+		}
 
 		$product->controle();
 		if ($product->getError()) {
@@ -49,7 +53,6 @@
 		$product = $product[0];
 		$showForm = true;
 	} elseif(isset($_GET['n'])) {
-
 		$product->setName(null);
 		$product->setCode(null);
 		$product->setSecondhand(null);
@@ -94,9 +97,7 @@
 					<?php } ?>
 				</select><br>
 				Beschrijving:<br>
-				<textarea name="description">
-					<?php echo $product->getDescription(); ?>
-				</textarea><br>
+				<textarea name="description"><?php echo $product->getDescription(); ?></textarea><br>
 				Leverancier:<br>
 					<select name="supplier">
 					<?php if (isset($_GET['n'])) {
@@ -115,8 +116,14 @@
 							</option>
 						<?php } 
 					} ?>
-					<option value="">Leverancier toevoegen</option>
+					<option value="addsupplier" id="addsupplier">Leverancier toevoegen</option>
 				</select><br>
+				<div id="showaddsupplier">
+					Naam van nieuwe leverancier: <br>
+					<input type="text" name="addsuppliername"><br>
+					Website van leverancier:<br>
+					<input type="text" name="addsuppliersite"><br><br>
+				</div>
 				Prijs:<br>
 				<input type="text" name="price" value="<?php echo $product->getPrice(); ?>"><br>
 			</div>
@@ -174,6 +181,96 @@
 			</table>
 	<?php }
 
+	elseif (isset($_GET['supplier'])) { 
+		if (isset($_GET['supplrem'])) {
+			$product->setSupplierId($_GET['supplrem']);
+			if (!$product->removeSupplier() == 0) {
+				$error = $product->removeSupplier();
+			} else {
+				header('location: ' . $location . '&supplier');
+			}
+		}
+		if (isset($_POST['suppUpdate'])) {
+			$product->setSupplierId($_GET['suppledit']);
+			if (!$product->updateSupplier($_POST['levName'], $_POST['levSite']) == 0) {
+				$error = $product->updateSupplier($_POST['levName'], $_POST['levSite']);
+			} else {
+				header('location: ' . $location . '&supplier');
+			}
+		}
+		if (isset($_POST['suppNew'])) {
+			if (!$product->newSupplier($_POST['levName'], $_POST['levSite']) == 0) {
+				$error = $product->updateSupplier($_POST['levName'], $_POST['levSite']);
+			} else {
+				header('location: ' . $location . '&supplier');
+			}
+		}
+
+		?>
+		<div class="supplier">
+			<h1>
+				Leverancierbeheer
+			</h1>
+			<br>
+			<div class="add">
+				<?php if (!isset($_GET['suppledit'])){ ?>
+					<h2>Leverancier toevoegen</h2>
+				<?php } else { ?>
+					<h2>Leverancier bewerken</h2>
+				<?php }
+
+				if (isset($error)) {
+					echo "<h3>" . $error . "</h3>";
+				} else {
+					echo "<h3><br></h3>";
+				} ?>
+				<form action="<?=$location?>&supplier" method="post">
+					Naam van de leverancier:<br>
+					<input type="text" name="levName" 
+						<?php if (isset($_GET['suppledit'])) {
+							echo 'value="';
+							$product->setSupplierId($_GET['suppledit']);
+							echo $product->getSupplierName();
+							echo '"';
+						} ?>><br>
+					Website van de leverancier:<br>
+					<input type="text" name="levSite"<?php if (isset($_GET['suppledit'])) {
+							echo 'value="';
+							echo $product->getSupplierWebsite();
+							echo '"';
+						} ?>><br>
+					<input type="submit" class="btn" value="Leverancier opslaan"
+					<?php if (isset($_GET['suppledit'])) {
+						echo 'name="suppUpdate"';
+					} else {
+						echo 'name="suppNew"';				
+					
+					} ?> >
+				</form>
+			</div>
+			<table class="cms page product show">
+				<h2>Alle leveranciers</h2>
+				<tr>
+					<td>Naam</td>
+					<td>Website</td>
+					<td></td>
+					<td></td>
+				</tr>
+				<?php foreach ($product->getAllSupplier() as $supplier) { ?>
+					</tr>
+					<tr>
+						<td><?=$supplier[1]?></td>
+						<td><?=$supplier[2]?></td>
+						<td><a href="<?=$location?>&supplier&suppledit=<?=$supplier[0]?>">Bewerken</a></td>
+						<td><a href="<?=$location?>&supplier&supplrem=<?=$supplier[0]?>">Verwijderen</a></td>
+					
+					</tr>
+				<?php } ?>
+			</table>
+		</div>
+	<?php }
+
+
 	//Producten weergeven
 	else { ?>
 		<h1>
@@ -182,7 +279,7 @@
 		<div class="link">
 			<br><a href="<?=$location?>&n"><button>Product toevoegen</button></a>
 			<a href="index.php?page=cms&module=category"><button>Categorieën beheren</button></a>
-			<a href="index.php?page=cms&module=supplier"><button>Leveranciers beheren</button></a>
+			<a href="<?=$location?>&supplier"><button>Leveranciers beheren</button></a>
 		</div>
 		<table class='cms page product'>
 			<tr>

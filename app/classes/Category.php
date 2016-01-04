@@ -65,7 +65,7 @@ class Category
 			return "&m=none";
 		}
 		if ($this->_parent == NULL) {
-			$sql = $this->db->start()->get('name', 'Category', array(array('parent', 'IS', 'NULL')))->results();
+			$sql = $this->db->start()->get('name', 'category', array(array('parent', 'IS', 'NULL')))->results();
 		} else {
 			$sql = $this->db->start()->get('name', 'category', array(array('parent', '=', $this->_parent)))->results();
 		}
