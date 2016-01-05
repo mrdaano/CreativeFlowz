@@ -45,6 +45,33 @@ class User{
         }
     }
 
+    public function id()
+    {
+        return $this->id;
+    }
+    
+    public function firstname(){
+        return $this->firstname;
+    }
+    
+    public function lastname(){
+        return $this->lastname;
+    }
+    
+    public function email(){
+        return $this->email;
+    }
+    
+    public function phone_number()
+    {
+        return $this->phone_number;
+    }
+
+    public function street()
+    {
+        return $this->street;
+    }
+
     public function housenumber()
     {
         return $this->housenumber;
@@ -55,24 +82,14 @@ class User{
         return $this->addition;
     }
 
-    public function company()
+    public function zip()
     {
-        return $this->company;
+        return $this->zip;
     }
-
+    
     public function city()
     {
         return  $this->city;
-    }
-
-    public function street()
-    {
-        return $this->street;
-    }
-
-    public function phone_number()
-    {
-        return $this->phone_number;
     }
 
     public function tax()
@@ -85,25 +102,9 @@ class User{
         return $this->company_name;
     }
 
-    public function zip()
+    public function company()
     {
-        return $this->zip;
-    }
-    public function id()
-    {
-        return $this->id;
-    }
-    
-    public function lastname(){
-        return $this->lastname;
-    }
-    
-    public function firstname(){
-        return $this->firstname;
-    }
-    
-    public function email(){
-        return $this->email;
+        return $this->company;
     }
     
     public function userLevel(){
@@ -112,14 +113,23 @@ class User{
 
     public function error()
     {
-        return $this->error;
+        if (isset($this->error)) {
+            return $this->error;
+        } else {
+            return false;
+        }
     }
 
     public function update($newuser, $olduser)
     {
+        if (empty($newuser['company_name'])) {
+            $this->company = false;
+        }
+
         foreach ($newuser as $key => $value) {
             $this->$key = $value;
         }
+
         if (empty($this->firstname)) {
             $this->error = "Uw voornaam is niet ingevuld!";
         } elseif (empty($this->lastname)) {
@@ -138,7 +148,7 @@ class User{
             $this->error = "Uw land is niet ingevuld!";
         } elseif (empty($this->phone_number)) {
             $this->error = "Uw telefoonnummr is niet ingevuld!";
-        } elseif (isset($this->company_name) && empty($this->tax)) {
+        } elseif ($this->company && empty($this->tax)) {
             $this->error = "Uw BTW-nummer is niet ingevuld!";
         } 
     }
