@@ -1,4 +1,7 @@
 <?php
+if (!isset($_SESSION['_user'])){
+  header("location: http://{$_SERVER['HTTP_HOST']}{$_SERVER['SCRIPT_NAME']}?page=login");
+}
 $shoppingcart = new ShoppingCart;
 if(isset($_POST['del_x']) || isset($_POST['del_x'])){
   $shoppingcart->deleteItem($_POST['product']);
@@ -8,12 +11,13 @@ if(isset($_POST['amount'])){
   $shoppingcart->updateQuantity($_POST['product'], $_POST['amount']);
 }
  ?>
+  <!-- dit was om te laten zien dat het werkt, miss nog handig voor de webshop hebben ze een Voorbeeld hoe het werkt.
   <form method="post">
    ID om toe te voegen <input type="number" name="itemId">
    <input type="submit" value="Voeg item toe aan winkelwagen"><br/>(dit is tijdelijk en alleen voor nu om te laten zien dat het werkt, dit gaat natuurlijk later rechtstreeks vanaf de webshop;)<br/>
    <?php if(isset($_POST[itemId])){
      $shoppingcart->addItem($_POST[itemId]);
-   } ?>
+   } ?> -->
 
 <br/>
 <div class="top row">
