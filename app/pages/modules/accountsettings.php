@@ -1,4 +1,4 @@
-<div class="neworders page">
+<div class="neworders page accountsettings">
 	<?php 
 	$showForm = false;
 	$url = '?page=customer&module=accountsettings';
@@ -11,6 +11,8 @@
 		if ($Updateuser->error()) {
 			$showForm = true;
 			$User = $Updateuser;
+		} else { 
+			header('location: ' . $url);
 		}
 	}
 
@@ -31,11 +33,14 @@
 			Huisnummer <br><input type="text" name="housenumber" value="<?= $User->housenumber() ?>"><br>
 			Toevoeging <br><input type="text" name="addition" value="<?= $User->addition() ?>"><br>
 			Plaats <br><input type="text" name="city" value="<?= $User->city() ?>"><br>
-			Land <br><input type="text" name="country" value="Nog niet"><br>
+			Land <br><input type="text" name="country" value="<?= $User->country() ?>"><br>
 			Telefoonnummer <br><input type="text" name="phone_number" value="<?= $User->phone_number() ?>"><br><br>
-			Bedrijfsnaam <br><input type="text" name="company_name" value="<?= $User->company_name() ?>"><br>
-			BTW-nummer <br><input type="text" name="tax" value="<?= $User->tax() ?>"><br>
-			<button>Opslaan</button>
+			<br><input type="checkbox" name="company" <?php if($User->company()) {echo "checked";} ?>>Bedrijf
+			<div class="company">
+				Bedrijfsnaam <br><input type="text" name="company_name" value="<?= $User->company_name() ?>"><br>
+				BTW-nummer <br><input type="text" name="tax" value="<?= $User->tax() ?>"><br>
+			</div>
+			<br><button>Opslaan</button>
 			<a href="<?= $url ?>"><button type="button">Terug</button></a>
 		</form>
 	<?php } else { ?>
@@ -51,10 +56,13 @@
 		<?= $User->addition() ?><br>
 		<?= $User->zip() ?><br> 
 		<?= $User->city() ?><br>
+		<?= $User->country() ?><br>
 		<?php
 		if ($User->company()) { ?>
 			<br><b>Bedrijfnaam: </b><?= $User->company_name() ?><br>
 			<b>BTW-nummer: </b> <?= $User->tax() ?><br>
 		<?php } 
-	} ?>
+	} 
+
+	//print_r($_SESSION)?>
 </div>

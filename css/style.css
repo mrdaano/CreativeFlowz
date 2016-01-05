@@ -489,3 +489,6 @@ div.page input[type="text"]{
 
 .product .supplier .add {float: right;}
 .product .supplier .show {width: calc(100% - 370px);}
+
+.accountsettings > form > input[type=checkbox]:checked + .company{display: block;} 
+.accountsettings .company {display: none}
