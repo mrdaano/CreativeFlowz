@@ -22,6 +22,76 @@ class User{
         foreach($_SESSION['_user'] as $key => $value){
             $this->$key = $value;
         }
+
+
+        if ($this->userLevel() == 0) {
+            $sql = $this->db->get('*', 'customer', array(array('user_id', '=', $this->id())))->results();
+            foreach ($sql as $std) {
+                if ($std->company_name == null) {
+                    $this->company = false;
+                } else {
+                    $this->company = true;
+                    $this->tax = $std->company_taxnumber;
+                    $this->company_name = $std->company_name;
+                }
+                
+                $this->city = $std->city_id;
+                $this->street = $std->street;
+                $this->phone_number = $std->phone_number;
+                $this->zip = $std->zip;
+                $this->housenumber = $std->housenumber;
+                $this->addition = $std->addition;
+            }
+        }
+    }
+
+    public function housenumber()
+    {
+        return $this->housenumber;
+    }
+
+    public function addition()
+    {
+        return $this->addition;
+    }
+
+    public function company()
+    {
+        return $this->company;
+    }
+
+    public function city()
+    {
+        return  $this->city;
+    }
+
+    public function street()
+    {
+        return $this->street;
+    }
+
+    public function phone_number()
+    {
+        return $this->phone_number;
+    }
+
+    public function tax()
+    {
+        return $this->tax;
+    }
+
+    public function company_name()
+    {
+        return $this->company_name;
+    }
+
+    public function zip()
+    {
+        return $this->zip;
+    }
+    public function id()
+    {
+        return $this->id;
     }
     
     public function lastname(){
@@ -39,4 +109,11 @@ class User{
     public function userLevel(){
         return $this->userLevel;
     }
+
+    public function error()
+    {
+        return $this->error;
+    }
+
+    
 }
