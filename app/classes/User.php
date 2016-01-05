@@ -115,5 +115,31 @@ class User{
         return $this->error;
     }
 
-    
+    public function update($newuser, $olduser)
+    {
+        foreach ($newuser as $key => $value) {
+            $this->$key = $value;
+        }
+        if (empty($this->firstname)) {
+            $this->error = "Uw voornaam is niet ingevuld!";
+        } elseif (empty($this->lastname)) {
+            $this->error = "Uw achternaam is niet ingevuld!";
+        } elseif (empty($this->email)) {
+            $this->error = "Uw email is niet ingevuld!";
+        } elseif (empty($this->zip)) {
+            $this->error = "Uw postcode is niet ingevuld!";
+        } elseif (empty($this->street)) {
+            $this->error = "Uw straat is niet ingevuld!";
+        } elseif (empty($this->housenumber)) {
+            $this->error = "Uw huisnummer is niet ingevuld!";
+        } elseif (empty($this->city)) {
+            $this->error = "Uw plaats is niet ingevuld!";
+        } elseif (empty($this->country)) {
+            $this->error = "Uw land is niet ingevuld!";
+        } elseif (empty($this->phone_number)) {
+            $this->error = "Uw telefoonnummr is niet ingevuld!";
+        } elseif (isset($this->company_name) && empty($this->tax)) {
+            $this->error = "Uw BTW-nummer is niet ingevuld!";
+        } 
+    }
 }
