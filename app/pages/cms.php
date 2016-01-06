@@ -4,7 +4,7 @@
   $items = array();
   $items['page'] = 'cms';
   $items['orders'] = 'cms';
-  $items['media'] = 'cms';
+  $items['mediamanagement'] = 'cms';
   $items['users'] = 'cms';
   $items['domainmanagement'] = 'cms';
   
@@ -23,7 +23,7 @@
     </tr><tr>
       <td class="<?php echo $items['page']?>"><a href="index.php?page=cms&module=page" class="cms"><p>Pagina Beheer</p><p class="cmsitalic">Al het beheer van de pagina's</p></a></td>
     </tr><tr>
-      <td class="<?php echo $items['media']?>"><a href="index.php?page=cms&module=media" class="cms"><p>Media Beheer</p><p class="cmsitalic">Al het beheer van foto's en video's</p></a></td>
+      <td class="<?php echo $items['mediamanagement']?>"><a href="index.php?page=cms&module=mediamanagement" class="cms"><p>Media Beheer</p><p class="cmsitalic">Al het beheer van foto's en video's</p></a></td>
     </tr><tr>
       <td class="<?php echo $items['users']?>"><a href="index.php?page=cms&module=users" class="cms"><p>Gebruiker Beheer</p><p class="cmsitalic">Al het beheer van gebruikers</p></a></td>
     </tr>
