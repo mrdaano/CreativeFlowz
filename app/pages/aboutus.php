@@ -1,6 +1,4 @@
-<div class="secondheader">
-    <div class="wrapper"></div>
-</div>
+
 <div class="thirdheader">
     <div class="wrapper">
         <div class="fourthheader">

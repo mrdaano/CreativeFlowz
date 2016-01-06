@@ -58,3 +58,13 @@
 [06-Jan-2016 14:46:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/index.php on line 14
 [06-Jan-2016 14:46:48 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/index.php on line 65
 [06-Jan-2016 14:46:48 Europe/Berlin] PHP Fatal error:  Call to a member function first() on null in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Page.php on line 55
+[06-Jan-2016 14:49:07 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/index.php on line 14
+[06-Jan-2016 14:49:07 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/index.php on line 65
+[06-Jan-2016 14:49:07 Europe/Berlin] PHP Fatal error:  Call to a member function first() on null in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Page.php on line 55
+[06-Jan-2016 14:49:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/index.php on line 14
+[06-Jan-2016 14:49:08 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/index.php on line 65
+[06-Jan-2016 14:49:09 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/index.php on line 14
+[06-Jan-2016 14:49:09 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/index.php on line 65
+[06-Jan-2016 14:49:09 Europe/Berlin] PHP Fatal error:  Call to a member function results() on null in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Category.php on line 207
+[06-Jan-2016 14:49:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/index.php on line 14
+[06-Jan-2016 14:49:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/index.php on line 65
