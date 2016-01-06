@@ -76,9 +76,6 @@ $Category = new Category($db);
                 </ul>
             </div>
         </div>
-        <div class="secondheader">
-            <div class="wrapper"></div>
-        </div>
         <?php
             /*
              *  Hier word de route van de website bepaald.

@@ -172,14 +172,47 @@ li {
     margin-left: 335px;
     height: auto;
 }
-.productleft {
-    background-color:
+.product {
+    background-color: #f6f6f6;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    float: left;
 }
-.productmid {
-
+.productimg {
+    width: 200px;
+    height: 150px;
+    background-color: #f6f6f6;
+    position: relative;
 }
-.productright {
-
+.img {
+    width: 200px;
+    height: 150px;
+}
+.productnr {
+    width: 200px;
+    background-color: #c3c3c3;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+.view {
+    float: right;
+    background-color: #34495e;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+.view a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 /* mijn account en winkelwagen */
