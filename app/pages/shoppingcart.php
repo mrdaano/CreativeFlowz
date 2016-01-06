@@ -17,6 +17,7 @@ if(isset($_POST['amount'])){
  });
  function checkform (){
   if ($(this).val() < 0) {
+    alert("Vul een positieve hoeveelheid in");
   }else {
       $(this).parent().submit();
   }
@@ -33,18 +34,20 @@ if(isset($_POST['amount'])){
 <?php
 foreach($shoppingcart->getShoppingcart() as $item) {
   $product = $shoppingcart->getProduct($item->product_id);
-  $price = ($product->price * $item->amount);
+  $price = number_format(($product->price), 2, ',', '.');
+  $qty = number_format(($item->amount), 2, ',', '.');
+  $subtotaal = number_format(($price * $qty), 2, ',', '.')
   ?>
   <div class="row">
     <div class="productName"><?php echo "{$product->name}"?></div>
-    <div class="productPrice"><?php echo "{$product->price}" ?></div>
+    <div class="productPrice"><?php echo "&euro;{$price}" ?></div>
     <div class="productAmount">
       <form method="post" action="#" id="amount">
         <input type="hidden" name="product" value="<?php echo $product->id; ?>">
         <input type="number" min="0" value="<?php echo $item->amount; ?>" class="productAmount" name="amount">
       </form>
     </div>
-    <div class="subtotaal"><?php echo "&euro;{$price}"; ?></div>
+    <div class="subtotaal"><?php echo "&euro;{$subtotaal}"; ?></div>
     <div class="delete">
       <form method="post" name="deleteForm">
       <input type="hidden" value="<?php echo $product->id; ?>" name="product">

@@ -5,7 +5,7 @@ class Database {
 	private $_pdo, $_query, $_results, $_count = 0, $_error = false, $_sql, $_values = array();
 
 	public function __construct() {
-		$this->_pdo = new PDO('mysql:host=localhost;dbname=mydb', 'root', '');
+		$this->_pdo = new PDO('mysql:host=localhost;dbname=mydb', 'root', 'root');
 	}
 
 	/**
@@ -185,16 +185,16 @@ class Database {
 					} else {
 						array_push($values, $value);
 					}
-					
+
 					$sql .= " {$key} {$operator} {$end}";
-					
+
 					if ($x < count($params)) {
 						$sql .= " AND ";
 					}
 					$x++;
 				}
 			}
-		
+
 		if(!$this->query($sql, $values)->error()) {
 			return $this;
 		}
