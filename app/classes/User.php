@@ -49,6 +49,15 @@ class User{
         return $this->id;
     }
     
+    public function error()
+    {
+        if (isset($this->error)) {
+            return $this->error;
+        } else {
+            return false;
+        }
+    }
+
     public function lastname(){
         return $this->lastname;
     }
