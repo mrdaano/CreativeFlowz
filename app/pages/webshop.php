@@ -14,11 +14,17 @@ $gevonden = false;
                             <tr class="thirdheaderdata">
                             <td class="textintable"><a href="<?= $url ?>">- Alles</a></td>
                         </tr>
-                       <?php foreach ($Category->getAll(array(array('parent', 'IS', 'NULL'))) as $cat) { ?>
-                           <tr class="thirdheaderdata">
-                               <td class="textintable"><a href="<?= $url . '&category=' . $cat->getId() ?>"><?= $cat->getName() ?></a></td>
-                           </tr>
-                        <?php } ?>
+                        <?php foreach ($Category->getAll(array(array('parent', 'IS', 'NULL'))) as $cat) { ?>
+                            <tr class="thirdheaderdata">
+                                <td class="textintable"><a href="<?= $url . '&category=' . $cat->getId() ?>">- <?= $cat->getName() ?></a></td>
+                            </tr>
+                            <?php 
+                            foreach ($Category->getAll(array(array('parent', '=', $cat->getId()))) as $child) { ?>
+                                <tr class="thirdheaderdata">
+                                    <td class="textintablesecond textintable"><a href="<?= $url . '&category=' . $child->getId() ?>">- <?= $child->getName() ?></a></td>
+                                </tr>
+                            <?php }
+                        } ?>
                     </table>
                 </div>
             </div>

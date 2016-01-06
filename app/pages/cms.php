@@ -7,6 +7,8 @@
   $items['mediamanagement'] = 'cms';
   $items['users'] = 'cms';
   $items['domainmanagement'] = 'cms';
+  $items['product'] = 'cms';
+  $items['category'] = 'cms';
   
   foreach($items as $modules => $value){
     if($_GET['module'] == $modules){
@@ -29,6 +31,12 @@
     </tr>
     <tr>
       <td class="<?php echo $items['domainmanagement']?>"><a href="index.php?page=cms&module=domainmanagement" class="cms"><p>Domein Beheer</p><p class="cmsitalic">Al het beheer van de domeins</p></a></td>
+    </tr>
+    <tr>
+      <td class="<?php echo $items['product']?>"><a href="index.php?page=cms&module=product" class="cms"><p>Product Beheer</p><p class="cmsitalic">Al het beheer van de producten</p></a></td>
+    </tr>
+    <tr>
+      <td class="<?php echo $items['category']?>"><a href="index.php?page=cms&module=category" class="cms"><p>Categorie Beheer</p><p class="cmsitalic">Al het beheer van de categorieen</p></a></td>
     </tr>
   </table>
 </div>
