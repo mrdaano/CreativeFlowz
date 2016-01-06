@@ -308,6 +308,7 @@ a.cms{
   float: left;
 }
 
+<<<<<<< HEAD
 .media_beheer .btn {
 	background-color: #34495e;
 	padding: 7px 12px;
@@ -319,6 +320,45 @@ a.cms{
 	border: none;
 }
 
+=======
+.err{
+  border: solid 1px #CE2A0D !important;
+}
+/** dit is voor het winkelwagentje **/
+.row{
+  color: #666666;
+  margin: 5px 30px 0px 35px;
+  background-color: #f6f6f6;
+  width: 80%;
+  height: auto;
+  padding: 15px 25px 30px 25px;
+}
+
+.row div {
+  float: left;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.productName{
+  width: 300px;
+}
+.productPrice {
+  width: 100px;
+}
+.productAmount{
+  width: 100px;
+}
+.subtotaal{
+  width: 120px;
+}
+.productAmount input{
+  width: 40px;
+}
+.delete{
+  width: 20px;
+}
+>>>>>>> origin/master
 button, .btn{
 	background-color: #34495e;
 	padding: 7px 12px;
@@ -329,10 +369,15 @@ button, .btn{
 	display: inline-flex;
 	border: none;
     cursor: pointer;
+<<<<<<< HEAD
     font-size: 9px;
 }
 
 
+=======
+}
+
+>>>>>>> origin/master
 .media_beheer form {
 	margin-top: 15px;
 }
@@ -354,6 +399,45 @@ table thead th {
 table.page td, table.cms th {
 	height: 35px;
 	border-bottom: 1px solid #C1C1C1;
+<<<<<<< HEAD
+=======
+}
+
+button, .btn{
+  background-color: #34495e;
+  padding: 7px 12px;
+  color: #FFF;
+  border-radius: 4px;
+  text-decoration: none;
+  margin: 6px 0;
+  display: inline-flex;
+  border: none;
+    cursor: pointer;
+}
+
+
+.media_beheer form {
+  margin-top: 15px;
+}
+
+table.cms {
+  margin-top: 20px;
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table a {
+  color: #666666;
+}
+
+table thead th {
+  text-align: left;
+}
+
+table.page td, table.cms th {
+  height: 35px;
+  border-bottom: 1px solid #C1C1C1;
+>>>>>>> origin/master
     padding: 5px;
 }
 
@@ -388,6 +472,7 @@ div.page input[type="text"]{
     height: 20px;
     min-width: 300px;
 }
+<<<<<<< HEAD
 select{
         width: 313px;
     height: 40px;
@@ -395,3 +480,43 @@ select{
     border-radius: 1px;
     background-color: white;
 }
+=======
+
+}
+table.page tr:hover{
+    background: #486179;
+    color: white;
+}
+div.page ul{
+    list-style-type: none;
+}
+div.page ul li{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+div.page ul li:first-child{
+    margin-top:10px;
+}
+
+div.page input[type="text"]{
+    padding: 5px;
+    height: 20px;
+    min-width: 300px;
+}
+
+.product select, .category select {padding: 5px;height: 35px;}
+.category .add {float: right;}
+.category .show {width: calc(100% - 370px);}
+.category .edit {float: left;}
+.category .linkedProducts {float: right;margin-right: 150px;}
+.category .edit a {text-decoration: none;}
+
+.product .link a, .product .mid a {text-decoration: none;}
+.product textarea {width: 300px; height: 200px; padding: 5px; font-size: 14px; font-family: 'Open Sans', sans-serif;}
+.product .edit {float: left; margin-right: 150px;}
+.product .category {float: left;}
+.product ul ul {margin-left: 40px;}
+.product .mid {float: left; width: 300px; margin-right: 150px; margin-top: 15px;}
+.product img {width: 100%; height: 300px;}
+>>>>>>> origin/master

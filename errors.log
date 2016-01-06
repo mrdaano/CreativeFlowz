@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [05-Jan-2016 19:30:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 54
 [05-Jan-2016 19:30:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 54
 [05-Jan-2016 20:52:50 Europe/Berlin] PHP Notice:  Undefined index: a in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
@@ -99,3 +100,5 @@
 [06-Jan-2016 10:33:19 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
 [06-Jan-2016 10:33:19 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
 [06-Jan-2016 10:33:19 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
+=======
+>>>>>>> origin/master
