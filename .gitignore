@@ -3,3 +3,5 @@ KBS.sublime-project
 app/.DS_Store
 errors.log
 errors.log
+
+app/pages/shoppingcart.php
