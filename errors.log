@@ -1,55 +1,101 @@
-[16-Dec-2015 20:05:42 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
-[16-Dec-2015 20:05:42 Europe/Berlin] PHP Notice:  Undefined property: Page::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 132
-[16-Dec-2015 20:05:42 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 141
-[16-Dec-2015 20:05:42 Europe/Berlin] PHP Notice:  Undefined variable: response in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/cms/modules/pagemanagement/add.php on line 16
-[16-Dec-2015 20:06:20 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 144
-[16-Dec-2015 20:06:32 Europe/Berlin] PHP Notice:  Undefined property: Page::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 135
-[16-Dec-2015 20:06:32 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 144
-[16-Dec-2015 20:06:32 Europe/Berlin] PHP Notice:  Undefined variable: response in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/cms/modules/pagemanagement/add.php on line 16
-[16-Dec-2015 20:07:05 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
-[16-Dec-2015 20:07:05 Europe/Berlin] PHP Notice:  Undefined property: Page::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 133
-[16-Dec-2015 20:07:05 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 142
-[16-Dec-2015 20:07:05 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 142
-[16-Dec-2015 20:07:05 Europe/Berlin] PHP Notice:  Undefined variable: response in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/cms/modules/pagemanagement/add.php on line 18
-[16-Dec-2015 20:07:25 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
-[16-Dec-2015 20:07:25 Europe/Berlin] PHP Notice:  Undefined property: Page::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 126
-[16-Dec-2015 20:07:25 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 135
-[16-Dec-2015 20:07:25 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 135
-[16-Dec-2015 20:07:25 Europe/Berlin] PHP Notice:  Undefined variable: response in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/cms/modules/pagemanagement/add.php on line 18
-[16-Dec-2015 20:07:56 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
-[16-Dec-2015 20:07:56 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 135
-[16-Dec-2015 20:07:56 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 135
-[16-Dec-2015 20:10:02 Europe/Berlin] PHP Notice:  Undefined property: Page::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 124
-[16-Dec-2015 20:10:02 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 133
-[16-Dec-2015 20:10:02 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 133
-[16-Dec-2015 20:10:02 Europe/Berlin] PHP Notice:  Undefined variable: response in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/cms/modules/pagemanagement/add.php on line 18
-[16-Dec-2015 20:11:04 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
-[16-Dec-2015 20:11:04 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 135
-[16-Dec-2015 20:11:04 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 135
-[16-Dec-2015 20:11:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
-[16-Dec-2015 20:11:16 Europe/Berlin] PHP Notice:  Undefined property: Page::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 126
-[16-Dec-2015 20:11:16 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 135
-[16-Dec-2015 20:11:16 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 135
-[16-Dec-2015 20:11:16 Europe/Berlin] PHP Notice:  Undefined variable: response in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/cms/modules/pagemanagement/add.php on line 17
-[16-Dec-2015 20:11:49 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
-[16-Dec-2015 20:11:49 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 137
-[16-Dec-2015 20:11:49 Europe/Berlin] PHP Notice:  Undefined property: Page::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 128
-[16-Dec-2015 20:11:49 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 137
-[16-Dec-2015 20:11:49 Europe/Berlin] PHP Notice:  Undefined property: Page::$notification in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 137
-[16-Dec-2015 20:11:49 Europe/Berlin] PHP Notice:  Undefined variable: response in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/cms/modules/pagemanagement/add.php on line 17
-[16-Dec-2015 20:12:34 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
-[16-Dec-2015 20:12:34 Europe/Berlin] PHP Notice:  Undefined property: Page::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 128
-[16-Dec-2015 20:17:37 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
-[16-Dec-2015 20:17:37 Europe/Berlin] PHP Notice:  Undefined property: Page::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 130
-[16-Dec-2015 21:26:13 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
-[16-Dec-2015 21:26:13 Europe/Berlin] PHP Notice:  Undefined property: Page::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 129
-[16-Dec-2015 21:26:40 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
-[16-Dec-2015 21:26:40 Europe/Berlin] PHP Notice:  Undefined property: Page::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 129
-[16-Dec-2015 21:27:29 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
-[16-Dec-2015 21:27:29 Europe/Berlin] PHP Notice:  Undefined property: Page::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 130
-[16-Dec-2015 21:27:46 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
-[16-Dec-2015 21:27:46 Europe/Berlin] PHP Notice:  Undefined property: Page::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 130
-[16-Dec-2015 21:29:12 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
-[16-Dec-2015 21:29:12 Europe/Berlin] PHP Notice:  Undefined property: Page::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 130
-[16-Dec-2015 21:29:46 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
-[16-Dec-2015 21:29:46 Europe/Berlin] PHP Notice:  Undefined property: Page::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Page.php on line 129
+[05-Jan-2016 19:30:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 54
+[05-Jan-2016 19:30:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Route.php on line 54
+[05-Jan-2016 20:52:50 Europe/Berlin] PHP Notice:  Undefined index: a in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:50 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:50 Europe/Berlin] PHP Notice:  Undefined index: b in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:50 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:50 Europe/Berlin] PHP Notice:  Undefined index: c in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:50 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:50 Europe/Berlin] PHP Notice:  Undefined index: d in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:50 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:50 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:50 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:52 Europe/Berlin] PHP Notice:  Undefined index: a in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:52 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:52 Europe/Berlin] PHP Notice:  Undefined index: b in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:52 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:52 Europe/Berlin] PHP Notice:  Undefined index: c in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:52 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:52 Europe/Berlin] PHP Notice:  Undefined index: d in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:52 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:52 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:52 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 27
+[05-Jan-2016 20:52:59 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 20:52:59 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 20:52:59 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 20:52:59 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 20:52:59 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 20:53:00 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 20:53:00 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 20:53:00 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 20:53:00 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 20:53:00 Europe/Berlin] PHP Warning:  str_replace() expects at least 3 parameters, 2 given in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:18 Europe/Berlin] PHP Notice:  Undefined index: e in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:18 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:18 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:18 Europe/Berlin] PHP Notice:  Undefined index: d in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:18 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:18 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:18 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:18 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:18 Europe/Berlin] PHP Notice:  Undefined index: c in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:18 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:28 Europe/Berlin] PHP Notice:  Undefined index: e in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:28 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:28 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:28 Europe/Berlin] PHP Notice:  Undefined index: d in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:28 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:28 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:28 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:28 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:28 Europe/Berlin] PHP Notice:  Undefined index: c in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:28 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined index: e in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined index: d in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined index: c in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:00:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:07:26 Europe/Berlin] PHP Notice:  Undefined index: e in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:07:26 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:07:26 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:07:26 Europe/Berlin] PHP Notice:  Undefined index: d in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:07:26 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:07:26 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:07:26 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:07:26 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:07:26 Europe/Berlin] PHP Notice:  Undefined index: c in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[05-Jan-2016 21:07:26 Europe/Berlin] PHP Notice:  Undefined index: f in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 26
+[06-Jan-2016 10:32:21 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
+[06-Jan-2016 10:32:21 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 64
+[06-Jan-2016 10:32:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
+[06-Jan-2016 10:32:23 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 64
+[06-Jan-2016 10:32:24 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 14
+[06-Jan-2016 10:32:24 Europe/Berlin] PHP Notice:  Undefined index: _user in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/index.php on line 64
+[06-Jan-2016 10:32:24 Europe/Berlin] PHP Notice:  Undefined property: Login::$error in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Login.php on line 72
+[06-Jan-2016 10:33:16 Europe/Berlin] PHP Notice:  Undefined index: module in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/cms.php on line 12
+[06-Jan-2016 10:33:16 Europe/Berlin] PHP Notice:  Undefined index: module in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/cms.php on line 12
+[06-Jan-2016 10:33:16 Europe/Berlin] PHP Notice:  Undefined index: module in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/cms.php on line 12
+[06-Jan-2016 10:33:16 Europe/Berlin] PHP Notice:  Undefined index: module in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/cms.php on line 12
+[06-Jan-2016 10:33:16 Europe/Berlin] PHP Notice:  Undefined index: module in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/cms.php on line 12
+[06-Jan-2016 10:33:19 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
+[06-Jan-2016 10:33:19 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
+[06-Jan-2016 10:33:19 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376

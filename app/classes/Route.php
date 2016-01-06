@@ -51,56 +51,35 @@ class Route{
             * Dan gaan we checken of de pagina uit het database komt, komt hij niet uit het database dan halen we hem uit het mapje app/pages
             */
             
-            if(file_exists($root.'/'.$this->get['page'].''.$extension)){
-                /*
-                 * Check of die in het DB voor MOET komen
-                 */
-                
-                if(isset($_GET['sub'])){
-                    $res = $this->db->get('*','page_management', array(array('id', '=', $_GET['sub'])))->first();
-                    if($res->id == ''){
-                        $include = $root.'/404.php';
+            if(isset($_GET['page']) && $_GET['page'] == 'cms' && $_SESSION['_user']['userLevel'] != 1){
+                //$include = 'index.php';
+                $include = $root.'/404.php';
+            }else{
+                if(file_exists($root.'/'.$this->get['page'].''.$extension)){
+                    if(isset($_GET['sub'])){
+                        $res = $this->db->get('*','page_management', array(array('name', '=', $_GET['sub'])))->first();
+                        if($res->name == ''){
+                            $include = $root.'/404.php';
+                        }else{
+                            //$include = 'index.php?page=site&sub='.$_GET['sub'];
+                            $include = $root.'/site.php';
+                        }
                     }else{
-                        //$include = 'index.php?page=site&sub='.$_GET['sub'];
-                        $include = $root.'/site.php';
+                        $include = $root.'/'.$_GET['page'].''.$extension; 
                     }
                 }else{
-                    $include = $root.'/'.$_GET['page'].''.$extension; 
+                    $include = 'app/pages/404.php';
                 }
-            }else{
-                $include = 'app/pages/404.php';
-            }
-        }elseif(isset($this->get['cmspage'])){
-            /*
-             *  cmspage is het cms gedeelte, hierin staan de modules, je kunt hier alleen bij komen wanneer je ingelogd bent
-             */
-            if($_SESSION['_user']['id'] > 0){
-                /*
-                 *  Wanneer de gebruiker is ingelogd en hij rechten tot de pagina heeft mag hij hier komen.
-                 */
-                /*
-                 *if(!file_exists($cms.'/modules/'.$_GET['module'].$extension)){
-                   $include = 'app/pages/404.php';
-                }else{
-                */
-                    if(isset($_GET['module'])){
-                        $include = $cms.'/modules/'.$_GET['module'].$extension.'';
-                    }else{
-                        $include = $cms.'/cms'.$extension;
-                    }
-                //}
-            }else{
-                $include = $root.'/login'.$extension;
             }
         }
+
         return $include;
     }
     
-    public function getDbPage($id){
-        if($id == '' OR !is_numeric($id)){
-            $id = 1;
-        }else{
-             $res = $this->db->get('*','page_management', array(array('id', '=', $_GET['sub'])))->first();
+    public function getDbPage($name){
+        // Voorbeeld Link: index.php?page=site&sub=Test%20Test
+       if($name != ''){
+             $res = $this->db->get('*','page_management', array(array('name', '=', $_GET['sub'])))->first();
              echo $res->content;
         }
     

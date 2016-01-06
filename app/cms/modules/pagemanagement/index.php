@@ -5,7 +5,7 @@
 <a href='index.php?page=cms&module=page&action=add'><button>Toevoegen</button></a>
 <table class='cms page' width='100%'>
     <tr>
-        <td><b>Title</b></td>
+        <td><b>Name</b></td>
         <td><b>Homepage</b></td>
         <td><b>Domain</b></td>
         <td><b>Actie</b></td> 
@@ -15,7 +15,7 @@
        ?>
         <tr>
             <td width='40%'>
-                <?=$pageData->title?>
+                <?=$pageData->name?>
             </td>
             <td>
                 <?=$Page->checkHomePage($pageData->id)?>

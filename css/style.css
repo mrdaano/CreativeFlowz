@@ -329,6 +329,7 @@ button, .btn{
 	display: inline-flex;
 	border: none;
     cursor: pointer;
+    font-size: 9px;
 }
 
 
@@ -386,4 +387,11 @@ div.page input[type="text"]{
     padding: 5px;
     height: 20px;
     min-width: 300px;
+}
+select{
+        width: 313px;
+    height: 40px;
+    border: 1px solid #d7d7d7;
+    border-radius: 1px;
+    background-color: white;
 }

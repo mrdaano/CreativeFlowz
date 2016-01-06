@@ -39,4 +39,29 @@ class User{
     public function userLevel(){
         return $this->userLevel;
     }
+    
+    protected function getuserLevel($userid){
+        /*
+         *  1 = Admin
+         *  2 = Moderator
+         */
+        $data = $this->db->start()->get('*','employee', array(array('user_id', '=', $userid)))->first();
+        if(empty($data)){
+            return 0;
+        }else{
+            return $data->moderator;
+        }
+    }
+    
+    // Pas de sessie aan 
+    public function checkUserSettings(){
+        $data = $this->db->start()->get('*','user', array(array('id', '=', $_SESSION['_user']['id'])))->first();
+        $_SESSION['_user'] = array('id' => $data->id, 'firstname' => $data->firstname, 'lastname' => $data->lastname, 'email' => $data->email, 'userLevel' => $this->getuserLevel($data->id));    
+    }
+    
+    public function isAdmin(){
+        if($this->userLevel != 1){
+            header('Location: index.php');
+        }
+    }
 }

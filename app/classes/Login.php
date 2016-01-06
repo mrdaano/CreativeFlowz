@@ -58,6 +58,8 @@ class Login{
         }
     }
     
+    
+    
     protected function setError($error){
         $this->error = $error;
     }

@@ -13,9 +13,12 @@ $Register = new Register($db);
 $Login = new Login($db);
 if($_SESSION['_user']['id'] > 0){
     $User = new User($db);
-    
+    $User->checkUserSettings();
 }
+$Domain = new Domain($db);
 $Page = new Page($db);
+
+
 ?>
 <!DOCTYPE html>
 <html>
@@ -46,6 +49,7 @@ $Page = new Page($db);
 </script>
     </head>
     <body>
+        
         <div class="header">
             <div class="wrapper">
                 <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
@@ -79,9 +83,14 @@ $Page = new Page($db);
              *  @author: Yannick Berendsen
              */
             if(isset($_GET['page'])){
-               include($Route->request($_GET));
-            }elseif(isset($_GET['cmspage'])){
-                include($Route->request($_GET));
+                if($_GET['page'] == 'site'){
+                    echo '<div class="wrapper">';
+                    include($Route->request($_GET));
+                    echo '</div>';
+                }else{
+                    include($Route->request($_GET));
+                }
+               
             }else{
                 echo '<div class="wrapper">';
                 echo $Page->getHomepage();
