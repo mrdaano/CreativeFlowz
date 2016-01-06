@@ -13,7 +13,11 @@ $Register = new Register($db);
 $Login = new Login($db);
 if($_SESSION['_user']['id'] > 0){
     $User = new User($db);
+    $User->checkUserSettings();
 }
+$Domain = new Domain($db);
+$Page = new Page($db);
+
 
 ?>
 <!DOCTYPE html>
@@ -23,8 +27,29 @@ if($_SESSION['_user']['id'] > 0){
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+        <script src='js/plugin/texteditor/jquery-te-1.4.0.min.js' type='text/javascript'></script>
+        <link href='js/plugin/texteditor/jquery-te-1.4.0.css' rel='stylesheet' type='text/css'>
+        <script src="js/plugin/ckeditor/ckeditor.js"></script>
+        <script src="js/plugin/ckeditor/sample.js"></script>
+        <script type='text/javascript'>
+        $( document ).ready(function() {
+            //$('textarea').jqte();
+            
+            // settings of status
+            var jqteStatus = true;
+            $(".status").click(function()
+            {
+                jqteStatus = jqteStatus ? false : true;
+                $('.jqte-test').jqte({"status" : jqteStatus})
+            });
+            
+            
+        });
+</script>
     </head>
     <body>
+        
         <div class="header">
             <div class="wrapper">
                 <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
@@ -50,6 +75,7 @@ if($_SESSION['_user']['id'] > 0){
                 </ul>
             </div>
         </div>
+        
         <?php
             /*
              *  Hier word de route van de website bepaald.
@@ -57,10 +83,20 @@ if($_SESSION['_user']['id'] > 0){
              *  @author: Yannick Berendsen
              */
             if(isset($_GET['page'])){
-               include($Route->request($_GET));
-            }elseif(isset($_GET['cmspage'])){
-                include($Route->request($_GET));
-            }
+                if($_GET['page'] == 'site'){
+                    echo '<div class="wrapper">';
+                    include($Route->request($_GET));
+                    echo '</div>';
+                }else{
+                    include($Route->request($_GET));
+                }
+               
+            }else{
+                echo '<div class="wrapper">';
+                echo $Page->getHomepage();
+                echo '</div>';
+            }   
         ?>
+        
     </body>
 </html>

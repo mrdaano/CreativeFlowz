@@ -10,9 +10,10 @@
     margin: 0;
     padding: 0;
 }
-body {
+body, html {
     background-color: #ffffff;
     font-family: 'Open Sans', sans-serif;
+    height: 100%;
 }
 .wrapper{
     width: 1000px;
@@ -252,7 +253,7 @@ a.login{
 .leftheader{
   background-color: #383f48;
   width: 330px;
-  height: 900px;
+  height: 100%;
   float: left;
 }
 
@@ -305,4 +306,92 @@ a.cms{
   height: auto;
   padding: 15px;
   float: left;
+}
+
+.media_beheer .btn {
+	background-color: #34495e;
+	padding: 7px 12px;
+	color: #FFF;
+	border-radius: 4px;
+	text-decoration: none;
+	margin: 6px 0;
+	display: inline-flex;
+	border: none;
+}
+
+button, .btn{
+	background-color: #34495e;
+	padding: 7px 12px;
+	color: #FFF;
+	border-radius: 4px;
+	text-decoration: none;
+	margin: 6px 0;
+	display: inline-flex;
+	border: none;
+    cursor: pointer;
+    font-size: 9px;
+}
+
+
+.media_beheer form {
+	margin-top: 15px;
+}
+
+table.cms {
+	margin-top: 20px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table a {
+	color: #666666;
+}
+
+table thead th {
+	text-align: left;
+}
+
+table.page td, table.cms th {
+	height: 35px;
+	border-bottom: 1px solid #C1C1C1;
+    padding: 5px;
+}
+
+table tr:last-child td {
+	border-bottom: none;
+}
+table.page tr:nth-child(even){
+    background-color: #E6E6E6;
+}
+table.page tr{
+    -webkit-transition: background 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: background 0.3s;
+}
+table.page tr:hover{
+    background: #486179;
+    color: white;
+}
+div.page ul{
+    list-style-type: none;
+}
+div.page ul li{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+div.page ul li:first-child{
+    margin-top:10px;
+}
+
+div.page input[type="text"]{
+    padding: 5px;
+    height: 20px;
+    min-width: 300px;
+}
+select{
+        width: 313px;
+    height: 40px;
+    border: 1px solid #d7d7d7;
+    border-radius: 1px;
+    background-color: white;
 }
