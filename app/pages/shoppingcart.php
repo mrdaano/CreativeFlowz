@@ -15,14 +15,14 @@ if(isset($_POST['amount'])){
  $(document).ready(function() {
    $('.productAmount').on('change', checkform);
  });
-function checkform (){
+ function checkform (){
   if ($(this).val() < 0) {
   }else {
       $(this).parent().submit();
   }
-}
-</script>
-<div class="wrapper">
+ }
+ </script>
+
 <br/>
 <div class="top row">
   <div class="productName bold">Artikel</div>
@@ -37,7 +37,7 @@ foreach($shoppingcart->getShoppingcart() as $item) {
   ?>
   <div class="row">
     <div class="productName"><?php echo "{$product->name}"?></div>
-    <div class="productPrice"><?php echo "€{$product->price}" ?></div>
+    <div class="productPrice"><?php echo "{$product->price}" ?></div>
     <div class="productAmount">
       <form method="post" action="#" id="amount">
         <input type="hidden" name="product" value="<?php echo $product->id; ?>">
@@ -56,5 +56,4 @@ foreach($shoppingcart->getShoppingcart() as $item) {
 ?>
 <div class="btn_right">
   <a href="" class="btn">Order plaatsen</a>
-</div>
 </div>

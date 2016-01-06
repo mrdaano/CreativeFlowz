@@ -68,3 +68,7 @@
 [06-Jan-2016 14:49:09 Europe/Berlin] PHP Fatal error:  Call to a member function results() on null in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Category.php on line 207
 [06-Jan-2016 14:49:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/index.php on line 14
 [06-Jan-2016 14:49:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/index.php on line 65
+[06-Jan-2016 19:08:41 Europe/Berlin] PHP Notice:  Array to string conversion in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Database.php on line 42
+[06-Jan-2016 19:08:41 Europe/Berlin] PHP Notice:  Array to string conversion in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Database.php on line 42
+[06-Jan-2016 19:08:42 Europe/Berlin] PHP Notice:  Array to string conversion in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Database.php on line 42
+[06-Jan-2016 19:08:42 Europe/Berlin] PHP Notice:  Array to string conversion in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Database.php on line 42
