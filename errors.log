@@ -68,3 +68,14 @@
 [06-Jan-2016 14:49:09 Europe/Berlin] PHP Fatal error:  Call to a member function results() on null in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Category.php on line 207
 [06-Jan-2016 14:49:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/index.php on line 14
 [06-Jan-2016 14:49:10 Europe/Berlin] PHP Notice:  Undefined index: _user in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/index.php on line 65
+[06-Jan-2016 14:36:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in D:\GitHub\CreativeFlowz\app\classes\Database.php:8
+Stack trace:
+#0 D:\GitHub\CreativeFlowz\app\classes\Database.php(8): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 D:\GitHub\CreativeFlowz\index.php(10): Database->__construct()
+#2 {main}
+  thrown in D:\GitHub\CreativeFlowz\app\classes\Database.php on line 8
+[06-Jan-2016 14:36:22 UTC] PHP Notice:  Undefined offset: 0 in D:\GitHub\CreativeFlowz\app\classes\Database.php on line 376
+[06-Jan-2016 14:39:02 UTC] PHP Notice:  Undefined offset: 0 in D:\GitHub\CreativeFlowz\app\classes\Database.php on line 376
+[06-Jan-2016 14:39:05 UTC] PHP Notice:  Undefined offset: 0 in D:\GitHub\CreativeFlowz\app\classes\Database.php on line 376
+[06-Jan-2016 14:39:07 UTC] PHP Notice:  Undefined offset: 0 in D:\GitHub\CreativeFlowz\app\classes\Database.php on line 376
+[06-Jan-2016 14:39:09 UTC] PHP Notice:  Undefined offset: 0 in D:\GitHub\CreativeFlowz\app\classes\Database.php on line 376
