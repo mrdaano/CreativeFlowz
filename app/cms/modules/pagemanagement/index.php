@@ -8,7 +8,7 @@
         <td><b>Title</b></td>
         <td><b>Homepage</b></td>
         <td><b>Domain</b></td>
-        <td><b>Actie</b></td> 
+        <td><b>Actie</b></td>
     </tr>
     <?php
     foreach($Page->getPage() as $key => $pageData){
@@ -30,5 +30,5 @@
         <?php
     }
     ?>
-    
+
 </table>

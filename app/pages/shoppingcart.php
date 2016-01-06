@@ -11,6 +11,16 @@ if(isset($_POST['amount'])){
   $shoppingcart->updateQuantity($_POST['product'], $_POST['amount']);
 }
  ?>
+ <script language="JavaScript" type="text/javascript">
+function checkform ( form ){
+  if (form.amount.value <0) {
+    form.amount.focus();
+  }else {
+      form.amount.submit();
+  }
+}
+//-->
+</script>
   <!-- dit was om te laten zien dat het werkt, miss nog handig voor de webshop hebben ze een Voorbeeld hoe het werkt.
   <form method="post">
    ID om toe te voegen <input type="number" name="itemId">
@@ -35,9 +45,9 @@ foreach($shoppingcart->getShoppingcart() as $item) {
     <div class="productName"><?php echo "{$product->name}"?></div>
     <div class="productPrice"><?php echo "{$product->price}" ?></div>
     <div class="productAmount">
-      <form method="post" action="#">
+      <form method="post" action="#" id="amount">
         <input type="hidden" name="product" value="<?php echo $product->id; ?>">
-        <input type="number" min="0" value="<?php echo $item->amount; ?>" class="productAmount" name="amount" onchange="this.form.submit()">
+        <input type="number" min="0" value="<?php echo $item->amount; ?>" class="productAmount" name="amount" onchange="checkform()">
       </form>
     </div>
     <div class="subtotaal"><?php echo "&euro;{$price}"; ?></div>
