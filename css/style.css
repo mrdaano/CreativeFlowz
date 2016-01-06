@@ -396,7 +396,6 @@ select{
     background-color: white;
 }
 
-<<<<<<< HEAD
 /** dit is voor het winkelwagentje **/
 .row{
   color: #666666;
@@ -435,7 +434,6 @@ select{
   float: right;
   margin-right: 16%;
 }
-=======
 
 .product select, .category select {padding: 5px;height: 35px;}
 .category .add {float: right;}
@@ -455,6 +453,5 @@ select{
 .product .supplier .add {float: right;}
 .product .supplier .show {width: calc(100% - 370px);}
 
-.accountsettings > form > input[type=checkbox]:checked + .company{display: block;} 
+.accountsettings > form > input[type=checkbox]:checked + .company{display: block;}
 .accountsettings .company {display: none}
->>>>>>> origin/development
