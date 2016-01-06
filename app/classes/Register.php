@@ -8,27 +8,19 @@
  */
 
 class Register{
-
+    
     public $fields;
-
+    
     public function __construct($db){
         $this->db = $db;
     }
-<<<<<<< HEAD
     
-=======
-
->>>>>>> origin/master
     public function inputFields($array){
         foreach($array as $val => $key){
             $this->$val = $key;
         }
     }
-<<<<<<< HEAD
     
-=======
-
->>>>>>> origin/master
     private function createRandomPassword(){
         $alphabet = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890';
         $pass = array(); //remember to declare $pass as an array
@@ -40,11 +32,7 @@ class Register{
         $this->plain_password = implode($pass);
         $this->crypted_password = hash('sha256', implode($pass));
     }
-<<<<<<< HEAD
     
-=======
-
->>>>>>> origin/master
     public function verificate(){
         $this->addition = 0;
         if(empty($this->mail)){
@@ -76,24 +64,14 @@ class Register{
             $this->setNotification('U bent succesvol geregistreerd, we hebben een mail verstuurd met daarin uw wachtwoord naar het E-Mail adres '.$this->mail.'!');
         }
     }
-<<<<<<< HEAD
     
-=======
-
->>>>>>> origin/master
     private function sendMail(){
         $to      = $this->mail;
         $subject = 'Welkom bij The Service Group';
         $message = 'Beste '.$this->firstname.' '.$this->lastname.',<br/><br/> Hierbij bevestigen wij uw aanmelding op <a href="www.theservicegroup.nl" target="_blanc">theservicegroup.nl</a>!<br/> U heeft een account aangemaakt met de volgende gegevens:<br/><b>Login:</b> '.$this->mail.'<Br/><b>Wachtwoord:</b> '.$this->plain_password.'<Br/><Br/>Met vriendelijke groet,<br/><Br/>Team The Service Group';
-<<<<<<< HEAD
         
         $message ="
         <!DOCTYPE HTML PUBLIC 
-=======
-
-        $message ="
-        <!DOCTYPE HTML PUBLIC
->>>>>>> origin/master
         'http://www.w3.org/TR/html4/loose.dtd'>
         <html>
         <head></head>
@@ -115,13 +93,8 @@ class Register{
         The Service Group
         </body>
         </html>";
-<<<<<<< HEAD
         
         
-=======
-
-
->>>>>>> origin/master
         $headers = "From: noreplay@theservicegroup.nl\n";
         $headers .= "MIME-Version: 1.0\n" ;
         $headers .= "Content-Type: text/html; charset=\"iso-8859-1\"\n";
@@ -129,11 +102,7 @@ class Register{
         // $headers = 'From: no-replay@theservicegroup.nl' . "\r\n" .'X-Mailer: PHP/' . phpversion();
         mail($to, $subject, $message, $headers);
     }
-<<<<<<< HEAD
     
-=======
-
->>>>>>> origin/master
     private function checkMail(){
         $this->db->start()->get('*','user', array(array('email', '=', $this->mail)))->first();
         if($this->db->start()->count() < 1){
@@ -142,11 +111,7 @@ class Register{
             return true;
         }
     }
-<<<<<<< HEAD
     
-=======
-
->>>>>>> origin/master
     private function checkCity(){
         $data = $this->db->start()->get('*','city', array(array('cityname', '=', $this->city)))->first();
         if(!empty($data)){
@@ -158,18 +123,13 @@ class Register{
             return $data;
         }
     }
-<<<<<<< HEAD
     
-=======
-
->>>>>>> origin/master
     private function createAccount(){
         $this->zip = '1';
         $this->createRandomPassword();
         $this->db->start()->insert('user', array(
                                             'firstname' => $this->firstname, 'lastname' => $this->lastname,
                                             'password' => $this->crypted_password, 'email' => $this->mail));
-<<<<<<< HEAD
         
         $userID = $this->db->start()->lastId();
         
@@ -196,34 +156,6 @@ class Register{
     
     public function getNotification(){
         return $this->msg;
-=======
-
-        $userID = $this->db->start()->lastId();
-
-        $this->db->start()->insert('customer', array(
-                                            'user_id' => $userID,
-                                            'city_id' => $this->checkCity(), 'street' => $this->street,
-                                            'zip' => $this->zip, 'housenumber' => $this->number,
-                                            'phone_number' => $this->phone_number
-
-                                            ));
     }
-
-    protected function setError($error){
-        $this->error = $error;
->>>>>>> origin/master
-    }
-
-    public function getError(){
-        return $this->error;
-    }
-
-    protected function setNotification($msg){
-        $this->msg = $msg;
-    }
-
-    public function getNotification(){
-        return $this->msg;
-    }
-
+    
 }

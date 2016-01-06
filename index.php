@@ -4,38 +4,21 @@ error_reporting(E_ALL);
 ini_set('display_errors', 0);
 ini_set("log_errors", 1);
 ini_set("error_log", "errors.log");
-ini_set("sendmail_from","noreplay@theservicegroup.nl");
 spl_autoload_register(function ($class) {
     include 'app/classes/' . $class . '.php';
 });
-include('phpmailer/PHPMailerAutoload.php');
-/*$mail->isSMTP();                                      // Set mailer to use SMTP
-$mail->Host = 'theservicegroup.nl';  // Specify main and backup SMTP servers
-$mail->SMTPAuth = true;                               // Enable SMTP authentication
-$mail->Username = 'user@example.com';                 // SMTP username
-$mail->Password = 'secret';                           // SMTP password
-$mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
-$mail->Port = 587;*/                                    // TCP port to connect to
-
-$mail = new PHPMailer;
 $db = new Database;
 $Route = new Route($db);
-$Register = new Register($db, $mail);
+$Register = new Register($db);
 $Login = new Login($db);
 if($_SESSION['_user']['id'] > 0){
     $User = new User($db);
-<<<<<<< HEAD
     $User->checkUserSettings();
 }
 $Domain = new Domain($db);
 $Page = new Page($db);
 
-=======
->>>>>>> origin/master
 
-}
-$Page = new Page($db);
-$Product = new Product($db);
 ?>
 <!DOCTYPE html>
 <html>
@@ -49,18 +32,10 @@ $Product = new Product($db);
         <link href='js/plugin/texteditor/jquery-te-1.4.0.css' rel='stylesheet' type='text/css'>
         <script src="js/plugin/ckeditor/ckeditor.js"></script>
         <script src="js/plugin/ckeditor/sample.js"></script>
-<<<<<<< HEAD
         <script type='text/javascript'>
         $( document ).ready(function() {
             //$('textarea').jqte();
             
-=======
-        <script type="text/javascript" src="js/script.js"></script>
-        <script type='text/javascript'>
-        $( document ).ready(function() {
-            //$('textarea').jqte();
-
->>>>>>> origin/master
             // settings of status
             var jqteStatus = true;
             $(".status").click(function()
@@ -68,13 +43,8 @@ $Product = new Product($db);
                 jqteStatus = jqteStatus ? false : true;
                 $('.jqte-test').jqte({"status" : jqteStatus})
             });
-<<<<<<< HEAD
             
             
-=======
-
-
->>>>>>> origin/master
         });
 </script>
     </head>
@@ -90,6 +60,7 @@ $Product = new Product($db);
                 </ul>
                 <ul class="rightlist">
                     <?php
+                    
                     if($_SESSION['_user']['id'] > 0){
                         ?>
                          <li class="shoppingcart"><a href="index.php?page=shoppingcart"><img class="shoppingcartimg" src="img/shopping-cart12.png" width="20"/> winkelwagen</a><li>
@@ -100,7 +71,7 @@ $Product = new Product($db);
                          <li><a href="index.php?page=login">aanmelden</a></li>
                         <?php
                     }?>
-
+                   
                 </ul>
             </div>
         </div>
@@ -112,7 +83,6 @@ $Product = new Product($db);
              *  @author: Yannick Berendsen
              */
             if(isset($_GET['page'])){
-<<<<<<< HEAD
                 if($_GET['page'] == 'site'){
                     echo '<div class="wrapper">';
                     include($Route->request($_GET));
@@ -121,20 +91,11 @@ $Product = new Product($db);
                     include($Route->request($_GET));
                 }
                
-=======
-               include($Route->request($_GET));
-            }elseif(isset($_GET['cmspage'])){
-                include($Route->request($_GET));
->>>>>>> origin/master
             }else{
                 echo '<div class="wrapper">';
                 echo $Page->getHomepage();
                 echo '</div>';
-<<<<<<< HEAD
             }   
-=======
-            }
->>>>>>> origin/master
         ?>
         
     </body>

@@ -84,11 +84,8 @@ class Page{
             $this->setError('U heeft geen titel ingevuld!');
         }elseif(empty($this->keyword)){
             $this->setError('U heeft geen keywoorden ingevuld!');
-<<<<<<< HEAD
         }elseif(empty($this->name)){
             $this->setError('U heeft geen naam ingevuld!');
-=======
->>>>>>> origin/master
         }elseif(empty($this->content)){
             $this->setError('U heeft geen content ingevuld!');
         }else{
@@ -98,10 +95,6 @@ class Page{
     }
     
     protected function checkName(){
-<<<<<<< HEAD
-=======
-        
->>>>>>> origin/master
         $this->db->start()->get('*','page_management', array(array('name', '=', $this->name)))->first();
         if($this->db->start()->count() < 1){
             return false;
@@ -145,8 +138,5 @@ class Page{
     public function getMSG(){
         return $this->msg;
     }
-<<<<<<< HEAD
 
-=======
->>>>>>> origin/master
 }
