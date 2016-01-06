@@ -37,6 +37,11 @@ class Product
 		$this->_description = $description;
 	}
 
+	public function setImg($img)
+	{
+        $this->_img = $img;
+    }
+
 	public function setError($error)
 	{
         $this->_error = $error;
@@ -76,6 +81,13 @@ class Product
 			$this->setSupplierId($pro->supplier_id);
 			$this->setPrice($pro->price);
 		}
+
+		$sql = $this->db->start()->get('media_id', 'product_media', array(array('product_id', '=', $this->getId())))->results();
+		if (!empty($sql)) {
+			$this->setImg($sql[0]->media_id);
+		} else {
+			$this->setImg(null);
+		}
 	}
 
 	//Deze funcite zoekt de id op uit de database en slaat hem op.
@@ -107,6 +119,27 @@ class Product
     public function getSupplierWebsite()
     {
     	return $this->_supplier_website;
+    }
+
+	public function getImg()
+    {
+    	return $this->_img;
+    }
+
+    public function getImgPath()
+    {
+    	$media = new Media();
+
+    	foreach ($media->getMedia() as $item) {
+    		if ($item->id == $this->getImg()) {
+    			$path = $item->path . '/' . $item->name;
+    		}
+    	}
+    	if (isset($path)) {
+    		return $path;
+    	} else {
+    		return 'img/noimg.png';
+    	}
     }
 
 	public function getName()
@@ -238,7 +271,11 @@ class Product
 								'description' => $this->getDescription(),
 								'supplier_id' => $this->getSupplierId(),
 								'price' => $this->getPrice());
-		$this->db->insert('product', $arrayProduct);	
+		$this->db->insert('product', $arrayProduct);
+		if ($this->getImg() != null) {
+			$this->setIdFromDatabase();
+			$this->db->insert('product_media', array('product_id' => $this->getId(), 'media_id' => $this->getImg()));
+		}
 	}
 
 	
@@ -252,6 +289,9 @@ class Product
 								'supplier_id' => $this->getSupplierId(),
 								'price' => $this->getPrice());
 		$this->db->start()->update('product', $arrayProduct, array(array('id', '=', $this->getId())));
+		//echo $this->getId();
+		$this->db->start()->delete('product_media', array(array('product_id', '=', $this->getId())));
+		$this->db->insert('product_media', array('product_id' => $this->getId(), 'media_id' => $this->getImg()));
 	}
 
 	//Deze functie verwijderd een product

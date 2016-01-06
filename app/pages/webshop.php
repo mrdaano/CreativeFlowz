@@ -75,10 +75,10 @@ $gevonden = false;
                             <div class="product">
                                 <div class="productimg">
                                     <a href="<?php echo $url . '&viewproduct=' . $Product->getId(); ?>">
-                                        <img class="img" src="img/inductiewarmer.jpg"/>
+                                        <img class="img" src="<?= $Product->getImgPath() ?>"/>
                                     </a>
                                     <div class="view">
-                                        <a href="<?php echo $url . '&viewproduct=' . $Product->getId(); ?>">bekijk product</a>
+                                        <a href="<?php echo $url . '&viewproduct=' . $Product->getId(); ?>">Bekijk product</a>
                                     </div>
                                 </div>
                                 <div class="productnr">
@@ -99,7 +99,7 @@ $gevonden = false;
                         <div class="product">
                             <div class="productimg">
                                 <a href="<?php echo $url . '&viewproduct=' . $product->getId(); ?>">
-                                    <img class="img" src="http://media.incoil.se/2012/04/IH25-Aggregat.jpg"/>
+                                    <img class="img" src="<?= $product->getImgPath() ?>"/>
                                 </a>
                                 <div class="view">
                                     <a href="<?php echo $url . '&viewproduct=' . $product->getId(); ?>">Bekijk dit product</a>
