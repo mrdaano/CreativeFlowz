@@ -118,7 +118,7 @@ class Category
 			}
 		}
 		if ($this->_parent == NULl) {
-			$this->db->start()->update('category', array('name' => $this->_name), array(array('id', '=', $this->_id)));
+			$this->db->start()->update('category', array('name' => $this->_name, 'parent' => NULL), array(array('id', '=', $this->_id)));
 			return;
 		} else {
 			$this->db->start()->update('category', array('name' => $this->_name, 'parent' => $this->_parent), array(array('id', '=', $this->_id)));
