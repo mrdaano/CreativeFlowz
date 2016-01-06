@@ -1,5 +1,6 @@
 <?php
 session_start();
+ob_start();
 error_reporting(E_ALL);
 ini_set('display_errors', 0);
 ini_set("log_errors", 1);
@@ -7,6 +8,7 @@ ini_set("error_log", "errors.log");
 spl_autoload_register(function ($class) {
     include 'app/classes/' . $class . '.php';
 });
+$Cookie = new Cookie($_COOKIE);
 $db = new Database;
 $Route = new Route($db);
 $Register = new Register($db);
@@ -16,9 +18,11 @@ if($_SESSION['_user']['id'] > 0){
     $User->checkUserSettings();
 }
 $Domain = new Domain($db);
-$Page = new Page($db);
+$Page = new Page($db, $Cookie);
 $Product = new Product($db);
 $Category = new Category($db);
+
+
 
 ?>
 <!DOCTYPE html>

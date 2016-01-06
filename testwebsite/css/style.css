@@ -1,0 +1,397 @@
+/* algemene stijl */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,700);
+.bold {
+    font-weight: bold;
+}
+.italic {
+    font-style: italic;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body, html {
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+.wrapper{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* dit is de eerste header */
+.header {
+    background-color: #34495e;
+    width: 100%;
+    height: 72px;
+    color: #ffffff;
+}
+li {
+    color: #d7d7d7;
+}
+/* logo */
+.sitename {
+    color: #ffffff;
+    text-decoration: none;
+}
+.sitenameblock {
+    display: inline-block;
+    background-color: #384e63;
+    height: 72px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    line-height: 72px;
+}
+/* site onderdelen */
+.forheader {
+    float: left;
+}
+.forheader li {
+    display: inline-block;
+    margin-left: 10px;
+    line-height: 72px;
+}
+.forheader li a {
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.forheader li.active {
+    background-color: #383f48;
+}
+.active {
+   background-color: #383f48;
+}
+
+/* mijn account en winkelwagen */
+.rightlist {
+    float: right;
+    line-height: 72px;
+}
+.rightlist li {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.rightlist li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.shoppingcart a {
+    border: 1px solid #34495e;
+    background-color: #2b3d4f;
+    padding: 6px 12px;
+}
+
+/* dit is de 2de header */
+.secondheader {
+    background-color: #383f48;
+    width: 100%;
+    height: 106px;
+}
+.customername {
+    float:left;
+    padding-top: 30px;
+    border-right: 1px solid #c3c3c3;
+    padding-right: 20px;
+}
+#customername {
+    color: #ffffff;
+}
+#customer {
+    color: #c3c3c3;
+}
+.customertabs li {
+    display: inline-block;
+    margin-right: 40px;
+    margin-left: 20px;
+    line-height: 106px;
+}
+.customertabs li a {
+    color: #c3c3c3;
+    text-decoration: none;
+}
+
+
+/* dit is de 3de header */
+.thirdheader {
+    background-color: #f6f6f6;
+    width: 100%;
+    height: 150px;
+}
+.thirdheadertable {
+    width: 100%;
+    background-color: #f6f6f6;
+    margin: 0;
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+}
+.thirdheaderhead {
+    background-color: #38526d;
+    border: 1px solid #f6f6f6;
+    color: #ffffff;
+}
+.thirdheaderdata {
+    background-color: #ffffff;
+    border: 1px solid #f6f6f6;
+}
+.textintable {
+    padding: 5px;
+    margin: 5px;
+    color: #666666;
+}
+
+.thirdheaderhead .textintable {
+    color: #ffffff;
+}
+
+.textintable a {
+    text-decoration: none;
+    color: #c3c3c3;
+}
+
+/* dit is de verticale header */
+.fourthheader {
+    background-color: #f6f6f6;
+    width: 330px;
+    height: 900px;
+    float: left;
+}
+
+/* textheader*/
+.textheader {
+    margin-left: 335px;
+    height: auto;
+}
+.productleft {
+    background-color:
+}
+.productmid {
+
+}
+.productright {
+
+}
+
+/* mijn account en winkelwagen */
+.rightlist {
+   float: right;
+ }
+li {
+   height: auto;
+}
+
+/*dit is voor het aanmeld gedeelte*/
+div.login{
+    width: 520px;
+    height: auto;
+    margin: 60px auto;
+    background-color: #f6f6f6;
+    padding: 10px;
+    text-align: center;
+}
+
+input.login{
+  height: 35px;
+  width: 300px;
+  border: solid 1px #d8d8d8;
+  font-size: 16px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+table.login{
+  border-spacing: 15px;
+  text-align: right;
+}
+
+h3.login{
+    color: #333366;
+    font-weight: lighter;
+}
+
+.loginBtn{
+  background-color: #34495e;
+  height: 35px;
+  width: 300px;
+  color: #ffffff;
+  border: solid 1px #d8d8d8;
+  font-size: 16px;
+}
+
+td.line{
+  border: solid 1px #d8d8d8;
+}
+
+a.login{
+  color: #34495e;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+#btw{
+  color: #bbbbbb;
+  font-style: italic;
+}
+
+/* dit gedeelte is voor het contact gedeelte */
+.contact{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+/*dit is voor het CMS gedeelte*/
+.leftheader{
+  background-color: #383f48;
+  width: 330px;
+  height: 100%;
+  float: left;
+}
+
+table.cms{
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.cmsuser{
+  font-size: 24px;
+  font-weight: lighter;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.cmsitalic{
+  font-style: italic;
+  color: #b6b6b6 !important;
+  font-size: 18px !important;
+}
+
+td.cms{
+  border-bottom: solid 1px #5c646e;
+  width: auto;
+  padding: 10px;
+}
+
+a.cms{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+.cmsactive{
+  background-color: #34495e;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: lighter;
+  width: 330px;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.neworders{
+  color: #666666;
+  margin: 10px 30px 10px 30px;
+  background-color: #f6f6f6;
+  width: 65%;
+  height: auto;
+  padding: 15px;
+  float: left;
+}
+
+.media_beheer .btn {
+	background-color: #34495e;
+	padding: 7px 12px;
+	color: #FFF;
+	border-radius: 4px;
+	text-decoration: none;
+	margin: 6px 0;
+	display: inline-flex;
+	border: none;
+}
+
+button, .btn{
+	background-color: #34495e;
+	padding: 7px 12px;
+	color: #FFF;
+	border-radius: 4px;
+	text-decoration: none;
+	margin: 6px 0;
+	display: inline-flex;
+	border: none;
+    cursor: pointer;
+    font-size: 9px;
+}
+
+
+.media_beheer form {
+	margin-top: 15px;
+}
+
+table.cms {
+	margin-top: 20px;
+	width: 100%;
+	border-collapse: collapse;
+}
+
+table a {
+	color: #666666;
+}
+
+table thead th {
+	text-align: left;
+}
+
+table.page td, table.cms th {
+	height: 35px;
+	border-bottom: 1px solid #C1C1C1;
+    padding: 5px;
+}
+
+table tr:last-child td {
+	border-bottom: none;
+}
+table.page tr:nth-child(even){
+    background-color: #E6E6E6;
+}
+table.page tr{
+    -webkit-transition: background 0.3s; /* For Safari 3.1 to 6.0 */
+    transition: background 0.3s;
+}
+table.page tr:hover{
+    background: #486179;
+    color: white;
+}
+div.page ul{
+    list-style-type: none;
+}
+div.page ul li{
+    color: black;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+div.page ul li:first-child{
+    margin-top:10px;
+}
+
+div.page input[type="text"]{
+    padding: 5px;
+    height: 20px;
+    min-width: 300px;
+}
+select{
+        width: 313px;
+    height: 40px;
+    border: 1px solid #d7d7d7;
+    border-radius: 1px;
+    background-color: white;
+}
