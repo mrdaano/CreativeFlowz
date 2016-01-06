@@ -1,4 +1,3 @@
-
 <div class="thirdheader">
     <div class="wrapper">
         <div class="fourthheader">
@@ -24,6 +23,6 @@
 </div>
 <div class="wrapper">
     <div class="textheader">
-        
+
     </div>
 </div>

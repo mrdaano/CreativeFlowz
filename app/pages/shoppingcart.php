@@ -1,4 +1,3 @@
-<<<<<<< HEAD
         <div class="secondheader">
             <div class="wrapper">
                 <div class="customername"><span id="customername">Klantnaam</span><br>
@@ -22,7 +21,6 @@
                 
             </div>
         </div>
-=======
 <?php
 $shoppingcart = new ShoppingCart;
 if(isset($_POST['del_x']) || isset($_POST['del_x'])){
@@ -71,4 +69,4 @@ foreach($shoppingcart->getShoppingcart() as $item) {
   <?php
   }
 ?>
->>>>>>> master
+

@@ -57,8 +57,8 @@ class Route{
                  */
                 
                 if(isset($_GET['sub'])){
-                    $res = $this->db->get('*','page_management', array(array('id', '=', $_GET['sub'])))->first();
-                    if($res->id == ''){
+                    $res = $this->db->get('*','page_management', array(array('name', '=', $_GET['sub'])))->first();
+                    if($res->name == ''){
                         $include = $root.'/404.php';
                     }else{
                         //$include = 'index.php?page=site&sub='.$_GET['sub'];
@@ -96,11 +96,10 @@ class Route{
         return $include;
     }
     
-    public function getDbPage($id){
-        if($id == '' OR !is_numeric($id)){
-            $id = 1;
-        }else{
-             $res = $this->db->get('*','page_management', array(array('id', '=', $_GET['sub'])))->first();
+    public function getDbPage($name){
+        // Voorbeeld Link: index.php?page=site&sub=Test%20Test
+       if($name != ''){
+             $res = $this->db->get('*','page_management', array(array('name', '=', $_GET['sub'])))->first();
              echo $res->content;
         }
     

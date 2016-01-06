@@ -12,10 +12,10 @@ if(isset($_POST['save'])){
     }
 }
 ?>
-<a href='/index.php?page=cms&module=page'><button>Annuleren</button></a><form method='post'><input class='btn' type='submit' name='save' value='Opslaan'>
+<form method='post'><input class='btn' type='submit' name='save' value='Opslaan'> <a class='btn' href='/index.php?page=cms&module=page'>Annuleren</a>
     <?php echo '<div class="msg">'.$response."</div>";?>
     <ul>
-        <li>Naam:</i>
+        <li>Naam van de pagina: </i>
         <li><input type='text' name='name'></li>
         <li>Titel:</i>
         <li><input type='text' name='title'></li>
