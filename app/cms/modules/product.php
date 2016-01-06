@@ -116,14 +116,7 @@
 							</option>
 						<?php } 
 					} ?>
-					<option value="addsupplier" id="addsupplier">Leverancier toevoegen</option>
 				</select><br>
-				<div id="showaddsupplier">
-					Naam van nieuwe leverancier: <br>
-					<input type="text" name="addsuppliername"><br>
-					Website van leverancier:<br>
-					<input type="text" name="addsuppliersite"><br><br>
-				</div>
 				Prijs:<br>
 				<input type="text" name="price" value="<?php echo $product->getPrice(); ?>"><br>
 			</div>
