@@ -9,8 +9,8 @@
 </div>
 <?php
 if(isset($_GET['module'])){
-    if(file_exists('app/pages/modules/'.$_GET['module'].'.php')){
-        include('app/pages/modules/'.$_GET['module'].'.php');
+    if(file_exists('app/pages/module/'.$_GET['module'].'.php')){
+        include('app/pages/module/'.$_GET['module'].'.php');
     }else{
         include('app/pages/404.php');
     }
