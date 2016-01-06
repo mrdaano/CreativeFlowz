@@ -3,3 +3,7 @@ KBS.sublime-project
 app/.DS_Store
 
 app/classes/Database.php
+
+errors.log
+
+errors.log
