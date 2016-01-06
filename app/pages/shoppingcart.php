@@ -12,22 +12,16 @@ if(isset($_POST['amount'])){
 }
  ?>
  <script language="JavaScript" type="text/javascript">
-function checkform ( form ){
-  if (form.amount.value <0) {
-    form.amount.focus();
+ $(document).ready(function() {
+   $('.productAmount').on('change', checkform);
+ });
+function checkform (){
+  if ($(this).val() < 0) {
   }else {
-      form.amount.submit();
+      $(this).parent().submit();
   }
 }
-//-->
 </script>
-  <!-- dit was om te laten zien dat het werkt, miss nog handig voor de webshop hebben ze een Voorbeeld hoe het werkt.
-  <form method="post">
-   ID om toe te voegen <input type="number" name="itemId">
-   <input type="submit" value="Voeg item toe aan winkelwagen"><br/>(dit is tijdelijk en alleen voor nu om te laten zien dat het werkt, dit gaat natuurlijk later rechtstreeks vanaf de webshop;)<br/>
-   <?php if(isset($_POST[itemId])){
-     $shoppingcart->addItem($_POST[itemId]);
-   } ?> -->
 
 <br/>
 <div class="top row">
@@ -47,7 +41,7 @@ foreach($shoppingcart->getShoppingcart() as $item) {
     <div class="productAmount">
       <form method="post" action="#" id="amount">
         <input type="hidden" name="product" value="<?php echo $product->id; ?>">
-        <input type="number" min="0" value="<?php echo $item->amount; ?>" class="productAmount" name="amount" onchange="checkform()">
+        <input type="number" min="0" value="<?php echo $item->amount; ?>" class="productAmount" name="amount">
       </form>
     </div>
     <div class="subtotaal"><?php echo "&euro;{$price}"; ?></div>
