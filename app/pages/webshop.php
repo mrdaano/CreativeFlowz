@@ -9,20 +9,16 @@ $gevonden = false;
                 <div class="fourthheader">
                     <table class="thirdheadertable">
                         <tr class="thirdheaderhead">
-                            <td class="textintable">categoriën</td>
+                            <td class="textintable">Categoriën</td>
                         </tr>
                             <tr class="thirdheaderdata">
-                            <td class="textintable" class="activecategorie"><a href="index.php?page=webshop">- alles</a></td>
+                            <td class="textintable"><a href="<?= $url ?>">- Alles</a></td>
                         </tr>
-                        <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="index.php?page=alescowebshop">- alesco</a></td>
-                        </tr>
-                        <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="index.php?page=balcowebshop">- balco</a></td>
-                        </tr>
-                        <tr class="thirdheaderdata">
-                            <td class="textintable"><a href="index.php?page=faipwebshop">- faip</a></td>
-                        </tr>
+                       <?php foreach ($Category->getAll(array(array('parent', 'IS', 'NULL'))) as $cat) { ?>
+                           <tr class="thirdheaderdata">
+                               <td class="textintable"><a href="<?= $url . '&category=' . $cat->getId() ?>"><?= $cat->getName() ?></a></td>
+                           </tr>
+                        <?php } ?>
                     </table>
                 </div>
             </div>
@@ -68,18 +64,19 @@ $gevonden = false;
                     $Category->setAuto($_GET['category']);
                     foreach ($Category->getLinkedProducts() as $product) { 
                         if($product[2]) { 
+                            $gevonden = true;
                             $Product->setAuto($product[0]); ?>
                             <div class="product">
                                 <div class="productimg">
-                                    <a href="<?php echo $url . '&viewproduct=' . $product->getId(); ?>">
+                                    <a href="<?php echo $url . '&viewproduct=' . $Product->getId(); ?>">
                                         <img class="img" src="img/inductiewarmer.jpg"/>
                                     </a>
                                     <div class="view">
-                                        <a href="<?php echo $url . '&viewproduct=' . $product->getId(); ?>">bekijk product</a>
+                                        <a href="<?php echo $url . '&viewproduct=' . $Product->getId(); ?>">bekijk product</a>
                                     </div>
                                 </div>
                                 <div class="productnr">
-                                    <?php  echo $product->getName(); ?>   
+                                    <?php  echo $Product->getName(); ?>   
                                     <br>
                                 </div>
                             </div>
@@ -96,13 +93,13 @@ $gevonden = false;
                         <div class="product">
                             <div class="productimg">
                                 <a href="<?php echo $url . '&viewproduct=' . $product->getId(); ?>">
-                                    <img class="img" src="img/inductiewarmer.jpg"/>
+                                    <img class="img" src="http://media.incoil.se/2012/04/IH25-Aggregat.jpg"/>
                                 </a>
                                 <div class="view">
-                                    <a href="<?php echo $url . '&viewproduct=' . $product->getId(); ?>">bekijk product</a>
+                                    <a href="<?php echo $url . '&viewproduct=' . $product->getId(); ?>">Bekijk dit product</a>
                                 </div>
                             </div>
-                            <div class="productnr">
+                            <div class="productnr">     
                                 <?php  echo $product->getName(); ?>   
                                 <br>
                             </div>
