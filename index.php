@@ -17,7 +17,8 @@ if($_SESSION['_user']['id'] > 0){
 }
 $Domain = new Domain($db);
 $Page = new Page($db);
-
+$Product = new Product($db);
+$Category = new Category($db);
 
 ?>
 <!DOCTYPE html>

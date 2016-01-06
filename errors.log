@@ -99,3 +99,9 @@
 [06-Jan-2016 10:33:19 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
 [06-Jan-2016 10:33:19 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
 [06-Jan-2016 10:33:19 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 376
+[06-Jan-2016 11:15:06 Europe/Berlin] PHP Notice:  Undefined variable: Category in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/webshop.php on line 17
+[06-Jan-2016 11:15:06 Europe/Berlin] PHP Fatal error:  Call to a member function getAll() on null in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/webshop.php on line 17
+[06-Jan-2016 11:15:14 Europe/Berlin] PHP Notice:  Undefined variable: Category in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/webshop.php on line 17
+[06-Jan-2016 11:15:14 Europe/Berlin] PHP Fatal error:  Call to a member function getAll() on null in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/webshop.php on line 17
+[06-Jan-2016 11:15:16 Europe/Berlin] PHP Notice:  Undefined variable: Category in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/webshop.php on line 17
+[06-Jan-2016 11:15:16 Europe/Berlin] PHP Fatal error:  Call to a member function getAll() on null in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/pages/webshop.php on line 17
