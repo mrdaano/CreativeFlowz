@@ -24,7 +24,7 @@ $Category = new Category($db);
 <!DOCTYPE html>
 <html>
     <head>
-        <title>DeServiceGroup</title>
+        <title>TheServiceGroup</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -53,7 +53,7 @@ $Category = new Category($db);
         
         <div class="header">
             <div class="wrapper">
-                <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
+                <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Theservice</span><span class="italic">Group</span></a></div>
                 <ul class="forheader">
                     <li><a href="index.php?page=aboutus">over ons</a></li>
                     <li><a href="index.php?page=webshop">webshop</a></li>
@@ -76,7 +76,9 @@ $Category = new Category($db);
                 </ul>
             </div>
         </div>
-        
+        <div class="secondheader">
+            <div class="wrapper"></div>
+        </div>
         <?php
             /*
              *  Hier word de route van de website bepaald.
