@@ -151,7 +151,7 @@ li {
 }
 
 .textintablesecond {
-    padding-left: 40px;    
+    padding-left: 40px;
 }
 
 .thirdheaderhead .textintable {
@@ -262,7 +262,7 @@ h3.login{
   width: 300px;
   color: #ffffff;
   border: solid 1px #d8d8d8;
-  font-size: 16px;
+  font-size: 25px;
 }
 
 td.line{
@@ -285,13 +285,18 @@ a.login{
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
+.err{
+  border: solid 1px #CE2A0D !important;
+}
 
 /*dit is voor het CMS gedeelte*/
 .leftheader{
   background-color: #383f48;
-  width: 330px;
+  width: 15%;
   height: 100%;
   float: left;
+  max-width: 300px;
+  min-width:150px;
 }
 
 table.cms{
@@ -365,8 +370,8 @@ button, .btn{
 	margin: 6px 0;
 	display: inline-flex;
 	border: none;
-    cursor: pointer;
-    font-size: 13px;
+  cursor: pointer;
+  font-size: 15px;
 }
 
 
@@ -470,7 +475,9 @@ select{
 .btn_right{
   float: right;
   margin-right: 16%;
+  margin-top: 10px;
 }
+/**einde winkelwagen*/
 
 .product select, .category select {padding: 5px;height: 35px;}
 .category .add {float: right;}
@@ -493,3 +500,36 @@ select{
 
 .accountsettings > form > input[type=checkbox]:checked + .company{display: block;}
 .accountsettings .company {display: none}
+
+/**dit is voor een goeie weergave op mobiele devices*/
+@media all and (max-width: 1000px) {
+  .wrapper {
+    width: 900px;
+  }
+  .fourthheader{
+    width: 250px;
+  }
+   h1{
+     font-size: 25px;
+  }
+  .btn{
+    font-size: 15px;
+  }
+  .neworders{
+    width: 750px;
+  }
+}
+@media all and (max-width: 1280px) {
+  .wrapper {
+    width: 1000px;
+  }
+  .fourthheader{
+    width: 300px;
+  }
+   h1{
+     font-size: 30px;
+  }
+  .neworders{
+    width: 800px;
+  }
+}
