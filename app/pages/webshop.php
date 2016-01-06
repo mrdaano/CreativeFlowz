@@ -14,11 +14,17 @@ $gevonden = false;
                             <tr class="thirdheaderdata">
                             <td class="textintable"><a href="<?= $url ?>">- Alles</a></td>
                         </tr>
-                       <?php foreach ($Category->getAll(array(array('parent', 'IS', 'NULL'))) as $cat) { ?>
-                           <tr class="thirdheaderdata">
-                               <td class="textintable"><a href="<?= $url . '&category=' . $cat->getId() ?>"><?= $cat->getName() ?></a></td>
-                           </tr>
-                        <?php } ?>
+                        <?php foreach ($Category->getAll(array(array('parent', 'IS', 'NULL'))) as $cat) { ?>
+                            <tr class="thirdheaderdata">
+                                <td class="textintable"><a href="<?= $url . '&category=' . $cat->getId() ?>">- <?= $cat->getName() ?></a></td>
+                            </tr>
+                            <?php 
+                            foreach ($Category->getAll(array(array('parent', '=', $cat->getId()))) as $child) { ?>
+                                <tr class="thirdheaderdata">
+                                    <td class="textintablesecond textintable"><a href="<?= $url . '&category=' . $child->getId() ?>">- <?= $child->getName() ?></a></td>
+                                </tr>
+                            <?php }
+                        } ?>
                     </table>
                 </div>
             </div>
@@ -69,10 +75,10 @@ $gevonden = false;
                             <div class="product">
                                 <div class="productimg">
                                     <a href="<?php echo $url . '&viewproduct=' . $Product->getId(); ?>">
-                                        <img class="img" src="img/inductiewarmer.jpg"/>
+                                        <img class="img" src="<?= $Product->getImgPath() ?>"/>
                                     </a>
                                     <div class="view">
-                                        <a href="<?php echo $url . '&viewproduct=' . $Product->getId(); ?>">bekijk product</a>
+                                        <a href="<?php echo $url . '&viewproduct=' . $Product->getId(); ?>">Bekijk product</a>
                                     </div>
                                 </div>
                                 <div class="productnr">
@@ -93,7 +99,7 @@ $gevonden = false;
                         <div class="product">
                             <div class="productimg">
                                 <a href="<?php echo $url . '&viewproduct=' . $product->getId(); ?>">
-                                    <img class="img" src="http://media.incoil.se/2012/04/IH25-Aggregat.jpg"/>
+                                    <img class="img" src="<?= $product->getImgPath() ?>"/>
                                 </a>
                                 <div class="view">
                                     <a href="<?php echo $url . '&viewproduct=' . $product->getId(); ?>">Bekijk dit product</a>

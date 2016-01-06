@@ -16,7 +16,7 @@ body, html {
     height: 100%;
 }
 .wrapper{
-    width: 1000px;
+    width: 1300px;
     margin: 0 auto;
 }
 
@@ -150,6 +150,10 @@ li {
     color: #666666;
 }
 
+.textintablesecond {
+    padding-left: 40px;
+}
+
 .thirdheaderhead .textintable {
     color: #ffffff;
 }
@@ -172,14 +176,47 @@ li {
     margin-left: 335px;
     height: auto;
 }
-.productleft {
-    background-color:
+.product {
+    background-color: #f6f6f6;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    float: left;
 }
-.productmid {
-
+.productimg {
+    width: 200px;
+    height: 150px;
+    background-color: #f6f6f6;
+    position: relative;
 }
-.productright {
-
+.img {
+    width: 200px;
+    height: 150px;
+}
+.productnr {
+    width: 200px;
+    background-color: #c3c3c3;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+.view {
+    float: right;
+    background-color: #34495e;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+}
+.view a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 /* mijn account en winkelwagen */
@@ -225,7 +262,7 @@ h3.login{
   width: 300px;
   color: #ffffff;
   border: solid 1px #d8d8d8;
-  font-size: 16px;
+  font-size: 25px;
 }
 
 td.line{
@@ -248,13 +285,18 @@ a.login{
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
 }
+.err{
+  border: solid 1px #CE2A0D !important;
+}
 
 /*dit is voor het CMS gedeelte*/
 .leftheader{
   background-color: #383f48;
-  width: 330px;
+  width: 15%;
   height: 100%;
   float: left;
+  max-width: 300px;
+  min-width:150px;
 }
 
 table.cms{
@@ -328,8 +370,8 @@ button, .btn{
 	margin: 6px 0;
 	display: inline-flex;
 	border: none;
-    cursor: pointer;
-    font-size: 9px;
+  cursor: pointer;
+  font-size: 15px;
 }
 
 
@@ -389,9 +431,105 @@ div.page input[type="text"]{
     min-width: 300px;
 }
 select{
-        width: 313px;
+    width: 313px;
     height: 40px;
     border: 1px solid #d7d7d7;
     border-radius: 1px;
     background-color: white;
+}
+
+/** dit is voor het winkelwagentje **/
+.row{
+  color: #666666;
+  margin: 5px 30px 0px 35px;
+  background-color: #f6f6f6;
+  width: 80%;
+  height: auto;
+  padding: 15px 25px 30px 25px;
+}
+
+.row div {
+  float: left;
+  margin-right: 10px;
+  margin-left: 5px;
+}
+
+.productName{
+  width: 300px;
+}
+.productPrice {
+  width: 100px;
+}
+.productAmount{
+  width: 100px;
+}
+.subtotaal{
+  width: 120px;
+}
+.productAmount input{
+  width: 40px;
+}
+.delete{
+  width: 20px;
+}
+.btn_right{
+  float: right;
+  margin-right: 16%;
+  margin-top: 10px;
+}
+/**einde winkelwagen*/
+
+.product select, .category select {padding: 5px;height: 35px;}
+.category .add {float: right;}
+.category .show {width: calc(100% - 370px);}
+.category .edit {float: left;}
+.category .linkedProducts {float: right;margin-right: 150px;}
+.category .edit a {text-decoration: none;}
+
+.product .link a, .product .mid a {text-decoration: none;}
+.product textarea {width: 300px; height: 200px; padding: 5px; font-size: 14px; font-family: 'Open Sans', sans-serif;}
+.product .edit {float: left; margin-right: 150px;}
+.product .category {float: left;}
+.product .category ul ul {margin-left: 40px;}
+.product .mid {float: left; width: 300px; margin-right: 150px; margin-top: 15px;}
+.product .cms img {width: 100%; height: 300px;}
+.product .radioimg img {width: 180px; margin-right: -180px; margin-bottom: -5px;}
+.product .radioimg {margin-right: 180px;}
+.product .supplier .add {float: right;}
+.product .supplier .show {width: calc(100% - 370px);}
+
+.accountsettings > form > input[type=checkbox]:checked + .company{display: block;}
+.accountsettings .company {display: none}
+
+/**dit is voor een goeie weergave op mobiele devices*/
+@media all and (max-width: 1000px) {
+  .wrapper {
+    width: 900px;
+  }
+  .fourthheader{
+    width: 250px;
+  }
+   h1{
+     font-size: 25px;
+  }
+  .btn{
+    font-size: 15px;
+  }
+  .neworders{
+    width: 750px;
+  }
+}
+@media all and (max-width: 1280px) {
+  .wrapper {
+    width: 1000px;
+  }
+  .fourthheader{
+    width: 300px;
+  }
+   h1{
+     font-size: 30px;
+  }
+  .neworders{
+    width: 800px;
+  }
 }

@@ -26,10 +26,11 @@
 		$product->setSecondhand($_POST['secondhand']);
 		$product->setDescription($_POST['description']);
 		$product->setPrice($_POST['price']);
-		if (isset($_POST['addsupplier'])) {
-			$product->newSupplier($_POST['addsuppliername'], $_POST['addsuppliersite']);
+		$product->setSupplierId($_POST['supplier']);
+		if (isset($_POST['img']) && $_POST['img'] != 'null') {
+			$product->setImg($_POST['img']);
 		} else {
-			$product->setSupplierId($_POST['supplier']);
+			$product->setImg(null);
 		}
 
 		$product->controle();
@@ -59,6 +60,7 @@
 		$product->setDescription(null);
 		$product->setSupplierId(null);
 		$product->setPrice(null);
+		$product->setImg(null);
 		$showForm = true;
 	}
 
@@ -116,20 +118,25 @@
 							</option>
 						<?php } 
 					} ?>
-					<option value="addsupplier" id="addsupplier">Leverancier toevoegen</option>
 				</select><br>
-				<div id="showaddsupplier">
-					Naam van nieuwe leverancier: <br>
-					<input type="text" name="addsuppliername"><br>
-					Website van leverancier:<br>
-					<input type="text" name="addsuppliersite"><br><br>
-				</div>
 				Prijs:<br>
 				<input type="text" name="price" value="<?php echo $product->getPrice(); ?>"><br>
 			</div>
 			<div class="mid">
-				Productafbeelding:
-				<img src="..."><br>
+				Productafbeelding:<br>
+				<input type="radio" <?php if($product->getImg() == null) { echo 'checked'; } ?> value="null" name="img"> Geen afbeelding<br>
+				<?php 
+				$media = new Media();
+				foreach ($media->getMedia() as $photo) { 
+					if ($media->getType($photo->name) == 'Afbeelding') { ?>
+						<label  class="radioimg">
+							<img src="<?php echo $photo->path . '/' . $photo->name; ?>">
+							<input type="radio" name="img" value="<?= $photo->id ?>" <?php if($photo->id == $product->getImg()) { echo 'checked'; } ?>>
+						</label>
+					<?php } ?>
+				<?php }
+				?>
+				<br>
 				<input type="submit" value="Opslaan" class="btn"><br>
 				<a href="<?php echo $location; ?>"><button  type="button">Ga terug</button></a>
 				<?php if(isset($_GET['e']) || isset($_GET['id'])) { ?>
