@@ -164,7 +164,7 @@ class Product
 
 	public function getSupplierId()
 	{
-		return $this->_supplier_id;
+		return number_format($this->_supplier_id, 2, ',', '');
 	}
 
 	public function getSupplierName() {
@@ -364,8 +364,8 @@ class Product
 		if (!is_numeric($price)) {
 			return false;
 		} else {
-			$price = number_format($price, 2, ',', '');
-				$this->setPrice($price);
+			$price = number_format($price, 2, '.', '');
+			$this->setPrice($price);
 			return true;
 		}
 	}
