@@ -36,7 +36,9 @@ foreach($shoppingcart->getShoppingcart() as $item) {
   $product = $shoppingcart->getProduct($item->product_id);
   $price = number_format(($product->price), 2, ',', '.');
   $qty = $item->amount;
-  $subtotaal = number_format((str_replace(',', '.', $price)) * (str_replace(',', '.', $qty)), 2, ',', '.')
+  $subtotaal = ($product->price * $qty);
+  str_replace('.', ',', $subtotaal);
+  $subtotaal = number_format($subtotaal, 2, ',', '.');
   ?>
   <div class="row">
     <div class="productName"><?php echo "{$product->name}"?></div>
@@ -56,6 +58,8 @@ foreach($shoppingcart->getShoppingcart() as $item) {
   </div>
   <?php
   }
+  $test = $shoppingcart->getShoppingcart();
+  print_r($test);
 ?>
 <div class="btn_right">
   <a href="" class="btn">Order plaatsen</a>

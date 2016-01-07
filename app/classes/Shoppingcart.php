@@ -94,15 +94,10 @@ class ShoppingCart {
       ))->first();
     }
 
-    public function getErrors() {
-		return $this->errors;
-	}
+    public function getTotalPrice(){
 
-	private function addError($error) {
-		if (is_string($error)) {
-			array_push($this->errors, $error);
-		}
-	}
+    }
+
 }
 
 ?>
