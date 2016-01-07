@@ -32,10 +32,9 @@
 </div>
 <div class="wrapper">
     <div class="textheader">
-      <br/><br/><br/><br/><br/>
-      <p class="login"> Wilt u contact met ons opnemen, kan dat ook met onderstaand formulier</p>
+      <p class="contact"> Wilt u contact met ons opnemen, kan dat ook met onderstaand formulier of de gegevens aan de linkerkant</p>
       <br/>
-      <form method="post">
+      <form method="post" class="contact">
         Naam<br/><input type="text" name="name" class="login"><br/>
         E-mail<br/><input type="text" name="mail" class="login"><br/>
         Telefoon<br/><input type="text" name="phone" class="login"><br/>

@@ -35,8 +35,8 @@ if(isset($_POST['amount'])){
 foreach($shoppingcart->getShoppingcart() as $item) {
   $product = $shoppingcart->getProduct($item->product_id);
   $price = number_format(($product->price), 2, ',', '.');
-  $qty = number_format(($item->amount), 2, ',', '.');
-  $subtotaal = number_format(($price * $qty), 2, ',', '.')
+  $qty = $item->amount;
+  $subtotaal = number_format((str_replace(',', '.', $price)) * (str_replace(',', '.', $qty)), 2, ',', '.')
   ?>
   <div class="row">
     <div class="productName"><?php echo "{$product->name}"?></div>
