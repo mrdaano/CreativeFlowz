@@ -1,14 +1,10 @@
 <?php
-<<<<<<< HEAD
 session_start();
 ob_start();
-=======
-session_start(); 
->>>>>>> origin/development
 error_reporting(E_ALL);
 ini_set('display_errors', 0);
 ini_set("log_errors", 1);
-ini_set("error_log", "errors.log"); 
+ini_set("error_log", "errors.log");
 spl_autoload_register(function ($class) {
     include 'app/classes/' . $class . '.php';
 });
@@ -44,7 +40,7 @@ $Category = new Category($db);
         <script type='text/javascript'>
         $( document ).ready(function() {
             //$('textarea').jqte();
-            
+
             // settings of status
             var jqteStatus = true;
             $(".status").click(function()
@@ -52,13 +48,13 @@ $Category = new Category($db);
                 jqteStatus = jqteStatus ? false : true;
                 $('.jqte-test').jqte({"status" : jqteStatus})
             });
-            
-            
+
+
         });
 </script>
     </head>
     <body>
-        
+
         <div class="header">
             <div class="wrapper">
                 <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Theservice</span><span class="italic">Group</span></a></div>
@@ -69,7 +65,7 @@ $Category = new Category($db);
                 </ul>
                 <ul class="rightlist">
                     <?php
-                    
+
                     if($_SESSION['_user']['id'] > 0){
                         ?>
                          <li class="shoppingcart"><a href="index.php?page=shoppingcart"><img class="shoppingcartimg" src="img/shopping-cart12.png" width="20"/> winkelwagen</a><li>
@@ -80,7 +76,7 @@ $Category = new Category($db);
                          <li><a href="index.php?page=login">aanmelden</a></li>
                         <?php
                     }?>
-                   
+
                 </ul>
             </div>
         </div>
@@ -98,13 +94,13 @@ $Category = new Category($db);
                 }else{
                     include($Route->request($_GET));
                 }
-               
+
             }else{
                 echo '<div class="wrapper">';
                 echo $Page->getHomepage();
                 echo '</div>';
-            }   
+            }
         ?>
-        
+
     </body>
 </html>
