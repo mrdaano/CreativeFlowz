@@ -8,10 +8,9 @@ class Ordersystem {
         $this->db->start();
     }
 
-    public function setOrder() {
+    private function setOrderId() {
     	Database::start()->insert('order', array(
-    		'user_id' = $_SESSION['_user']['id'],
-
+    		'user_id' = $_SESSION['_user']['id']
     	));
 
     	$this->order_id = Database::lastId();
@@ -22,16 +21,23 @@ class Ordersystem {
     			array('user_id', '=', $_SESSION['_user']['id'])
     		))->results();
 
+    	$this->setOrderId();
+
     	foreach($products as $key => $product) {
-    		$this->setOrderLine($product->product_id, $product->amount);
+    		$this->setOrderLine($this->order_id, $product->product_id, $product->amount);
     	}
     }
 
-    private function setOrderLine($id, $amount) {
+    private function setOrderLine($order_id, $product_id, $amount) {
 		Database::start()->insert('order_line', array(
-				'user_id' = $_SESSION['_user']['id'],
+				'order_id' = $order_id,
 				'amount' => $amount,
 				'product_id' => $product_id,
 			));
     }
+
+    public function myOrders() {
+    	// return order
+    }
 }
+	
