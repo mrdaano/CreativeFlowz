@@ -198,13 +198,13 @@ class User{
             }
 
             if ($this->country == "Nederland") {
-                $numericzip = $this->zip[0] . $this->zip[1] . $this->zip[2] . $this->zip[3];
-                $alphabet =  array('a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z');
-                if (strlen($this->zip) != 6) {
+                $zip = str_replace(' ', '', $this->zip);
+                $numericzip = $zip[0] . $zip[1] . $zip[2] . $zip[3];
+                if (strlen($zip) != 6) {
                     $this->error = "Er is een ongeldige postcode ingevuld!";
                 } elseif (!is_numeric($numericzip)) {
                     $this->error = "Er is een ongeldige postcode ingevuld!";     
-                } elseif (!array_search(strtolower($this->zip[4]), $alphabet) > -1 && !array_search(strtolower($this->zip[5]), $alphabet) > -1) {
+                } elseif (!ctype_alpha($zip[4]) || !ctype_alpha($zip[5])) {
                     $this->error = "Er is een ongeldige postcode ingevuld!";
                 }
             }
