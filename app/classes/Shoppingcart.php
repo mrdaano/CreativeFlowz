@@ -95,7 +95,13 @@ class ShoppingCart {
     }
 
     public function getTotalPrice(){
-
+      foreach($this->getShoppingcart() as $item){
+        $product = $this->getProduct($item->product_id);
+        $price = $product->price;
+        $qty = $item->amount;
+        $subtotal = ($product->price * $qty);
+        
+      }
     }
 
 }
