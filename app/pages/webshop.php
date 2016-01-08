@@ -32,23 +32,28 @@ $gevonden = false;
         <div class="wrapper">
             <div class="textheader">
                 <?php
-                //Viewuw sadf psdafa
+                //View product
                 if (isset($_GET['viewproduct'])) {
                     $Product->setAuto($_GET['viewproduct']); 
                     foreach ($Product->getAll() as $product){
                         if ($_GET['viewproduct'] == $product->getId()) { 
                             $gevonden = true; ?>
+                            <div class="all">
                             <ul>
                                 <li>
-                                    <?php echo $product->getName();?>
+                                    <img class="imgspec" src="<?= $product->getImgPath() ?>"/>
                                 </li>
-                                <li>
+
+                                <li><div class="namespec">
+                                    <?php echo  $product->getName();?>
+                                </li></div class="secondspec">
+                                <li><div>
                                     <?php if ($product->getSecondhand() == 0) {  
                                         echo 'nee';
                                     } else {
                                         echo 'ja';         
                                     } ?>
-                                </li>
+                                </li></div>
                                 <li>
                                     <?php echo $product->getDescription();?>
                                 </li>
@@ -61,7 +66,7 @@ $gevonden = false;
                             </ul>
                             <a href="<?php echo 'index.php?page=order&id=' . $product->getId(); ?> ">
                                 Bestellen
-                            </a>
+                            </a></div>
                         <?php } 
                     }
                 } 

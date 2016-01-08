@@ -544,3 +544,23 @@ select{
     width: 800px;
   }
 }
+/** dit is voor specifieke product **/
+
+.imgspec{
+  width: 350px;
+    height: 350px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #f6f6f6;
+    position: relative;
+}
+.namespec{
+  float: right; 
+  margin-right: 500px;
+  color: black;
+}
+.secondspec{
+  float: right; 
+  margin-left: 500px;
+  color: black;
+}
