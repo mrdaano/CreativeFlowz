@@ -32,6 +32,7 @@ if(isset($_POST['amount'])){
   <div class="subtotaal bold">Subtotaal</div>
 </div>
 <?php
+$total_price = array();
 foreach($shoppingcart->getShoppingcart() as $item) {
   $product = $shoppingcart->getProduct($item->product_id);
   $price = number_format(($product->price), 2, ',', '.');
@@ -39,6 +40,7 @@ foreach($shoppingcart->getShoppingcart() as $item) {
   $subtotaal = ($product->price * $qty);
   str_replace('.', ',', $subtotaal);
   $subtotaal = number_format($subtotaal, 2, ',', '.');
+  $total_price[] = $subtotaal;
   ?>
   <div class="row">
     <div class="productName"><?php echo "{$product->name}"?></div>
@@ -58,8 +60,7 @@ foreach($shoppingcart->getShoppingcart() as $item) {
   </div>
   <?php
   }
-  $test = $shoppingcart->getShoppingcart();
-  print_r($test);
+  print_r($total_price);
 ?>
 <div class="btn_right">
   <a href="" class="btn">Order plaatsen</a>
