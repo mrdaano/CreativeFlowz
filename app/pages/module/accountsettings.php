@@ -33,7 +33,15 @@
 			Huisnummer <br><input type="text" name="housenumber" value="<?= $User->housenumber() ?>"><br>
 			Toevoeging <br><input type="text" name="addition" value="<?= $User->addition() ?>"><br>
 			Plaats <br><input type="text" name="city" value="<?= $User->city() ?>"><br>
-			Land <br><input type="text" name="country" value="<?= $User->country() ?>"><br>
+			Land <br>
+			<select name="country">
+				<?php foreach ($User->Landen() as $afkorting => $land) { ?>
+					<option value="<?= $land ?>" <?php if ($land == $User->country()) {
+						echo "selected";
+					} ?>><?= $land ?></option>
+				<?php }	?>
+			</select><br>
+
 			Telefoonnummer <br><input type="text" name="phone_number" value="<?= $User->phone_number() ?>"><br><br>
 			<br><input type="checkbox" name="company" <?php if($User->company()) {echo "checked";} ?>>Bedrijf
 			<div class="company">
@@ -63,6 +71,5 @@
 			<b>BTW-nummer: </b> <?= $User->tax() ?><br>
 		<?php } 
 	} 
-
-	//print_r($_SESSION)?>
+	?>
 </div>
