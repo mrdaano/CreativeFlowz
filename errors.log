@@ -413,3 +413,60 @@ Stack trace:
 [06-Jan-2016 19:08:42 Europe/Berlin] PHP Notice:  Array to string conversion in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Database.php on line 42
 [06-Jan-2016 19:08:42 Europe/Berlin] PHP Notice:  Array to string conversion in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Database.php on line 42
 >>>>>>> origin/development
+[08-Jan-2016 11:31:07 Europe/Berlin] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)' in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php:8
+Stack trace:
+#0 /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php(8): PDO->__construct('mysql:host=loca...', 'root', 'usbw')
+#1 /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/index.php(12): Database->__construct()
+#2 {main}
+  thrown in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 8
+[08-Jan-2016 11:31:24 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:31:26 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:39:52 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:39:55 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:39:56 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:40:03 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:40:04 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:40:05 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:40:06 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:40:07 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:40:13 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:40:40 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:40:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Ordersystem.php on line 13
+[08-Jan-2016 11:40:56 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:40:58 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:40:58 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Ordersystem.php on line 13
+[08-Jan-2016 11:41:06 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:41:09 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:41:09 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Ordersystem.php on line 13
+[08-Jan-2016 11:41:14 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:41:16 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:41:16 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Ordersystem.php on line 13
+[08-Jan-2016 11:43:33 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:43:34 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:44:41 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:44:43 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:47:11 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:47:49 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:47:51 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:47:51 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Ordersystem.php on line 13
+[08-Jan-2016 11:50:09 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:50:12 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:50:12 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Ordersystem.php on line 13
+[08-Jan-2016 11:54:21 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:54:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 11:54:23 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Ordersystem.php on line 13
+[08-Jan-2016 12:01:54 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 12:03:54 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 12:03:54 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Ordersystem.php on line 11
+[08-Jan-2016 12:04:11 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 12:05:24 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 12:05:24 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Ordersystem.php on line 11
+[08-Jan-2016 12:07:23 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 12:07:25 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 12:07:25 Europe/Berlin] PHP Deprecated:  Non-static method Database::lastId() should not be called statically, assuming $this from incompatible context in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Ordersystem.php on line 14
+[08-Jan-2016 12:07:25 Europe/Berlin] PHP Notice:  Undefined property: Ordersystem::$_pdo in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 385
+[08-Jan-2016 12:07:25 Europe/Berlin] PHP Fatal error:  Call to a member function lastInsertId() on null in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 385
+[08-Jan-2016 12:10:34 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 12:10:35 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 12:10:37 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
+[08-Jan-2016 12:12:28 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Users/stanermers/Documents/NetBeansProjects/github/KBS2.rtf/app/classes/Database.php on line 389
