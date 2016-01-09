@@ -544,11 +544,11 @@ select{
     width: 800px;
   }
 }
-/** dit is voor specifieke product **/
+/** dit is voor specifiek product **/
 
 .imgspec{
-  width: 350px;
-    height: 350px;
+  width: 600px;
+    height: 500px;
     margin-top: 10px;
     margin-left: 10px;
     background-color: #f6f6f6;
@@ -556,11 +556,21 @@ select{
 }
 .namespec{
   float: right; 
-  margin-right: 500px;
+    margin-top: 100px;
   color: black;
 }
 .secondspec{
-  float: right; 
-  margin-left: 500px;
+    float: right; 
+    margin-top: 0px;
+    margin-right: 100px;
   color: black;
+}
+.supplierspec{
+
+}
+.pricespec{
+
+}
+.descrspec{
+
 }

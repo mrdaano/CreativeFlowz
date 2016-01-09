@@ -38,35 +38,29 @@ $gevonden = false;
                     foreach ($Product->getAll() as $product){
                         if ($_GET['viewproduct'] == $product->getId()) { 
                             $gevonden = true; ?>
-                            <div class="all">
-                            <ul>
-                                <li>
-                                    <img class="imgspec" src="<?= $product->getImgPath() ?>"/>
-                                </li>
-
-                                <li><div class="namespec">
-                                    <?php echo  $product->getName();?>
-                                </li></div class="secondspec">
-                                <li><div>
+                                <img class="imgspec" src="<?= $product->getImgPath() ?>"/>
+                                <div class="namespec">
+                                    <?php echo 'productnaam:' . $product->getName();?>
+                                </div>
+                                <div class="secondspec">
                                     <?php if ($product->getSecondhand() == 0) {  
-                                        echo 'nee';
+                                        echo 'tweedehans: nee';
                                     } else {
-                                        echo 'ja';         
+                                        echo 'tweedehans: ja';         
                                     } ?>
-                                </li></div>
-                                <li>
-                                    <?php echo $product->getDescription();?>
-                                </li>
-                                <li>
-                                    <?php echo $product->getSupplierName();?>
-                                </li>
-                                <li>
-                                    <?php echo $product->getPrice();?>
-                                </li>
-                            </ul>
+                                </div>
+                                <div class="supplierspec">    
+                                    <?php echo 'leverancier: ' . $product->getSupplierName();?>
+                                </div>   
+                                <div class="pricespec"> 
+                                    <?php echo 'prijs: ' . $product->getPrice();?>
+                                </div>
+                                <div class="descrspec">
+                                    <?php echo 'beschrijving: ' . $product->getDescription();?>
+                                </div>
                             <a href="<?php echo 'index.php?page=order&id=' . $product->getId(); ?> ">
                                 Bestellen
-                            </a></div>
+                            </a>
                         <?php } 
                     }
                 } 
