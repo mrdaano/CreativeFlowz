@@ -482,6 +482,10 @@ select{
 .delete{
   width: 20px;
 }
+.totaal{
+  width: 150px;
+  float: right;
+}
 .btn_right{
   float: right;
   margin-right: 16%;
@@ -555,12 +559,12 @@ select{
     position: relative;
 }
 .namespec{
-  float: right; 
+  float: right;
   margin-right: 500px;
   color: black;
 }
 .secondspec{
-  float: right; 
+  float: right;
   margin-left: 500px;
   color: black;
 }
