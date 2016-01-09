@@ -10,21 +10,22 @@
 
 			foreach($orderline as $key => $line) {
 				$products = myOrder::getProduct($line->product_id);
-			}
-		}
-
+		}	
 	?>
 	<div class="leftside">
 		order: <?php echo "{$order->id}"?><br><br>
-		products: <?php echo "{$product->name}"?><br>
+		products: <?php echo "{$product->name}"?><br>	
 		price: <?php echo "&euro;{$price}" ?><br>
-		amount:<br>
-
+		amount: <br>
 	</div>
 	<div class="rightside">
-		<br>
-		created_at:<br><br><br>
+		userid: <br>
+		created at:<br><br><br>
 		totalprice:
 	</div>
+	<?php
+			}
+	?>
+	
 </div>
 </div>

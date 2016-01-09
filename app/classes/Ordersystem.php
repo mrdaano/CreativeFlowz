@@ -35,7 +35,7 @@ class Ordersystem {
 			));
     }
 
-    public function myOrders() {
+    public function myOrder() {
     	// return order
     }
 }

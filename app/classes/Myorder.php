@@ -3,8 +3,7 @@
 class myOrder {
 
 public function __construct($db){
-        $this->db = $db;
-        $this->db->start();
+        $this->$db->start();
 }
 
 public function getOrder(){
