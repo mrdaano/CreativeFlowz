@@ -39,28 +39,34 @@ $gevonden = false;
                         if ($_GET['viewproduct'] == $product->getId()) { 
                             $gevonden = true; ?>
                                 <img class="imgspec" src="<?= $product->getImgPath() ?>"/>
+                                <div class="Allspec">
                                 <div class="namespec">
-                                    <?php echo 'productnaam:' . $product->getName();?>
+                                    <?php echo  $product->getName();?>
                                 </div>
                                 <div class="secondspec">
                                     <?php if ($product->getSecondhand() == 0) {  
-                                        echo 'tweedehans: nee';
+                                        echo 'tweedehans product: nee';
                                     } else {
-                                        echo 'tweedehans: ja';         
+                                        echo 'tweedehans product: ja';         
                                     } ?>
                                 </div>
                                 <div class="supplierspec">    
                                     <?php echo 'leverancier: ' . $product->getSupplierName();?>
                                 </div>   
                                 <div class="pricespec"> 
-                                    <?php echo 'prijs: ' . $product->getPrice();?>
+                                    <?php echo 'prijs per stuk: ' . $product->getPrice();?>
                                 </div>
-                                <div class="descrspec">
-                                    <?php echo 'beschrijving: ' . $product->getDescription();?>
-                                </div>
-                            <a href="<?php echo 'index.php?page=order&id=' . $product->getId(); ?> ">
-                                Bestellen
+                                <div class="orderspec">
+                            <a href="<?php echo '' . $product->getId(); ?> ">
+                                klik en bestel
                             </a>
+                            </div>
+                            </div>
+                                <div class="descrspec">
+                                    <b><h2>Artikelomschrijving</h2></b>
+                                    <?php echo  $product->getDescription();?>
+                                </div>
+                                
                         <?php } 
                     }
                 } 

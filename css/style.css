@@ -308,6 +308,11 @@ form.contact{
   max-width: 300px;
   min-width:150px;
 }
+.rightheader{
+  float: right;
+  width: 85%;
+  height: 100%;
+}
 
 table.cms{
   text-align: left;
@@ -384,6 +389,28 @@ button, .btn{
   font-size: 15px;
 }
 
+/*orders*/
+.orders {
+  margin-left: 215px;
+}
+.order {
+  padding: 10px;
+  color: #ffffff;
+  margin: 20px;
+  width: 800px;
+  height: 150px;
+  background-color: #34495E;
+}
+.leftside {
+  float: left;
+  width: 400px;
+  height: 150px;
+}
+.rightside {
+  float: right;
+  width: 400px;
+  height: 150px;
+}
 
 .media_beheer form {
 	margin-top: 15px;
@@ -482,6 +509,10 @@ select{
 .delete{
   width: 20px;
 }
+.totaal{
+  width: 150px;
+  float: right;
+}
 .btn_right{
   float: right;
   margin-right: 16%;
@@ -547,30 +578,53 @@ select{
 /** dit is voor specifiek product **/
 
 .imgspec{
-  width: 600px;
-    height: 500px;
-    margin-top: 10px;
-    margin-left: 10px;
+  width: 550px;
+    height: 450px;
+    float: left;
+    margin: 20px;
     background-color: #f6f6f6;
-    position: relative;
 }
 .namespec{
-  float: right; 
-    margin-top: 100px;
-  color: black;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 25px;
 }
 .secondspec{
-    float: right; 
-    margin-top: 0px;
-    margin-right: 100px;
-  color: black;
+ margin-left: 30px;
+margin-top: 50px;
 }
-.supplierspec{
 
+.supplierspec{
+  margin-left: 30px;
+  margin-top: 25px;
 }
 .pricespec{
-
+ margin-left: 30px;
+ margin-top: 25px;
 }
 .descrspec{
-
+ float: left; 
+ font-size: 17px;
+margin-top: 60px;
+margin-left: 10px;
 }
+.orderspec{
+  margin-left: 80px;
+ margin-top: 200px;
+ background-color: #34495e;
+    border: none;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.Allspec{
+  overflow: auto;
+  font-size: 17px;
+}
+>>>>>>> origin/development
