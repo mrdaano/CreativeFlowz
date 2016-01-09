@@ -389,6 +389,28 @@ button, .btn{
   font-size: 15px;
 }
 
+/*orders*/
+.orders {
+  margin-left: 215px;
+}
+.order {
+  padding: 10px;
+  color: #ffffff;
+  margin: 20px;
+  width: 800px;
+  height: 150px;
+  background-color: #34495E;
+}
+.leftside {
+  float: left;
+  width: 400px;
+  height: 150px;
+}
+.rightside {
+  float: right;
+  width: 400px;
+  height: 150px;
+}
 
 .media_beheer form {
 	margin-top: 15px;
