@@ -308,6 +308,11 @@ form.contact{
   max-width: 300px;
   min-width:150px;
 }
+.rightheader{
+  float: right;
+  width: 85%;
+  height: 100%;
+}
 
 table.cms{
   text-align: left;

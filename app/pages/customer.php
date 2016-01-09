@@ -7,6 +7,7 @@
     </tr>
   </table>
 </div>
+<div class="rightheader"></div>
 <?php
 if(isset($_GET['module'])){
     if(file_exists('app/pages/module/'.$_GET['module'].'.php')){

@@ -1,3 +1,6 @@
+<div class="rightheader">
+<div class="orders">
+	dsafdsafdsa
 <?php
 
 $myOrder = myOrder::getOrder();
@@ -7,8 +10,8 @@ foreach($myOrder as $key => $order) {
 
 	foreach($orderline as $key => $line) {
 		$products = myOrder::getProduct($line->product_id)
-	}
-}
+
 
 ?>
-
+</div>
+</div>
