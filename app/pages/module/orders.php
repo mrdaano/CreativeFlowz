@@ -1,4 +1,4 @@
-<div class="rightheader">
+<div class="neworders page accountsettings">
 <div class="orders">
 	dsafdsafdsa
 <?php
