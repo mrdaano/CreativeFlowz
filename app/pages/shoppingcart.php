@@ -12,6 +12,7 @@ if(isset($_POST['amount'])){
 }
 if(isset($_POST['plaats_order'])) {
   $order = new Ordersystem();
+  $order->getShoppingcart();
 }
  ?>
  <script language="JavaScript" type="text/javascript">
