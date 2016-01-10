@@ -1,13 +1,13 @@
 <?php
 
-class myOrder {
+class allOrders {
 
 public function __construct(){
 }
 
 public function getOrder(){
 	return Database::start()->get('*', 'order', array(
-		array('user_id', '=', $_SESSION['_user']['id'])
+		array('user_id' > 0)
 	))->results();
 }
 
