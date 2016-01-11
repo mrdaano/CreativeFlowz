@@ -206,6 +206,15 @@ li {
     padding-right: 2px;
     padding-bottom: 2px;
 }
+
+.productnr > span{
+    display:inline-block;
+    width:180px;
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
+}
+
 .view {
     float: right;
     background-color: #34495e;

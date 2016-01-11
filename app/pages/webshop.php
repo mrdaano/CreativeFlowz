@@ -71,7 +71,7 @@ $shoppingcart = new Shoppingcart();
                                 <div class="pricespec"> 
                                     <?php echo 'prijs per stuk: ' . number_format($product->getPrice(), 2, ',', '.');?>
                                 </div>
-                                <?php if($shoppingcar->getProduct($))
+                                <?php ?>
                                 <div class="orderspec">
                             <a href="<?php echo $url . "&order=" . $product->getId(); ?> " class="btn">
                                 klik en bestel
@@ -104,9 +104,10 @@ $shoppingcart = new Shoppingcart();
                                     </div>
                                 </div>
                                 <div class="productnr">
-                                    <?php  echo $Product->getName(); ?>   
-                                    <br>
-                                </div>
+                                <span>   
+                                    <?php  echo $product->getName(); ?>
+                                </span>
+                                <br>
                             </div>
                         <?php } 
                     }
@@ -127,8 +128,10 @@ $shoppingcart = new Shoppingcart();
                                     <a href="<?php echo $url . '&viewproduct=' . $product->getId(); ?>">Bekijk dit product</a>
                                 </div>
                             </div>
-                            <div class="productnr">     
-                                <?php  echo $product->getName(); ?>   
+                            <div class="productnr">
+                                <span>   
+                                    <?php  echo $product->getName(); ?>
+                                </span>
                                 <br>
                             </div>
                         </div>
@@ -137,7 +140,7 @@ $shoppingcart = new Shoppingcart();
 
                 //Error
                 if (!$gevonden && (isset($_GET['viewproduct']) || isset($_GET['category']))) {
-                    echo 'Geen producten gevonden!';
+                    echo '<h1>Geen producten gevonden!</h1>';
                 } ?>
             </div>
         </div>  
