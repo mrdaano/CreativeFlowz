@@ -1,7 +1,7 @@
 <?php 
 $url = '?page=webshop';
 $gevonden = false;
-$shoppingcart = new Shoppingcart();
+$Shoppingcart = new Shoppingcart();
 ?>
 
 
@@ -37,7 +37,6 @@ $shoppingcart = new Shoppingcart();
                     $Product->setId($_GET['order']);
 
                     if(count($Product->getAll(array(array('id', '=', $Product->getId())))) > 0) {
-                        $Shoppingcart = new Shoppingcart();
                         $Shoppingcart->addItem($Product->getId());
                         header('location:' . $url . '&viewproduct=' . $Product->getId());
                     } else {
@@ -71,12 +70,25 @@ $shoppingcart = new Shoppingcart();
                                 <div class="pricespec"> 
                                     <?php echo 'prijs per stuk: ' . number_format($product->getPrice(), 2, ',', '.');?>
                                 </div>
-                                <?php if($shoppingcar->getProduct($))
                                 <div class="orderspec">
-                            <a href="<?php echo $url . "&order=" . $product->getId(); ?> " class="btn">
-                                klik en bestel
-                            </a>
-                                </div>
+                                <?php 
+                                $in_shoppingcart = false;
+                                foreach ($Shoppingcart->getShoppingcart() as $pro) {
+                                    if ($pro->product_id == $Product->getId()) {
+                                        $in_shoppingcart = true;
+                                        break;
+                                    }
+                                }
+                                if ($in_shoppingcart) { ?>
+                                    <a href="?page=shoppingcart" class="btn">
+                                        Bekijk winkelwagen
+                                    </a>
+                                    <?php } else { ?>
+                                    <a href="<?php echo $url . "&order=" . $product->getId(); ?> " class="btn">
+                                        Plaats in winkelwagen
+                                    </a>
+                          <?php  } ?>
+                          </div>
                                 </div>
                                 <div class="descrspec">
                                     <b><h2>Artikelomschrijving</h2></b>
