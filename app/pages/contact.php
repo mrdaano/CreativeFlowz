@@ -1,3 +1,7 @@
+<?php if (isset($_POST['name']) && isset ($_POST['mail']) && isset ($_POST['subject']) && isset ($_POST['message']) && isset($_POST['g-recaptcha-response'])) {
+    header("location: http://{$_SERVER['HTTP_HOST']}/app/pages/module/mailcontact.php");
+}else
+ ?>
 <div class="thirdheader">
     <div class="wrapper">
         <div class="fourthheader">
@@ -40,6 +44,7 @@
         Telefoon<br/><input type="text" name="phone" class="login"><br/>
         Onderwerp<br/><input type="text" name="subject" class="login"><br/>
         Bericht<br/><textarea name="message" rows="10" cols="40" class="contact"></textarea><br/>
+        <div class="g-recaptcha" data-sitekey="6LdUCxUTAAAAAJDMYzFoW3eBP9avxZP2MO0W-ZLj"></div>
         <input type="submit" name="send" value="verzenden" class="loginBtn">
       </form>
     </div>

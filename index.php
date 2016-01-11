@@ -37,6 +37,7 @@ $Category = new Category($db);
         <link href='js/plugin/texteditor/jquery-te-1.4.0.css' rel='stylesheet' type='text/css'>
         <script src="js/plugin/ckeditor/ckeditor.js"></script>
         <script src="js/plugin/ckeditor/sample.js"></script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
         <script type='text/javascript'>
         $( document ).ready(function() {
             //$('textarea').jqte();
