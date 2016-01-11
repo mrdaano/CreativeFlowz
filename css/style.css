@@ -579,19 +579,16 @@ select{
 /** dit is voor specifiek product **/
 
 .imgspec{
-  width: 550px;
-    height: 450px;
+  width: 600px;
     float: left;
     margin: 20px;
     background-color: #f6f6f6;
 }
 .namespec{
-  font-weight: bold;
   margin-left: 10px;
   margin-top: 10px;
-  font-size: 25px;
 }
-.secondspec{
+.secondhandspec{
  margin-left: 30px;
 margin-top: 50px;
 }
@@ -605,7 +602,10 @@ margin-top: 50px;
  margin-top: 25px;
 }
 .descrspec{
+<<<<<<< HEAD
  float: left;
+=======
+>>>>>>> origin/development
  font-size: 17px;
 margin-top: 60px;
 margin-left: 10px;
@@ -613,16 +613,6 @@ margin-left: 10px;
 .orderspec{
   margin-left: 80px;
  margin-top: 200px;
- background-color: #34495e;
-    border: none;
-    color: white;
-    padding: 15px 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 12px;
 }
 .Allspec{
   overflow: auto;

@@ -138,7 +138,7 @@ class Product
     	if (isset($path)) {
     		return $path;
     	} else {
-    		return 'img/noimg.png';
+    		return 'img/noimage.png';
     	}
     }
 

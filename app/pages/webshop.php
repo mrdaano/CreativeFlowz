@@ -1,6 +1,7 @@
 <?php 
 $url = '?page=webshop';
 $gevonden = false;
+$Shoppingcart = new Shoppingcart();
 ?>
 
 
@@ -32,8 +33,19 @@ $gevonden = false;
         <div class="wrapper">
             <div class="textheader">
                 <?php
+                if (isset($_GET['order'])) {
+                    $Product->setId($_GET['order']);
+
+                    if(count($Product->getAll(array(array('id', '=', $Product->getId())))) > 0) {
+                        $Shoppingcart->addItem($Product->getId());
+                        header('location:' . $url . '&viewproduct=' . $Product->getId());
+                    } else {
+                        header('location:' . $url);
+                    }
+                }
+
                 //View product
-                if (isset($_GET['viewproduct'])) {
+                elseif (isset($_GET['viewproduct'])) {
                     $Product->setAuto($_GET['viewproduct']); 
                     foreach ($Product->getAll() as $product){
                         if ($_GET['viewproduct'] == $product->getId()) { 
@@ -41,32 +53,49 @@ $gevonden = false;
                                 <img class="imgspec" src="<?= $product->getImgPath() ?>"/>
                                 <div class="Allspec">
                                 <div class="namespec">
+                                <h1>
                                     <?php echo  $product->getName();?>
                                 </div>
-                                <div class="secondspec">
-                                    <?php if ($product->getSecondhand() == 0) {  
-                                        echo 'tweedehans product: nee';
+                                </h1>
+                                <div class="secondhandspec">
+                                    <?php if ($product->getSecondhand() == 1) {  
+                                        echo 'tweedehans product: ja';
                                     } else {
-                                        echo 'tweedehans product: ja';         
+                                        echo '';         
                                     } ?>
                                 </div>
                                 <div class="supplierspec">    
                                     <?php echo 'leverancier: ' . $product->getSupplierName();?>
                                 </div>   
                                 <div class="pricespec"> 
-                                    <?php echo 'prijs per stuk: ' . $product->getPrice();?>
+                                    <?php echo 'prijs per stuk: ' . number_format($product->getPrice(), 2, ',', '.');?>
                                 </div>
                                 <div class="orderspec">
-                            <a href="<?php echo '' . $product->getId(); ?> ">
-                                klik en bestel
-                            </a>
-                            </div>
-                            </div>
+                                <?php 
+                                $in_shoppingcart = false;
+                                foreach ($Shoppingcart->getShoppingcart() as $pro) {
+                                    if ($pro->product_id == $Product->getId()) {
+                                        $in_shoppingcart = true;
+                                        break;
+                                    }
+                                }
+                                if ($in_shoppingcart) { ?>
+                                    <a href="?page=shoppingcart" class="btn">
+                                        Bekijk winkelwagen
+                                    </a>
+                                    <?php } else { ?>
+                                    <a href="<?php echo $url . "&order=" . $product->getId(); ?> " class="btn">
+                                        Plaats in winkelwagen
+                                    </a>
+                          <?php  } ?>
+                          </div>
+                                </div>
                                 <div class="descrspec">
                                     <b><h2>Artikelomschrijving</h2></b>
+                                    <div>
                                     <?php echo  $product->getDescription();?>
                                 </div>
-                                
+                                </div>
                         <?php } 
                     }
                 } 

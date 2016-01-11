@@ -124,7 +124,7 @@ class Database {
 	 */
 	public function insert($table, $params) {
 		if (is_array($params)) {
-			$sql = "INSERT INTO {$table} (";
+			$sql = "INSERT INTO `{$table}` (";
 			$x = 1;
 			$queryEnd = "";
 			$values = array();
