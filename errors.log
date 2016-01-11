@@ -413,3 +413,7 @@ Stack trace:
 [06-Jan-2016 19:08:42 Europe/Berlin] PHP Notice:  Array to string conversion in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Database.php on line 42
 [06-Jan-2016 19:08:42 Europe/Berlin] PHP Notice:  Array to string conversion in D:\XAMPP\htdocs\CreativeFlowz\app\classes\Database.php on line 42
 >>>>>>> origin/development
+[11-Jan-2016 12:30:13 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 12:30:21 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 12:30:50 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 12:30:57 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
