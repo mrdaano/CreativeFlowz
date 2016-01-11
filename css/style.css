@@ -520,6 +520,7 @@ select{
 }
 .totaal{
   width: 150px;
+  margin-left: 100%;
   float: right;
 }
 .btn_right{
@@ -610,6 +611,10 @@ margin-top: 50px;
  margin-top: 25px;
 }
 .descrspec{
+<<<<<<< HEAD
+ float: left;
+=======
+>>>>>>> origin/development
  font-size: 17px;
 margin-top: 60px;
 margin-left: 10px;
@@ -622,4 +627,3 @@ margin-left: 10px;
   overflow: auto;
   font-size: 17px;
 }
->>>>>>> origin/development

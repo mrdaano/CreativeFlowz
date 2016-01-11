@@ -221,7 +221,7 @@ class Database {
 			if (in_array($operator, $operators)) {
 				$sql .= "{$colmn}{$operator}?";
 				if ($x < count($params)) {
-					$sql .=", ";
+					$sql .=" AND ";
 				}
 				$x++;
 				array_push($values, $value);
