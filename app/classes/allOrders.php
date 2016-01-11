@@ -7,19 +7,19 @@ public function __construct(){
 
 public function getOrder(){
 	return Database::start()->get('*', 'order', array(
-		array('user_id' > 0)
+		array('user_id', '>=', '0')
 	))->results();
 }
 
 public function getOrder_line($order_id){
 	return Database::start()->get('*', 'order_line', array(
-		array('id', '=', $order_id)
+		array('order_id', '=', $order_id)
 	))->results();
 }
 
 public function getProduct($id){
 	return Database::start()->get('*', 'product', array(
-		array('product_id', '=', $id)
+		array('id', '=', $id)
 	))->first();
 }
 }

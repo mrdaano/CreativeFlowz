@@ -13,13 +13,13 @@ public function getOrder(){
 
 public function getOrder_line($order_id){
 	return Database::start()->get('*', 'order_line', array(
-		array('id', '=', $order_id)
+		array('order_id', '=', $order_id)
 	))->results();
 }
 
 public function getProduct($id){
 	return Database::start()->get('*', 'product', array(
-		array('product_id', '=', $id)
+		array('id', '=', $id)
 	))->first();
 }
 }
