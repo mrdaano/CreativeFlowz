@@ -519,10 +519,9 @@ select{
 .delete{
   width: 20px;
 }
-.totaal{
-  width: 150px;
-  margin-left: 100%;
-  float: right;
+..totaal{
+  width: 100%;
+  text-align: right;
 }
 .btn_right{
   float: right;
