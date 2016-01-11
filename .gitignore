@@ -2,3 +2,5 @@ KBS.sublime-workspace
 KBS.sublime-project
 errors.log
 errors.log
+
+*.log
