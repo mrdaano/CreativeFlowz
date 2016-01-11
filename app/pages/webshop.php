@@ -1,6 +1,7 @@
 <?php 
 $url = '?page=webshop';
 $gevonden = false;
+$shoppingcart = new Shoppingcart();
 ?>
 
 
@@ -70,6 +71,7 @@ $gevonden = false;
                                 <div class="pricespec"> 
                                     <?php echo 'prijs per stuk: ' . number_format($product->getPrice(), 2, ',', '.');?>
                                 </div>
+                                <?php if($shoppingcar->getProduct($))
                                 <div class="orderspec">
                             <a href="<?php echo $url . "&order=" . $product->getId(); ?> " class="btn">
                                 klik en bestel
