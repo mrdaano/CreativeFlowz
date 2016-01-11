@@ -403,22 +403,23 @@ button, .btn{
   margin-left: 215px;
 }
 .order {
+  overflow: hidden;
   padding: 10px;
   color: #ffffff;
   margin: 20px;
   width: 800px;
-  height: 150px;
+  height: auto;
   background-color: #34495E;
 }
 .leftside {
   float: left;
   width: 400px;
-  height: 150px;
+  height: auto;
 }
 .rightside {
   float: right;
   width: 400px;
-  height: 150px;
+  height: auto;
 }
 
 .media_beheer form {
