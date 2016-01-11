@@ -100,7 +100,7 @@ class ShoppingCart {
         $price = $product->price;
         $qty = $item->amount;
         $subtotal = ($product->price * $qty);
-        
+
       }
     }
 

@@ -3,6 +3,7 @@ if (!isset($_SESSION['_user'])){
   header("location: http://{$_SERVER['HTTP_HOST']}{$_SERVER['SCRIPT_NAME']}?page=login");
 }
 $shoppingcart = new ShoppingCart;
+
 if(isset($_POST['del_x']) || isset($_POST['del_x'])){
   $shoppingcart->deleteItem($_POST['product']);
 }
@@ -47,8 +48,8 @@ foreach($shoppingcart->getShoppingcart() as $item) {
   $subtotaal = number_format($subtotaal, 2, ',', '.');
   ?>
   <div class="row">
-    <div class="productName"><?php echo "{$product->name}"?></div>
-    <div class="productPrice"><?php echo "&euro;{$price}" ?></div>
+    <div class="productName"><?php echo "{$product->name}";?></div>
+    <div class="productPrice"><?php echo "&euro;{$price}"; ?></div>
     <div class="productAmount">
       <form method="post" action="#" id="amount">
         <input type="hidden" name="product" value="<?php echo $product->id; ?>">
@@ -58,9 +59,10 @@ foreach($shoppingcart->getShoppingcart() as $item) {
     <div class="subtotaal"><?php echo "&euro;{$subtotaal}"; ?></div>
     <div class="delete">
       <form method="post" name="deleteForm">
-      <input type="hidden" value="<?php echo $product->id; ?>" name="product">
-      <input type="image" src="img/delete-icon.png" class="delete" name="del">
-    </form></div>
+        <input type="hidden" value="<?php echo $product->id; ?>" name="product">
+        <input type="image" src="img/delete-icon.png" class="delete" name="del">
+      </form>
+  </div>
   </div>
   <?php
   }
