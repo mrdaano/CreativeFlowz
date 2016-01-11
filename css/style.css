@@ -258,6 +258,15 @@ input.login{
   box-sizing: border-box;
 }
 
+select.login{
+  height: 35px !important;
+  width: 300px;
+  border: solid 1px #d8d8d8;
+  font-size: 16px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
 table.login{
   border-spacing: 15px;
   text-align: right;
@@ -285,11 +294,6 @@ a.login{
   color: #34495e;
   text-decoration: none;
   font-size: 14px;
-}
-
-#btw{
-  color: #bbbbbb;
-  font-style: italic;
 }
 
 /* dit gedeelte is voor het contact gedeelte */
@@ -551,6 +555,11 @@ select{
 
 .accountsettings > form > input[type=checkbox]:checked + .company{display: block;}
 .accountsettings .company {display: none}
+.accountsettings .zip {max-width: 55px; margin-top: 5px;}
+.accountsettings .housenumber {max-width: 82px;}
+.accountsettings .addition {max-width: 68px;}
+div.accountsettings input[type="text"]{padding: 5px; height: 20px; width: 300px;}
+
 
 /**dit is voor een goeie weergave op mobiele devices*/
 @media all and (max-width: 980px) {

@@ -175,7 +175,7 @@ class User{
         } elseif (empty($this->country)) {
             $this->error = "Uw land is niet ingevuld!";
         } elseif (empty($this->phone_number)) {
-            $this->error = "Uw telefoonnummr is niet ingevuld!";
+            $this->error = "Uw telefoonnummer is niet ingevuld!";
         } elseif (empty($this->company_name) && $this->company) {
             $this->error = "Uw bedrijfsnaam is niet ingevuld!";
         } elseif ($this->company && empty($this->tax)) {
