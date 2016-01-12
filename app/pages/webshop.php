@@ -33,14 +33,18 @@ $Shoppingcart = new Shoppingcart();
         <div class="wrapper">
             <div class="textheader">
                 <?php
-                if (isset($_GET['order'])) {
-                    $Product->setId($_GET['order']);
-
-                    if(count($Product->getAll(array(array('id', '=', $Product->getId())))) > 0) {
-                        $Shoppingcart->addItem($Product->getId());
-                        header('location:' . $url . '&viewproduct=' . $Product->getId());
+                if (isset($_GET['order']) ) {
+                    if (!isset($_SESSION['_user'])){
+                         header("location: http://{$_SERVER['HTTP_HOST']}{$_SERVER['SCRIPT_NAME']}?page=login");
                     } else {
-                        header('location:' . $url);
+                        $Product->setId($_GET['order']);
+
+                        if(count($Product->getAll(array(array('id', '=', $Product->getId())))) > 0) {
+                            $Shoppingcart->addItem($Product->getId());
+                            header('location:' . $url . '&viewproduct=' . $Product->getId());
+                        } else {
+                            header('location:' . $url);
+                        }
                     }
                 }
 
@@ -70,6 +74,7 @@ $Shoppingcart = new Shoppingcart();
                                 <div class="pricespec"> 
                                     <?php echo 'prijs per stuk: ' . number_format($product->getPrice(), 2, ',', '.');?>
                                 </div>
+
                                 <div class="orderspec">
                                 <?php 
                                 $in_shoppingcart = false;
@@ -79,6 +84,7 @@ $Shoppingcart = new Shoppingcart();
                                         break;
                                     }
                                 }
+                               
                                 if ($in_shoppingcart) { ?>
                                     <a href="?page=shoppingcart" class="btn">
                                         Bekijk winkelwagen
@@ -87,7 +93,8 @@ $Shoppingcart = new Shoppingcart();
                                     <a href="<?php echo $url . "&order=" . $product->getId(); ?> " class="btn">
                                         Plaats in winkelwagen
                                     </a>
-                          <?php  } ?>
+                               
+                                 <?php  } ?>
                           </div>
                                 </div>
                                 <div class="descrspec">
