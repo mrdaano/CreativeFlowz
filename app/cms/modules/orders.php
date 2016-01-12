@@ -9,33 +9,33 @@
 	?>
 		<div class="order">
 		<div class="leftside">
-			order: <?php echo "{$order->id}"?><br><br>
+			Ordernummer: <?php echo "{$order->id}"?><br><br>
 		<?php
 			foreach($orderline as $key => $line) {
 				$product = myOrder::getProduct($line->product_id);
 				$price = ($product->price)
 		?>
-				products: <?php echo "{$product->name}"?><br>	
-				amount: <?php echo "{$line->amount}"?><br>
-				price: <?php echo "&euro;{$price}" ?><br><br>
+				Product: <?php echo "{$product->name}"?><br>	
+				Aantal: <?php echo "{$line->amount}"?><br>
+				Prijs: <?php echo "&euro;{$price}" ?><br><br>
 		<?php
 			}
 		?>
 		</div>
 		<div class="rightside">
-			user: <?php echo "{$order->user_id}"?><br>
-			created: <?php echo "{$order->created_at}"?>
+			Klantnummer: <?php echo "{$order->user_id}"?><br>
+			Tijd van plaatsen: <?php echo "{$order->created_at}"?><br>
 		<?php
 			foreach($orderline as $key => $line) {
 				$product = myOrder::getProduct($line->product_id);
 				$price = ($line->amount * $product->price);
 				$totalprice = $totalprice + $price;
 		?>
-				<br><br><br>subtotal: <?php echo "&euro;{$price}" ?>
+				<br><br>Subtotaal: <?php echo "&euro;{$price}" ?><br><br>
 		<?php
 			}
 		?>
-		<br>Totaal: &euro;<?php echo $totalprice; ?>
+		Totaal: &euro;<?php echo $totalprice; ?>
 		</div>
 	</div>
 	<?php

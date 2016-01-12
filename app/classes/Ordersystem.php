@@ -2,16 +2,15 @@
 
 class Ordersystem {
 
-	private $order_id = 0;
+	private $order_id=0;
 	public function __construct(){
     }
 
     private function setOrderId() {
     	$db = new Database;
     	$db->start()->insert('order', array(
-    		'user_id' => $_SESSION['_user']['id']
+    		'user_id' => $_SESSION['_user']['id'],
     	));
-
     	$this->order_id = $db->lastId();
     }
 
@@ -20,7 +19,12 @@ class Ordersystem {
     			array('user_id', '=', $_SESSION['_user']['id'])
     		))->results();
 
+    	
     	$this->setOrderId();
+
+    print_r($products);
+    print_r($this);
+  
 
     	foreach($products as $key => $product) {  		
     		$this->setOrderLine($this->order_id, $product->product_id, $product->amount);
@@ -36,9 +40,8 @@ class Ordersystem {
 				'product_id' => $product_id,
 			));
     }
-
-    public function myOrders() {
+    /*public function myOrders() {
     	// return order
-    }
+    }*/
 }
 	
