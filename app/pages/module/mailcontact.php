@@ -27,8 +27,8 @@ if (empty($_POST['name'])
 
 $mail_message = "$name\n$mail\n$tel\n\n$message";
 
-$captcha_verify = file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secret."&response=".$captcha_response."&remoteip=".$_SERVER['REMOTE_ADDR']);
-if ($captcha_verify.success==false){
+$captcha_verify = json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secret."&response=".$captcha_response."&remoteip=".$_SERVER['REMOTE_ADDR']), true);
+if ($captcha_verify['success'] == false){
   die();
 }else{
   if ($_POST['send']){
