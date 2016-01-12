@@ -602,41 +602,31 @@ div.accountsettings input[type="text"], div.accountsettings input[type="password
 
 .imgspec{
   width: 600px;
-    float: left;
-    margin: 20px;
-    background-color: #f6f6f6;
+  //float: left;
+  margin: 20px;
+  background-color: #f6f6f6;
 }
+
 .namespec{
   margin-left: 10px;
   margin-top: 10px;
 }
-.secondhandspec{
- margin-left: 30px;
-margin-top: 50px;
-}
 
-.supplierspec{
+.secondhandspec, .supplierspec, .pricespec{
   margin-left: 30px;
   margin-top: 25px;
 }
-.pricespec{
- margin-left: 30px;
+
+.descrspec{
+  margin-left: 20px;
+}
+
+.orderspec{
+ margin-left: 80px;
  margin-top: 25px;
 }
-.descrspec{
-<<<<<<< HEAD
- float: left;
-=======
->>>>>>> origin/development
- font-size: 17px;
-margin-top: 60px;
-margin-left: 10px;
-}
-.orderspec{
-  margin-left: 80px;
- margin-top: 200px;
-}
+
 .Allspec{
-  overflow: auto;
-  font-size: 17px;
+  width: 325px;
+  float: right;
 }

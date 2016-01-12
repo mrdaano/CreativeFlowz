@@ -63,20 +63,34 @@ $Shoppingcart = new Shoppingcart();
                                 <?php echo $product->getName(); ?>
                             </h1>
                         </div>
-                        <div class="secondhandspec">
-                            <?php
-                            if ($product->getSecondhand() == 1) {
-                                echo 'tweedehans product: ja';
-                            } else {
-                                echo '';
-                            }
-                            ?>
+
+                        <?php if ($product->getSecondhand() == 1) { ?>
+                            <div class="secondhandspec">
+                                <b>Dit is een tweedehans product</b>
+                            </div>
+                        <?php } ?>
+
+                        <div class="supplierspec">
+                            <b>Leverancier</b>
+                            <br>
+                            <?php if($product->getSupplierWebsite()) { ?>
+                                <a href="http://<?= $product->getSupplierWebsite() ?>" target="blank">
+                                    <?= $product->getSupplierName(); ?>
+                                </a>
+                            <?php } else { ?>
+                                 <?= $product->getSupplierName(); ?>
+                            <?php } ?>
                         </div>
-                        <div class="supplierspec">    
-                            <?php echo 'leverancier: ' . $product->getSupplierName(); ?>
-                        </div>   
+                        <div class="supplierspec">
+                            <b>Productcode</b>
+                            <br>
+                            <?= $product->getCode(); ?>
+                        </div>
+
                         <div class="pricespec"> 
-                            <?php echo 'prijs per stuk: ' . number_format($product->getPrice(), 2, ',', '.'); ?>
+                            <b>Prijs per stuk</b>
+                            <br>
+                            € <?=number_format($product->getPrice(), 2, ',', '.'); ?> exclusief btw
                         </div>
 
                         <div class="orderspec">
@@ -98,15 +112,12 @@ $Shoppingcart = new Shoppingcart();
                                 <a href="<?php echo $url . "&order=" . $product->getId(); ?> " class="btn">
                                     Plaats in winkelwagen
                                 </a>
-
-            <?php } ?>
+                            <?php } ?>
                         </div>
                     </div>
                     <div class="descrspec">
-                        <b><h2>Artikelomschrijving</h2></b>
-                        <div>
+                        <h2>Artikelomschrijving</h2>
                             <?php echo $product->getDescription(); ?>
-                        </div>
                     </div>
                     <?php
                 }

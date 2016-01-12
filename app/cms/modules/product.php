@@ -309,7 +309,7 @@
 				<td><?= $pro->getName(); ?></td>
 				<td><?= $pro->getDescription(); ?></td>
 				<td><?= $pro->getSupplierName(); ?></td>
-				<td><?= "&euro;{$price}"; ?></td>
+				<td><?= "&euro; {$price} exclusief btw"; ?></td>
 				<td>
 					<a href="<?= $location ?>&e=<?= $pro->getId() ?>">Bewerken</a>
 				</td>
