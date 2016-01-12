@@ -1,4 +1,4 @@
-<div class="neworders page accountsettings">
+<div class="neworders accountsettings">
 	<?php 
 	$showForm = false;
 	$url = '?page=customer&module=accountsettings';
@@ -27,14 +27,22 @@
 		<form method="post" action="<?= $url ?>">
 			Voornaam <br><input type="text" name="firstname" value="<?= $User->firstname() ?>"><br>
 			Achternaam <br><input type="text" name="lastname" value="<?= $User->lastname() ?>"><br>
-			Email <br><input type="text" name="email" value="<?= $User->email() ?>"><br><br>
-			Postcode <br><input type="text" name="zip" value="<?= $User->zip() ?>"><br>
-			Straat <br><input type="text" name="street" value="<?= $User->street() ?>"><br>
-			Huisnummer <br><input type="text" name="housenumber" value="<?= $User->housenumber() ?>"><br>
-			Toevoeging <br><input type="text" name="addition" value="<?= $User->addition() ?>"><br>
-			Plaats <br><input type="text" name="city" value="<?= $User->city() ?>"><br>
-			Land <br><input type="text" name="country" value="<?= $User->country() ?>"><br>
+			Email <br><input type="text" name="email" value="<?= $User->email() ?>"><br>
 			Telefoonnummer <br><input type="text" name="phone_number" value="<?= $User->phone_number() ?>"><br><br>
+			Postcode + huisnummer + toevoeging<br><input type="text" name="zip" value="<?= $User->zip() ?>" class="zip">
+			 + <input type="text" name="housenumber" value="<?= $User->housenumber() ?>" class="housenumber">
+			 + <input type="text" name="addition" value="<?= $User->addition() ?>" class="addition"><br>
+			Straat <br><input type="text" name="street" value="<?= $User->street() ?>"><br>
+			Woonplaats <br><input type="text" name="city" value="<?= $User->city() ?>"><br>
+			Land <br>
+			<select name="country">
+				<?php foreach ($User->Landen() as $afkorting => $land) { ?>
+					<option value="<?= $land ?>" <?php if ($land == $User->country()) {
+						echo "selected";
+					} ?>><?= $land ?></option>
+				<?php }	?>
+			</select><br>
+
 			<br><input type="checkbox" name="company" <?php if($User->company()) {echo "checked";} ?>>Bedrijf
 			<div class="company">
 				Bedrijfsnaam <br><input type="text" name="company_name" value="<?= $User->company_name() ?>"><br>
@@ -63,6 +71,5 @@
 			<b>BTW-nummer: </b> <?= $User->tax() ?><br>
 		<?php } 
 	} 
-
-	//print_r($_SESSION)?>
+	?>
 </div>

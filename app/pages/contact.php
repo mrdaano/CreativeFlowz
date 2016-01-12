@@ -1,3 +1,7 @@
+<?php if (isset($_POST['name']) && isset ($_POST['mail']) && isset ($_POST['subject']) && isset ($_POST['message']) && isset($_POST['g-recaptcha-response'])) {
+    header("location: http://{$_SERVER['HTTP_HOST']}/app/pages/module/mailcontact.php");
+}else
+ ?>
 <div class="thirdheader">
     <div class="wrapper">
         <div class="fourthheader">
@@ -32,15 +36,15 @@
 </div>
 <div class="wrapper">
     <div class="textheader">
-      <br/><br/><br/><br/><br/>
-      <p class="login"> Wilt u contact met ons opnemen, kan dat ook met onderstaand formulier</p>
+      <p class="contact"> Wilt u contact met ons opnemen, kan dat ook met onderstaand formulier of de gegevens aan de linkerkant</p>
       <br/>
-      <form method="post">
+      <form method="post" class="contact">
         Naam<br/><input type="text" name="name" class="login"><br/>
         E-mail<br/><input type="text" name="mail" class="login"><br/>
         Telefoon<br/><input type="text" name="phone" class="login"><br/>
         Onderwerp<br/><input type="text" name="subject" class="login"><br/>
         Bericht<br/><textarea name="message" rows="10" cols="40" class="contact"></textarea><br/>
+        <div class="g-recaptcha" data-sitekey="6LdUCxUTAAAAAJDMYzFoW3eBP9avxZP2MO0W-ZLj"></div>
         <input type="submit" name="send" value="verzenden" class="loginBtn">
       </form>
     </div>

@@ -19,6 +19,9 @@ body, html {
     width: 1300px;
     margin: 0 auto;
 }
+h1{
+  font-size: 30px;
+}
 
 /* dit is de eerste header */
 .header {
@@ -203,6 +206,15 @@ li {
     padding-right: 2px;
     padding-bottom: 2px;
 }
+
+.productnr > span{
+    display:inline-block;
+    width:180px;
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
+}
+
 .view {
     float: right;
     background-color: #34495e;
@@ -238,7 +250,16 @@ div.login{
 }
 
 input.login{
-  height: 35px;
+  height: 35px !important;
+  width: 300px;
+  border: solid 1px #d8d8d8;
+  font-size: 16px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+select.login{
+  height: 35px !important;
   width: 300px;
   border: solid 1px #d8d8d8;
   font-size: 16px;
@@ -262,7 +283,7 @@ h3.login{
   width: 300px;
   color: #ffffff;
   border: solid 1px #d8d8d8;
-  font-size: 25px;
+  font-size: 18px;
 }
 
 td.line{
@@ -275,15 +296,17 @@ a.login{
   font-size: 14px;
 }
 
-#btw{
-  color: #bbbbbb;
-  font-style: italic;
-}
-
 /* dit gedeelte is voor het contact gedeelte */
 .contact{
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+}
+p.contact{
+  padding-top: 100px;
+  font-size: 17px;
+}
+form.contact{
+  margin-left: 10px;
 }
 .err{
   border: solid 1px #CE2A0D !important;
@@ -297,6 +320,11 @@ a.login{
   float: left;
   max-width: 300px;
   min-width:150px;
+}
+.rightheader{
+  float: right;
+  width: 85%;
+  height: 100%;
 }
 
 table.cms{
@@ -374,6 +402,29 @@ button, .btn{
   font-size: 15px;
 }
 
+/*orders*/
+.orders {
+  margin-left: 215px;
+}
+.order {
+  overflow: hidden;
+  padding: 10px;
+  color: #ffffff;
+  margin: 20px;
+  width: 800px;
+  height: auto;
+  background-color: #34495E;
+}
+.leftside {
+  float: left;
+  width: 400px;
+  height: auto;
+}
+.rightside {
+  float: right;
+  width: 400px;
+  height: auto;
+}
 
 .media_beheer form {
 	margin-top: 15px;
@@ -472,6 +523,10 @@ select{
 .delete{
   width: 20px;
 }
+..totaal{
+  width: 100%;
+  text-align: right;
+}
 .btn_right{
   float: right;
   margin-right: 16%;
@@ -500,17 +555,22 @@ select{
 
 .accountsettings > form > input[type=checkbox]:checked + .company{display: block;}
 .accountsettings .company {display: none}
+.accountsettings .zip {max-width: 55px; margin-top: 5px;}
+.accountsettings .housenumber {max-width: 82px;}
+.accountsettings .addition {max-width: 68px;}
+div.accountsettings input[type="text"]{padding: 5px; height: 20px; width: 300px;}
+
 
 /**dit is voor een goeie weergave op mobiele devices*/
-@media all and (max-width: 1000px) {
+@media all and (max-width: 980px) {
   .wrapper {
-    width: 900px;
+    width: 800px;
   }
   .fourthheader{
     width: 250px;
   }
    h1{
-     font-size: 25px;
+     font-size: 20px;
   }
   .btn{
     font-size: 15px;
@@ -519,6 +579,7 @@ select{
     width: 750px;
   }
 }
+
 @media all and (max-width: 1280px) {
   .wrapper {
     width: 1000px;
@@ -527,9 +588,51 @@ select{
     width: 300px;
   }
    h1{
-     font-size: 30px;
+     font-size: 25px;
   }
   .neworders{
     width: 800px;
   }
+}
+/** dit is voor specifiek product **/
+
+.imgspec{
+  width: 600px;
+    float: left;
+    margin: 20px;
+    background-color: #f6f6f6;
+}
+.namespec{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.secondhandspec{
+ margin-left: 30px;
+margin-top: 50px;
+}
+
+.supplierspec{
+  margin-left: 30px;
+  margin-top: 25px;
+}
+.pricespec{
+ margin-left: 30px;
+ margin-top: 25px;
+}
+.descrspec{
+<<<<<<< HEAD
+ float: left;
+=======
+>>>>>>> origin/development
+ font-size: 17px;
+margin-top: 60px;
+margin-left: 10px;
+}
+.orderspec{
+  margin-left: 80px;
+ margin-top: 200px;
+}
+.Allspec{
+  overflow: auto;
+  font-size: 17px;
 }

@@ -15,7 +15,7 @@
 		header('location: ' . $location);
 	}
 
-	//Update of Voegt toe 
+	//Update of Voegt toe
 	if (isset($_POST['name'])) {
 		if (isset($_GET['id'])) {
 			$product->setId($_GET['id']);
@@ -40,13 +40,13 @@
 			if (isset($_GET['id'])) {
 				$product->updateProduct();
 			} else {
-				$product->newProduct();	
+				$product->newProduct();
 				$product->setIdFromDatabase();
 			}
 
 			if (isset($_POST['product_category'])) {
 				$product->linkCategory($_POST['product_category']);
-			}		
+			}
 			header('location: '. $location);
 		}
 	} elseif(isset($_GET['e'])) {
@@ -79,9 +79,9 @@
 				echo '<br>';
 			}
 		echo '</h2>'; ?>
-		<form action="<?php if(isset($_GET['e']) || isset($_GET['id'])) { 
-					echo $location . '&id=' . $product->getId(); 
-				} else { 
+		<form action="<?php if(isset($_GET['e']) || isset($_GET['id'])) {
+					echo $location . '&id=' . $product->getId();
+				} else {
 					echo $location; } ?>" method="post">
 			<div class="edit">
 				Naam:<br>
@@ -116,7 +116,7 @@
 							<option value="<?php echo $suppl[0]; ?>">
 								<?php echo $suppl[1]; ?>
 							</option>
-						<?php } 
+						<?php }
 					} ?>
 				</select><br>
 				Prijs:<br>
@@ -125,9 +125,9 @@
 			<div class="mid">
 				Productafbeelding:<br>
 				<input type="radio" <?php if($product->getImg() == null) { echo 'checked'; } ?> value="null" name="img"> Geen afbeelding<br>
-				<?php 
+				<?php
 				$media = new Media();
-				foreach ($media->getMedia() as $photo) { 
+				foreach ($media->getMedia() as $photo) {
 					if ($media->getType($photo->name) == 'Afbeelding') { ?>
 						<label  class="radioimg">
 							<img src="<?php echo $photo->path . '/' . $photo->name; ?>">
@@ -159,8 +159,8 @@
 					} elseif (isset($_POST['product_category'])) {
 						$checked = $_POST['product_category'];
 					}
-					?> 
-					
+					?>
+
 					<ul>
 						<?php foreach ($Category->getAll(array(array('parent', 'IS', 'NULL'))) as $categoryParent) { ?>
 							<li>
@@ -188,7 +188,7 @@
 			</table>
 	<?php }
 
-	elseif (isset($_GET['supplier'])) { 
+	elseif (isset($_GET['supplier'])) {
 		if (isset($_GET['supplrem'])) {
 			$product->setSupplierId($_GET['supplrem']);
 			if (!$product->removeSupplier() == 0) {
@@ -233,7 +233,7 @@
 				} ?>
 				<form action="<?=$location?>&supplier" method="post">
 					Naam van de leverancier:<br>
-					<input type="text" name="levName" 
+					<input type="text" name="levName"
 						<?php if (isset($_GET['suppledit'])) {
 							echo 'value="';
 							$product->setSupplierId($_GET['suppledit']);
@@ -250,8 +250,8 @@
 					<?php if (isset($_GET['suppledit'])) {
 						echo 'name="suppUpdate"';
 					} else {
-						echo 'name="suppNew"';				
-					
+						echo 'name="suppNew"';
+
 					} ?> >
 				</form>
 			</div>
@@ -270,7 +270,7 @@
 						<td><?=$supplier[2]?></td>
 						<td><a href="<?=$location?>&supplier&suppledit=<?=$supplier[0]?>">Bewerken</a></td>
 						<td><a href="<?=$location?>&supplier&supplrem=<?=$supplier[0]?>">Verwijderen</a></td>
-					
+
 					</tr>
 				<?php } ?>
 			</table>
@@ -297,12 +297,14 @@
 				<td></td>
 				<td></td>
 			</tr>
-			<?php foreach ($product->getAll() as $pro) { ?>
+			<?php
+			foreach ($product->getAll() as $pro) {
+				$price = str_replace('.', ',', ($pro->getPrice())); ?>
 			<tr>
-				<td><?= $pro->getName() ?></td>
-				<td><?= $pro->getDescription() ?></td>
-				<td><?= $pro->getSupplierName() ?></td>
-				<td><?= $pro->getPrice() ?> euro</td>
+				<td><?= $pro->getName(); ?></td>
+				<td><?= $pro->getDescription(); ?></td>
+				<td><?= $pro->getSupplierName(); ?></td>
+				<td><?= "&euro;{$price}"; ?></td>
 				<td>
 					<a href="<?= $location ?>&e=<?= $pro->getId() ?>">Bewerken</a>
 				</td>

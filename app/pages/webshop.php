@@ -1,6 +1,7 @@
 <?php 
 $url = '?page=webshop';
 $gevonden = false;
+$Shoppingcart = new Shoppingcart();
 ?>
 
 
@@ -32,36 +33,69 @@ $gevonden = false;
         <div class="wrapper">
             <div class="textheader">
                 <?php
-                //Viewuw sadf psdafa
-                if (isset($_GET['viewproduct'])) {
+                if (isset($_GET['order'])) {
+                    $Product->setId($_GET['order']);
+
+                    if(count($Product->getAll(array(array('id', '=', $Product->getId())))) > 0) {
+                        $Shoppingcart->addItem($Product->getId());
+                        header('location:' . $url . '&viewproduct=' . $Product->getId());
+                    } else {
+                        header('location:' . $url);
+                    }
+                }
+
+                //View product
+                elseif (isset($_GET['viewproduct'])) {
                     $Product->setAuto($_GET['viewproduct']); 
                     foreach ($Product->getAll() as $product){
                         if ($_GET['viewproduct'] == $product->getId()) { 
                             $gevonden = true; ?>
-                            <ul>
-                                <li>
-                                    <?php echo $product->getName();?>
-                                </li>
-                                <li>
-                                    <?php if ($product->getSecondhand() == 0) {  
-                                        echo 'nee';
+                                <img class="imgspec" src="<?= $product->getImgPath() ?>"/>
+                                <div class="Allspec">
+                                <div class="namespec">
+                                <h1>
+                                    <?php echo  $product->getName();?>
+                                </div>
+                                </h1>
+                                <div class="secondhandspec">
+                                    <?php if ($product->getSecondhand() == 1) {  
+                                        echo 'tweedehans product: ja';
                                     } else {
-                                        echo 'ja';         
+                                        echo '';         
                                     } ?>
-                                </li>
-                                <li>
-                                    <?php echo $product->getDescription();?>
-                                </li>
-                                <li>
-                                    <?php echo $product->getSupplierName();?>
-                                </li>
-                                <li>
-                                    <?php echo $product->getPrice();?>
-                                </li>
-                            </ul>
-                            <a href="<?php echo 'index.php?page=order&id=' . $product->getId(); ?> ">
-                                Bestellen
-                            </a>
+                                </div>
+                                <div class="supplierspec">    
+                                    <?php echo 'leverancier: ' . $product->getSupplierName();?>
+                                </div>   
+                                <div class="pricespec"> 
+                                    <?php echo 'prijs per stuk: ' . number_format($product->getPrice(), 2, ',', '.');?>
+                                </div>
+                                <div class="orderspec">
+                                <?php 
+                                $in_shoppingcart = false;
+                                foreach ($Shoppingcart->getShoppingcart() as $pro) {
+                                    if ($pro->product_id == $Product->getId()) {
+                                        $in_shoppingcart = true;
+                                        break;
+                                    }
+                                }
+                                if ($in_shoppingcart) { ?>
+                                    <a href="?page=shoppingcart" class="btn">
+                                        Bekijk winkelwagen
+                                    </a>
+                                    <?php } else { ?>
+                                    <a href="<?php echo $url . "&order=" . $product->getId(); ?> " class="btn">
+                                        Plaats in winkelwagen
+                                    </a>
+                          <?php  } ?>
+                          </div>
+                                </div>
+                                <div class="descrspec">
+                                    <b><h2>Artikelomschrijving</h2></b>
+                                    <div>
+                                    <?php echo  $product->getDescription();?>
+                                </div>
+                                </div>
                         <?php } 
                     }
                 } 
@@ -82,9 +116,10 @@ $gevonden = false;
                                     </div>
                                 </div>
                                 <div class="productnr">
-                                    <?php  echo $Product->getName(); ?>   
-                                    <br>
-                                </div>
+                                <span>   
+                                    <?php  echo $product->getName(); ?>
+                                </span>
+                                <br>
                             </div>
                         <?php } 
                     }
@@ -105,8 +140,10 @@ $gevonden = false;
                                     <a href="<?php echo $url . '&viewproduct=' . $product->getId(); ?>">Bekijk dit product</a>
                                 </div>
                             </div>
-                            <div class="productnr">     
-                                <?php  echo $product->getName(); ?>   
+                            <div class="productnr">
+                                <span>   
+                                    <?php  echo $product->getName(); ?>
+                                </span>
                                 <br>
                             </div>
                         </div>
@@ -115,7 +152,7 @@ $gevonden = false;
 
                 //Error
                 if (!$gevonden && (isset($_GET['viewproduct']) || isset($_GET['category']))) {
-                    echo 'Geen producten gevonden!';
+                    echo '<h1>Geen producten gevonden!</h1>';
                 } ?>
             </div>
         </div>  

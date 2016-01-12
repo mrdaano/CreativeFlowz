@@ -94,15 +94,16 @@ class ShoppingCart {
       ))->first();
     }
 
-    public function getErrors() {
-		return $this->errors;
-	}
+    public function getTotalPrice(){
+      foreach($this->getShoppingcart() as $item){
+        $product = $this->getProduct($item->product_id);
+        $price = $product->price;
+        $qty = $item->amount;
+        $subtotal = ($product->price * $qty);
 
-	private function addError($error) {
-		if (is_string($error)) {
-			array_push($this->errors, $error);
-		}
-	}
+      }
+    }
+
 }
 
 ?>

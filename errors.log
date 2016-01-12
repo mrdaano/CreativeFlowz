@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [08-Jan-2016 11:10:01 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 389
 [08-Jan-2016 11:10:01 Europe/Berlin] PHP Notice:  Undefined variable: response in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/cms/modules/pagemanagement/edit.php on line 20
 [08-Jan-2016 11:10:44 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 389
@@ -446,3 +447,44 @@
 [12-Jan-2016 12:06:32 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 389
 [12-Jan-2016 12:06:32 Europe/Berlin] PHP Notice:  Undefined offset: 0 in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/classes/Database.php on line 389
 [12-Jan-2016 12:38:59 Europe/Berlin] PHP Notice:  Undefined variable: response in /Applications/MAMP/htdocs/github/creativeflowz/CreativeFlowz/app/cms/modules/pagemanagement/add.php on line 20
+=======
+[11-Jan-2016 19:24:21 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:24:21 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:24:21 UTC] PHP Notice:  Undefined property: Register::$error in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Register.php on line 172
+[11-Jan-2016 19:24:50 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:24:50 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:24:50 UTC] PHP Notice:  Undefined property: Register::$error in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Register.php on line 171
+[11-Jan-2016 19:26:07 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:26:07 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:26:07 UTC] PHP Notice:  Undefined property: Register::$error in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Register.php on line 171
+[11-Jan-2016 19:27:04 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:27:04 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:27:04 UTC] PHP Notice:  Undefined property: Register::$error in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Register.php on line 171
+[11-Jan-2016 19:27:18 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:27:18 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:27:18 UTC] PHP Notice:  Undefined property: Register::$error in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Register.php on line 172
+[11-Jan-2016 19:27:35 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:27:35 UTC] PHP Notice:  Undefined property: Register::$error in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Register.php on line 173
+[11-Jan-2016 19:27:57 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:27:57 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:27:57 UTC] PHP Notice:  Undefined property: Register::$error in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Register.php on line 173
+[11-Jan-2016 19:28:07 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:28:07 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:28:07 UTC] PHP Notice:  Undefined property: Register::$error in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Register.php on line 173
+[11-Jan-2016 19:28:17 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:28:17 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:28:17 UTC] PHP Notice:  Undefined property: Register::$error in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Register.php on line 173
+[11-Jan-2016 19:28:31 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:28:31 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:28:31 UTC] PHP Notice:  Undefined property: Register::$error in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Register.php on line 173
+[11-Jan-2016 19:29:41 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:29:41 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:29:41 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:29:42 UTC] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Register.php on line 124
+[11-Jan-2016 19:29:42 UTC] PHP Notice:  Undefined property: Register::$error in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Register.php on line 172
+[11-Jan-2016 19:30:02 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:34:26 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:34:26 UTC] PHP Notice:  Undefined offset: 0 in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Database.php on line 389
+[11-Jan-2016 19:34:27 UTC] PHP Warning:  mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set() in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Register.php on line 124
+[11-Jan-2016 19:34:27 UTC] PHP Notice:  Undefined property: Register::$error in D:\Programmeren\Website\Bart\Git\CreativeFlowz\app\classes\Register.php on line 172
+>>>>>>> origin/development

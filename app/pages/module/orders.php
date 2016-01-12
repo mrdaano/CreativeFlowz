@@ -2,9 +2,9 @@
 		
 	<?php
 
-	$allOrders = allOrders::getOrder();
-		foreach($allOrders as $key => $order) {
-			$orderline = allOrders::getOrder_line($order->id);
+	$myOrder = myOrder::getOrder();
+		foreach($myOrder as $key => $order) {
+			$orderline = myOrder::getOrder_line($order->id);
 			$totalprice = 0;
 	?>
 		<div class="order">
@@ -24,7 +24,7 @@
 		</div>
 		<div class="rightside">
 			Klantnummer: <?php echo "{$order->user_id}"?><br>
-			Tijd van plaatsen: <?php echo "{$order->created_at}"?><br>
+			Tijdstip van plaatsen: <?php echo "{$order->created_at}"?><br>
 		<?php
 			foreach($orderline as $key => $line) {
 				$product = myOrder::getProduct($line->product_id);
@@ -35,7 +35,7 @@
 		<?php
 			}
 		?>
-		Totaal: &euro;<?php echo $totalprice; ?>
+			Totaal: &euro;<?php echo $totalprice; ?>
 		</div>
 	</div>
 	<?php

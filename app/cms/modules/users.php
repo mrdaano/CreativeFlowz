@@ -7,6 +7,5 @@
         }else{
             include('app/cms/modules/users/index.php');   
         }
-        setcookie("key","value", time()+3600);
     ?>
 </div>

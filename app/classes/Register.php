@@ -34,7 +34,6 @@ class Register{
     }
     
     public function verificate(){
-        $this->addition = 0;
         if(empty($this->mail)){
             $this->setError('Het e-mail adres is niet ingevuld!');
         }elseif(empty($this->firstname)){
@@ -43,12 +42,20 @@ class Register{
             $this->setError('Uw achternaam is niet ingevuld!');
         }elseif(empty($this->phone_number)){
             $this->setError('Uw telefoon-nummer is niet ingevuld!');
+        } elseif (empty($this->zip)) {
+            $this->setError("Uw postcode is niet ingevuld!");
         }elseif(empty($this->city)){
             $this->setError('Uw woonplaats is niet ingevuld!');
         }elseif(empty($this->street)){
             $this->setError('Uw straatnaam is niet ingevuld!');
         }elseif(empty($this->number)){
             $this->setError('Uw huisnummer is niet ingevuld!');
+        }elseif (empty($this->country)) {
+            $this->setError("Uw land is niet ingevuld!");
+        }elseif (empty($this->tax) && !empty($this->company)) {
+            $this->setError("Uw BTW-nummer is niet ingevuld!");
+        }elseif (!empty($this->tax) && empty($this->company)) {
+            $this->setError("Uw bedrijfsnaam is niet ingevuld");
         }elseif(strlen($this->number) > 7){
             $this->setError('Dit is een ongeldig huisnummer!');
         }elseif(strlen($this->phone_number) > 16){
@@ -58,10 +65,24 @@ class Register{
         }elseif($this->checkMail() == true){
             $this->setError('Dit email adres bestaat al!');
         }else{
-            $this->createAccount();
-            $this->sendMail();
-            echo $this->plain_password;
-            $this->setNotification('U bent succesvol geregistreerd, we hebben een mail verstuurd met daarin uw wachtwoord naar het E-Mail adres '.$this->mail.'!');
+            if ($this->country == "Nederland") {
+                $zip = str_replace(' ', '', $this->zip);
+                $numericzip = $zip[0] . $zip[1] . $zip[2] . $zip[3];
+                if (strlen($zip) != 6) {
+                    $this->setError("Er is een ongeldige postcode ingevuld!");
+                    break;
+                } elseif (!is_numeric($numericzip)) {
+                    $this->setError("Er is een ongeldige postcode ingevuld!");
+                    break;    
+                } elseif (!ctype_alpha($zip[4]) || !ctype_alpha($zip[5])) {
+                    $this->setError("Er is een ongeldige postcode ingevuld!");
+                    break;
+                }
+            }
+                $this->createAccount();
+                $this->sendMail();
+                echo $this->plain_password;
+                $this->setNotification('U bent succesvol geregistreerd, we hebben een mail verstuurd met daarin uw wachtwoord naar het E-Mail adres '.$this->mail.'!');
         }
     }
     
@@ -124,7 +145,6 @@ class Register{
     }
     
     private function createAccount(){
-        $this->zip = '1';
         $this->createRandomPassword();
         $this->db->start()->insert('user', array(
                                             'firstname' => $this->firstname, 'lastname' => $this->lastname,
@@ -132,13 +152,18 @@ class Register{
         
         $userID = $this->db->start()->lastId();
         
+<<<<<<< HEAD
         
+=======
+        if (empty($this->addition)) {
+            $this->addition = null;
+        }
+>>>>>>> origin/development
         $this->db->start()->insert('customer', array(
                                             'user_id' => $userID, 
                                             'city_id' => $this->checkCity(), 'street' => $this->street,
                                             'zip' => $this->zip, 'housenumber' => $this->number,
-                                            'phone_number' => $this->phone_number
-                                            
+                                            'addition' => $this->addition, 'phone_number' => $this->phone_number
                                             ));
     }
 
