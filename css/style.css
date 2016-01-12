@@ -315,6 +315,9 @@ form.contact{
 .err{
   border: solid 1px #CE2A0D !important;
 }
+.error{
+  color: #FF0000;
+}
 
 /*dit is voor het CMS gedeelte*/
 .leftheader{
