@@ -2,9 +2,11 @@
     if(isset($_POST['login'])){
         $Login->inputFields($_POST);
         $Login->verificate();
-        
         $msg = $Login->getError();
+        $email = $_POST['mail'];
+        $_POST['mail'] = null;
     }
+
     if (isset($_POST['country'])) {
       $country = $_POST['country'];
     } else {
@@ -22,6 +24,7 @@
 ?>
 <div class="login">
     <h3 class="login">inloggen</h3>
+    <div class="error"><?= $msg ?></div>
     <form method="post" class="login">
       <table class="login">
         <tr>

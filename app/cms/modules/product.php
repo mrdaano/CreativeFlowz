@@ -215,6 +215,7 @@
 
 		?>
 		<div class="supplier">
+			<a href="?page=cms&module=product" class="btn">Ga terug</a>
 			<h1>
 				Leverancierbeheer
 			</h1>
@@ -230,8 +231,12 @@
 					echo "<h3>" . $error . "</h3>";
 				} else {
 					echo "<h3><br></h3>";
-				} ?>
-				<form action="<?=$location?>&supplier" method="post">
+				} 
+				if (isset($_GET['suppledit'])) {?>
+					<form action="<?=$location?>&supplier&suppledit=<?= $_GET['suppledit'] ?>" method="post">
+				<?php } else { ?>
+					<form action="<?=$location?>&supplier" method="post">
+				<?php } ?>
 					Naam van de leverancier:<br>
 					<input type="text" name="levName"
 						<?php if (isset($_GET['suppledit'])) {

@@ -397,7 +397,7 @@ class Product
 	{
 		$error = 0;
 		foreach ($this->getAllSupplier() as $supplier) {
-			if ($nname == $supplier[1] && $nname != $this->getSupplierName()) {
+			if (strtolower($nname) == strtolower($supplier[1]) && $nname != $this->getSupplierName()) {
 				$error = 'Deze leverancier bestaat al';
 				return $error;
 			}
@@ -411,7 +411,7 @@ class Product
 		$error = 0;
 
 		foreach ($this->getAllSupplier() as $supplier) {
-			if ($name == $supplier[1] && $name) {
+			if (strtolower($name) == strtolower($supplier[1] && $name)) {
 				$error = 'Deze leverancier bestaat al';
 				return $error;
 				break;

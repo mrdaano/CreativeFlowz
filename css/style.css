@@ -562,7 +562,7 @@ select{
 .accountsettings .zip {max-width: 55px; margin-top: 5px;}
 .accountsettings .housenumber {max-width: 82px;}
 .accountsettings .addition {max-width: 68px;}
-div.accountsettings input[type="text"]{padding: 5px; height: 20px; width: 300px;}
+div.accountsettings input[type="text"], div.accountsettings input[type="password"]{padding: 5px; height: 20px; width: 300px;}
 
 
 /**dit is voor een goeie weergave op mobiele devices*/

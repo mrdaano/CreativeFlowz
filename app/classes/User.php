@@ -123,6 +123,14 @@ class User{
     {
         return $this->company;
     }
+
+    private function password()
+    {
+        if (!empty($this->password)) {
+            $this->password = hash('sha256', $this->password);
+            $this->db->start()->update('user', array('password' => $this->password), array(array('id', '=', $this->id)));   
+        }
+    }
     
     protected function getuserLevel($userid){
         /*
@@ -227,6 +235,7 @@ class User{
                                                             'phone_number' => $this->phone_number,
                                                             'company_name' => $this->company_name,
                                                             'company_taxnumber' => $this->tax), array(array('user_id', '=', $this->id())));
+            $this->password();
             $sql = $this->db->start()->get('id', 'city', array(array('cityname', '=', $olduser->city()), array('country', '=', $olduser->country())))->results();
             $oldCity_id = $sql[0]->id;
             $sql = $this->db->start()->get('city_id', 'customer', array(array('city_id', '=', $oldCity_id)))->results();

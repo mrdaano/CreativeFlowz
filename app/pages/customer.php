@@ -4,6 +4,8 @@
       <td class="cmsuser"><p><?php echo $User->firstname()?></p><p class="cmsitalic cms">Administrator</p></td>
     </tr><tr>
       <td class="cmsactive"><a href="index.php?page=customer&module=orders" class="cms"><p>Mijn Orders</p><p class="cmsitalic">Alles over de orders</p></a></td>
+    </tr><tr>
+      <td class="cmsactive"><a href="index.php?page=customer&module=accountsettings" class="cms"><p>Mijn gegevens</p><p class="cmsitalic">Gegevens inzien en wijzigen</p></a></td>
     </tr>
   </table>
 </div>

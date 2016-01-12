@@ -27,7 +27,8 @@
 		<form method="post" action="<?= $url ?>">
 			Voornaam <br><input type="text" name="firstname" value="<?= $User->firstname() ?>"><br>
 			Achternaam <br><input type="text" name="lastname" value="<?= $User->lastname() ?>"><br>
-			Email <br><input type="text" name="email" value="<?= $User->email() ?>"><br>
+			E-mail <br><input type="text" name="email" value="<?= $User->email() ?>"><br>
+			Wachtwoord <br><input type="password" name="password" placeholder="Uw oude wachtwoord"><br>
 			Telefoonnummer <br><input type="text" name="phone_number" value="<?= $User->phone_number() ?>"><br><br>
 			Postcode + huisnummer + toevoeging<br><input type="text" name="zip" value="<?= $User->zip() ?>" class="zip">
 			 + <input type="text" name="housenumber" value="<?= $User->housenumber() ?>" class="housenumber">
