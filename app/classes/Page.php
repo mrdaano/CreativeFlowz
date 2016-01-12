@@ -64,24 +64,42 @@ class Page{
     
     public function isHomepage(){
         $data = $this->db->start()->get('*','page_management', array(array('homepage', '=', '1'), array('id', '=', $this->id)))->first();
-        if($this->db->start()->count() > 0){
-           return "<input class='btn' type='button' value='Ingesteld als Homepage' style='background-color:#6785A2;cursor:not-allowed;'>";
+        if($data->homepage){
+            $active = 'SELECTED';
         }else{
-           return "<input class='btn' type='button' onclick='setHomepage()' value='Zet Homepage'>";
+            $active = '';
+        }
+        echo '<select name="homepage">';
+        echo '<option value="0" '.$active.'>Nee</option>';
+        echo '<option value="1" '.$active.'>Ja</option>';
+        echo '</select>';
+    }
+    
+    public function SethomePage($id){
+        $this->db->start()->update('page_management', array('homepage' => 1), array(array('id', '=', $id)));
+        
+    }
+    
+    public function checkHomePage(){
+        $data = $this->db->start()->get('*','page_management', array(array('homepage', '=', '1'), array('id', '=', $this->id)))->first();
+        if($this->db->start()->count() > 0){
+           return false;
+        }else{
+           return true;
         }
     }
     
-    public function checkHomePage($id){
-        $this->id = $id;
-        $data = $this->db->start()->get('*','page_management', array(array('homepage', '=', '1'), array('id', '=', $this->id)))->first();
+    public function checkifhomepage($id){
+        $data = $this->db->start()->get('*','page_management', array(array('homepage', '=', '1'), array('id', '=', $id)))->first();
         if($this->db->start()->count() > 0){
-           return "Ja";
+           return 'Homepage';
         }else{
-           return "Nee";
+           return '';
         }
     }
     
     public function verificate(){
+        var_dump($this->homepage);
         if(empty($this->title)){
             $this->setError('U heeft geen titel ingevuld!');
         }elseif(empty($this->keyword)){
@@ -90,16 +108,49 @@ class Page{
             $this->setError('U heeft geen naam ingevuld!');
         }elseif(empty($this->content)){
             $this->setError('U heeft geen content ingevuld!');
+        }elseif($this->checkName() == true){
+            $this->setError('U heeft een naam ingevuld die al bestaat!');
+        }elseif($this->checkDomain() == false){
+            $this->setError('U kan niet meer dan 1 pagina aan 1 domein koppelen');
+        }elseif($this->homepage != 0 AND $this->checkHomepage() == false){
+            $this->setError('U heeft al een actieve pagina als homepage!');
         }else{
-            $this->db->start()->update('page_management', array('title' => $this->title, 'keyword' => $this->keyword, 'content' => $this->content), array('id' => $this->id));
-            $this->setMGS('De pagina is succesvol geupdate!');
+            if($this->domain == ''){
+                $this->domain = 0;
+            }
+            
+            
+            $this->db->start()->update('page_management', array('title' => $this->title, 'keyword' => $this->keyword, 'content' => $this->content, 'domain_id' => $this->domain, 'homepage' => $this->homepage), array(array('id', '=', $this->id)));
+            $this->setMSG('De pagina is succesvol geupdate!');
         }
     }
     
     protected function checkName(){
-        $this->db->start()->get('*','page_management', array(array('name', '=', $this->name)))->first();
-        if($this->db->start()->count() < 1){
-            return false;
+        if($this->id != NULL OR $this->id != ''){
+            $this->db->start()->get('*','page_management', array(array('name', '=', $this->name), array('id', '!=', $this->id)))->first();
+            if($this->db->start()->count() < 1){
+                return false;
+            }else{
+                return true;
+            }
+        }else{
+            $this->db->start()->get('*','page_management', array(array('name', '=', $this->name)))->first();
+            if($this->db->start()->count() < 1){
+                return false;
+            }else{
+                return true;
+            }
+        }  
+    }
+    
+    protected function checkDomain(){
+        if($this->domain != ''){
+            $this->db->start()->get('*','page_management', array(array('domain_id', '=', $this->domain), array('id', '!=', $this->id)))->first();
+            if($this->db->start()->count() > 0){
+                return false;
+            }else{
+                return true;
+            }
         }else{
             return true;
         }
@@ -133,12 +184,21 @@ class Page{
         unset($this->error);
     }
     
-    private function setMSG($msg){
+    public function setMSG($msg){
         $this->msg = $msg;
     }
     
     public function getMSG(){
         return $this->msg;
+    }
+    
+    public function getPageMedia(){
+        $data = $this->db->start()->get('*','media', '')->results();
+        echo '<ul id="mediaitems">';
+        foreach($data as $key => $val){
+            echo '<li onclick="">'.$val->name.'</li>';
+        }
+        echo '</ul>';
     }
 
 }

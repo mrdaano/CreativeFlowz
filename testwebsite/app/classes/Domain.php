@@ -105,4 +105,33 @@ class Domain{
     public function getMSG(){
         return $this->msg;
     }
+    
+    public function getsiteID($url){
+        if (strpos($url, 'http://www.') !== false) {
+            $url = str_replace('http://www.', '', $url);
+        }
+        
+        if (strpos($url, 'https://www.') !== false) {
+            $url = str_replace('https://www.', '', $url);
+        }
+        
+        $domainData = $this->db->start()->get('*','domain', array(array('url', '=', $url)))->first();
+        
+        if($domainData == ''){
+            $this->content = 'Oeps, er kon geen pagina data worden opgehaald want het domein komt niet in het database voor!';
+        }else{
+            $pageData = $this->db->start()->get('*','page_management', array(array('domain_id', '=', $domainData->id)))->first();
+            if($pageData == ''){
+                $this->content = 'Oeps, er kon geen pagina data worden opgehaald want er is geen pagina gekoppeld aan dit domein!';
+            }else{
+                $this->content = $pageData->content;
+            }
+        }
+    }
+    
+    public function getDomainContent(){
+        echo '<div class="wrapper">';
+        echo $this->content;
+        echo '</div>';
+    }
 }

@@ -8,11 +8,13 @@ spl_autoload_register(function ($class) {
     include 'app/classes/' . $class . '.php';
 });
 
-
-
 $db = new Database;
 $Domain = new Domain($db);
 $Page = new Page($db);
+
+//$actual_link = $_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI']; 
+$actual_link = "http://www.deservicegroup.dev/testwebsite/";
+$Domain->getsiteID($actual_link);
 
 ?>
 <!DOCTYPE html>
@@ -32,18 +34,14 @@ $Page = new Page($db);
             <div class="wrapper">
                 <div class="sitenameblock"><a class="sitename" href="index.php"><span class="bold">Deservice</span><span class="italic">Group</span></a></div>
                 <ul class="forheader">
-                    <li><a href="index.php?page=webshop">webshop</a></li>
-                    <li><a href="index.php?page=contact">contact</a></li>
+                    <li><a href="/index.php?page=webshop">webshop</a></li>
+                    <li><a href="/index.php?page=contact">contact</a></li>
                 </ul>
             </div>
         </div>
         
         <?php
-            
-            $actual_link = $_SERVER['HTTP_HOST'].$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-            $actual_link = $_SERVER['PATH_INFO'];    
-            echo $actual_link;
+           echo $Domain->getDomainContent(); 
         ?>
-        
     </body>
 </html>

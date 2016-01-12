@@ -33,16 +33,22 @@ class Domain{
         }
     }
     
-    public function returnDomains($plain = false, $selectname){
+    public function returnDomains($plain = false, $selectname, $id = false){
         $Domains = $this->db->start()->get('*','domain')->results();
-        if($plan != false){
+        if($plain != false){
             foreach($Domains as $domaindata){
                 echo $domaindata->url;
             }
         }else{
             echo '<select name="'.$selectname.'">';
+            echo '<option value=""></option>';
             foreach($Domains as $domaindata){
-                echo '<option value="'.$domaindata->id.'">'.$domaindata->url.'</option>';
+                if($id == $domaindata->id){
+                    $selec = 'SELECTED';
+                }else{
+                    $selec = '';
+                }
+               echo '<option value="'.$domaindata->id.'" '.$selec.'>'.$domaindata->url.'</option>';
             }
             echo '</select>';
         }

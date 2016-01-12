@@ -1,10 +1,7 @@
 <?php
-<<<<<<< HEAD
+
 session_start();
 ob_start();
-=======
-session_start(); 
->>>>>>> origin/development
 error_reporting(E_ALL);
 ini_set('display_errors', 0);
 ini_set("log_errors", 1);

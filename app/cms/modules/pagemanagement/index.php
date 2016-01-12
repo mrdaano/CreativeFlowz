@@ -18,7 +18,7 @@
                 <?=$pageData->name?>
             </td>
             <td>
-                <?=$Page->checkHomePage($pageData->id)?>
+                <?=$Page->checkifhomepage($pageData->id)?>
             </td>
             <td>
                 <?=$Page->getDomain($pageData->domain_id);?>

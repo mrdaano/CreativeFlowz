@@ -68,7 +68,6 @@ class Register{
     private function sendMail(){
         $to      = $this->mail;
         $subject = 'Welkom bij The Service Group';
-        $message = 'Beste '.$this->firstname.' '.$this->lastname.',<br/><br/> Hierbij bevestigen wij uw aanmelding op <a href="www.theservicegroup.nl" target="_blanc">theservicegroup.nl</a>!<br/> U heeft een account aangemaakt met de volgende gegevens:<br/><b>Login:</b> '.$this->mail.'<Br/><b>Wachtwoord:</b> '.$this->plain_password.'<Br/><Br/>Met vriendelijke groet,<br/><Br/>Team The Service Group';
         
         $message ="
         <!DOCTYPE HTML PUBLIC 
@@ -133,6 +132,7 @@ class Register{
         
         $userID = $this->db->start()->lastId();
         
+        
         $this->db->start()->insert('customer', array(
                                             'user_id' => $userID, 
                                             'city_id' => $this->checkCity(), 'street' => $this->street,
@@ -141,7 +141,7 @@ class Register{
                                             
                                             ));
     }
-    
+
     protected function setError($error){
         $this->error = $error;
     }
