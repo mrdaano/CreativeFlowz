@@ -36,53 +36,50 @@ class Register{
     public function verificate(){
         if(empty($this->mail)){
             $this->setError('Het e-mail adres is niet ingevuld!');
-        }elseif(empty($this->firstname)){
+        }if(empty($this->firstname)){
             $this->setError('Uw voornaam is niet ingevuld!');
-        }elseif(empty($this->lastname)){
+        }if(empty($this->lastname)){
             $this->setError('Uw achternaam is niet ingevuld!');
-        }elseif(empty($this->phone_number)){
+        }if(empty($this->phone_number)){
             $this->setError('Uw telefoon-nummer is niet ingevuld!');
-        } elseif (empty($this->zip)) {
+        }if (empty($this->zip)) {
             $this->setError("Uw postcode is niet ingevuld!");
-        }elseif(empty($this->city)){
+        }if(empty($this->city)){
             $this->setError('Uw woonplaats is niet ingevuld!');
-        }elseif(empty($this->street)){
+        }if(empty($this->street)){
             $this->setError('Uw straatnaam is niet ingevuld!');
-        }elseif(empty($this->number)){
+        }if(empty($this->number)){
             $this->setError('Uw huisnummer is niet ingevuld!');
-        }elseif (empty($this->country)) {
+        }if (empty($this->country)) {
             $this->setError("Uw land is niet ingevuld!");
-        }elseif (empty($this->tax) && !empty($this->company)) {
+        }if (empty($this->taxnumber) && !empty($this->company)) {
             $this->setError("Uw BTW-nummer is niet ingevuld!");
-        }elseif (!empty($this->tax) && empty($this->company)) {
+        }if (!empty($this->taxnumber) && empty($this->company)) {
             $this->setError("Uw bedrijfsnaam is niet ingevuld");
-        }elseif(strlen($this->number) > 7){
+        }if(strlen($this->number) > 7 || !is_numeric($this->number)){
             $this->setError('Dit is een ongeldig huisnummer!');
-        }elseif(strlen($this->phone_number) > 16){
+        }if(strlen($this->phone_number) > 16){
             $this->setError('Dit is een ongeldig telefoonnummer!');
-        }elseif (filter_var($this->mail, FILTER_VALIDATE_EMAIL) === false) {
+        }if (filter_var($this->mail, FILTER_VALIDATE_EMAIL) === false) {
             $this->setError('Dit is een ongeldig email adres!');
-        }elseif($this->checkMail() == true){
+        }if($this->checkMail() == true){
             $this->setError('Dit email adres bestaat al!');
-        }else{
-            if ($this->country == "Nederland") {
-                $zip = str_replace(' ', '', $this->zip);
-                $numericzip = $zip[0] . $zip[1] . $zip[2] . $zip[3];
-                if (strlen($zip) != 6) {
-                    $this->setError("Er is een ongeldige postcode ingevuld!");
-                    break;
-                } elseif (!is_numeric($numericzip)) {
-                    $this->setError("Er is een ongeldige postcode ingevuld!");
-                    break;    
-                } elseif (!ctype_alpha($zip[4]) || !ctype_alpha($zip[5])) {
-                    $this->setError("Er is een ongeldige postcode ingevuld!");
-                    break;
-                }
+        }if ($this->country == "Nederland") {
+            $zip = str_replace(' ', '', $this->zip);
+            $numericzip = $zip[0] . $zip[1] . $zip[2] . $zip[3];
+            if (strlen($zip) != 6) {
+                $this->setError("Er is een ongeldige postcode ingevuld!");
+            } elseif (!is_numeric($numericzip)) {
+                $this->setError("Er is een ongeldige postcode ingevuld!");   
+            } elseif (!ctype_alpha($zip[4]) || !ctype_alpha($zip[5])) {
+                $this->setError("Er is een ongeldige postcode ingevuld!");
             }
-                $this->createAccount();
-                $this->sendMail();
-                echo $this->plain_password;
-                $this->setNotification('U bent succesvol geregistreerd, we hebben een mail verstuurd met daarin uw wachtwoord naar het E-Mail adres '.$this->mail.'!');
+        }
+        if (empty($this->error)) {
+            $this->createAccount();
+            $this->sendMail();
+            echo $this->plain_password;
+            $this->setNotification('U bent succesvol geregistreerd, we hebben een mail verstuurd met daarin uw wachtwoord naar het E-Mail adres '.$this->mail.'!');
         }
     }
     
@@ -168,7 +165,8 @@ class Register{
     }
 
     protected function setError($error){
-        $this->error = $error;
+        $this->error[] = $error;
+        //$this->error = $error;
     }
     
     public function getError(){
@@ -181,6 +179,257 @@ class Register{
     
     public function getNotification(){
         return $this->msg;
+    }
+
+    public function Landen()
+    {
+        return array(
+            'AF' => 'Afghanistan',
+            'AL' => 'Albanië',
+            'DZ' => 'Algerije',
+            'AS' => 'Amerikaans-Samoa',
+            'VI' => 'Amerikaanse Maagdeneilanden',
+            'AD' => 'Andorra',
+            'AO' => 'Angola',
+            'AI' => 'Anguilla',
+            'AQ' => 'Antarctica',
+            'AG' => 'Antigua en Barbuda',
+            'AR' => 'Argentinië',
+            'AM' => 'Armenië',
+            'AW' => 'Aruba',
+            'AU' => 'Australië',
+            'AZ' => 'Azerbeidzjan',
+            'BS' => 'Bahama\'s',
+            'BH' => 'Bahrein',
+            'BD' => 'Bangladesh',
+            'BB' => 'Barbados',
+            'BE' => 'België',
+            'BZ' => 'Belize',
+            'BJ' => 'Benin',
+            'BM' => 'Bermuda',
+            'BT' => 'Bhutan',
+            'BO' => 'Bolivia',
+            'BA' => 'Bosnië en Herzegovina',
+            'BW' => 'Botswana',
+            'BV' => 'Bouvet',
+            'BR' => 'Brazilië',
+            'IO' => 'Brits Territorium in de Indische Oceaan',
+            'VG' => 'Britse Maagdeneilanden',
+            'BN' => 'Brunei',
+            'BG' => 'Bulgarije',
+            'BF' => 'Burkina Faso',
+            'BI' => 'Burundi',
+            'KH' => 'Cambodja',
+            'CA' => 'Canada',
+            'CF' => 'Centraal-Afrikaanse Republiek',
+            'CL' => 'Chili',
+            'CN' => 'China',
+            'CX' => 'Christmaseiland',
+            'CC' => 'Cocoseilanden',
+            'CO' => 'Colombia',
+            'KM' => 'Comoren',
+            'CG' => 'Congo-Brazzaville',
+            'CD' => 'Congo-Kinshasa',
+            'CK' => 'Cookeilanden',
+            'CR' => 'Costa Rica',
+            'CU' => 'Cuba',
+            'CY' => 'Cyprus',
+            'DK' => 'Denemarken',
+            'DJ' => 'Djibouti',
+            'DM' => 'Dominica',
+            'DO' => 'Dominicaanse Republiek',
+            'DE' => 'Duitsland',
+            'EC' => 'Ecuador',
+            'EG' => 'Egypte',
+            'SV' => 'El Salvador',
+            'GQ' => 'Equatoriaal-Guinea',
+            'ER' => 'Eritrea',
+            'EE' => 'Estland',
+            'ET' => 'Ethiopië',
+            'FO' => 'Faeröer',
+            'FK' => 'Falklandeilanden',
+            'FJ' => 'Fiji',
+            'PH' => 'Filipijnen',
+            'FI' => 'Finland',
+            'FR' => 'Frankrijk',
+            'GF' => 'Frans-Guyana',
+            'PF' => 'Frans-Polynesië',
+            'TF' => 'Franse Zuidelijke en Antarctische Gebieden',
+            'GA' => 'Gabon',
+            'GM' => 'Gambia',
+            'GE' => 'Georgië',
+            'GH' => 'Ghana',
+            'GI' => 'Gibraltar',
+            'GD' => 'Grenada',
+            'GR' => 'Griekenland',
+            'GL' => 'Groenland',
+            'GP' => 'Guadeloupe',
+            'GU' => 'Guam',
+            'GT' => 'Guatemala',
+            'GG' => 'Guernsey',
+            'GN' => 'Guinee',
+            'GW' => 'Guinee-Bissau',
+            'GY' => 'Guyana',
+            'HT' => 'Haïti',
+            'HM' => 'Heard en McDonaldeilanden',
+            'HN' => 'Honduras',
+            'HU' => 'Hongarije',
+            'HK' => 'Hongkong',
+            'IE' => 'Ierland',
+            'IS' => 'IJsland',
+            'IN' => 'India',
+            'ID' => 'Indonesië',
+            'IQ' => 'Irak',
+            'IR' => 'Iran',
+            'IM' => 'Isle of Man',
+            'IL' => 'Israël',
+            'IT' => 'Italië',
+            'CI' => 'Ivoorkust',
+            'JM' => 'Jamaica',
+            'JP' => 'Japan',
+            'YE' => 'Jemen',
+            'JE' => 'Jersey',
+            'JO' => 'Jordanië',
+            'KY' => 'Kaaimaneilanden',
+            'CV' => 'Kaapverdië',
+            'CM' => 'Kameroen',
+            'KZ' => 'Kazachstan',
+            'KE' => 'Kenia',
+            'KG' => 'Kirgizië',
+            'KI' => 'Kiribati',
+            'UM' => 'Kleine Pacifische eilanden van de Verenigde Staten',
+            'KW' => 'Koeweit',
+            'HR' => 'Kroatië',
+            'LA' => 'Laos',
+            'LS' => 'Lesotho',
+            'LV' => 'Letland',
+            'LB' => 'Libanon',
+            'LR' => 'Liberia',
+            'LY' => 'Libië',
+            'LI' => 'Liechtenstein',
+            'LT' => 'Litouwen',
+            'LU' => 'Luxemburg',
+            'MO' => 'Macau',
+            'MK' => 'Macedonië',
+            'MG' => 'Madagaskar',
+            'MW' => 'Malawi',
+            'MV' => 'Maldiven',
+            'MY' => 'Maleisië',
+            'ML' => 'Mali',
+            'MT' => 'Malta',
+            'MA' => 'Marokko',
+            'MH' => 'Marshalleilanden',
+            'MQ' => 'Martinique',
+            'MR' => 'Mauritanië',
+            'MU' => 'Mauritius',
+            'YT' => 'Mayotte',
+            'MX' => 'Mexico',
+            'FM' => 'Micronesia',
+            'MD' => 'Moldavië',
+            'MC' => 'Monaco',
+            'MN' => 'Mongolië',
+            'ME' => 'Montenegro',
+            'MS' => 'Montserrat',
+            'MZ' => 'Mozambique',
+            'MM' => 'Myanmar',
+            'NA' => 'Namibië',
+            'NR' => 'Nauru',
+            'NL' => 'Nederland',
+            'AN' => 'Nederlandse Antillen',
+            'NP' => 'Nepal',
+            'NI' => 'Nicaragua',
+            'NC' => 'Nieuw-Caledonië',
+            'NZ' => 'Nieuw-Zeeland',
+            'NE' => 'Niger',
+            'NG' => 'Nigeria',
+            'NU' => 'Niue',
+            'KP' => 'Noord-Korea',
+            'MP' => 'Noordelijke Marianen',
+            'NO' => 'Noorwegen',
+            'NF' => 'Norfolk',
+            'UG' => 'Oeganda',
+            'UA' => 'Oekraïne',
+            'UZ' => 'Oezbekistan',
+            'OM' => 'Oman',
+            'TL' => 'Oost-Timor',
+            'AT' => 'Oostenrijk',
+            'PK' => 'Pakistan',
+            'PW' => 'Palau',
+            'PS' => 'Palestijnse Autoriteit',
+            'PA' => 'Panama',
+            'PG' => 'Papoea-Nieuw-Guinea',
+            'PY' => 'Paraguay',
+            'PE' => 'Peru',
+            'PN' => 'Pitcairneilanden',
+            'PL' => 'Polen',
+            'PT' => 'Portugal',
+            'PR' => 'Puerto Rico',
+            'QA' => 'Qatar',
+            'RO' => 'Roemenië',
+            'RU' => 'Rusland',
+            'RW' => 'Rwanda',
+            'RE' => 'Réunion',
+            'KN' => 'Saint Kitts en Nevis',
+            'LC' => 'Saint Lucia',
+            'VC' => 'Saint Vincent en de Grenadines',
+            'BL' => 'Saint-Barthélemy',
+            'PM' => 'Saint-Pierre en Miquelon',
+            'SB' => 'Salomonseilanden',
+            'WS' => 'Samoa',
+            'SM' => 'San Marino',
+            'ST' => 'Sao Tomé en Principe',
+            'SA' => 'Saoedi-Arabië',
+            'SN' => 'Senegal',
+            'RS' => 'Servië',
+            'SC' => 'Seychellen',
+            'SL' => 'Sierra Leone',
+            'SG' => 'Singapore',
+            'SH' => 'Sint-Helena',
+            'MF' => 'Sint-Maarten',
+            'SI' => 'Slovenië',
+            'SK' => 'Slowakije',
+            'SD' => 'Soedan',
+            'SO' => 'Somalië',
+            'ES' => 'Spanje',
+            'SJ' => 'Spitsbergen en Jan Mayen',
+            'LK' => 'Sri Lanka',
+            'SR' => 'Suriname',
+            'SZ' => 'Swaziland',
+            'SY' => 'Syrië',
+            'TJ' => 'Tadzjikistan',
+            'TW' => 'Taiwan',
+            'TZ' => 'Tanzania',
+            'TH' => 'Thailand',
+            'TG' => 'Togo',
+            'TK' => 'Tokelau-eilanden',
+            'TO' => 'Tonga',
+            'TT' => 'Trinidad en Tobago',
+            'TD' => 'Tsjaad',
+            'CZ' => 'Tsjechië',
+            'TN' => 'Tunesië',
+            'TR' => 'Turkije',
+            'TM' => 'Turkmenistan',
+            'TC' => 'Turks- en Caicoseilanden',
+            'TV' => 'Tuvalu',
+            'UY' => 'Uruguay',
+            'VU' => 'Vanuatu',
+            'VA' => 'Vaticaanstad',
+            'VE' => 'Venezuela',
+            'GB' => 'Verenigd Koninkrijk',
+            'AE' => 'Verenigde Arabische Emiraten',
+            'US' => 'Verenigde Staten',
+            'VN' => 'Vietnam',
+            'WF' => 'Wallis en Futuna',
+            'EH' => 'Westelijke Sahara',
+            'BY' => 'Wit-Rusland',
+            'ZM' => 'Zambia',
+            'ZW' => 'Zimbabwe',
+            'ZA' => 'Zuid-Afrika',
+            'GS' => 'Zuid-Georgië en de Zuidelijke Sandwicheilanden',
+            'KR' => 'Zuid-Korea',
+            'SE' => 'Zweden',
+            'CH' => 'Zwitserland',
+            'AX' => 'Aland');
     }
     
 }
