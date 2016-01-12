@@ -21,7 +21,8 @@ if (empty($_POST['name'])
     || empty($_POST['message'])
     || empty($_POST['g-recaptcha-response'])
     ){
-header("Location: http://{$_SERVER['HTTP_HOST']}{$_SERVER['SCRIPT_NAME']}?page=contact");
+      header("Location: {$_SERVER['HTTP_REFERER']}");
+      die;
 }
 
 $mail_message = "$name\n$mail\n$tel\n\n$message";
@@ -30,7 +31,6 @@ $captcha_verify = file_get_contents("https://www.google.com/recaptcha/api/siteve
 if ($captcha_verify.success==false){
   die();
 }else{
-
   if ($_POST['send']){
     if (mail ($to, $subject, $mail_message)) {
     echo '<p>Uw bericht is verzonden.</p><a href="http://localhost/creativeflowz/index.php?page=contact">Terug naar de site</a>';
