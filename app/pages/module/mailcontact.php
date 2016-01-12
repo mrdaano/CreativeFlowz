@@ -3,18 +3,6 @@
 Author: Arnold Buntsma
 09-12-2015
 */
-
-$name = $_POST['name'];
-$mail = $_POST['mail'];
-$tel = $_POST['phone'];
-$subject = "Contact via website over: ".$_POST['subject'];
-$message = $_POST['message'];
-$to = 'info@theservicegroup.nl';
-
-$captcha_response = $_POST['g-recaptcha-response'];
-$secret = "6LdUCxUTAAAAAMoMNjH9ldbG8I3PvSQehxSPThvU";
-$user_ip = $_SERVER['REMOTE_ADDR'];
-
 if (empty($_POST['name'])
     || empty($_POST['mail'])
     || empty($_POST['subject'])
@@ -24,8 +12,17 @@ if (empty($_POST['name'])
       header("Location: {$_SERVER['HTTP_REFERER']}");
       die;
 }
-
+$name = $_POST['name'];
+$mail = $_POST['mail'];
+$tel = $_POST['phone'];
+$subject = "Contact via website over: ".$_POST['subject'];
+$message = $_POST['message'];
+$to = 'info@theservicegroup.nl';
 $mail_message = "$name\n$mail\n$tel\n\n$message";
+//recaptcha gedeelte
+$captcha_response = $_POST['g-recaptcha-response'];
+$secret = "6LdUCxUTAAAAAMoMNjH9ldbG8I3PvSQehxSPThvU";
+$user_ip = $_SERVER['REMOTE_ADDR'];
 
 $captcha_verify = json_decode(file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secret."&response=".$captcha_response."&remoteip=".$_SERVER['REMOTE_ADDR']), true);
 if ($captcha_verify['success'] == false){
