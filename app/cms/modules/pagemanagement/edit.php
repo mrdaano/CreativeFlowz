@@ -1,5 +1,6 @@
 <div class='status'></div>
 <?php
+
 unset($pageData);
 $Page->indicator($_GET['id']);
 $pageData = $Page->pageData($_GET['id']);

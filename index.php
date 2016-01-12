@@ -22,8 +22,7 @@ $Page = new Page($db, $Cookie);
 $Product = new Product($db);
 $Category = new Category($db);
 
-
-
+$_SESSION['prevpage'] = $_GET['page'];  if(isset($_GET['viewproduct'])){ $_SESSION['prevpage'] .= '&viewproduct='.$_GET['viewproduct'];};
 ?>
 <!DOCTYPE html>
 <html>
@@ -68,9 +67,18 @@ $Category = new Category($db);
                     <?php
 
                     if($_SESSION['_user']['id'] > 0){
+                        
                         ?>
                          <li class="shoppingcart"><a href="index.php?page=shoppingcart"><img class="shoppingcartimg" src="img/shopping-cart12.png" width="20"/> winkelwagen</a><li>
-                         <li><a href="index.php?page=customer">mijn account</a></li> | <li><a href="index.php?page=loguit">loguit</a></li>
+                         <li>
+                         <?php
+                         if($_SESSION['_user']['userLevel'] == 0){
+                            echo '<a href="index.php?page=customer">mijn account</a></li>';
+                        }elseif($_SESSION['_user']['userLevel'] == 1){
+                            echo '<a href="index.php?page=cms">mijn account</a></li>';
+                        }
+                         ?>
+                          | <li><a href="index.php?page=loguit">loguit</a></li>
                         <?php
                     }else{
                         ?>
