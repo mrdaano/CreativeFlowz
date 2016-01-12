@@ -22,5 +22,15 @@ public function getProduct($id){
 		array('id', '=', $id)
 	))->first();
 }
+public function getCity($cityname) {
+	return Database::start()->get('*', 'city', array(
+		array('id', '=', '$id')
+	))->results();
+}
+public function getUser($firstname, $lastname, $email) {
+	return Database::start()->get('*', 'user', array(
+		array('id', '=', $id)
+	))->results();
+}
 }
 
