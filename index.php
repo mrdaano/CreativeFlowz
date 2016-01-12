@@ -1,8 +1,4 @@
 <?php
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/development
 session_start();
 ob_start();
 error_reporting(E_ALL);

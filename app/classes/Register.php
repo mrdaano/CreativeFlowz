@@ -149,13 +149,10 @@ class Register{
         
         $userID = $this->db->start()->lastId();
         
-<<<<<<< HEAD
-        
-=======
         if (empty($this->addition)) {
             $this->addition = null;
         }
->>>>>>> origin/development
+
         $this->db->start()->insert('customer', array(
                                             'user_id' => $userID, 
                                             'city_id' => $this->checkCity(), 'street' => $this->street,
