@@ -5,9 +5,8 @@
 	$allOrders = allOrders::getOrder();
 		foreach($allOrders as $key => $order) {
 			$orderline = allOrders::getOrder_line($order->id);
-			$users = allOrders::getUser();
-			$cities = allOrders::getCity();
 			$totalprice = 0;
+
 	?>
 		<div class="order">
 		<div class="leftside">
@@ -27,6 +26,10 @@
 		</div>
 		<div class="rightside">
 			Klantnummer: <?php echo "{$order->user_id}"?><br>
+			<?php 
+				
+			?>
+			
 			Klantnaam: <br>
 			Email: <br>			
 			City: <br>
