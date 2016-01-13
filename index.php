@@ -21,7 +21,7 @@ $Domain = new Domain($db);
 $Page = new Page($db, $Cookie);
 $Product = new Product($db);
 $Category = new Category($db);
-
+$order = new Ordersystem($db);
 $_SESSION['prevpage'] = $_GET['page'];  if(isset($_GET['viewproduct'])){ $_SESSION['prevpage'] .= '&viewproduct='.$_GET['viewproduct'];};
 ?>
 <!DOCTYPE html>

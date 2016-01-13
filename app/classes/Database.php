@@ -157,7 +157,7 @@ class Database {
 	 * DB::start()->update('users', array('username' => 'John', 'email' => 'johndoe@example.com'), array(array('id', '=', 1)));
 	 */
 	public function update($table, $data, $params) {
-		$sql = "UPDATE {$table} SET ";
+		$sql = "UPDATE `{$table}` SET ";
 		$operators = array('=', '>', '<', '>=', '<=', '!=', 'IS', 'IS NOT');
 		$x = 1;
 		$values = array();
