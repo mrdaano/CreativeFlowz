@@ -23,9 +23,13 @@
 			            </form>
 		        <?php    } else if($_GET['actie'] == "delete") {
 			        if($media->deleteFile($_GET['id'])) {
-				        ?> <p> Het bestand is verwijderd. </p> <?php
+				        ?> <p> Het bestand is verwijderd. </p> 
+				        	<a href="index.php?page=cms&module=mediamanagement" class="btn">Terug</a>
+				        <?php
 			        } else {
-				        ?> <p> Het bestand bestaat niet. </p> <?php
+				        ?> <p> Het bestand bestaat niet. </p> 
+				        	<a href="index.php?page=cms&module=mediamanagement" class="btn">Terug</a>
+				        <?php
 			        }
 		        }
 	            } else {
