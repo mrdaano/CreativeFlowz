@@ -71,7 +71,7 @@ foreach($shoppingcart->getShoppingcart() as $item) {
 <div class="row">
   <div class="totaal">
     <?php $total_price = number_format($total_price, 2, ',', '.');
-    echo"Totaal: &euro;{$total_price}"; ?>
+    echo"Totaal (Exclusief BTW): &euro;{$total_price}"; ?>
   </div>
 </div>
 <div class="btn_right">

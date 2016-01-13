@@ -530,7 +530,7 @@ select{
 .delete{
   width: 20px;
 }
-..totaal{
+.totaal{
   width: 100%;
   text-align: right;
 }
