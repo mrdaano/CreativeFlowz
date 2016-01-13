@@ -1,5 +1,4 @@
 <?php
-echo strlen('abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890');
 $response = '';
 if(isset($_POST['change_pass'])){
     $Login->sendPassword($_POST['mail']);
