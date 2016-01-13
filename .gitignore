@@ -12,3 +12,4 @@ media/2016-01/zxGNQ0n.jpg
 media/2016-01/large.png
 *.png
 >>>>>>> origin/development
+app/classes/Database.php
