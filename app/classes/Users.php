@@ -59,6 +59,33 @@ class Users {
 		
 	}
 	
+	public function updateMedewerker() {
+		$this->errors = array();
+		$error = false;
+		
+		if (empty($_POST['password']) || empty($_POST['password_again'])) {
+			$this->addError("Beide wachtwoord velden zijn verplicht.");
+			$error = true;
+		}
+		
+		if ($_POST['password'] != $_POST['password_again']) {
+			$this->addError("Beide wachtwoorden moeten overeenkomen.");
+			$error = true;
+		}
+		
+		if ($error) {
+			return false;
+		}
+		
+		Database::start()->update('user', array(
+			'password' => hash('sha256', $_POST['password'])
+		), array(
+			array('id','=', $_POST['id'])
+		));
+		
+		return true;
+	}
+	
 	public function isMedewerker($id) {
 		$count = Database::start()->get('*', 'employee', array(
 			array('user_id', '=', $id)
@@ -78,6 +105,21 @@ class Users {
 		
 		Database::start()->delete('user', array(
 			array('id', '=', $id)
+		));
+	}
+	
+	public function activeCheck($id) {
+		return Database::start()->get('*', 'customer', array(
+			array('user_id', '=', $id)
+		))->first()->active;
+	}
+	
+	public function setActive($id) {
+		$active = ($this->activeCheck($id)) ? 0 : 1;
+		Database::start()->update('customer', array(
+			'active' => $active
+		), array(
+			array('user_id', '=', $id)
 		));
 	}
 	

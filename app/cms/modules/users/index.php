@@ -24,9 +24,11 @@ if (isset($_GET['success'])) {
 				<td>
 					<?php
 						if ($users->isMedewerker($user->id)) { ?>
+					<a href="index.php?page=cms&module=users&action=wijzigWachtwoord&id=<?php echo $user->id; ?>" class="btn">Wijzig wachtwoord</a>
 					<a href="index.php?page=cms&module=users&action=deleteMedewerker&id=<?php echo $user->id; ?>" class="btn">Delete</a>
 					<?php } else {?>
 					<a href="index.php?page=cms&module=users&action=bekijk&id=<?php echo $user->id; ?>" class="btn">Bekijk gegevens</a>
+					<a href="index.php?page=cms&module=users&action=activate&id=<?php echo $user->id; ?>" class="btn"><?php echo ($users->activeCheck($user->id)) ? 'Deactiveer ' : 'Activeer' ?> account</a>
 					<?php } ?>
 				</td>
 			</tr>	
