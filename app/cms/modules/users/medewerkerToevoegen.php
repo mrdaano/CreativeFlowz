@@ -1,3 +1,5 @@
+<p>Voeg nieuwe medewerker toe.</p>
+<br>
 <?php
 	$users = new Users();
 	if (isset($_POST['vnaam'])) {

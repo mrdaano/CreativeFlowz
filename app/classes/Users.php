@@ -45,10 +45,12 @@ class Users {
 			'password' => hash('sha256', $_POST['password'])
 		));
 		
-		die($db->lastId());
+		$id = Database::start()->get('*', 'user', array(
+			array('email', '=', $_POST['email'])
+		))->first()->id;
 		
 		$db->start()->insert('employee', array(
-			'user_id' => $db->lastId(),
+			'user_id' => $id,
 			'moderator' => 1
 		));
 		
@@ -57,8 +59,35 @@ class Users {
 		
 	}
 	
-	public function disableCustomer($id) {
+	public function isMedewerker($id) {
+		$count = Database::start()->get('*', 'employee', array(
+			array('user_id', '=', $id)
+		))->count();
 		
+		if($count > 0) {
+			return true;
+		}
+		
+		return false;
+	}
+	
+	public function deleteMedewerker($id) {
+		Database::start()->delete('employee', array(
+			array('user_id', '=', $id)
+		));
+		
+		Database::start()->delete('user', array(
+			array('id', '=', $id)
+		));
+	}
+	
+	public function getKlant($id) {
+		return Database::start()->join('*', 'user', array(
+			'customer' => array('user.id', 'user_id'),
+			'city' => array('city.id', 'city_id')
+		), array(
+			array('user.id', '=', $id)
+		))->first();
 	}
 	
 	public function oldInput($field) {
