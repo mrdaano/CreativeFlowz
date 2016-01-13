@@ -69,12 +69,14 @@ $_SESSION['prevpage'] = $_GET['page'];  if(isset($_GET['viewproduct'])){ $_SESSI
                     if($_SESSION['_user']['id'] > 0){
                         
                         ?>
-                         <li class="shoppingcart"><a href="index.php?page=shoppingcart"><img class="shoppingcartimg" src="img/shopping-cart12.png" width="20"/> winkelwagen</a><li>
-                         <li>
                          <?php
                          if($_SESSION['_user']['userLevel'] == 0){
+                            echo '<li class="shoppingcart"><a href="index.php?page=shoppingcart"><img class="shoppingcartimg" src="img/shopping-cart12.png" width="20"/> winkelwagen</a><li>';
+                            echo '<li>';
                             echo '<a href="index.php?page=customer">mijn account</a></li>';
                         }elseif($_SESSION['_user']['userLevel'] == 1){
+                            echo '<li class="shoppingcart"></li>';
+                            echo '<li>';
                             echo '<a href="index.php?page=cms">mijn account</a></li>';
                         }
                          ?>

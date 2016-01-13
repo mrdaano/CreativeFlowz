@@ -1,4 +1,8 @@
 <?php
+    if ($_SESSION['_user']['id'] > 0) {
+      header('location: index.php');
+    }
+
     if(isset($_POST['login'])){
         $Login->inputFields($_POST);
         $Login->verificate();

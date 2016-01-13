@@ -103,12 +103,12 @@ $Shoppingcart = new Shoppingcart();
                                 }
                             }
 
-                            if ($in_shoppingcart) {
+                            if ($in_shoppingcart &&  $_SESSION['_user']['userLevel'] == 0) {
                                 ?>
                                 <a href="?page=shoppingcart" class="btn">
                                     Bekijk winkelwagen
                                 </a>
-                            <?php } else { ?>
+                            <?php } elseif(!$in_shoppingcart && $_SESSION['_user']['userLevel'] == 0) { ?>
                                 <a href="<?php echo $url . "&order=" . $product->getId(); ?> " class="btn">
                                     Plaats in winkelwagen
                                 </a>
@@ -140,7 +140,7 @@ $Shoppingcart = new Shoppingcart();
                         </div>
                         <div class="productnr">
                             <span>   
-                                <?php echo $product->getName(); ?>
+                                <?php echo $Product->getName(); ?>
                             </span>
                             <br>
                         </div>
@@ -175,7 +175,7 @@ $Shoppingcart = new Shoppingcart();
             }
 
             //Error
-            if (!$gevonden && (isset($_GET['viewproduct']) || isset($_GET['category']))) {
+            if ((!$gevonden && (isset($_GET['viewproduct']) || isset($_GET['category']))) || !$gevonden) {
                 echo '<h1>Geen producten gevonden!</h1>';
             }
             ?>

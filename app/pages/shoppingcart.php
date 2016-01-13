@@ -1,7 +1,10 @@
 <?php
 if (!isset($_SESSION['_user'])){
   header("location: http://{$_SERVER['HTTP_HOST']}{$_SERVER['SCRIPT_NAME']}?page=login");
+} elseif ($User->userLevel() == 1) {
+  header("location: http://{$_SERVER['HTTP_HOST']}{$_SERVER['SCRIPT_NAME']}?page=cms");
 }
+
 $shoppingcart = new ShoppingCart;
 
 if(isset($_POST['del_x']) || isset($_POST['del_x'])){
