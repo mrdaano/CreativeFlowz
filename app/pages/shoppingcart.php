@@ -15,7 +15,11 @@ if(isset($_POST['amount'])){
   $shoppingcart->updateQuantity($_POST['product'], $_POST['amount']);
 }
 if(isset($_POST['plaats_order'])) {
-  $order->placeOrder();
+  if(!empty($shoppingcart->getShoppingcart())){
+    $order->placeOrder();
+  } else{
+    echo '<p class="error">U moet minimaal 1 product in uw winkelwagen hebben</p>';
+  }
 }
  ?>
  <script language="JavaScript" type="text/javascript">
