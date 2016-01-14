@@ -1,15 +1,11 @@
 KBS.sublime-workspace
 KBS.sublime-project
-<<<<<<< HEAD
 app/.DS_Store
-=======
 errors.log
 app/classes/Database.php
 errors.log
-media/2016-01/11880592_774694709342323_3983386002330291029_n.jpg
-media/2016-01/zxGNQ0n.jpg
 
-media/2016-01/large.png
-*.png
->>>>>>> origin/development
 app/classes/Database.php
+media/2016-01/Transparent_Red_Rose_PNG_Clipart.png
+*.png
+media/2016-01/11880592_774694709342323_3983386002330291029_n.jpg
